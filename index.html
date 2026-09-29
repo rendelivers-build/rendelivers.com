@@ -29,10 +29,6 @@
     <div class="grid" id="grid-templates"></div>
   </section>
 
-  <section id="books" aria-label="Books">
-    <h2>Books</h2>
-    <div class="grid" id="grid-books"></div>
-  </section>
 </main>
 
 <footer class="site-footer">
@@ -90,7 +86,7 @@
     '<div class="featured-label">Featured</div>' + cardHTML(featured, true);
 
   // Section grids
-  var sections = { shirts: "grid-shirts", templates: "grid-templates", books: "grid-books" };
+  var sections = { shirts: "grid-shirts", templates: "grid-templates" };
   Object.keys(sections).forEach(function (sec) {
     var html = "";
     PRODUCTS.forEach(function (p) {
