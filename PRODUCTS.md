@@ -37,11 +37,11 @@ Shirt prices are Zazzle sale prices observed 2026-09-29; Zazzle rotates sales, s
 $14.95 is the shop's standard digital-template price (individually confirmed for
 the estimate, schedule, and punch-list templates on 2026-09-24).
 
-## Books (Amazon)
+## Books
 
-| id | Name | Price | Buy URL |
-|---|---|---|---|
-| book-farm-friends | Farm Friends Coloring Book (paperback) | $9.99 | https://www.amazon.com/dp/B0HKY77V16 |
+Removed 2026-09-29 per Brandon: kids' coloring books don't fit this
+contractor-focused storefront. (Farm Friends Coloring Book, Amazon
+https://www.amazon.com/dp/B0HKY77V16, $9.99 — lives on Amazon, not here.)
 
 ## Not included / could not verify
 
