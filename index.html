@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ren Delivers — Funny Work Shirts, Contractor Templates &amp; Books</title>
+<meta name="description" content="Built by a contractor, for contractors. Funny work shirts, job-site templates, and coloring books from Ren Delivers.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">Ren Delivers</div>
+  <p class="tagline">Built by a contractor, for contractors.</p>
+</header>
+
+<main>
+  <!-- Featured product: rendered from products.js (FEATURED_ID, overridable with ?p=<id>) -->
+  <section id="featured" aria-label="Featured product"></section>
+
+  <section id="shirts" aria-label="Shirts">
+    <h2>Funny Work Shirts</h2>
+    <div class="grid" id="grid-shirts"></div>
+  </section>
+
+  <section id="templates" aria-label="Templates">
+    <h2>Contractor Templates</h2>
+    <p class="section-sub">Instant-download Excel + Google Sheets tools. Built by a 30-year contractor.</p>
+    <div class="grid" id="grid-templates"></div>
+  </section>
+
+  <section id="books" aria-label="Books">
+    <h2>Books</h2>
+    <div class="grid" id="grid-books"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="social-row">
+    <a href="https://www.youtube.com/@rendelivers" target="_blank" rel="noopener">YouTube: Ren delivers</a>
+    <a href="https://www.pinterest.com/rendelivers/" target="_blank" rel="noopener">Pinterest</a>
+    <a href="https://www.tiktok.com/@freedommonkeyindustries" target="_blank" rel="noopener">TikTok: @freedommonkeyindustries</a>
+  </div>
+  <p class="copyright">&copy; 2026 Ren Delivers. All rights reserved.</p>
+</footer>
+
+<script src="products.js"></script>
+<script>
+(function () {
+  function getParam(name) {
+    try {
+      return new URLSearchParams(window.location.search).get(name);
+    } catch (e) { return null; }
+  }
+
+  var byId = {};
+  PRODUCTS.forEach(function (p) { byId[p.id] = p; });
+
+  // Featured: ?p=<id> wins, then FEATURED_ID, then first product.
+  var featuredId = getParam("p") || FEATURED_ID;
+  var featured = byId[featuredId] || byId[FEATURED_ID] || PRODUCTS[0];
+
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function cardHTML(p, big) {
+    return (
+      '<article class="card' + (big ? ' card-featured' : '') + '">' +
+        '<a class="card-img-link" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+          '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
+        '</a>' +
+        '<div class="card-body">' +
+          '<h3>' + esc(p.name) + '</h3>' +
+          '<p class="card-tag">' + esc(p.tagline) + '</p>' +
+          '<div class="card-row">' +
+            '<span class="price">' + esc(p.price) + '</span>' +
+            '<a class="btn" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+              (big ? 'Buy Now' : 'Buy') +
+            '</a>' +
+          '</div>' +
+        '</div>' +
+      '</article>'
+    );
+  }
+
+  // Featured slot (not repeated in its section grid)
+  document.getElementById("featured").innerHTML =
+    '<div class="featured-label">Featured</div>' + cardHTML(featured, true);
+
+  // Section grids
+  var sections = { shirts: "grid-shirts", templates: "grid-templates", books: "grid-books" };
+  Object.keys(sections).forEach(function (sec) {
+    var html = "";
+    PRODUCTS.forEach(function (p) {
+      if (p.section === sec && p.id !== featured.id) html += cardHTML(p, false);
+    });
+    document.getElementById(sections[sec]).innerHTML = html;
+  });
+})();
+</script>
+</body>
+</html>
