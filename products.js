@@ -138,16 +138,5 @@ const PRODUCTS = [
     price: "$14.95",
     img: "assets/tpl-punch-list.jpg",
     url: "https://www.etsy.com/listing/4581984002/punch-list-template-excel-construction"
-  },
-
-  /* ---------------- BOOKS (Amazon) ---------------- */
-  {
-    id: "book-farm-friends",
-    section: "books",
-    name: "Farm Friends Coloring Book",
-    tagline: "Bold, easy farm animal pages. Paperback, by Ren Delivers.",
-    price: "$9.99",
-    img: "assets/book-farm-friends.jpg",
-    url: "https://www.amazon.com/dp/B0HKY77V16"
   }
 ];
