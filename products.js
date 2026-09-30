@@ -481,6 +481,15 @@ const PRODUCTS = [
     img: "assets/tpl-photo-booking.jpg",
     url: "https://www.etsy.com/listing/4581957446/photography-booking-contract-template"
   },
+  {
+    id: "aff-dewalt-dcs356b",
+    section: "catalog",
+    name: "DEWALT 20V MAX XR Oscillating Multi-Tool",
+    tagline: "Ren's pick: brushless, 3-speed, cuts anything. The one in my bag.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs356b.jpg",
+    url: "https://www.amazon.com/dp/B07VBB55X5?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
