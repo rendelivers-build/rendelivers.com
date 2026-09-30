@@ -19,10 +19,9 @@ To feature a different product: change `FEATURED_ID` at the top of
 The `?p=` param wins over `FEATURED_ID`. The featured slot lives on the
 homepage so video traffic (link in bio) lands straight on the buy button.
 
-## Shirts (Zazzle) — 16 live on site (full public storefront)
+## Shirts (Zazzle) — 17 live on site (full storefront including the filter-hidden one)
 
 Prices are Zazzle sale prices observed 2026-09-30; Zazzle rotates sales, so they may vary.
-One more product exists but is hidden on the public storefront ("BORN TO FUCKING SEND IT T-Shirt" — content filter) and is intentionally not listed.
 
 | id | Name | Price | Buy URL |
 |---|---|---|---|
@@ -42,6 +41,10 @@ One more product exists but is hidden on the public storefront ("BORN TO FUCKING
 | nailed-it | Nailed It | $21.17 | https://www.zazzle.com/nailed_it_t_shirt-256030204063678285 |
 | tomato-potato | Tomato Potato | $21.17 | https://www.zazzle.com/tomato_potato_t_shirt-256796967579186051 |
 | level-1-beginner | Level 1 Beginner | $21.17 | https://www.zazzle.com/level_1_beginner_t_shirt-256610608693604359 |
+| born-to-send-it | Born To F*cking Send It | $21.17 | https://www.zazzle.com/born_to_fucking_send_it_t_shirt-256216821596668259 |
+
+Note: "Born To F*cking Send It" is hidden from Zazzle's public storefront by their content
+filter, but the direct product link works — so it's listed here.
 
 ## Templates (Etsy) — 35 live on site (full shop)
 
