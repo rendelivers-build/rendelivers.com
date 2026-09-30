@@ -4,9 +4,20 @@ Built 2026-09-29. Every buy URL below was verified live on 2026-09-29
 (Zazzle store page / product pages; Etsy listing URLs via Brandon's own
 Pinterest pins linking to his listings; Amazon via KDP live-listing notes).
 
+## Site structure (restructured 2026-09-29 per Brandon's sketch)
+
+- `index.html` — homepage: welcome banner, featured product slot, category buttons
+- `shirts.html` — Shirts category page
+- `templates.html` — Contractor Templates category page
+- `software.html` — Software & Apps (Coming Soon placeholder)
+- `catalog.html` — Products Catalog (Coming Soon placeholder; future home of Ren's Picks affiliate picks)
+- `products.js` — shared catalog data + render helpers (`rdRenderFeatured`, `rdRenderGrid`)
+- `styles.css` — mobile-first, no frameworks, hi-vis yellow on dark
+
 To feature a different product: change `FEATURED_ID` at the top of
-`products.js`, or open the page with `?p=<id>` (e.g. `?p=rocket-surgery`).
-The `?p=` param wins over `FEATURED_ID`.
+`products.js`, or open the homepage with `?p=<id>` (e.g. `?p=rocket-surgery`).
+The `?p=` param wins over `FEATURED_ID`. The featured slot lives on the
+homepage so video traffic (link in bio) lands straight on the buy button.
 
 ## Shirts (Zazzle)
 
