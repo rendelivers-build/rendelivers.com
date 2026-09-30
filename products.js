@@ -140,3 +140,62 @@ const PRODUCTS = [
     url: "https://www.etsy.com/listing/4581984002/punch-list-template-excel-construction"
   }
 ];
+
+/* ============================================================
+   Shared render helpers — used by every page on the site.
+   ============================================================ */
+
+function rdGetParam(name) {
+  try { return new URLSearchParams(window.location.search).get(name); }
+  catch (e) { return null; }
+}
+
+function rdEsc(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+function rdById() {
+  var byId = {};
+  PRODUCTS.forEach(function (p) { byId[p.id] = p; });
+  return byId;
+}
+
+function rdCardHTML(p, big) {
+  return (
+    '<article class="card' + (big ? ' card-featured' : '') + '">' +
+      '<a class="card-img-link" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
+        '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
+      '</a>' +
+      '<div class="card-body">' +
+        '<h3>' + rdEsc(p.name) + '</h3>' +
+        '<p class="card-tag">' + rdEsc(p.tagline) + '</p>' +
+        '<div class="card-row">' +
+          '<span class="price">' + rdEsc(p.price) + '</span>' +
+          '<a class="btn" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
+            (big ? 'Buy Now' : 'Buy') +
+          '</a>' +
+        '</div>' +
+      '</div>' +
+    '</article>'
+  );
+}
+
+/* Featured slot: ?p=<id> wins, then FEATURED_ID, then first product. */
+function rdRenderFeatured(elId) {
+  var byId = rdById();
+  var featuredId = rdGetParam("p") || FEATURED_ID;
+  var featured = byId[featuredId] || byId[FEATURED_ID] || PRODUCTS[0];
+  document.getElementById(elId).innerHTML =
+    '<div class="featured-label">Featured</div>' + rdCardHTML(featured, true);
+  return featured.id;
+}
+
+/* Section grid, optionally skipping one product id (e.g. the featured one). */
+function rdRenderGrid(section, elId, skipId) {
+  var html = "";
+  PRODUCTS.forEach(function (p) {
+    if (p.section === section && p.id !== skipId) html += rdCardHTML(p, false);
+  });
+  document.getElementById(elId).innerHTML = html;
+}
