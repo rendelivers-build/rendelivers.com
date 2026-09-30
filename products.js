@@ -484,6 +484,7 @@ const PRODUCTS = [
   {
     id: "aff-dewalt-dcs356b",
     section: "catalog",
+    sub: "Multi-Tools",
     name: "DEWALT 20V MAX XR Oscillating Multi-Tool",
     tagline: "Ren's pick: brushless, 3-speed, cuts anything. The one in my bag.",
     price: "See price on Amazon",
@@ -493,6 +494,7 @@ const PRODUCTS = [
   {
     id: "aff-dewalt-dcn650b",
     section: "catalog",
+    sub: "Nailers",
     name: "DEWALT 20V MAX 15GA Angled Finish Nailer",
     tagline: "Ren's pick: cordless trim work, no compressor. Crown, casing, baseboards.",
     price: "See price on Amazon",
