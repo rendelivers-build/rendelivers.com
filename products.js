@@ -43,7 +43,7 @@ const PRODUCTS = [
     section: "shirts",
     name: "U Should B Here — Three Wise Monkeys",
     tagline: "See no evil, hear no evil, speak no evil.",
-    price: "$17.64",
+    price: "$21.17",
     img: "assets/shirt-u-should-b-here.jpg",
     url: "https://www.zazzle.com/u_should_b_here_three_wise_monkeys_t_shirt-256699340606931396"
   },
