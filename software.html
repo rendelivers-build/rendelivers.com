@@ -24,11 +24,20 @@
 
 
 <main>
-  <div class="soon-card">
-    <span class="soon-badge soon-badge-lg">Coming Soon</span>
-    <p>Tools built by a contractor, for contractors. Check back shortly.</p>
-  </div>
+  <p class="section-sub">Contractor software Ren recommends — demos and trials through his referral links.</p>
+  <div id="software-grid" class="grid"></div>
 </main>
+
+<script src="products.js"></script>
+<script>
+(function () {
+  var items = PRODUCTS.filter(function (p) { return p.section === "software"; });
+  var grid = document.getElementById("software-grid");
+  var html = "";
+  items.forEach(function (p) { html += rdCardHTML(p, false); });
+  grid.innerHTML = html || '<p class="section-sub">More coming soon — check back shortly.</p>';
+})();
+</script>
 
 <footer class="site-footer">
   <div class="social-row">
