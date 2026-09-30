@@ -18,17 +18,24 @@
   <!-- Featured product: rendered from products.js (FEATURED_ID, overridable with ?p=<id>) -->
   <section id="featured" aria-label="Featured product"></section>
 
-  <section id="shirts" aria-label="Shirts">
-    <h2>Funny Work Shirts</h2>
-    <div class="grid" id="grid-shirts"></div>
-  </section>
-
-  <section id="templates" aria-label="Templates">
-    <h2>Contractor Templates</h2>
-    <p class="section-sub">Instant-download Excel + Google Sheets tools. Built by a 30-year contractor.</p>
-    <div class="grid" id="grid-templates"></div>
-  </section>
-
+  <nav class="cat-grid" aria-label="Shop categories">
+    <a class="cat-btn" href="shirts.html">
+      <span class="cat-name">Shirts</span>
+      <span class="cat-sub">Funny work shirts</span>
+    </a>
+    <a class="cat-btn" href="templates.html">
+      <span class="cat-name">Contractor Templates</span>
+      <span class="cat-sub">Estimates, logs &amp; more</span>
+    </a>
+    <a class="cat-btn cat-soon" href="software.html">
+      <span class="cat-name">Software &amp; Apps</span>
+      <span class="soon-badge">Coming Soon</span>
+    </a>
+    <a class="cat-btn cat-soon" href="catalog.html">
+      <span class="cat-name">Products Catalog</span>
+      <span class="soon-badge">Coming Soon</span>
+    </a>
+  </nav>
 </main>
 
 <footer class="site-footer">
@@ -42,59 +49,7 @@
 
 <script src="products.js"></script>
 <script>
-(function () {
-  function getParam(name) {
-    try {
-      return new URLSearchParams(window.location.search).get(name);
-    } catch (e) { return null; }
-  }
-
-  var byId = {};
-  PRODUCTS.forEach(function (p) { byId[p.id] = p; });
-
-  // Featured: ?p=<id> wins, then FEATURED_ID, then first product.
-  var featuredId = getParam("p") || FEATURED_ID;
-  var featured = byId[featuredId] || byId[FEATURED_ID] || PRODUCTS[0];
-
-  function esc(s) {
-    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  }
-
-  function cardHTML(p, big) {
-    return (
-      '<article class="card' + (big ? ' card-featured' : '') + '">' +
-        '<a class="card-img-link" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
-          '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
-        '</a>' +
-        '<div class="card-body">' +
-          '<h3>' + esc(p.name) + '</h3>' +
-          '<p class="card-tag">' + esc(p.tagline) + '</p>' +
-          '<div class="card-row">' +
-            '<span class="price">' + esc(p.price) + '</span>' +
-            '<a class="btn" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
-              (big ? 'Buy Now' : 'Buy') +
-            '</a>' +
-          '</div>' +
-        '</div>' +
-      '</article>'
-    );
-  }
-
-  // Featured slot (not repeated in its section grid)
-  document.getElementById("featured").innerHTML =
-    '<div class="featured-label">Featured</div>' + cardHTML(featured, true);
-
-  // Section grids
-  var sections = { shirts: "grid-shirts", templates: "grid-templates" };
-  Object.keys(sections).forEach(function (sec) {
-    var html = "";
-    PRODUCTS.forEach(function (p) {
-      if (p.section === sec && p.id !== featured.id) html += cardHTML(p, false);
-    });
-    document.getElementById(sections[sec]).innerHTML = html;
-  });
-})();
+  rdRenderFeatured("featured");
 </script>
 </body>
 </html>
