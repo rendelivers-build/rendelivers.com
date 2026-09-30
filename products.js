@@ -501,6 +501,15 @@ const PRODUCTS = [
     img: "assets/aff-dewalt-dcn650b.jpg",
     url: "https://www.amazon.com/dp/B073GVKSM3?tag=rendelivers-20"
   },
+  {
+    id: "aff-servicetitan",
+    section: "software",
+    name: "ServiceTitan",
+    tagline: "Field-service management for serious shops — scheduling, dispatch, invoicing in one place. Book a demo through my link.",
+    price: "Free demo",
+    img: "assets/aff-servicetitan.jpg",
+    url: "https://join.servicetitan.com/mzYlEhC"
+  },
 ];
 
 /* ============================================================
