@@ -74,6 +74,87 @@ const PRODUCTS = [
     img: "assets/shirt-catch-phrase.jpg",
     url: "https://www.zazzle.com/catch_phrase_t_shirt-256850852354624644"
   },
+  {
+    id: "youre-did-it",
+    section: "shirts",
+    name: "You're DID IT!",
+    tagline: "Tri-blend. You DID it — own it.",
+    price: "$41.74",
+    img: "assets/shirt-youre-did-it.jpg",
+    url: "https://www.zazzle.com/youre_did_it_tri_blend_shirt-256225393109642624"
+  },
+  {
+    id: "509-local",
+    section: "shirts",
+    name: "509 Local",
+    tagline: "Spokane area code pride.",
+    price: "$21.17",
+    img: "assets/shirt-509-local.jpg",
+    url: "https://www.zazzle.com/509_local_t_shirt-256155197980961687"
+  },
+  {
+    id: "failed",
+    section: "shirts",
+    name: "Failed",
+    tagline: "For when it just didn't work out.",
+    price: "$21.17",
+    img: "assets/shirt-failed.jpg",
+    url: "https://www.zazzle.com/failed_t_shirt-256487586433084293"
+  },
+  {
+    id: "osha-violator",
+    section: "shirts",
+    name: "OSHA Violator",
+    tagline: "Safety third.",
+    price: "$21.17",
+    img: "assets/shirt-osha-violator.jpg",
+    url: "https://www.zazzle.com/osha_violator_t_shirt-256187850197198627"
+  },
+  {
+    id: "cant-spell-success",
+    section: "shirts",
+    name: "You Can't Spell Success",
+    tagline: "U can't spell success without U.",
+    price: "$21.17",
+    img: "assets/shirt-cant-spell-success.jpg",
+    url: "https://www.zazzle.com/you_cant_spell_success_t_shirt-256572297538962116"
+  },
+  {
+    id: "government-controlled",
+    section: "shirts",
+    name: "Government Controlled",
+    tagline: "They're listening.",
+    price: "$21.17",
+    img: "assets/shirt-government-controlled.jpg",
+    url: "https://www.zazzle.com/government_controlled_t_shirt-256227880909253296"
+  },
+  {
+    id: "nailed-it",
+    section: "shirts",
+    name: "Nailed It",
+    tagline: "Nailed it. (Probably.)",
+    price: "$21.17",
+    img: "assets/shirt-nailed-it.jpg",
+    url: "https://www.zazzle.com/nailed_it_t_shirt-256030204063678285"
+  },
+  {
+    id: "tomato-potato",
+    section: "shirts",
+    name: "Tomato Potato",
+    tagline: "Tomato, potato — let's call the whole thing off.",
+    price: "$21.17",
+    img: "assets/shirt-tomato-potato.jpg",
+    url: "https://www.zazzle.com/tomato_potato_t_shirt-256796967579186051"
+  },
+  {
+    id: "level-1-beginner",
+    section: "shirts",
+    name: "Level 1 Beginner",
+    tagline: "Everyone starts at level 1.",
+    price: "$21.17",
+    img: "assets/shirt-level-1-beginner.jpg",
+    url: "https://www.zazzle.com/level_1_beginner_t_shirt-256610608693604359"
+  },
 
   /* ---------------- TEMPLATES (Etsy) ---------------- */
   {
@@ -138,7 +219,259 @@ const PRODUCTS = [
     price: "$14.95",
     img: "assets/tpl-punch-list.jpg",
     url: "https://www.etsy.com/listing/4581984002/punch-list-template-excel-construction"
-  }
+  },
+  {
+    id: "tpl-painting-estimate",
+    section: "templates",
+    name: "Painting Estimate Template",
+    tagline: "Bid any paint job in minutes.",
+    price: "$14.95",
+    img: "assets/tpl-painting-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577344958/painting-estimate-template-excel-painter"
+  },
+  {
+    id: "tpl-fence-estimate",
+    section: "templates",
+    name: "Fence Estimate Template",
+    tagline: "Fencing and landscaping bids, calculated.",
+    price: "$14.95",
+    img: "assets/tpl-fence-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577325575/fence-estimate-template-excel-fencing"
+  },
+  {
+    id: "tpl-job-cost-tracker",
+    section: "templates",
+    name: "Job Cost Tracker",
+    tagline: "Budget vs. actual with a profit dashboard.",
+    price: "$14.95",
+    img: "assets/tpl-job-cost-tracker.jpg",
+    url: "https://www.etsy.com/listing/4577320901/job-cost-tracker-excel-construction"
+  },
+  {
+    id: "tpl-insulation-estimate",
+    section: "templates",
+    name: "Insulation Estimate Template",
+    tagline: "Insulation bids, done fast.",
+    price: "$14.95",
+    img: "assets/tpl-insulation-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577335768/insulation-estimate-template-excel"
+  },
+  {
+    id: "tpl-hvac-estimate",
+    section: "templates",
+    name: "HVAC Estimate Template",
+    tagline: "HVAC bids with material library and quote forms.",
+    price: "$14.95",
+    img: "assets/tpl-hvac-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577316391/hvac-estimate-template-excel-hvac-bid"
+  },
+  {
+    id: "tpl-cleaning-schedule",
+    section: "templates",
+    name: "Cleaning Client Schedule Template",
+    tagline: "Recurring cleaning routes, organized.",
+    price: "$14.95",
+    img: "assets/tpl-cleaning-schedule.jpg",
+    url: "https://www.etsy.com/listing/4577314287/cleaning-client-schedule-template-excel"
+  },
+  {
+    id: "tpl-cleaning-checklist",
+    section: "templates",
+    name: "House Cleaning Checklist Template",
+    tagline: "Room-by-room checklist with auto completion %.",
+    price: "$14.95",
+    img: "assets/tpl-cleaning-checklist.jpg",
+    url: "https://www.etsy.com/listing/4577312157/house-cleaning-checklist-template-excel"
+  },
+  {
+    id: "tpl-cleaning-invoice",
+    section: "templates",
+    name: "House Cleaning Invoice Template",
+    tagline: "Cleaning invoices with auto totals and tax.",
+    price: "$14.95",
+    img: "assets/tpl-cleaning-invoice.jpg",
+    url: "https://www.etsy.com/listing/4577327210/house-cleaning-invoice-template-excel"
+  },
+  {
+    id: "tpl-home-inspection",
+    section: "templates",
+    name: "Home Inspection Checklist",
+    tagline: "Property inspection reports, standardized.",
+    price: "$14.95",
+    img: "assets/tpl-home-inspection.jpg",
+    url: "https://www.etsy.com/listing/4577325418/home-inspection-checklist-excel-property"
+  },
+  {
+    id: "tpl-handyman-estimate",
+    section: "templates",
+    name: "Handyman Estimate Template",
+    tagline: "Handyman bids, calculated automatically.",
+    price: "$14.95",
+    img: "assets/tpl-handyman-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577323072/handyman-estimate-template-excel"
+  },
+  {
+    id: "tpl-flooring-estimate",
+    section: "templates",
+    name: "Flooring Estimate Template",
+    tagline: "Flooring bids in minutes.",
+    price: "$14.95",
+    img: "assets/tpl-flooring-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577304267/flooring-estimate-template-excel"
+  },
+  {
+    id: "tpl-excavation-estimate",
+    section: "templates",
+    name: "Excavation Estimate Template",
+    tagline: "Grading and earthwork bids.",
+    price: "$14.95",
+    img: "assets/tpl-excavation-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577302635/excavation-estimate-template-excel"
+  },
+  {
+    id: "tpl-equipment-log",
+    section: "templates",
+    name: "Equipment Maintenance Log",
+    tagline: "Fleet and tool service tracking.",
+    price: "$14.95",
+    img: "assets/tpl-equipment-log.jpg",
+    url: "https://www.etsy.com/listing/4577317588/equipment-maintenance-log-excel-fleet"
+  },
+  {
+    id: "tpl-electrical-estimate",
+    section: "templates",
+    name: "Electrical Estimate Template",
+    tagline: "Electrician bids, calculated.",
+    price: "$14.95",
+    img: "assets/tpl-electrical-estimate.jpg",
+    url: "https://www.etsy.com/listing/4577314022/electrical-estimate-template-excel"
+  },
+  {
+    id: "tpl-drywall-estimate",
+    section: "templates",
+    name: "Drywall Estimate Template",
+    tagline: "Drywall bids in minutes.",
+    price: "$14.95",
+    img: "assets/tpl-drywall-estimate.jpg",
+    url: "https://www.etsy.com/listing/4576012794/drywall-estimate-template-excel-drywall"
+  },
+  {
+    id: "tpl-dog-scheduler",
+    section: "templates",
+    name: "Dog Grooming Appointment Scheduler",
+    tagline: "Weekly groomer schedule with waitlist and revenue tracker.",
+    price: "$14.95",
+    img: "assets/tpl-dog-scheduler.jpg",
+    url: "https://www.etsy.com/listing/4575992493/dog-grooming-appointment-scheduler-excel"
+  },
+  {
+    id: "tpl-dog-invoice",
+    section: "templates",
+    name: "Dog Grooming Invoice Template",
+    tagline: "Grooming invoices with auto totals.",
+    price: "$14.95",
+    img: "assets/tpl-dog-invoice.jpg",
+    url: "https://www.etsy.com/listing/4575991795/dog-grooming-invoice-template-excel-pet"
+  },
+  {
+    id: "tpl-dog-intake",
+    section: "templates",
+    name: "Dog Grooming Intake Form Template",
+    tagline: "Pet intake with vaccination checklist and history log.",
+    price: "$14.95",
+    img: "assets/tpl-dog-intake.jpg",
+    url: "https://www.etsy.com/listing/4575991163/dog-grooming-intake-form-template-excel"
+  },
+  {
+    id: "tpl-deck-estimate",
+    section: "templates",
+    name: "Deck Estimate Template",
+    tagline: "Deck and patio bids, calculated.",
+    price: "$14.95",
+    img: "assets/tpl-deck-estimate.jpg",
+    url: "https://www.etsy.com/listing/4575990507/deck-estimate-template-excel-deck-patio"
+  },
+  {
+    id: "tpl-crew-time",
+    section: "templates",
+    name: "Crew Time Tracking Template",
+    tagline: "Timesheets with automatic overtime calc.",
+    price: "$14.95",
+    img: "assets/tpl-crew-time.jpg",
+    url: "https://www.etsy.com/listing/4576008716/crew-time-tracking-template-excel"
+  },
+  {
+    id: "tpl-concrete-estimate",
+    section: "templates",
+    name: "Concrete Estimate Template",
+    tagline: "Concrete and masonry bids.",
+    price: "$14.95",
+    img: "assets/tpl-concrete-estimate.jpg",
+    url: "https://www.etsy.com/listing/4575986631/concrete-estimate-template-excel-masonry"
+  },
+  {
+    id: "tpl-detailing-price",
+    section: "templates",
+    name: "Car Detailing Price Sheet",
+    tagline: "Detailing packages with instant quote calculator.",
+    price: "$14.95",
+    img: "assets/tpl-detailing-price.jpg",
+    url: "https://www.etsy.com/listing/4576004690/car-detailing-price-sheet-excel-package"
+  },
+  {
+    id: "tpl-detailing-invoice",
+    section: "templates",
+    name: "Car Detailing Invoice Template",
+    tagline: "Auto detailing invoices with vehicle info.",
+    price: "$14.95",
+    img: "assets/tpl-detailing-invoice.jpg",
+    url: "https://www.etsy.com/listing/4575984213/car-detailing-invoice-template-excel"
+  },
+  {
+    id: "tpl-vehicle-checklist",
+    section: "templates",
+    name: "Vehicle Condition Checklist",
+    tagline: "Vehicle condition reports with damage notes.",
+    price: "$14.95",
+    img: "assets/tpl-vehicle-checklist.jpg",
+    url: "https://www.etsy.com/listing/4575983353/vehicle-condition-checklist-excel-car"
+  },
+  {
+    id: "tpl-bathroom-remodel",
+    section: "templates",
+    name: "Bathroom Remodel Estimate Template",
+    tagline: "Bathroom remodel bids in minutes.",
+    price: "$14.95",
+    img: "assets/tpl-bathroom-remodel.jpg",
+    url: "https://www.etsy.com/listing/4575982237/bathroom-remodel-estimate-template-excel"
+  },
+  {
+    id: "tpl-photo-shot-list",
+    section: "templates",
+    name: "Photography Shot List Template",
+    tagline: "Wedding shot lists with timeline and auto count.",
+    price: "$14.95",
+    img: "assets/tpl-photo-shot-list.jpg",
+    url: "https://www.etsy.com/listing/4581950439/photography-shot-list-template-excel"
+  },
+  {
+    id: "tpl-photo-invoice",
+    section: "templates",
+    name: "Photography Invoice Template",
+    tagline: "Photographer invoices with auto totals.",
+    price: "$14.95",
+    img: "assets/tpl-photo-invoice.jpg",
+    url: "https://www.etsy.com/listing/4581947797/photography-invoice-template-excel"
+  },
+  {
+    id: "tpl-photo-booking",
+    section: "templates",
+    name: "Photography Booking Contract Template",
+    tagline: "Booking contracts with auto deposit schedule.",
+    price: "$14.95",
+    img: "assets/tpl-photo-booking.jpg",
+    url: "https://www.etsy.com/listing/4581957446/photography-booking-contract-template"
+  },
 ];
 
 /* ============================================================
