@@ -155,6 +155,15 @@ const PRODUCTS = [
     img: "assets/shirt-level-1-beginner.jpg",
     url: "https://www.zazzle.com/level_1_beginner_t_shirt-256610608693604359"
   },
+  {
+    id: "born-to-send-it",
+    section: "shirts",
+    name: "Born To F*cking Send It",
+    tagline: "Full send, no regrets.",
+    price: "$21.17",
+    img: "assets/shirt-born-to-send-it.jpg",
+    url: "https://www.zazzle.com/born_to_fucking_send_it_t_shirt-256216821596668259"
+  },
 
   /* ---------------- TEMPLATES (Etsy) ---------------- */
   {
