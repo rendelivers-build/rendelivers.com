@@ -490,6 +490,15 @@ const PRODUCTS = [
     img: "assets/aff-dewalt-dcs356b.jpg",
     url: "https://www.amazon.com/dp/B07VBB55X5?tag=rendelivers-20"
   },
+  {
+    id: "aff-dewalt-dcn650b",
+    section: "catalog",
+    name: "DEWALT 20V MAX 15GA Angled Finish Nailer",
+    tagline: "Ren's pick: cordless trim work, no compressor. Crown, casing, baseboards.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcn650b.jpg",
+    url: "https://www.amazon.com/dp/B073GVKSM3?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
