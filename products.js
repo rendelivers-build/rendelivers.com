@@ -592,6 +592,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00079R21E?tag=rendelivers-20"
   },
   {
+    id: "aff-estwing-pc250g",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Estwing Pro Claw Nail Puller",
+    tagline: "Ren's pick: one-piece forged nail puller. Thin claw for tight spots, minimal wood damage.",
+    price: "See price on Amazon",
+    img: "assets/aff-estwing-pc250g.jpg",
+    url: "https://www.amazon.com/dp/B00DT0OYTG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-estwing-mp250g",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Estwing Pro Claw Moulding Puller",
+    tagline: "Ren's pick: trim puller that saves the moulding. Wide blade, pro claw nail end.",
+    price: "See price on Amazon",
+    img: "assets/aff-estwing-mp250g.jpg",
+    url: "https://www.amazon.com/dp/B004397VEW?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
