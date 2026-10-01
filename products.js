@@ -552,6 +552,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00002255O?tag=rendelivers-20"
   },
   {
+    id: "aff-tajima-cr201rd",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Tajima Chalk-Rite II Chalk Line",
+    tagline: "Ren's pick: the chalk box that snaps a line you'll actually see. Gear-drive rewind.",
+    price: "See price on Amazon",
+    img: "assets/aff-tajima-cr201rd.jpg",
+    url: "https://www.amazon.com/dp/B001D77LU6?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
