@@ -572,6 +572,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0966YRXVK?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dcs361m1",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 20V MAX 7-1/4 in. Miter Saw Kit",
+    tagline: "Ren's pick: cordless miter saw that cuts like it has a plug. Kit with battery and charger.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs361m1.jpg",
+    url: "https://www.amazon.com/dp/B00X52TZYM?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dws780",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 12 in. Sliding Compound Miter Saw",
+    tagline: "Ren's pick: the shop-standard 12-in slider. XPS cut line, cuts 2x16 at 90.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dws780.jpg",
+    url: "https://www.amazon.com/dp/B00540JS7C?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
