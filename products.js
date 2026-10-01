@@ -652,6 +652,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07LCG6TZ4?tag=rendelivers-20"
   },
   {
+    id: "aff-metabo-nr65ak2s",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "Metabo HPT Strap-Tite Strap Nailer",
+    tagline: "Ren's pick: strap nailer for joist hangers and hurricane ties. Fast, accurate.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-nr65ak2s.jpg",
+    url: "https://www.amazon.com/dp/B07MYX99ML?tag=rendelivers-20"
+  },
+  {
+    id: "aff-bostitch-mcn150",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "BOSTITCH StrapShot Metal Connector Nailer",
+    tagline: "Ren's pick: connector nailer for straps and hangers. Paper-collated, auto-load.",
+    price: "See price on Amazon",
+    img: "assets/aff-bostitch-mcn150.jpg",
+    url: "https://www.amazon.com/dp/B000IJPAMQ?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
