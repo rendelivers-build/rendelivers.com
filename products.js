@@ -642,6 +642,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07MYV966C?tag=rendelivers-20"
   },
   {
+    id: "aff-metabo-nr90aes1",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "Metabo HPT 21-Degree Framing Nailer",
+    tagline: "Ren's pick: plastic-collated framer, 3-1/2 in nails. Frame all day.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-nr90aes1.jpg",
+    url: "https://www.amazon.com/dp/B07LCG6TZ4?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
