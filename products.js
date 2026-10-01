@@ -494,12 +494,22 @@ const PRODUCTS = [
   {
     id: "aff-dewalt-dcn650b",
     section: "catalog",
-    sub: "Nailers",
+    sub: "NAILERS",
     name: "DEWALT 20V MAX 15GA Angled Finish Nailer",
     tagline: "Ren's pick: cordless trim work, no compressor. Crown, casing, baseboards.",
     price: "See price on Amazon",
     img: "assets/aff-dewalt-dcn650b.jpg",
     url: "https://www.amazon.com/dp/B073GVKSM3?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dcn623b",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "DEWALT ATOMIC 20V MAX 23GA Pin Nailer",
+    tagline: "Ren's pick: headless pins disappear into trim. 2,000 pins per charge, no compressor.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcn623b.jpg",
+    url: "https://www.amazon.com/dp/B09YXYFKGG?tag=rendelivers-20"
   },
   {
     id: "aff-servicetitan",
