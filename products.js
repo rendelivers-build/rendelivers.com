@@ -592,6 +592,36 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00540JS7C?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dwe7491rs",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 10 in. Jobsite Table Saw w/ Stand",
+    tagline: "Ren's pick: 10-in table saw on a rolling stand. 32-1/2 in rip capacity, jobsite ready.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dwe7491rs.jpg",
+    url: "https://www.amazon.com/dp/B00F2CGXGG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dwe7485",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 8-1/4 in. Compact Table Saw",
+    tagline: "Ren's pick: the compact jobsite table saw. 24-1/2 in rip in a small footprint.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dwe7485.jpg",
+    url: "https://www.amazon.com/dp/B0842QDW95?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dcs590b",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 20V MAX XR 7-1/4 in. Circular Saw",
+    tagline: "Ren's pick: brushless cordless circular saw with electric brake. Tool only.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs590b.jpg",
+    url: "https://www.amazon.com/dp/B0DDDW9GWK?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
