@@ -662,6 +662,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0753QHKW7?tag=rendelivers-20"
   },
   {
+    id: "aff-skilsaw-spt55-11",
+    section: "catalog",
+    sub: "SAWS",
+    name: "SKILSAW SAWQUATCH 16 in. Carpentry Chainsaw",
+    tagline: "Ren's pick: 16-in carpentry chainsaw for timber framing. Worm drive torque.",
+    price: "See price on Amazon",
+    img: "assets/aff-skilsaw-spt55-11.jpg",
+    url: "https://www.amazon.com/dp/B07NR7921V?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
