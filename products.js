@@ -522,6 +522,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0DV6R1FVF?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dcn680b",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "DEWALT 20V MAX XR 18GA Brad Nailer",
+    tagline: "Ren's pick: brushless brad nailer for trim and detail. No-mar nose, no compressor.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcn680b.jpg",
+    url: "https://www.amazon.com/dp/B06XF6MZJ5?tag=rendelivers-20"
+  },
+  {
     id: "aff-stanley-fatmax-33725",
     section: "catalog",
     sub: "HANDTOOLS",
