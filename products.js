@@ -612,6 +612,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B004397VEW?tag=rendelivers-20"
   },
   {
+    id: "aff-mini-palm-nailer",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "Mini Palm Nailer",
+    tagline: "Ren's pick: palm-sized air nailer for tight spots and overhead. Where hammers can't go.",
+    price: "See price on Amazon",
+    img: "assets/aff-mini-palm-nailer.jpg",
+    url: "https://www.amazon.com/dp/B0BB4XVJNC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-metabo-nt50ae2",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "Metabo HPT 18GA Pneumatic Brad Nailer",
+    tagline: "Ren's pick: air-powered brad nailer for trim. Tool-less depth, no-mar nose.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-nt50ae2.jpg",
+    url: "https://www.amazon.com/dp/B07MK88Q33?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
