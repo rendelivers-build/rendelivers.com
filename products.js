@@ -622,6 +622,36 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0DDDW9GWK?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dcs334b",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 20V MAX XR Jig Saw",
+    tagline: "Ren's pick: brushless jig saw with LED cut line light. 4-position orbital, tool only.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs334b.jpg",
+    url: "https://www.amazon.com/dp/B07JPFHQKG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-metabo-c3606dpa",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Metabo HPT 36V MultiVolt 6-1/2 in. Track Saw Kit",
+    tagline: "Ren's pick: cordless track saw kit. -1 to 46 deg bevel, 2-1/2 in cut depth.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-c3606dpa.jpg",
+    url: "https://www.amazon.com/dp/B09RP1M6PZ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dcs367b",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 20V MAX XR Compact Reciprocating Saw",
+    tagline: "Ren's pick: compact recip saw that fits between studs. Brushless, tool only.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs367b.jpg",
+    url: "https://www.amazon.com/dp/B01M69K91R?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
