@@ -542,6 +542,36 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00002255O?tag=rendelivers-20"
   },
   {
+    id: "aff-topcon-atb4",
+    section: "catalog",
+    sub: "LEVELS",
+    name: "Topcon AT-B4 24x Automatic Level",
+    tagline: "Ren's pick: the dumpy level that never lies. Footings, foundations, flatwork.",
+    price: "See price on Amazon",
+    img: "assets/aff-topcon-atb4.jpg",
+    url: "https://www.amazon.com/dp/B000KEQ596?tag=rendelivers-20"
+  },
+  {
+    id: "aff-topcon-rlh5a",
+    section: "catalog",
+    sub: "LEVELS",
+    name: "Topcon RL-H5A Rotary Laser Level Kit",
+    tagline: "Ren's pick: self-leveling rotary laser with receiver, tripod, and rod. One-man layout.",
+    price: "See price on Amazon",
+    img: "assets/aff-topcon-rlh5a.jpg",
+    url: "https://www.amazon.com/dp/B0D1DB3CVD?tag=rendelivers-20"
+  },
+  {
+    id: "aff-stabila-29840",
+    section: "catalog",
+    sub: "LEVELS",
+    name: "Stabila Pro Set 80 AS Level Set (48\"/24\"/12\")",
+    tagline: "Ren's pick: the levels that stay true. Three sizes plus case.",
+    price: "See price on Amazon",
+    img: "assets/aff-stabila-29840.jpg",
+    url: "https://www.amazon.com/dp/B09JXX4TB5?tag=rendelivers-20"
+  },
+  {
     id: "aff-servicetitan",
     section: "software",
     name: "ServiceTitan",
