@@ -512,6 +512,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B09YXYFKGG?tag=rendelivers-20"
   },
   {
+    id: "aff-metabo-nr1890dca",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "Metabo HPT 18V MultiVolt 3-1/2\" Framing Nailer Kit",
+    tagline: "Ren's pick: cordless framing power, no hose. Kit with battery and bag.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-nr1890dca.jpg",
+    url: "https://www.amazon.com/dp/B0DV6R1FVF?tag=rendelivers-20"
+  },
+  {
     id: "aff-servicetitan",
     section: "software",
     name: "ServiceTitan",
