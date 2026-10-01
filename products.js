@@ -522,6 +522,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0DV6R1FVF?tag=rendelivers-20"
   },
   {
+    id: "aff-stanley-fatmax-33725",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "STANLEY FATMAX 25-Foot Tape Measure",
+    tagline: "Ren's pick: 11-foot standout, BladeArmor coating. The tape that's lived in my bags for years.",
+    price: "See price on Amazon",
+    img: "assets/aff-stanley-fatmax-33725.jpg",
+    url: "https://www.amazon.com/dp/B00002PV66?tag=rendelivers-20"
+  },
+  {
+    id: "aff-swanson-s0101",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Swanson 7\" Speed Square with Blue Book",
+    tagline: "Ren's pick: the original layout tool. Mark, measure, and guide every cut.",
+    price: "See price on Amazon",
+    img: "assets/aff-swanson-s0101.jpg",
+    url: "https://www.amazon.com/dp/B00002255O?tag=rendelivers-20"
+  },
+  {
     id: "aff-servicetitan",
     section: "software",
     name: "ServiceTitan",
