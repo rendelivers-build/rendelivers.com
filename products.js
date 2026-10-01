@@ -810,6 +810,16 @@ const PRODUCTS = [
     img: "assets/aff-servicetitan.jpg",
     url: "https://join.servicetitan.com/mzYlEhC"
   },
+  {
+    id: "aff-dewalt-dcd1007b",
+    section: "catalog",
+    sub: "Drills",
+    name: "DEWALT 20V MAX XR 1/2 in. Cordless Hammer Drill (Tool Only)",
+    tagline: "Ren's pick: brushless hammer drill, 1/2-in chuck. Bare tool — pairs with your 20V batteries.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcd1007b.jpg",
+    url: "https://www.amazon.com/dp/B0D8TM5MW4?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
