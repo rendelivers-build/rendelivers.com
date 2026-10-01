@@ -632,6 +632,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07MK88Q33?tag=rendelivers-20"
   },
   {
+    id: "aff-metabo-nv83a5",
+    section: "catalog",
+    sub: "Pneumatic",
+    name: "Metabo HPT Coil Framing Nailer",
+    tagline: "Ren's pick: 3-1/4 in coil framer for sheathing and decks. All-day air.",
+    price: "See price on Amazon",
+    img: "assets/aff-metabo-nv83a5.jpg",
+    url: "https://www.amazon.com/dp/B07MYV966C?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
