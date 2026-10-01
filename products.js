@@ -652,6 +652,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B01M69K91R?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dcs577b",
+    section: "catalog",
+    sub: "SAWS",
+    name: "DEWALT 60V FLEXVOLT Worm Drive Framing Saw",
+    tagline: "Ren's pick: worm drive power with no cord. 60V FLEXVOLT, brushless.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-dcs577b.jpg",
+    url: "https://www.amazon.com/dp/B0753QHKW7?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
