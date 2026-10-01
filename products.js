@@ -572,6 +572,26 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0966YRXVK?tag=rendelivers-20"
   },
   {
+    id: "aff-stiletto-tib15mc",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Stiletto 15 oz. TiBone Titanium Framing Hammer",
+    tagline: "Ren's pick: all-titanium TiBone, milled face, curved handle. Hits like steel, swings lighter.",
+    price: "See price on Amazon",
+    img: "assets/aff-stiletto-tib15mc.jpg",
+    url: "https://www.amazon.com/dp/B0CQPP87JN?tag=rendelivers-20"
+  },
+  {
+    id: "aff-stiletto-ti16mc",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Stiletto 16 oz. Titanium Hickory Framing Hammer",
+    tagline: "Ren's pick: titanium head on USA hickory. 16oz that hits like 28oz steel.",
+    price: "See price on Amazon",
+    img: "assets/aff-stiletto-ti16mc.jpg",
+    url: "https://www.amazon.com/dp/B00079R21E?tag=rendelivers-20"
+  },
+  {
     id: "aff-dewalt-dcs361m1",
     section: "catalog",
     sub: "SAWS",
