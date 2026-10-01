@@ -562,6 +562,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B001D77LU6?tag=rendelivers-20"
   },
   {
+    id: "aff-ox-marking-pencil",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "OX Tools Pro Tuff Carbon Marking Pencil",
+    tagline: "Ren's pick: 2.8mm mechanical carpenter pencil. Built-in sharpener, marks anything.",
+    price: "See price on Amazon",
+    img: "assets/aff-ox-marking-pencil.jpg",
+    url: "https://www.amazon.com/dp/B0966YRXVK?tag=rendelivers-20"
+  },
+  {
     id: "aff-topcon-atb4",
     section: "catalog",
     sub: "LEVELS",
