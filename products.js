@@ -102,15 +102,6 @@ const PRODUCTS = [
     url: "https://www.zazzle.com/youre_did_it_tri_blend_shirt-256225393109642624"
   },
   {
-    id: "509-local",
-    section: "shirts",
-    name: "509 Local",
-    tagline: "Spokane area code pride.",
-    price: "$21.17",
-    img: "assets/shirt-509-local.jpg",
-    url: "https://www.zazzle.com/509_local_t_shirt-256155197980961687"
-  },
-  {
     id: "failed",
     section: "shirts",
     name: "Failed",
