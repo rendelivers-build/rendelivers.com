@@ -845,6 +845,7 @@ const PRODUCTS = [
   {
     id: "aff-servicetitan",
     section: "software",
+    sub: "APPS",
     name: "ServiceTitan",
     tagline: "Field-service management for serious shops — scheduling, dispatch, invoicing in one place. Book a demo through my link.",
     price: "Free demo",
@@ -880,6 +881,147 @@ const PRODUCTS = [
     price: "See price on Amazon",
     img: "assets/aff-calc-4065.jpg",
     url: "https://www.amazon.com/dp/B0007Q3RGQ?tag=rendelivers-20"
+  },
+  /* ---------------- SAFETY GEAR (PPE) ---------------- */
+  {
+    id: "aff-pyramex-ridgeline",
+    section: "safety",
+    sub: "HEAD",
+    name: "Pyramex Ridgeline Cap Style Hard Hat, 6-Point Ratchet, White",
+    tagline: "Ren's pick: 6-point ratchet suspension, ANSI Z89.1 rated. Your skull only comes with one warranty.",
+    price: "See price on Amazon",
+    img: "assets/aff-pyramex-ridgeline.jpg",
+    url: "https://www.amazon.com/dp/B00GMBBAE6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-3m-securefit",
+    section: "safety",
+    sub: "EYES",
+    name: "3M SecureFit 400 Safety Glasses, Clear Anti-Fog Lens",
+    tagline: "Ren's pick: self-adjusting temples, anti-fog coating, ANSI Z87.1+ impact rated. 'I didn't see it coming' is not a safety plan.",
+    price: "See price on Amazon",
+    img: "assets/aff-3m-securefit.jpg",
+    url: "https://www.amazon.com/dp/B0713M5ZQM?tag=rendelivers-20"
+  },
+  {
+    id: "aff-neiko-hiviz-vest",
+    section: "safety",
+    sub: "HI-VIS",
+    name: "NEIKO 53956A High-Visibility Safety Vest, ANSI Class 2",
+    tagline: "Ren's pick: Class 2 with 2-inch reflective tape. Be the neon sign nobody runs over.",
+    price: "See price on Amazon",
+    img: "assets/aff-neiko-hiviz-vest.jpg",
+    url: "https://www.amazon.com/dp/B0030AART6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-kidde-extinguisher",
+    section: "safety",
+    sub: "FIRE",
+    name: "Kidde Commercial Fire Extinguisher, 3-A:40-B:C, Rechargeable",
+    tagline: "Ren's pick: rechargeable ABC dry chemical with wall bracket. For when the day gets a little too lit — literally.",
+    price: "See price on Amazon",
+    img: "assets/aff-kidde-extinguisher.jpg",
+    url: "https://www.amazon.com/dp/B0CB9FKDVP?tag=rendelivers-20"
+  },
+  {
+    id: "aff-kidde-smoke-alarm",
+    section: "safety",
+    sub: "FIRE",
+    name: "Kidde 20SAR Hardwired Smoke Detector with Battery Backup",
+    tagline: "Ren's pick: hardwired with battery backup, 85 dB. The only alarm on site that isn't Brandon yelling.",
+    price: "See price on Amazon",
+    img: "assets/aff-kidde-smoke-alarm.jpg",
+    url: "https://www.amazon.com/dp/B0CX6C1JHJ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-physicianscare-eyewash",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "PhysiciansCare Wall-Mountable Eyewash Station",
+    tagline: "Ren's pick: sterile sealed eyewash bottles on a wall-mount station. For dust, debris, and whatever the heck that was.",
+    price: "See price on Amazon",
+    img: "assets/aff-physicianscare-eyewash.jpg",
+    url: "https://www.amazon.com/dp/B009Z3A1AM?tag=rendelivers-20"
+  },
+  {
+    id: "aff-guardian-velocity",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "Guardian 01700 Velocity Full-Body Harness",
+    tagline: "Ren's pick: 5-point adjustment, OSHA and ANSI Z359.11. Tie off — gravity doesn't do second chances.",
+    price: "See price on Amazon",
+    img: "assets/aff-guardian-velocity.jpg",
+    url: "https://www.amazon.com/dp/B008LXRB7S?tag=rendelivers-20"
+  },
+  {
+    id: "aff-afp-lanyard",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "AFP 6 ft Shock-Absorbing Safety Lanyard",
+    tagline: "Ren's pick: internal shock absorber, dual snap hooks, OSHA 1926 compliant. The short leash that saves your life.",
+    price: "See price on Amazon",
+    img: "assets/aff-afp-lanyard.jpg",
+    url: "https://www.amazon.com/dp/B081ZH6NB6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-malta-roof-kit",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "Malta Dynamics 50' Roofer's Safety Bucket Kit",
+    tagline: "Ren's pick: reusable roof anchor, full-body harness, and 50 ft lifeline in one bucket. Roofing kit — grab and go.",
+    price: "See price on Amazon",
+    img: "assets/aff-malta-roof-kit.jpg",
+    url: "https://www.amazon.com/dp/B0DFN29ZKD?tag=rendelivers-20"
+  },
+  {
+    id: "aff-mechanix-original",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Mechanix Wear The Original Covert Work Gloves",
+    tagline: "Ren's pick: the classic mechanic glove, touchscreen capable. If your hands could talk, they'd ask for these.",
+    price: "See price on Amazon",
+    img: "assets/aff-mechanix-original.jpg",
+    url: "https://www.amazon.com/dp/B0001VNZUK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-magid-trex",
+    section: "safety",
+    sub: "GLOVES",
+    name: "MAGID T-REX Flex Cut-Resistant Gloves, ANSI A4",
+    tagline: "Ren's pick: ANSI A4 cut and impact protection. For when the sharp stuff argues back.",
+    price: "See price on Amazon",
+    img: "assets/aff-magid-trex.jpg",
+    url: "https://www.amazon.com/dp/B07S982YF6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-ansell-midknight",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Ansell Microflex MidKnight Nitrile Gloves, Box of 100",
+    tagline: "Ren's pick: fully textured black nitrile, box of 100. So cheap there's no excuse for bare hands.",
+    price: "See price on Amazon",
+    img: "assets/aff-ansell-midknight.jpg",
+    url: "https://www.amazon.com/dp/B003FP2LJU?tag=rendelivers-20"
+  },
+  {
+    id: "aff-wells-lamont-1132",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Wells Lamont Grain Cowhide Leather Work Gloves",
+    tagline: "Ren's pick: full grain cowhide with reinforced palm. Old-school leather that outlasts the job.",
+    price: "See price on Amazon",
+    img: "assets/aff-wells-lamont-1132.jpg",
+    url: "https://www.amazon.com/dp/B00004R9RZ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-firstaidonly-90575",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "First Aid Only 90575 First Aid Cabinet, 100-150 Person",
+    tagline: "Ren's pick: 676 pieces, ANSI/OSHA compliant steel cabinet. The most important toolbox on the whole site.",
+    price: "See price on Amazon",
+    img: "assets/aff-firstaidonly-90575.jpg",
+    url: "https://www.amazon.com/dp/B015VPZQ70?tag=rendelivers-20"
   },
 ];
 
