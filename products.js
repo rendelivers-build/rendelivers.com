@@ -1783,6 +1783,126 @@ const PRODUCTS = [
     img: "assets/aff-klein-worklight-56403.jpg",
     url: "https://www.amazon.com/dp/B07V4FTX6C?tag=rendelivers-20"
   },
+  {
+    id: "aff-husky-18bag",
+    section: "catalog",
+    sub: "TOOL BAGS",
+    name: "Husky 18 in. Water-Resistant Tool Bag (82003N11)",
+    tagline: "Ren's pick: the cheap workhorse. Water-resistant, 18 inches, hauls everything.",
+    price: "See price on Amazon",
+    img: "assets/aff-husky-18bag.jpg",
+    url: "https://www.amazon.com/dp/B008XMIEFA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-clc-1132-backpack",
+    section: "catalog",
+    sub: "TOOL BAGS",
+    name: "CLC Custom Leathercraft 1132 75-Pocket Tool Backpack",
+    tagline: "Ren's pick: 75 pockets of heavy-duty organization. The backpack that carries the whole shop.",
+    price: "See price on Amazon",
+    img: "assets/aff-clc-1132-backpack.jpg",
+    url: "https://www.amazon.com/dp/B0000DYVCY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-veto-techpac",
+    section: "catalog",
+    sub: "TOOL BAGS",
+    name: "Veto Pro Pac TECH-PAC Tool Backpack",
+    tagline: "Ren's pick: the premium tech backpack. Waterproof molded base, 56 pockets, zero regrets.",
+    price: "See price on Amazon",
+    img: "assets/aff-veto-techpac.jpg",
+    url: "https://www.amazon.com/dp/B00DYQLXHG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-veto-spmc",
+    section: "catalog",
+    sub: "TOOL BAGS",
+    name: "Veto Pro Pac SP-MC Compact Service Tech Pouch",
+    tagline: "Ren's pick: compact closed-top service pouch. Premium quality for the grab-and-go jobs.",
+    price: "See price on Amazon",
+    img: "assets/aff-veto-spmc.jpg",
+    url: "https://www.amazon.com/dp/B0F15N1T1F?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-packout-roller",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "Milwaukee PACKOUT Rolling Tool Box 48-22-8426",
+    tagline: "Ren's pick: the flagship mobile base. 250-lb capacity on all-terrain wheels.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-packout-roller.jpg",
+    url: "https://www.amazon.com/dp/B07MTZNHD5?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-packout-large",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "Milwaukee PACKOUT Large Tool Box 48-22-8425",
+    tagline: "Ren's pick: large stackable box, IP65 weather seal. Your tools stay dry, period.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-packout-large.jpg",
+    url: "https://www.amazon.com/dp/B0776MCYM8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-packout-compact",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "Milwaukee PACKOUT Compact Tool Box 48-22-8424",
+    tagline: "Ren's pick: the everyday-carry size. 75-lb capacity with organizer tray.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-packout-compact.jpg",
+    url: "https://www.amazon.com/dp/B0776KX6LV?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-packout-crate",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "Milwaukee PACKOUT Crate 48-22-8440",
+    tagline: "Ren's pick: open-top crate that stacks or hangs. For the stuff that doesn't fit in boxes.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-packout-crate.jpg",
+    url: "https://www.amazon.com/dp/B083R62QVK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-ts2-drawer",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "DEWALT ToughSystem 2.0 Two-Drawer Unit DWST08320",
+    tagline: "Ren's pick: DeWalt's stackable drawer unit with ball-bearing slides. Small parts, big organization.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-ts2-drawer.jpg",
+    url: "https://www.amazon.com/dp/B09ZF42M1V?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-ts2-organizer",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "DEWALT ToughSystem 2.0 Organizer DWST08040",
+    tagline: "Ren's pick: full-size organizer with clear lid and removable bins. See everything, find anything.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-ts2-organizer.jpg",
+    url: "https://www.amazon.com/dp/B09ZF3YB8B?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-ts2-rolling",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "DEWALT ToughSystem 2.0 Mobile Storage DWST08450",
+    tagline: "Ren's pick: DeWalt's rolling base with 8 in. all-terrain wheels. 250 lbs of mobile storage.",
+    price: "See price on Amazon",
+    img: "assets/aff-dewalt-ts2-rolling.jpg",
+    url: "https://www.amazon.com/dp/B08D3FCDH5?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-packout-mountplate",
+    section: "catalog",
+    sub: "PACKOUT",
+    name: "Milwaukee PACKOUT Mounting Plate 48-22-8485",
+    tagline: "Ren's pick: bolt it in the truck or trailer and your PACKOUT stack isn't going anywhere.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-packout-mountplate.jpg",
+    url: "https://www.amazon.com/dp/B083ZLXW9R?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
