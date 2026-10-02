@@ -87,6 +87,55 @@ main {
   border-radius: 6px 6px 0 0;
 }
 
+/* ---------- Top Picks carousel ---------- */
+.carousel {
+  position: relative;
+  border: 2px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) var(--radius);
+  background: var(--card);
+  padding: 16px 48px;
+}
+
+.car-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.car-track::-webkit-scrollbar { display: none; }
+
+.car-slide {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+}
+.car-slide .card { height: 100%; }
+
+.car-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--accent);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+.car-btn:hover { background: rgba(0, 0, 0, 0.8); }
+.car-prev { left: 6px; }
+.car-next { right: 6px; }
+
+@media (max-width: 640px) {
+  .carousel { padding: 12px 40px; }
+  .car-slide { flex-basis: 220px; }
+}
+
 /* ---------- Cards ---------- */
 .card {
   background: var(--card);
