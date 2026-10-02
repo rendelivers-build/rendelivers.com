@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Software &amp; Apps — Ren Delivers</title>
-<meta name="description" content="Contractor software Ren actually uses — estimating, scheduling, invoicing. Snag the deals through his referral links.">
+<title>Software, Apps &amp; Literature — Ren Delivers</title>
+<meta name="description" content="Contractor software Ren actually uses — estimating, scheduling, invoicing — plus the training books that make you sharper. Snag the deals through his links.">
 <link rel="stylesheet" href="styles.css">
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7b0be40139c64f4ca41bb0212c06502a"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
@@ -12,7 +12,7 @@
 
 <header class="page-header">
   <a class="back-link" href="index.html">&larr; Ren Delivers</a>
-  <h1>Software &amp; Apps</h1>
+  <h1>Software, Apps &amp; Literature</h1>
 </header>
 
 <nav class="top-nav" aria-label="Site sections">
@@ -21,11 +21,13 @@
     <a href="templates.html">Templates</a>
     <a href="software.html" class="active">Software</a>
     <a href="catalog.html">Tools Catalog</a>
+    <a href="safety.html">Safety Gear</a>
   </nav>
 
 
 <main>
-  <p class="section-sub">The apps that run Ren's business while he's off the ladder. He vetted 'em, he uses 'em — grab the deals through his links.</p>
+  <p class="section-sub">The apps that run Ren's business while he's off the ladder — plus the books that make you sharper. He vetted 'em — grab the deals through his links.</p>
+  <div class="subnav" id="subnav"></div>
   <div id="software-grid" class="grid"></div>
 </main>
 
@@ -33,10 +35,32 @@
 <script>
 (function () {
   var items = PRODUCTS.filter(function (p) { return p.section === "software"; });
+  var subs = [];
+  items.forEach(function (p) { if (p.sub && subs.indexOf(p.sub) < 0) subs.push(p.sub); });
+  var nav = document.getElementById("subnav");
   var grid = document.getElementById("software-grid");
-  var html = "";
-  items.forEach(function (p) { html += rdCardHTML(p, false); });
-  grid.innerHTML = html || '<p class="section-sub">Ren&rsquo;s still arm-wrestling vendors for more deals — check back soon.</p>';
+  var current = "All";
+  function renderPills() {
+    var html = '<button class="subpill' + (current === "All" ? " active" : "") + '" data-sub="All">All</button>';
+    subs.forEach(function (s) {
+      html += '<button class="subpill' + (current === s ? " active" : "") + '" data-sub="' + rdEsc(s) + '">' + rdEsc(s) + "</button>";
+    });
+    nav.innerHTML = html;
+  }
+  function renderGrid() {
+    var html = "";
+    items.forEach(function (p) {
+      if (current !== "All" && p.sub !== current) return;
+      html += rdCardHTML(p, false);
+    });
+    grid.innerHTML = html || '<p class="section-sub">Ren&rsquo;s still arm-wrestling vendors for more deals — check back soon.</p>';
+  }
+  nav.addEventListener("click", function (e) {
+    var t = e.target;
+    if (t && t.dataset && t.dataset.sub) { current = t.dataset.sub; renderPills(); renderGrid(); }
+  });
+  renderPills();
+  renderGrid();
 })();
 </script>
 
