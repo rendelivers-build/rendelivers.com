@@ -36,7 +36,7 @@ const PRODUCTS = [
     tagline: "For the coworker who basically lives at the office.",
     price: "$21.17",
     img: "assets/shirt-i-live-at-work.jpg",
-    url: "https://www.zazzle.com/i_live_at_work_funny_t_shirt-256701905762439762"
+    url: "https://www.zazzle.com/i_live_at_work_t_shirt-256097523361425118"
   },
   {
     id: "u-should-b-here",
@@ -487,7 +487,8 @@ const PRODUCTS = [
     sub: "Multi-Tools",
     name: "DEWALT 20V MAX XR Oscillating Multi-Tool",
     tagline: "Ren's pick: brushless, 3-speed, cuts anything. The one in my bag.",
-    price: "See price on Amazon",
+    price: "$103.88",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs356b.jpg",
     url: "https://www.amazon.com/dp/B07VBB55X5?tag=rendelivers-20"
   },
@@ -497,7 +498,8 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "DEWALT 20V MAX 15GA Angled Finish Nailer",
     tagline: "Ren's pick: cordless trim work, no compressor. Crown, casing, baseboards.",
-    price: "See price on Amazon",
+    price: "$299.00",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcn650b.jpg",
     url: "https://www.amazon.com/dp/B073GVKSM3?tag=rendelivers-20"
   },
@@ -507,7 +509,8 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "DEWALT ATOMIC 20V MAX 23GA Pin Nailer",
     tagline: "Ren's pick: headless pins disappear into trim. 2,000 pins per charge, no compressor.",
-    price: "See price on Amazon",
+    price: "$248.26",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcn623b.jpg",
     url: "https://www.amazon.com/dp/B09YXYFKGG?tag=rendelivers-20"
   },
@@ -517,7 +520,8 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "Metabo HPT 18V MultiVolt 3-1/2\" Framing Nailer Kit",
     tagline: "Ren's pick: cordless framing power, no hose. Kit with battery and bag.",
-    price: "See price on Amazon",
+    price: "$459.00",
+    checked: "2026-10-01",
     img: "assets/aff-metabo-nr1890dca.jpg",
     url: "https://www.amazon.com/dp/B0DV6R1FVF?tag=rendelivers-20"
   },
@@ -527,7 +531,8 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "DEWALT 20V MAX XR 18GA Brad Nailer",
     tagline: "Ren's pick: brushless brad nailer for trim and detail. No-mar nose, no compressor.",
-    price: "See price on Amazon",
+    price: "$301.99",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcn680b.jpg",
     url: "https://www.amazon.com/dp/B06XF6MZJ5?tag=rendelivers-20"
   },
@@ -537,7 +542,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "STANLEY FATMAX 25-Foot Tape Measure",
     tagline: "Ren's pick: 11-foot standout, BladeArmor coating. The tape that's lived in my bags for years.",
-    price: "See price on Amazon",
+    price: "$21.99",
+    checked: "2026-10-01",
     img: "assets/aff-stanley-fatmax-33725.jpg",
     url: "https://www.amazon.com/dp/B00002PV66?tag=rendelivers-20"
   },
@@ -547,7 +553,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Swanson 7\" Speed Square with Blue Book",
     tagline: "Ren's pick: the original layout tool. Mark, measure, and guide every cut.",
-    price: "See price on Amazon",
+    price: "$9.98",
+    checked: "2026-10-01",
     img: "assets/aff-swanson-s0101.jpg",
     url: "https://www.amazon.com/dp/B00002255O?tag=rendelivers-20"
   },
@@ -557,7 +564,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Tajima Chalk-Rite II Chalk Line",
     tagline: "Ren's pick: the chalk box that snaps a line you'll actually see. Gear-drive rewind.",
-    price: "See price on Amazon",
+    price: "$36.00",
+    checked: "2026-10-01",
     img: "assets/aff-tajima-cr201rd.jpg",
     url: "https://www.amazon.com/dp/B001D77LU6?tag=rendelivers-20"
   },
@@ -567,7 +575,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "OX Tools Pro Tuff Carbon Marking Pencil",
     tagline: "Ren's pick: 2.8mm mechanical carpenter pencil. Built-in sharpener, marks anything.",
-    price: "See price on Amazon",
+    price: "$12.59",
+    checked: "2026-10-01",
     img: "assets/aff-ox-marking-pencil.jpg",
     url: "https://www.amazon.com/dp/B0966YRXVK?tag=rendelivers-20"
   },
@@ -577,7 +586,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Stiletto 15 oz. TiBone Titanium Framing Hammer",
     tagline: "Ren's pick: all-titanium TiBone, milled face, curved handle. Hits like steel, swings lighter.",
-    price: "See price on Amazon",
+    price: "$299.99",
+    checked: "2026-10-01",
     img: "assets/aff-stiletto-tib15mc.jpg",
     url: "https://www.amazon.com/dp/B0CQPP87JN?tag=rendelivers-20"
   },
@@ -587,7 +597,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Stiletto 16 oz. Titanium Hickory Framing Hammer",
     tagline: "Ren's pick: titanium head on USA hickory. 16oz that hits like 28oz steel.",
-    price: "See price on Amazon",
+    price: "See price in cart",
+    checked: "2026-10-01",
     img: "assets/aff-stiletto-ti16mc.jpg",
     url: "https://www.amazon.com/dp/B00079R21E?tag=rendelivers-20"
   },
@@ -597,7 +608,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Estwing Pro Claw Nail Puller",
     tagline: "Ren's pick: one-piece forged nail puller. Thin claw for tight spots, minimal wood damage.",
-    price: "See price on Amazon",
+    price: "$11.95",
+    checked: "2026-10-01",
     img: "assets/aff-estwing-pc250g.jpg",
     url: "https://www.amazon.com/dp/B00DT0OYTG?tag=rendelivers-20"
   },
@@ -607,7 +619,8 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Estwing Pro Claw Moulding Puller",
     tagline: "Ren's pick: trim puller that saves the moulding. Wide blade, pro claw nail end.",
-    price: "See price on Amazon",
+    price: "$11.61",
+    checked: "2026-10-01",
     img: "assets/aff-estwing-mp250g.jpg",
     url: "https://www.amazon.com/dp/B004397VEW?tag=rendelivers-20"
   },
@@ -617,7 +630,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "Mini Palm Nailer",
     tagline: "Ren's pick: palm-sized air nailer for tight spots and overhead. Where hammers can't go.",
-    price: "See price on Amazon",
+    price: "$49.00",
+    checked: "2026-10-01",
     img: "assets/aff-mini-palm-nailer.jpg",
     url: "https://www.amazon.com/dp/B0BB4XVJNC?tag=rendelivers-20"
   },
@@ -627,7 +641,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "Metabo HPT 18GA Pneumatic Brad Nailer",
     tagline: "Ren's pick: air-powered brad nailer for trim. Tool-less depth, no-mar nose.",
-    price: "See price on Amazon",
+    price: "$69.00",
+    checked: "2026-10-01",
     img: "assets/aff-metabo-nt50ae2.jpg",
     url: "https://www.amazon.com/dp/B07MK88Q33?tag=rendelivers-20"
   },
@@ -637,7 +652,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "Metabo HPT Coil Framing Nailer",
     tagline: "Ren's pick: 3-1/4 in coil framer for sheathing and decks. All-day air.",
-    price: "See price on Amazon",
+    price: "$349.00",
+    checked: "2026-10-01",
     img: "assets/aff-metabo-nv83a5.jpg",
     url: "https://www.amazon.com/dp/B07MYV966C?tag=rendelivers-20"
   },
@@ -647,7 +663,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "Metabo HPT 21-Degree Framing Nailer",
     tagline: "Ren's pick: plastic-collated framer, 3-1/2 in nails. Frame all day.",
-    price: "See price on Amazon",
+    price: "$159.00",
+    checked: "2026-10-01",
     img: "assets/aff-metabo-nr90aes1.jpg",
     url: "https://www.amazon.com/dp/B07LCG6TZ4?tag=rendelivers-20"
   },
@@ -657,7 +674,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "Metabo HPT Strap-Tite Strap Nailer",
     tagline: "Ren's pick: strap nailer for joist hangers and hurricane ties. Fast, accurate.",
-    price: "See price on Amazon",
+    price: "$235.07",
+    checked: "2026-10-01",
     img: "assets/aff-metabo-nr65ak2s.jpg",
     url: "https://www.amazon.com/dp/B07MYX99ML?tag=rendelivers-20"
   },
@@ -667,7 +685,8 @@ const PRODUCTS = [
     sub: "Pneumatic",
     name: "BOSTITCH StrapShot Metal Connector Nailer",
     tagline: "Ren's pick: connector nailer for straps and hangers. Paper-collated, auto-load.",
-    price: "See price on Amazon",
+    price: "$269.00",
+    checked: "2026-10-01",
     img: "assets/aff-bostitch-mcn150.jpg",
     url: "https://www.amazon.com/dp/B000IJPAMQ?tag=rendelivers-20"
   },
@@ -677,7 +696,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 20V MAX 7-1/4 in. Miter Saw Kit",
     tagline: "Ren's pick: cordless miter saw that cuts like it has a plug. Kit with battery and charger.",
-    price: "See price on Amazon",
+    price: "$379.99",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs361m1.jpg",
     url: "https://www.amazon.com/dp/B00X52TZYM?tag=rendelivers-20"
   },
@@ -687,7 +707,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 12 in. Sliding Compound Miter Saw",
     tagline: "Ren's pick: the shop-standard 12-in slider. XPS cut line, cuts 2x16 at 90.",
-    price: "See price on Amazon",
+    price: "$649.00",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dws780.jpg",
     url: "https://www.amazon.com/dp/B00540JS7C?tag=rendelivers-20"
   },
@@ -697,7 +718,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 10 in. Jobsite Table Saw w/ Stand",
     tagline: "Ren's pick: 10-in table saw on a rolling stand. 32-1/2 in rip capacity, jobsite ready.",
-    price: "See price on Amazon",
+    price: "$599.00",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dwe7491rs.jpg",
     url: "https://www.amazon.com/dp/B00F2CGXGG?tag=rendelivers-20"
   },
@@ -707,7 +729,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 8-1/4 in. Compact Table Saw",
     tagline: "Ren's pick: the compact jobsite table saw. 24-1/2 in rip in a small footprint.",
-    price: "See price on Amazon",
+    price: "$421.16",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dwe7485.jpg",
     url: "https://www.amazon.com/dp/B0842QDW95?tag=rendelivers-20"
   },
@@ -717,7 +740,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 20V MAX XR 7-1/4 in. Circular Saw",
     tagline: "Ren's pick: brushless cordless circular saw with electric brake. Tool only.",
-    price: "See price on Amazon",
+    price: "$177.54",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs590b.jpg",
     url: "https://www.amazon.com/dp/B0DDDW9GWK?tag=rendelivers-20"
   },
@@ -727,19 +751,21 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 20V MAX XR Jig Saw",
     tagline: "Ren's pick: brushless jig saw with LED cut line light. 4-position orbital, tool only.",
-    price: "See price on Amazon",
+    price: "$142.50",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs334b.jpg",
     url: "https://www.amazon.com/dp/B07JPFHQKG?tag=rendelivers-20"
   },
   {
-    id: "aff-metabo-c3606dpa",
+    id: "aff-metabo-c3607dwa",
     section: "catalog",
     sub: "SAWS",
-    name: "Metabo HPT 36V MultiVolt 6-1/2 in. Track Saw Kit",
-    tagline: "Ren's pick: cordless track saw kit. -1 to 46 deg bevel, 2-1/2 in cut depth.",
-    price: "See price on Amazon",
-    img: "assets/aff-metabo-c3606dpa.jpg",
-    url: "https://www.amazon.com/dp/B09RP1M6PZ?tag=rendelivers-20"
+    name: "Metabo HPT 36V MultiVolt 7-1/4 in. Rear Handle Circular Saw Kit",
+    tagline: "Ren's pick: cordless rear-handle saw kit. 5,100 RPM, up to 500 cuts per charge.",
+    price: "$399.00",
+    checked: "2026-10-01",
+    img: "assets/aff-metabo-c3607dwa.jpg",
+    url: "https://www.amazon.com/dp/B09MSQM6Y9?tag=rendelivers-20"
   },
   {
     id: "aff-dewalt-dcs367b",
@@ -747,7 +773,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 20V MAX XR Compact Reciprocating Saw",
     tagline: "Ren's pick: compact recip saw that fits between studs. Brushless, tool only.",
-    price: "See price on Amazon",
+    price: "$179.00",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs367b.jpg",
     url: "https://www.amazon.com/dp/B01M69K91R?tag=rendelivers-20"
   },
@@ -757,7 +784,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "DEWALT 60V FLEXVOLT Worm Drive Framing Saw",
     tagline: "Ren's pick: worm drive power with no cord. 60V FLEXVOLT, brushless.",
-    price: "See price on Amazon",
+    price: "$249.95",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcs577b.jpg",
     url: "https://www.amazon.com/dp/B0753QHKW7?tag=rendelivers-20"
   },
@@ -767,7 +795,8 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "SKILSAW SAWQUATCH 16 in. Carpentry Chainsaw",
     tagline: "Ren's pick: 16-in carpentry chainsaw for timber framing. Worm drive torque.",
-    price: "See price on Amazon",
+    price: "$638.49",
+    checked: "2026-10-01",
     img: "assets/aff-skilsaw-spt55-11.jpg",
     url: "https://www.amazon.com/dp/B07NR7921V?tag=rendelivers-20"
   },
@@ -777,7 +806,8 @@ const PRODUCTS = [
     sub: "LEVELS",
     name: "Topcon AT-B4 24x Automatic Level",
     tagline: "Ren's pick: the dumpy level that never lies. Footings, foundations, flatwork.",
-    price: "See price on Amazon",
+    price: "$234.99",
+    checked: "2026-10-01",
     img: "assets/aff-topcon-atb4.jpg",
     url: "https://www.amazon.com/dp/B000KEQ596?tag=rendelivers-20"
   },
@@ -787,7 +817,8 @@ const PRODUCTS = [
     sub: "LEVELS",
     name: "Topcon RL-H5A Rotary Laser Level Kit",
     tagline: "Ren's pick: self-leveling rotary laser with receiver, tripod, and rod. One-man layout.",
-    price: "See price on Amazon",
+    price: "$834.97",
+    checked: "2026-10-01",
     img: "assets/aff-topcon-rlh5a.jpg",
     url: "https://www.amazon.com/dp/B0D1DB3CVD?tag=rendelivers-20"
   },
@@ -797,7 +828,8 @@ const PRODUCTS = [
     sub: "LEVELS",
     name: "Stabila Pro Set 80 AS Level Set (48\"/24\"/12\")",
     tagline: "Ren's pick: the levels that stay true. Three sizes plus case.",
-    price: "See price on Amazon",
+    price: "$158.00",
+    checked: "2026-10-01",
     img: "assets/aff-stabila-29840.jpg",
     url: "https://www.amazon.com/dp/B09JXX4TB5?tag=rendelivers-20"
   },
@@ -816,7 +848,8 @@ const PRODUCTS = [
     sub: "Drills",
     name: "DEWALT 20V MAX XR 1/2 in. Cordless Hammer Drill (Tool Only)",
     tagline: "Ren's pick: brushless hammer drill, 1/2-in chuck. Bare tool — pairs with your 20V batteries.",
-    price: "See price on Amazon",
+    price: "$157.45",
+    checked: "2026-10-01",
     img: "assets/aff-dewalt-dcd1007b.jpg",
     url: "https://www.amazon.com/dp/B0D8TM5MW4?tag=rendelivers-20"
   },
@@ -868,7 +901,7 @@ function rdRenderFeatured(elId) {
   var featuredId = rdGetParam("p") || FEATURED_ID;
   var featured = byId[featuredId] || byId[FEATURED_ID] || PRODUCTS[0];
   document.getElementById(elId).innerHTML =
-    '<div class="featured-label">Featured</div>' + rdCardHTML(featured, true);
+    '<div class="featured-label">Ren&rsquo;s Pick</div>' + rdCardHTML(featured, true);
   return featured.id;
 }
 
