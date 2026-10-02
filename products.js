@@ -889,9 +889,20 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "Pyramex Ridgeline Cap Style Hard Hat, 6-Point Ratchet, White",
     tagline: "Ren's pick: 6-point ratchet suspension, ANSI Z89.1 rated. Your skull only comes with one warranty.",
-    price: "See price on Amazon",
+    price: "$15.75",
+    checked: "2026-10-02",
     img: "assets/aff-pyramex-ridgeline.jpg",
     url: "https://www.amazon.com/dp/B00GMBBAE6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-pip-wolfjaw",
+    section: "safety",
+    sub: "HEAD",
+    name: "PIP Wolfjaw Full Brim Hard Hat, Glossy Carbon Fiber Shell",
+    tagline: "Ren's pick: real carbon fiber shell, 8-point suspension, wheel ratchet. The foreman's hard hat — looks fast, works hard.",
+    price: "See price on Amazon",
+    img: "assets/aff-pip-wolfjaw.jpg",
+    url: "https://www.amazon.com/dp/B0C443J64K?tag=rendelivers-20"
   },
   {
     id: "aff-3m-securefit",
@@ -899,7 +910,8 @@ const PRODUCTS = [
     sub: "EYES",
     name: "3M SecureFit 400 Safety Glasses, Clear Anti-Fog Lens",
     tagline: "Ren's pick: self-adjusting temples, anti-fog coating, ANSI Z87.1+ impact rated. 'I didn't see it coming' is not a safety plan.",
-    price: "See price on Amazon",
+    price: "$9.79",
+    checked: "2026-10-02",
     img: "assets/aff-3m-securefit.jpg",
     url: "https://www.amazon.com/dp/B0713M5ZQM?tag=rendelivers-20"
   },
@@ -909,7 +921,8 @@ const PRODUCTS = [
     sub: "HI-VIS",
     name: "NEIKO 53956A High-Visibility Safety Vest, ANSI Class 2",
     tagline: "Ren's pick: Class 2 with 2-inch reflective tape. Be the neon sign nobody runs over.",
-    price: "See price on Amazon",
+    price: "$6.15",
+    checked: "2026-10-02",
     img: "assets/aff-neiko-hiviz-vest.jpg",
     url: "https://www.amazon.com/dp/B0030AART6?tag=rendelivers-20"
   },
@@ -917,11 +930,12 @@ const PRODUCTS = [
     id: "aff-kidde-extinguisher",
     section: "safety",
     sub: "FIRE",
-    name: "Kidde Commercial Fire Extinguisher, 3-A:40-B:C, Rechargeable",
+    name: "Kidde Fire Extinguisher for Home & Office",
     tagline: "Ren's pick: rechargeable ABC dry chemical with wall bracket. For when the day gets a little too lit — literally.",
-    price: "See price on Amazon",
+    price: "$18.25",
+    checked: "2026-10-02",
     img: "assets/aff-kidde-extinguisher.jpg",
-    url: "https://www.amazon.com/dp/B0CB9FKDVP?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B0CB9GFZ9M?tag=rendelivers-20"
   },
   {
     id: "aff-kidde-smoke-alarm",
@@ -929,7 +943,8 @@ const PRODUCTS = [
     sub: "FIRE",
     name: "Kidde 20SAR Hardwired Smoke Detector with Battery Backup",
     tagline: "Ren's pick: hardwired with battery backup, 85 dB. The only alarm on site that isn't Brandon yelling.",
-    price: "See price on Amazon",
+    price: "$31.36",
+    checked: "2026-10-02",
     img: "assets/aff-kidde-smoke-alarm.jpg",
     url: "https://www.amazon.com/dp/B0CX6C1JHJ?tag=rendelivers-20"
   },
@@ -939,7 +954,8 @@ const PRODUCTS = [
     sub: "FIRST AID",
     name: "PhysiciansCare Wall-Mountable Eyewash Station",
     tagline: "Ren's pick: sterile sealed eyewash bottles on a wall-mount station. For dust, debris, and whatever the heck that was.",
-    price: "See price on Amazon",
+    price: "$52.48",
+    checked: "2026-10-02",
     img: "assets/aff-physicianscare-eyewash.jpg",
     url: "https://www.amazon.com/dp/B009Z3A1AM?tag=rendelivers-20"
   },
@@ -949,7 +965,8 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "Guardian 01700 Velocity Full-Body Harness",
     tagline: "Ren's pick: 5-point adjustment, OSHA and ANSI Z359.11. Tie off — gravity doesn't do second chances.",
-    price: "See price on Amazon",
+    price: "$34.99",
+    checked: "2026-10-02",
     img: "assets/aff-guardian-velocity.jpg",
     url: "https://www.amazon.com/dp/B008LXRB7S?tag=rendelivers-20"
   },
@@ -959,7 +976,8 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "AFP 6 ft Shock-Absorbing Safety Lanyard",
     tagline: "Ren's pick: internal shock absorber, dual snap hooks, OSHA 1926 compliant. The short leash that saves your life.",
-    price: "See price on Amazon",
+    price: "$29.39",
+    checked: "2026-10-02",
     img: "assets/aff-afp-lanyard.jpg",
     url: "https://www.amazon.com/dp/B081ZH6NB6?tag=rendelivers-20"
   },
@@ -969,7 +987,8 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "Malta Dynamics 50' Roofer's Safety Bucket Kit",
     tagline: "Ren's pick: reusable roof anchor, full-body harness, and 50 ft lifeline in one bucket. Roofing kit — grab and go.",
-    price: "See price on Amazon",
+    price: "$99.99",
+    checked: "2026-10-02",
     img: "assets/aff-malta-roof-kit.jpg",
     url: "https://www.amazon.com/dp/B0DFN29ZKD?tag=rendelivers-20"
   },
@@ -979,7 +998,8 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "Mechanix Wear The Original Covert Work Gloves",
     tagline: "Ren's pick: the classic mechanic glove, touchscreen capable. If your hands could talk, they'd ask for these.",
-    price: "See price on Amazon",
+    price: "$23.99",
+    checked: "2026-10-02",
     img: "assets/aff-mechanix-original.jpg",
     url: "https://www.amazon.com/dp/B0001VNZUK?tag=rendelivers-20"
   },
@@ -989,7 +1009,8 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "MAGID T-REX Flex Cut-Resistant Gloves, ANSI A4",
     tagline: "Ren's pick: ANSI A4 cut and impact protection. For when the sharp stuff argues back.",
-    price: "See price on Amazon",
+    price: "$18.99",
+    checked: "2026-10-02",
     img: "assets/aff-magid-trex.jpg",
     url: "https://www.amazon.com/dp/B07S982YF6?tag=rendelivers-20"
   },
@@ -999,7 +1020,8 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "Ansell Microflex MidKnight Nitrile Gloves, Box of 100",
     tagline: "Ren's pick: fully textured black nitrile, box of 100. So cheap there's no excuse for bare hands.",
-    price: "See price on Amazon",
+    price: "$18.10",
+    checked: "2026-10-02",
     img: "assets/aff-ansell-midknight.jpg",
     url: "https://www.amazon.com/dp/B003FP2LJU?tag=rendelivers-20"
   },
@@ -1007,11 +1029,11 @@ const PRODUCTS = [
     id: "aff-wells-lamont-1132",
     section: "safety",
     sub: "GLOVES",
-    name: "Wells Lamont Grain Cowhide Leather Work Gloves",
+    name: "Wells Lamont Men's Cowhide Leather Work Gloves, Adjustable Wrist (1132L)",
     tagline: "Ren's pick: full grain cowhide with reinforced palm. Old-school leather that outlasts the job.",
     price: "See price on Amazon",
     img: "assets/aff-wells-lamont-1132.jpg",
-    url: "https://www.amazon.com/dp/B00004R9RZ?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B00004R9RW?tag=rendelivers-20"
   },
   {
     id: "aff-firstaidonly-90575",
@@ -1022,6 +1044,67 @@ const PRODUCTS = [
     price: "See price on Amazon",
     img: "assets/aff-firstaidonly-90575.jpg",
     url: "https://www.amazon.com/dp/B015VPZQ70?tag=rendelivers-20"
+  },
+  /* ---------------- LITERATURE (books live under Software) ---------------- */
+  {
+    id: "aff-markup-profit",
+    section: "software",
+    sub: "BOOKS",
+    name: "Markup & Profit: A Contractor's Guide, Revisited",
+    tagline: "Ren's pick: the bible on overhead, markup, and pricing jobs so you actually make money. By Michael Stone — required reading.",
+    price: "See price on Amazon",
+    img: "assets/aff-markup-profit.jpg",
+    url: "https://www.amazon.com/dp/1572182717?tag=rendelivers-20"
+  },
+  {
+    id: "aff-national-estimator",
+    section: "software",
+    sub: "BOOKS",
+    name: "2026 National Construction Estimator, 74th Edition",
+    tagline: "Ren's pick: current national costs — materials, labor, manhours, crew sizes, city modifiers. Price it right the first time.",
+    price: "See price on Amazon",
+    img: "assets/aff-national-estimator.jpg",
+    url: "https://www.amazon.com/dp/1572184086?tag=rendelivers-20"
+  },
+  {
+    id: "aff-construction-pm",
+    section: "software",
+    sub: "BOOKS",
+    name: "Construction Project Management, 4th Edition",
+    tagline: "Ren's pick: the full playbook — estimating, scheduling, contracts, safety. Run the job like a pro.",
+    price: "See price on Amazon",
+    img: "assets/aff-construction-pm.jpg",
+    url: "https://www.amazon.com/dp/0132877244?tag=rendelivers-20"
+  },
+  {
+    id: "aff-jobsite-mgmt",
+    section: "software",
+    sub: "BOOKS",
+    name: "Construction Jobsite Management, 4th Edition",
+    tagline: "Ren's pick: the day-to-day of running a jobsite — documentation, scheduling, coordination. For the one in charge.",
+    price: "See price on Amazon",
+    img: "assets/aff-jobsite-mgmt.jpg",
+    url: "https://www.amazon.com/dp/130508179X?tag=rendelivers-20"
+  },
+  {
+    id: "aff-commercial-construction",
+    section: "software",
+    sub: "BOOKS",
+    name: "Principles and Practices of Commercial Construction, 10th Edition",
+    tagline: "Ren's pick: commercial building methods, materials, and systems. The textbook behind the license exam.",
+    price: "See price on Amazon",
+    img: "assets/aff-commercial-construction.jpg",
+    url: "https://www.amazon.com/dp/0134704665?tag=rendelivers-20"
+  },
+  {
+    id: "aff-nrca-roofing",
+    section: "software",
+    sub: "BOOKS",
+    name: "The NRCA Roofing Manual: Steep-slope Roof Systems, 2021",
+    tagline: "Ren's pick: the roofing industry's authoritative manual — installation, materials, best practices. From the NRCA itself.",
+    price: "See price on Amazon",
+    img: "assets/aff-nrca-roofing.jpg",
+    url: "https://www.amazon.com/dp/B00BBX15ZE?tag=rendelivers-20"
   },
 ];
 
