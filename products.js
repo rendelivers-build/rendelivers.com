@@ -2063,6 +2063,26 @@ const PRODUCTS = [
     img: "assets/aff-drywall-level5-4650.jpg",
     url: "https://www.amazon.com/dp/B0BZBJFKPY?tag=rendelivers-20"
   },
+  {
+    id: "aff-drywall-dura-stilts",
+    section: "drywall",
+    sub: "STILTS",
+    name: "Dura-Stilts Deluxe III Drywall Stilts 24-40 in.",
+    tagline: "Ren's pick: the original. Replaceable parts, lasts a lifetime, the stilt other stilts wish they were.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dura-stilts.jpg",
+    url: "https://www.amazon.com/dp/B00169V8D2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-pentagon-stilts",
+    section: "drywall",
+    sub: "STILTS",
+    name: "Pentagon Tool Professional Drywall Stilts 24-40 in.",
+    tagline: "Ren's pick: dual-spring aluminum stilts at a working man's price. 228-lb capacity.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-pentagon-stilts.jpg",
+    url: "https://www.amazon.com/dp/B001R51V3C?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
