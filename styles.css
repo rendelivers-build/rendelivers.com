@@ -480,6 +480,7 @@ section h2 {
 
 .legal-row { margin-bottom: 16px; }
 .legal-row a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+.legal-sep { color: var(--muted); margin: 0 8px; font-size: 0.85rem; }
 
 /* ---------- Top nav ---------- */
 .top-nav {
