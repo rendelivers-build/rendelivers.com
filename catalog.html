@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Products Catalog — Ren Delivers</title>
-<meta name="description" content="Ren's picks: contractor-approved tools and gear from Ren Delivers.">
+<meta name="description" content="Tool deals Ren would buy with his own money — drills, saws, nailers, and everything else that earns its keep on a real job site.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,6 +12,7 @@
 <header class="page-header">
   <a class="back-link" href="index.html">&larr; Ren Delivers</a>
   <h1>Products Catalog</h1>
+  <p class="section-sub">If it can't earn its keep on a real job site, it doesn't make the list.</p>
 </header>
 
 <nav class="top-nav" aria-label="Site sections">
@@ -32,7 +33,7 @@
   <div class="social-row">
     <a href="https://www.youtube.com/@rendelivers" target="_blank" rel="noopener">YouTube</a>
     <a href="https://www.pinterest.com/rendelivers/" target="_blank" rel="noopener">Pinterest</a>
-    <a href="https://www.tiktok.com/@freedommonkeyindustries" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://www.tiktok.com/@rendelivers.com" target="_blank" rel="noopener">TikTok</a>
   </div>
   <div class="legal-row">
     <a href="legal.html">Legal</a>
@@ -62,7 +63,7 @@
       if (current !== "All" && p.sub !== current) return;
       html += rdCardHTML(p, false);
     });
-    grid.innerHTML = html || '<p class="section-sub">Nothing here yet — check back soon.</p>';
+    grid.innerHTML = html || '<p class="section-sub">Nothing in this pile yet — check back soon.</p>';
   }
   nav.addEventListener("click", function (e) {
     var t = e.target;
