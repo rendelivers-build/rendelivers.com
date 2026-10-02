@@ -24,8 +24,8 @@
 
 
 <main>
-  <!-- Featured product: rendered from products.js (FEATURED_ID, overridable with ?p=<id>) -->
-  <section id="featured" aria-label="Featured product"></section>
+  <!-- Top Picks carousel: rendered from products.js (TOP_PICKS) -->
+  <section id="featured" aria-label="Top picks"></section>
 
   <nav class="cat-grid" aria-label="Shop categories">
     <a class="cat-btn cat-shirts" href="shirts.html">
@@ -61,7 +61,7 @@
 
 <script src="products.js"></script>
 <script>
-  rdRenderFeatured("featured");
+  rdRenderCarousel("featured");
 </script>
 </body>
 </html>
