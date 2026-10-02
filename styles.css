@@ -50,10 +50,12 @@ img { display: block; max-width: 100%; }
 }
 
 .brand {
-  font-size: 3.25rem;
+  font-size: 4.5rem;
   font-weight: 800;
   letter-spacing: 1px;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  color: #fff;
+  -webkit-text-stroke: 2px #000;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.7);
 }
 
 .tagline {
@@ -334,6 +336,8 @@ section h2 {
 .cat-software  { background-image: url('assets/cat-software.jpg'); }
 .cat-catalog   { background-image: url('assets/cat-catalog.jpg'); }
 .cat-safety    { background-image: url('assets/cat-safety.jpg'); }
+.cat-plumbing  { background-image: url('assets/cat-plumbing.jpg'); }
+.cat-electrical{ background-image: url('assets/cat-electrical.jpg'); }
 
 /* bottom scrim so labels stay legible */
 .cat-btn::before {
