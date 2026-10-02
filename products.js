@@ -915,6 +915,28 @@ const PRODUCTS = [
     img: "assets/aff-dewalt-dxgnr6500.jpg",
     url: "https://www.amazon.com/dp/B0FD19SQH2?tag=rendelivers-20"
   },
+  {
+    id: "aff-dewalt-dcf630d2",
+    section: "drywall",
+    sub: "SCREWGUNS",
+    name: "DEWALT 20V MAX XR Drywall Screwgun Kit (DCF630D2)",
+    tagline: "Ren's pick: 4,400 RPM of hang-rock fury. Nosecone that actually sets depth right.",
+    price: "$1,340.37",
+    checked: "2026-10-02",
+    img: "assets/aff-dewalt-drywall-kit.jpg",
+    url: "https://www.amazon.com/dp/B07CRZV4NK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-level5-hand-tool-set",
+    section: "drywall",
+    sub: "HAND TOOLS",
+    name: "LEVEL5 Professional Drywall Hand Tool Set w/ Duffel Bag (5-690)",
+    tagline: "Ren's pick: taping knives, mud pan, mixers, jab saw — the whole finishing kit in one duffel.",
+    price: "$562.95",
+    checked: "2026-10-02",
+    img: "assets/aff-level5-hand-tool-set.jpg",
+    url: "https://www.amazon.com/dp/B0CBL7HWHG?tag=rendelivers-20"
+  },
   /* ---------------- SAFETY GEAR (PPE) ---------------- */
   {
     id: "aff-pyramex-ridgeline",
