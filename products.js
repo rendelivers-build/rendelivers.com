@@ -1472,6 +1472,37 @@ const PRODUCTS = [
     img: "assets/aff-milw-fastback.jpg",
     url: "https://www.amazon.com/dp/B082KL6HT3?tag=rendelivers-20"
   },
+  {
+    id: "aff-redwing-steetoe",
+    section: "safety",
+    sub: "BOOTS",
+    name: "WORX by Red Wing Shoes Men's 5432 8 in. Steel Toe Work Boot",
+    tagline: "Ren's pick: Red Wing bloodline, GORE-TEX waterproofing, insulated. The boot that outlasts the job.",
+    price: "See price on Amazon",
+    img: "assets/aff-redwing-steetoe.jpg",
+    url: "https://www.amazon.com/dp/B0016PACT2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-thorogood-steetoe",
+    section: "safety",
+    sub: "BOOTS",
+    name: "Thorogood American Heritage 6 in. Steel Toe Work Boot",
+    tagline: "Ren's pick: full-grain leather moc toe, MAXWear wedge sole. The premium boot that breaks in like a dream.",
+    price: "See price on Amazon",
+    img: "assets/aff-thorogood-steetoe.jpg",
+    url: "https://www.amazon.com/dp/B00623DYVQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-personal-firstaid",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "First Aid Only 298-Piece Emergency First Aid Kit (Soft Case)",
+    tagline: "Ren's pick: 298 pieces in a soft case that fits the truck or tool bag. Because the jobsite bites.",
+    price: "$20.04",
+    checked: "2026-10-02",
+    img: "assets/aff-personal-firstaid.jpg",
+    url: "https://www.amazon.com/dp/B000069EYA?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
