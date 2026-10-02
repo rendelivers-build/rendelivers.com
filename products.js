@@ -2083,6 +2083,186 @@ const PRODUCTS = [
     img: "assets/aff-drywall-pentagon-stilts.jpg",
     url: "https://www.amazon.com/dp/B001R51V3C?tag=rendelivers-20"
   },
+  {
+    id: "aff-lawn-husqvarna-z254",
+    section: "lawn",
+    sub: "MOWERS",
+    name: "Husqvarna Z254 (54\") 24HP Briggs Zero Turn Lawn Mower",
+    tagline: "54 inches of 'your neighbor's jealousy.' Sit down, grab the sticks, and mow like you own the subdivision.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-husqvarna-z254.jpg",
+    url: "https://www.amazon.com/dp/B0F5CM5NCP?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-ariens-ikon",
+    section: "lawn",
+    sub: "MOWERS",
+    name: "Ariens IKON (52\") 23HP Kawasaki Zero Turn Mower",
+    tagline: "Kawasaki heart, 52-inch appetite. This thing eats lawns the way you eat gas-station burritos.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-ariens-ikon.jpg",
+    url: "https://www.amazon.com/dp/B0BVSQ13DL?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-ariens-ikon-onyx",
+    section: "lawn",
+    sub: "MOWERS",
+    name: "Ariens IKON Onyx (52\") 23HP Kawasaki Zero Turn Mower",
+    tagline: "The murder-black IKON. Looks mean, cuts meaner. Your grass just filed a restraining order.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-ariens-ikon-onyx.jpg",
+    url: "https://www.amazon.com/dp/B0C956GVSB?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-echo-srm225",
+    section: "lawn",
+    sub: "TRIMMERS",
+    name: "ECHO SRM-225 21.2cc Straight Shaft String Trimmer",
+    tagline: "The weed eater every pro crew has zip-tied to the trailer. Starts easy, runs forever, takes abuse like a champ.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-echo-srm225.jpg",
+    url: "https://www.amazon.com/dp/B005UPNR5A?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-husqvarna-128ld",
+    section: "lawn",
+    sub: "TRIMMERS",
+    name: "Husqvarna 128LD 28cc Gas String Trimmer",
+    tagline: "28cc of detachable-shaft versatility. Pops apart for the truck bed, snaps together when it's time to make money.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-husqvarna-128ld.jpg",
+    url: "https://www.amazon.com/dp/B004Q0HUYO?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-milwaukee-m18-trimmer",
+    section: "lawn",
+    sub: "TRIMMERS",
+    name: "Milwaukee 2825-20ST M18 FUEL String Trimmer with QUIK-LOK (Tool Only)",
+    tagline: "No gas, no mixing, no pull-cord tantrums. Just Milwaukee red ripping through weeds on battery power.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-milwaukee-m18-trimmer.jpg",
+    url: "https://www.amazon.com/dp/B09TFZHKHN?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-echo-pb580t",
+    section: "lawn",
+    sub: "BLOWERS",
+    name: "ECHO PB-580T 58.2cc Backpack Blower with Tube Throttle",
+    tagline: "510 CFM of leaf-eviction notice. Strap it on, point the tube, and watch the whole yard relocate.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-echo-pb580t.jpg",
+    url: "https://www.amazon.com/dp/B01LWEHD5J?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-husqvarna-150bt",
+    section: "lawn",
+    sub: "BLOWERS",
+    name: "Husqvarna 150BT 51cc Backpack Blower",
+    tagline: "765 CFM hurricane in a backpack. Wet leaves, pine needles, your kid's toys — everything's leaving today.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-husqvarna-150bt.jpg",
+    url: "https://www.amazon.com/dp/B09TT5ZMPR?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-echo-pb2620",
+    section: "lawn",
+    sub: "BLOWERS",
+    name: "ECHO PB-2620 X Series Handheld Blower, 25.4cc",
+    tagline: "Pro-grade lungs in a handheld. For when the job's too small for the backpack but too big for your patience.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-echo-pb2620.jpg",
+    url: "https://www.amazon.com/dp/B07KGG9QZW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-echo-pe225",
+    section: "lawn",
+    sub: "EDGERS & HEDGE",
+    name: "ECHO PE-225 Gas Powered Edger",
+    tagline: "Crisp sidewalk lines that make the whole street look broke by comparison. 21.2cc of curb appeal.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-echo-pe225.jpg",
+    url: "https://www.amazon.com/dp/B0DTV545V9?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-dewalt-hedge",
+    section: "lawn",
+    sub: "EDGERS & HEDGE",
+    name: "DEWALT 20V MAX Cordless Hedge Trimmer, 22\" (DCHT820B, Tool Only)",
+    tagline: "Laser-cut blades, zero gas smell. Sculpt bushes like a topiary artist who drinks energy drinks.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-dewalt-hedge.jpg",
+    url: "https://www.amazon.com/dp/B01BSURQXO?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-husqvarna-455",
+    section: "lawn",
+    sub: "CHAINSAWS",
+    name: "Husqvarna 455 Rancher Gas Chainsaw, 55cc, 20\"",
+    tagline: "The Rancher. 55cc of tree-dropping authority. Firewood season just became your favorite season.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-husqvarna-455.jpg",
+    url: "https://www.amazon.com/dp/B0BRNRL6NQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-husqvarna-445",
+    section: "lawn",
+    sub: "CHAINSAWS",
+    name: "Husqvarna 445 Gas Chainsaw, 50cc, 18\"",
+    tagline: "The 455's little brother with the same attitude. 18 inches of 'that limb had it coming.'",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-husqvarna-445.jpg",
+    url: "https://www.amazon.com/dp/B0BRNT5C77?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-chapin-61900",
+    section: "lawn",
+    sub: "SPRAYERS & SPREADERS",
+    name: "Chapin 61900 4-Gallon Tree & Turf Pro Commercial Backpack Sprayer",
+    tagline: "Made in the USA, sprays like it means it. Weeds see this backpack and start writing their wills.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-chapin-61900.jpg",
+    url: "https://www.amazon.com/dp/B001FA09S2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-scotts-spreader",
+    section: "lawn",
+    sub: "SPRAYERS & SPREADERS",
+    name: "Scotts Turf Builder EdgeGuard DLX Broadcast Spreader",
+    tagline: "15,000 sq ft of even coverage and EdgeGuard keeps it off the driveway. Your lawn's about to get a promotion.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-scotts-spreader.jpg",
+    url: "https://www.amazon.com/dp/B001H1EQO2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-agrifab-40",
+    section: "lawn",
+    sub: "THATCHERS",
+    name: "Agri-Fab 45-0294 40\" Tow-Behind Lawn Dethatcher",
+    tagline: "Hook it to the tractor, rip out 40 inches of dead thatch per pass. Your lawn can finally breathe again.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-agrifab-40.jpg",
+    url: "https://www.amazon.com/dp/B0000CBJGC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-sunjoe-dethatcher",
+    section: "lawn",
+    sub: "THATCHERS",
+    name: "Sun Joe AJ801E 12-Amp Electric Dethatcher & Scarifier",
+    tagline: "Plug it in, dethatch AND scarify, bag the mess. The electric overachiever of lawn care.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-sunjoe-dethatcher.jpg",
+    url: "https://www.amazon.com/dp/B01FEATL2I?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-agrifab-48",
+    section: "lawn",
+    sub: "THATCHERS",
+    name: "Agri-Fab 45-0295 48\" Tow-Behind Lawn Dethatcher",
+    tagline: "The big brother: 48 inches, 24 heat-treated tines. For acreage that laughs at smaller dethatchers.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-agrifab-48.jpg",
+    url: "https://www.amazon.com/dp/B0000AX4SP?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
