@@ -862,6 +862,15 @@ const PRODUCTS = [
     img: "assets/aff-dewalt-dcd1007b.jpg",
     url: "https://www.amazon.com/dp/B0D8TM5MW4?tag=rendelivers-20"
   },
+  {
+    id: "tpl-toolbox-talk",
+    section: "templates",
+    name: "Toolbox Talk & Safety Meeting Log",
+    tagline: "30 pre-written safety talks, meeting log, sign-in sheet. If OSHA ever asks, this file is your answer.",
+    price: "$14.95",
+    img: "assets/tpl-toolbox-talk.jpg",
+    url: "https://www.etsy.com/shop/rendelivers"
+  },
 ];
 
 /* ============================================================
@@ -1015,6 +1024,56 @@ function rdRenderFeatured(elId) {
   document.getElementById(elId).innerHTML =
     '<div class="featured-label">Ren&rsquo;s Pick</div>' + rdCardHTML(featured, true);
   return featured.id;
+}
+
+/* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
+var TOP_PICKS = ["flag-hammer", "tpl-toolbox-talk", "tpl-estimate", "rocket-surgery", "boss-man", "tpl-daily-log"];
+
+function rdRenderCarousel(elId) {
+  var byId = rdById();
+  var slides = "";
+  TOP_PICKS.forEach(function (id) {
+    var p = byId[id];
+    if (p) slides += '<div class="car-slide">' + rdCardHTML(p, false) + "</div>";
+  });
+  document.getElementById(elId).innerHTML =
+    '<div class="featured-label">Ren&rsquo;s Top Picks</div>' +
+    '<div class="carousel">' +
+      '<button type="button" class="car-btn car-prev" aria-label="Previous">&lsaquo;</button>' +
+      '<div class="car-track">' + slides + "</div>" +
+      '<button type="button" class="car-btn car-next" aria-label="Next">&rsaquo;</button>' +
+    "</div>";
+
+  var track = document.querySelector("#" + elId + " .car-track");
+  if (!track) return;
+  var timer = null;
+  function step() {
+    var slide = track.querySelector(".car-slide");
+    if (!slide) return;
+    var w = slide.offsetWidth + 16;
+    var max = track.scrollWidth - track.clientWidth;
+    if (track.scrollLeft + w >= max - 8) {
+      track.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      track.scrollBy({ left: w, behavior: "smooth" });
+    }
+  }
+  function start() { if (!timer) timer = setInterval(step, 4000); }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  track.addEventListener("mouseenter", stop);
+  track.addEventListener("mouseleave", start);
+  track.addEventListener("touchstart", stop, { passive: true });
+  track.addEventListener("touchend", start);
+  document.querySelector("#" + elId + " .car-prev").addEventListener("click", function () {
+    stop();
+    var slide = track.querySelector(".car-slide");
+    track.scrollBy({ left: -(slide.offsetWidth + 16), behavior: "smooth" });
+    start();
+  });
+  document.querySelector("#" + elId + " .car-next").addEventListener("click", function () {
+    stop(); step(); start();
+  });
+  start();
 }
 
 /* Section grid, optionally skipping one product id (e.g. the featured one). */
