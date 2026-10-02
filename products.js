@@ -7,10 +7,19 @@
       (the URL param wins over FEATURED_ID)
    ============================================================ */
 
-const FEATURED_ID = "alien-probe";
+const FEATURED_ID = "flag-hammer";
 
 const PRODUCTS = [
   /* ---------------- SHIRTS (Zazzle) ---------------- */
+  {
+    id: "flag-hammer",
+    section: "shirts",
+    name: "American Flag Framing Hammer",
+    tagline: "Distressed flag with a framing hammer cut out. For the ones who built this country.",
+    price: "$21.17",
+    img: "assets/shirt-flag-hammer.jpg",
+    url: "https://www.zazzle.com/american_flag_framing_hammer_t_shirt_distressed-256693470570911159"
+  },
   {
     id: "alien-probe",
     section: "shirts",
