@@ -916,14 +916,14 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0FD19SQH2?tag=rendelivers-20"
   },
   {
-    id: "aff-dewalt-dcf630d2",
+    id: "aff-level5-flatbox-4604",
     section: "drywall",
-    sub: "SCREWGUNS",
-    name: "DEWALT 20V MAX XR Drywall Screwgun Kit (DCF630D2)",
-    tagline: "Ren's pick: 4,400 RPM of hang-rock fury. Nosecone that actually sets depth right.",
+    sub: "TAPING",
+    name: "LEVEL5 Flat Box Combo Set 10 in.+12 in. w/ Handle, Pump & Filler (4-604)",
+    tagline: "Ren's pick: 10 in. and 12 in. flat boxes, pump, and filler. The pro finishing rig, ready to print money.",
     price: "$1,340.37",
     checked: "2026-10-02",
-    img: "assets/aff-dewalt-drywall-kit.jpg",
+    img: "assets/aff-level5-flatbox-4604.jpg",
     url: "https://www.amazon.com/dp/B07CRZV4NK?tag=rendelivers-20"
   },
   {
@@ -1902,6 +1902,166 @@ const PRODUCTS = [
     price: "See price on Amazon",
     img: "assets/aff-milw-packout-mountplate.jpg",
     url: "https://www.amazon.com/dp/B083ZLXW9R?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-dewalt-dcf620b",
+    section: "drywall",
+    sub: "SCREWGUNS",
+    name: "DEWALT 20V MAX XR Drywall Screwgun, Bare (DCF620B)",
+    tagline: "Ren's pick: 4,400 RPM of screw-sinking fury. Your wrist will thank you; your apprentice won't.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dewalt-dcf620b.jpg",
+    url: "https://www.amazon.com/dp/B00U0RXGM2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-dewalt-dcf624b",
+    section: "drywall",
+    sub: "SCREWGUNS",
+    name: "DEWALT 20V MAX XR Screwgun w/ Threaded Clutch (DCF624B)",
+    tagline: "Ren's pick: threaded clutch housing plays nice with collated strips. Screws on autopilot.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dewalt-dcf624b.jpg",
+    url: "https://www.amazon.com/dp/B082G34GWX?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-milwaukee-2866-20",
+    section: "drywall",
+    sub: "SCREWGUNS",
+    name: "Milwaukee M18 FUEL Drywall Screw Gun, Bare (2866-20)",
+    tagline: "Ren's pick: auto-start means the motor only runs when it's biting drywall. Quieter, longer, meaner.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-milwaukee-2866-20.png",
+    url: "https://www.amazon.com/dp/B01M1UQ7NJ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-dewalt-dcs551b",
+    section: "drywall",
+    sub: "CUT-OUT",
+    name: "DEWALT 20V MAX Drywall Cut-Out Tool, Bare (DCS551B)",
+    tagline: "Ren's pick: 26,000 RPM of 'oops, there's the outlet box.' Cuts holes faster than you can mark them.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dewalt-dcs551b.jpg",
+    url: "https://www.amazon.com/dp/B00KYNW7MC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-milwaukee-2627-20",
+    section: "drywall",
+    sub: "CUT-OUT",
+    name: "Milwaukee M18 Cut Out Tool, Bare (2627-20)",
+    tagline: "Ren's pick: 28,000 RPM spiral saw that laughs at outlet boxes. The red one, obviously.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-milwaukee-2627-20.jpg",
+    url: "https://www.amazon.com/dp/B01LXYP94D?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-dewalt-dce800b",
+    section: "drywall",
+    sub: "SANDERS",
+    name: "DEWALT 20V MAX Cordless Drywall Sander, Bare (DCE800B)",
+    tagline: "Ren's pick: cordless sander with a telescoping neck. Ceilings just got a lot less miserable.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dewalt-dce800b.jpg",
+    url: "https://www.amazon.com/dp/B08XN7R1B8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-wen-6369",
+    section: "drywall",
+    sub: "SANDERS",
+    name: "WEN Variable Speed Drywall Sander w/ 15 ft. Hose (6369)",
+    tagline: "Ren's pick: the budget pole sander drywallers actually swear by. 15-foot dust hose included.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-wen-6369.jpg",
+    url: "https://www.amazon.com/dp/B01HRL9XYI?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-gyptool-lift",
+    section: "drywall",
+    sub: "LIFTS",
+    name: "GypTool Drywall Lift Panel Jack Hoist, 11 ft. Reach",
+    tagline: "Ren's pick: 11 feet of 'I don't need a helper for this sheet.' Your back just sent a thank-you card.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-gyptool-lift.jpg",
+    url: "https://www.amazon.com/dp/B00JMP1L8O?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-zunder-banjo",
+    section: "drywall",
+    sub: "TAPING",
+    name: "ZUNDER by Delko Tools Drywall Banjo (DT-AHZ)",
+    tagline: "Ren's pick: mud and tape in one pass, flats AND inside corners. The world's best-selling banjo for a reason.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-zunder-banjo.jpg",
+    url: "https://www.amazon.com/dp/B076KNF874?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-level5-5430c",
+    section: "drywall",
+    sub: "TAPING",
+    name: "LEVEL5 Composite Skimming Blade Combo 16 in. (5-430C)",
+    tagline: "Ren's pick: 16 inches of skim-coat justice on an extendable handle. Lap marks don't stand a chance.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-level5-5430c.jpg",
+    url: "https://www.amazon.com/dp/B0BW48YB4G?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-stanley-21115",
+    section: "drywall",
+    sub: "HAND TOOLS",
+    name: "Stanley Surform Shaver 4-Pack (21-115)",
+    tagline: "Ren's pick: the Surform shaver. Shaves drywall edges like a hot knife through regrets.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-stanley-21115.jpg",
+    url: "https://www.amazon.com/dp/B07NCZ1BVY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-level5-4760",
+    section: "drywall",
+    sub: "TAPING",
+    name: "LEVEL5 Automatic Drywall Taper (4-760)",
+    tagline: "Ren's pick: automatic taper — mud and tape fly on in one pass. This is how the pros get fast.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-level5-4760.jpg",
+    url: "https://www.amazon.com/dp/B07DK3N3XD?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-surpro-s1",
+    section: "drywall",
+    sub: "STILTS",
+    name: "SurPro S1 Aluminum Drywall Stilts, 26-40 in.",
+    tagline: "Ren's pick: 26 to 40 inches of adjustable stilts. Ceilings without the ladder dance.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-surpro-s1.jpg",
+    url: "https://www.amazon.com/dp/B0D956KSKK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-dewalt-dce555b",
+    section: "drywall",
+    sub: "CUT-OUT",
+    name: "DEWALT 20V MAX XR Brushless Drywall Cut-Out Tool (DCE555B)",
+    tagline: "Ren's pick: brushless cut-out tool. The DCS551's bigger, angrier brother.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-dewalt-dce555b.jpg",
+    url: "https://www.amazon.com/dp/B0BFJJV95V?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-hyde-09170",
+    section: "drywall",
+    sub: "SANDERS",
+    name: "Hyde 09170 Dust-Free Vacuum Sander Kit",
+    tagline: "Ren's pick: hooks to your shop vac and eats 95% of the dust. Your lungs called — they approve.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-hyde-09170.jpg",
+    url: "https://www.amazon.com/dp/B000M2WSHY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-drywall-level5-4650",
+    section: "drywall",
+    sub: "TAPING",
+    name: "LEVEL5 Semi-Auto Taping Set w/ Banjo & Flat Boxes (4-650)",
+    tagline: "Ren's pick: banjo, flat boxes, corner roller, the works. The semi-auto starter kit for finishers.",
+    price: "See price on Amazon",
+    img: "assets/aff-drywall-level5-4650.jpg",
+    url: "https://www.amazon.com/dp/B0BZBJFKPY?tag=rendelivers-20"
   },
 ];
 
