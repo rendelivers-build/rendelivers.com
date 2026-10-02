@@ -21,6 +21,15 @@ const PRODUCTS = [
     url: "https://www.zazzle.com/american_flag_framing_hammer_t_shirt_distressed-256693470570911159"
   },
   {
+    id: "boss-man",
+    section: "shirts",
+    name: "Boss Man",
+    tagline: "For the one running the show — or the one who thinks he is.",
+    price: "$21.17",
+    img: "assets/shirt-boss-man.jpg",
+    url: "https://www.zazzle.com/boss_man_t_shirt_funny_boss_shirt-256900258384459546"
+  },
+  {
     id: "alien-probe",
     section: "shirts",
     name: "I Identify As An Alien Probe",
