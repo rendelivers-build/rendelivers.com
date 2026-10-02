@@ -905,6 +905,7 @@ function rdById() {
 
 function rdCardHTML(p, big) {
   var tplAttr = '';
+  var zoomAttr = '';
   var sampleBtn = '';
   if (p.section === "templates") {
     tplAttr = ' data-tpl="1"';
@@ -913,8 +914,11 @@ function rdCardHTML(p, big) {
         '<button type="button" class="btn-sample" data-sample="assets/tpl-sample-' + rdEsc(p.id) + '.jpg" data-name="' + rdEsc(p.name) + '">View Sample</button>' +
       '</div>';
   }
+  if (p.section === "shirts") {
+    zoomAttr = ' data-zoom="1"';
+  }
   return (
-    '<article class="card' + (big ? ' card-featured' : '') + '"' + tplAttr + '>' +
+    '<article class="card' + (big ? ' card-featured' : '') + '"' + tplAttr + zoomAttr + '>' +
       '<a class="card-img-link" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
         '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
       '</a>' +
@@ -1026,6 +1030,34 @@ document.addEventListener('mouseout', function (e) {
   card.dataset.rdLbArmed = '';
 });
 
+/* Shirt cards: hover shows the design enlarged in the lightbox (no SAMPLE tag). */
+document.addEventListener('mouseover', function (e) {
+  if (!rdCanHover()) return;
+  var tgt = (e.target && e.target.closest) ? e.target : null;
+  var card = tgt ? tgt.closest('article.card[data-zoom]') : null;
+  if (!card) return;
+  if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  if (card.dataset.rdLbArmed === '0') return;
+  if (rdLbEl && !rdLbEl.hidden) return;
+  var img = card.querySelector('.card-img-link img');
+  var h3 = card.querySelector('.card-body h3');
+  var src = img ? (img.getAttribute('src') || '') : '';
+  var name = h3 ? h3.textContent : '';
+  if (!src) return;
+  rdLbHoverCard = card;
+  rdLbOpen(src, name, null, false);
+  var cap = rdLbEl.querySelector('.rd-lb-cap');
+  if (cap) cap.textContent = name;
+});
+
+document.addEventListener('mouseout', function (e) {
+  var tgt = (e.target && e.target.closest) ? e.target : null;
+  var card = tgt ? tgt.closest('article.card[data-zoom]') : null;
+  if (!card) return;
+  if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  card.dataset.rdLbArmed = '';
+});
+
 /* Featured slot: ?p=<id> wins, then FEATURED_ID, then first product. */
 function rdRenderFeatured(elId) {
   var byId = rdById();
@@ -1037,7 +1069,7 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-var TOP_PICKS = ["flag-hammer", "tpl-toolbox-talk", "rocket-surgery", "boss-man", "i-live-at-work", "aff-swanson-s0101"];
+var TOP_PICKS = ["flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "i-live-at-work", "aff-swanson-s0101", "tpl-estimate"];
 
 function rdRenderCarousel(elId) {
   var byId = rdById();
