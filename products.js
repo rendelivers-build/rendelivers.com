@@ -893,6 +893,28 @@ const PRODUCTS = [
     img: "assets/aff-johnson-cs9.jpg",
     url: "https://www.amazon.com/dp/B00002N5O8?tag=rendelivers-20"
   },
+  {
+    id: "aff-dewalt-dck940d2",
+    section: "catalog",
+    sub: "KITS",
+    name: "DEWALT 20V MAX 9-Tool Combo Kit (DCK940D2)",
+    tagline: "Ren's pick: nine 20V MAX tools, two batteries, charger, and bags. The whole job site in two bags.",
+    price: "$799.99",
+    checked: "2026-10-02",
+    img: "assets/aff-dewalt-dck940d2.jpg",
+    url: "https://www.amazon.com/dp/B018TM1Q80?tag=rendelivers-20"
+  },
+  {
+    id: "aff-dewalt-dxgnr6500",
+    section: "catalog",
+    sub: "GENERATORS",
+    name: "DEWALT 6500W Portable Generator (DXGNR6500)",
+    tagline: "Ren's pick: 6,500 watts of jobsite power. When the grid's a rumor, this is the plan.",
+    price: "$1,099.00",
+    checked: "2026-10-02",
+    img: "assets/aff-dewalt-dxgnr6500.jpg",
+    url: "https://www.amazon.com/dp/B0FD19SQH2?tag=rendelivers-20"
+  },
   /* ---------------- SAFETY GEAR (PPE) ---------------- */
   {
     id: "aff-pyramex-ridgeline",
