@@ -1162,6 +1162,136 @@ const PRODUCTS = [
     img: "assets/aff-nrca-roofing.jpg",
     url: "https://www.amazon.com/dp/B00BBX15ZE?tag=rendelivers-20"
   },
+  {
+    id: "aff-milw-m12-press-tool",
+    section: "plumbing",
+    sub: "PRESS",
+    name: "Milwaukee 2473-22 M12 Force Logic Press Tool Kit",
+    tagline: "Ren's pick: press 1/2 in. to 1 in. copper without a flame. The future of not burning the house down.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m12-press-tool.jpg",
+    url: "https://www.amazon.com/dp/B009G48D3M?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-m18-press-tool",
+    section: "plumbing",
+    sub: "PRESS",
+    name: "Milwaukee M18 Force Logic Press Tool w/ ONE-KEY",
+    tagline: "Ren's pick: 7,200 lbs of press force with ONE-KEY tracking. For when the pipe's bigger than your patience.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m18-press-tool.jpg",
+    url: "https://www.amazon.com/dp/B08Y8GQY1V?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-m18-press-ring",
+    section: "plumbing",
+    sub: "PRESS",
+    name: "Milwaukee 49-16-2690 M18 Press Ring Kit 2-1/2 in.-4 in.",
+    tagline: "Ren's pick: rings for the big stuff — 2-1/2 in. to 4 in. copper doesn't press itself.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m18-press-ring.jpg",
+    url: "https://www.amazon.com/dp/B00A0Z5UIC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-m12-soldering-iron",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "Milwaukee M12 Soldering Iron (Bare Tool)",
+    tagline: "Ren's pick: 90 watts, hot in 18 seconds, no cord dragging through the crawl space.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m12-soldering-iron.jpg",
+    url: "https://www.amazon.com/dp/B077ZXH8ZJ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-16ft-tape",
+    section: "plumbing",
+    sub: "MEASURING",
+    name: "Milwaukee 48-22-6616G 16' Compact Tape Measure (2-Pack)",
+    tagline: "Ren's pick: measure twice, cut once — now in a two-pack because one always grows legs.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-16ft-tape.jpg",
+    url: "https://www.amazon.com/dp/B07535CPMT?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-25ft-tape",
+    section: "plumbing",
+    sub: "MEASURING",
+    name: "Milwaukee 48-22-0225 25' Compact Wide Blade Tape Measure",
+    tagline: "Ren's pick: 12 feet of standout. For measuring across the room without the sag of shame.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-25ft-tape.jpg",
+    url: "https://www.amazon.com/dp/B07YKV4Q6Y?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-compact-hacksaw",
+    section: "plumbing",
+    sub: "SAWS",
+    name: "Milwaukee 48-22-0012 Compact Hack Saw w/ 10 in. Blade",
+    tagline: "Ren's pick: small saw, big attitude. Copper tubing, bolts, PVC — all fair game.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-compact-hacksaw.jpg",
+    url: "https://www.amazon.com/dp/B003VY8WA2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-m12-copper-cutter",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "Milwaukee M12 12V Copper Tubing Cutter Kit (2471-21)",
+    tagline: "Ren's pick: auto-adjusts to the pipe and cuts it clean. Your wrist will thank you.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m12-copper-cutter.jpg",
+    url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-m12-copper-cutter-bare",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "Milwaukee 2471-20 M12 Copper Tubing Cutter (Tool Only)",
+    tagline: "Ren's pick: same cutter, bare tool — for the guy who already owns seventeen M12 batteries.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-m12-copper-cutter-bare.jpg",
+    url: "https://www.amazon.com/dp/B001FB64MQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-pex-tubing-cutter",
+    section: "plumbing",
+    sub: "PEX",
+    name: "Milwaukee 48-22-4202 PEX Tubing Cutter",
+    tagline: "Ren's pick: plier-style, stainless blade, cuts PEX like it's not even there.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-pex-tubing-cutter.jpg",
+    url: "https://www.amazon.com/dp/B00PP3G51U?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-cheater-pipe-wrench",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "Milwaukee 48-22-7314 CHEATER Adaptable Pipe Wrench",
+    tagline: "Ren's pick: one wrench, three lengths. The Swiss Army knife of pipe wrenches.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-cheater-pipe-wrench.jpg",
+    url: "https://www.amazon.com/dp/B01CRHGIYA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-cheater-pipe-wrench-2pack",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "Milwaukee CHEATER Adaptable Pipe Wrench (2-Pack)",
+    tagline: "Ren's pick: two Cheaters. Because backing up a fitting takes two, and so does looking cool.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-cheater-pipe-wrench-2pack.jpg",
+    url: "https://www.amazon.com/dp/B07Z8FXL18?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-ironworker-pliers",
+    section: "plumbing",
+    sub: "PLIERS",
+    name: "Milwaukee 48-22-6102 Ironworker's Pliers",
+    tagline: "Ren's pick: spring-loaded, red grips, ready to twist wire all day.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-ironworker-pliers.jpg",
+    url: "https://www.amazon.com/dp/B0195LZGI0?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
