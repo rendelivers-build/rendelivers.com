@@ -896,7 +896,7 @@ const PRODUCTS = [
   {
     id: "aff-dewalt-dck940d2",
     section: "catalog",
-    sub: "KITS",
+    sub: "PACKOUT",
     name: "DEWALT 20V MAX 9-Tool Combo Kit (DCK940D2)",
     tagline: "Ren's pick: nine 20V MAX tools, two batteries, charger, and bags. The whole job site in two bags.",
     price: "$799.99",
@@ -2383,6 +2383,16 @@ const PRODUCTS = [
     img: "assets/aff-weld-lincoln-gloves.jpg",
     url: "https://www.amazon.com/dp/B00FKBJ4IS?tag=rendelivers-20"
   },
+  {
+    id: "aff-safety-milwaukee-tinted-glasses",
+    section: "safety",
+    sub: "EYE PROTECTION",
+    name: "Milwaukee Anti-Fog Safety Glasses, Tinted Lens, Black/Red Frame",
+    tagline: "Ren's pick: tinted, anti-fog, and red. Safety glasses that look like sunglasses and work like armor.",
+    price: "See price on Amazon",
+    img: "assets/aff-safety-milwaukee-tinted-glasses.jpg",
+    url: "https://www.amazon.com/dp/B07VYN2NVX?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
@@ -2506,8 +2516,18 @@ document.addEventListener('click', function (e) {
   rdLbOpen(btn.getAttribute('data-sample'), btn.getAttribute('data-name'), btn, true);
 });
 
-/* Hover intent: wait 350ms before opening, so quick mouse passes don't fire it. */
+/* Hover intent: wait 700ms and require the pointer to actually move onto the
+   card, so quick mouse passes and carousel auto-scrolls don't fire it. */
 var rdHoverTimer = null;
+var rdPointerX = -1, rdPointerY = -1;
+document.addEventListener('pointermove', function (e) {
+  rdPointerX = e.clientX; rdPointerY = e.clientY;
+}, { passive: true });
+/* True when the pointer itself moved since the mouseover fired. If it didn't,
+   the card slid under a resting pointer (carousel auto-scroll) — not real hover intent. */
+function rdPointerMoved(hx, hy) {
+  return Math.abs(rdPointerX - hx) >= 10 || Math.abs(rdPointerY - hy) >= 10;
+}
 function rdClearHoverTimer() {
   if (rdHoverTimer) { clearTimeout(rdHoverTimer); rdHoverTimer = null; }
 }
@@ -2525,14 +2545,16 @@ document.addEventListener('mouseover', function (e) {
   if (card.dataset.rdLbArmed === '0') return;
   if (rdLbEl && !rdLbEl.hidden) return;
   if (rdHoverTimer) return;
+  var hx1 = e.clientX, hy1 = e.clientY;
   rdHoverTimer = setTimeout(function () {
     rdHoverTimer = null;
     if (rdLbEl && !rdLbEl.hidden) return;
+    if (!rdPointerMoved(hx1, hy1)) return; /* resting pointer + moving card = no intent */
     var b = card.querySelector('.btn-sample');
     if (!b) return;
     rdLbHoverCard = card;
     rdLbOpen(b.getAttribute('data-sample'), b.getAttribute('data-name'), null, false);
-  }, 350);
+  }, 700);
 });
 
 document.addEventListener('mouseout', function (e) {
@@ -2544,7 +2566,7 @@ document.addEventListener('mouseout', function (e) {
   card.dataset.rdLbArmed = '';
 });
 
-/* Product cards: hover shows the product enlarged in the lightbox. Same 350ms intent delay. */
+/* Product cards: hover shows the product enlarged in the lightbox. Same 700ms intent delay. */
 document.addEventListener('mouseover', function (e) {
   if (!rdCanHover()) return;
   var tgt = (e.target && e.target.closest) ? e.target : null;
@@ -2554,9 +2576,11 @@ document.addEventListener('mouseover', function (e) {
   if (card.dataset.rdLbArmed === '0') return;
   if (rdLbEl && !rdLbEl.hidden) return;
   if (rdHoverTimer) return;
+  var hx2 = e.clientX, hy2 = e.clientY;
   rdHoverTimer = setTimeout(function () {
     rdHoverTimer = null;
     if (rdLbEl && !rdLbEl.hidden) return;
+    if (!rdPointerMoved(hx2, hy2)) return; /* resting pointer + moving card = no intent */
     var img = card.querySelector('.card-img-link img');
     var h3 = card.querySelector('.card-body h3');
     var src = img ? (img.getAttribute('src') || '') : '';
@@ -2566,7 +2590,7 @@ document.addEventListener('mouseover', function (e) {
     rdLbOpen(src, name, null, false);
     var cap = rdLbEl.querySelector('.rd-lb-cap');
     if (cap) cap.textContent = name;
-  }, 350);
+  }, 700);
 });
 
 document.addEventListener('mouseout', function (e) {
