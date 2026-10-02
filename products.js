@@ -885,25 +885,24 @@ function rdById() {
 }
 
 function rdCardHTML(p, big) {
-  var imgHtml;
+  var tplAttr = '';
+  var sampleBtn = '';
   if (p.section === "templates") {
-    imgHtml =
-      '<span class="card-img-wrap">' +
-        '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
-        '<img class="img-sample" src="assets/tpl-sample-' + rdEsc(p.id) + '.jpg" alt="' + rdEsc(p.name) + ' sample preview" loading="lazy" aria-hidden="true">' +
-        '<span class="sample-badge">SAMPLE</span>' +
-      '</span>';
-  } else {
-    imgHtml = '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">';
+    tplAttr = ' data-tpl="1"';
+    sampleBtn =
+      '<div class="sample-row">' +
+        '<button type="button" class="btn-sample" data-sample="assets/tpl-sample-' + rdEsc(p.id) + '.jpg" data-name="' + rdEsc(p.name) + '">View Sample</button>' +
+      '</div>';
   }
   return (
-    '<article class="card' + (big ? ' card-featured' : '') + '">' +
+    '<article class="card' + (big ? ' card-featured' : '') + '"' + tplAttr + '>' +
       '<a class="card-img-link" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
-        imgHtml +
+        '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
       '</a>' +
       '<div class="card-body">' +
         '<h3>' + rdEsc(p.name) + '</h3>' +
         '<p class="card-tag">' + rdEsc(p.tagline) + '</p>' +
+        sampleBtn +
         '<div class="card-row">' +
           '<span class="price">' + rdEsc(p.price) + '</span>' +
           '<a class="btn" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
@@ -914,6 +913,99 @@ function rdCardHTML(p, big) {
     '</article>'
   );
 }
+
+/* ---- Template sample lightbox (large readable preview) ---- */
+var rdLbEl = null, rdLbOpener = null, rdLbSticky = false, rdLbHoverCard = null;
+
+function rdLbBuild() {
+  if (rdLbEl) return rdLbEl;
+  var lb = document.createElement('div');
+  lb.className = 'rd-lightbox';
+  lb.setAttribute('hidden', '');
+  lb.innerHTML =
+    '<div class="rd-lb-backdrop" data-rd-lb-close></div>' +
+    '<figure class="rd-lb-panel">' +
+      '<button type="button" class="rd-lb-x" data-rd-lb-close aria-label="Close sample preview">&times;</button>' +
+      '<img class="rd-lb-img" alt="">' +
+      '<figcaption class="rd-lb-cap"></figcaption>' +
+    '</figure>';
+  document.body.appendChild(lb);
+  lb.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('[data-rd-lb-close]')) rdLbClose();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && rdLbEl && !rdLbEl.hidden) rdLbClose();
+  });
+  rdLbEl = lb;
+  return lb;
+}
+
+function rdLbOpen(src, name, opener, sticky) {
+  var lb = rdLbBuild();
+  var img = lb.querySelector('.rd-lb-img');
+  img.src = src;
+  img.alt = name + ' — sample preview';
+  lb.querySelector('.rd-lb-cap').textContent = name + ' — SAMPLE';
+  rdLbOpener = opener || null;
+  rdLbSticky = !!sticky;
+  lb.hidden = false;
+  document.body.style.overflow = 'hidden';
+  var panel = lb.querySelector('.rd-lb-panel');
+  panel.onmouseleave = null;
+  if (!sticky) {
+    panel.onmouseleave = function () { rdLbClose(); };
+  }
+  var x = lb.querySelector('.rd-lb-x');
+  if (x && x.focus) { try { x.focus(); } catch (err) {} }
+}
+
+function rdLbClose() {
+  if (!rdLbEl || rdLbEl.hidden) return;
+  rdLbEl.hidden = true;
+  document.body.style.overflow = '';
+  var img = rdLbEl.querySelector('.rd-lb-img');
+  img.removeAttribute('src');
+  if (rdLbHoverCard) { rdLbHoverCard.dataset.rdLbArmed = '0'; rdLbHoverCard = null; }
+  if (rdLbOpener && rdLbOpener.focus) { try { rdLbOpener.focus(); } catch (err) {} }
+  rdLbOpener = null;
+}
+
+function rdCanHover() {
+  return window.matchMedia && window.matchMedia('(hover: hover)').matches;
+}
+
+document.addEventListener('click', function (e) {
+  var btn = (e.target && e.target.closest) ? e.target.closest('.btn-sample') : null;
+  if (!btn) return;
+  e.preventDefault();
+  rdLbOpen(btn.getAttribute('data-sample'), btn.getAttribute('data-name'), btn, true);
+});
+
+document.addEventListener('mouseover', function (e) {
+  var tgt = (e.target && e.target.closest) ? e.target : null;
+  if (tgt) {
+    var btn = tgt.closest('.btn-sample');
+    if (btn) { var pre = new Image(); pre.src = btn.getAttribute('data-sample'); }
+  }
+  if (!rdCanHover()) return;
+  var card = tgt ? tgt.closest('article.card[data-tpl]') : null;
+  if (!card) return;
+  if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  if (card.dataset.rdLbArmed === '0') return;
+  if (rdLbEl && !rdLbEl.hidden) return;
+  var b = card.querySelector('.btn-sample');
+  if (!b) return;
+  rdLbHoverCard = card;
+  rdLbOpen(b.getAttribute('data-sample'), b.getAttribute('data-name'), null, false);
+});
+
+document.addEventListener('mouseout', function (e) {
+  var tgt = (e.target && e.target.closest) ? e.target : null;
+  var card = tgt ? tgt.closest('article.card[data-tpl]') : null;
+  if (!card) return;
+  if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  card.dataset.rdLbArmed = '';
+});
 
 /* Featured slot: ?p=<id> wins, then FEATURED_ID, then first product. */
 function rdRenderFeatured(elId) {
