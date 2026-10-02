@@ -894,10 +894,21 @@ function rdById() {
 }
 
 function rdCardHTML(p, big) {
+  var imgHtml;
+  if (p.section === "templates") {
+    imgHtml =
+      '<span class="card-img-wrap">' +
+        '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
+        '<img class="img-sample" src="assets/tpl-sample-' + rdEsc(p.id) + '.jpg" alt="' + rdEsc(p.name) + ' sample preview" loading="lazy" aria-hidden="true">' +
+        '<span class="sample-badge">SAMPLE</span>' +
+      '</span>';
+  } else {
+    imgHtml = '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">';
+  }
   return (
     '<article class="card' + (big ? ' card-featured' : '') + '">' +
       '<a class="card-img-link" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
-        '<img src="' + rdEsc(p.img) + '" alt="' + rdEsc(p.name) + '" loading="' + (big ? 'eager' : 'lazy') + '">' +
+        imgHtml +
       '</a>' +
       '<div class="card-body">' +
         '<h3>' + rdEsc(p.name) + '</h3>' +
