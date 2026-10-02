@@ -871,6 +871,16 @@ const PRODUCTS = [
     img: "assets/tpl-toolbox-talk.jpg",
     url: "https://www.etsy.com/shop/rendelivers"
   },
+  {
+    id: "aff-calc-4065",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Calculated Industries 4065 Construction Master Pro Calculator",
+    tagline: "Ren's pick: the construction calculator every contractor knows. Feet-inch-fraction math, rafters, stairs — in your pocket, not $70 at the store.",
+    price: "See price on Amazon",
+    img: "assets/aff-calc-4065.jpg",
+    url: "https://www.amazon.com/dp/B0007Q3RGQ?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
