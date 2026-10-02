@@ -1027,7 +1027,7 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-var TOP_PICKS = ["flag-hammer", "tpl-toolbox-talk", "tpl-estimate", "rocket-surgery", "boss-man", "tpl-daily-log"];
+var TOP_PICKS = ["flag-hammer", "tpl-toolbox-talk", "rocket-surgery", "boss-man", "i-live-at-work", "aff-swanson-s0101"];
 
 function rdRenderCarousel(elId) {
   var byId = rdById();
