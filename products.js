@@ -1503,6 +1503,286 @@ const PRODUCTS = [
     img: "assets/aff-personal-firstaid.jpg",
     url: "https://www.amazon.com/dp/B000069EYA?tag=rendelivers-20"
   },
+  {
+    id: "aff-klein-linemans-9",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools D213-9NE 9 in. Lineman's Pliers",
+    tagline: "Ren's pick: the lineman's pliers every electrician's grandpa swore by. Cuts ACSR like butter.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-linemans-9.jpg",
+    url: "https://www.amazon.com/dp/B0000302W6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-diagonal-8",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools D228-8 8 in. Diagonal Cutting Pliers",
+    tagline: "Ren's pick: angled-head cutters with induction-hardened knives. Snip first, ask questions never.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-diagonal-8.jpg",
+    url: "https://www.amazon.com/dp/B0000302VW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-longnose-8",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools J203-8N 8 in. Long-Nose Side Cutters",
+    tagline: "Ren's pick: Journeyman long-nose that strips, bends, and reaches where fingers can't.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-longnose-8.jpg",
+    url: "https://www.amazon.com/dp/B0006M6Y9I?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-stripper-11045",
+    section: "electrical",
+    sub: "STRIPPERS",
+    name: "Klein Tools 11045 Wire Stripper/Cutter 10-18 AWG",
+    tagline: "Ren's pick: self-adjusting stripper — strips 10-18 AWG without nicking a single strand.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-stripper-11045.jpg",
+    url: "https://www.amazon.com/dp/B0000302WS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-katapult",
+    section: "electrical",
+    sub: "STRIPPERS",
+    name: "Klein Tools 11063W Katapult Wire Stripper",
+    tagline: "Ren's pick: compound action, cast alloy body. Strips 8-22 AWG like it's launching wire.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-katapult.jpg",
+    url: "https://www.amazon.com/dp/B00BC39YFQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-plier-set-3pc",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools 80020 3-Piece Plier Tool Set",
+    tagline: "Ren's pick: lineman's, diagonal, and long-nose in one shot. The holy trinity of pliers.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-plier-set-3pc.jpg",
+    url: "https://www.amazon.com/dp/B08VWHVZ1P?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-crimper-pliers",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools D213-9NE-CR Lineman's Crimping Pliers",
+    tagline: "Ren's pick: lineman's pliers with a built-in crimper. Two tools, one grip.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-crimper-pliers.jpg",
+    url: "https://www.amazon.com/dp/B000CEMSLS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-stripper-11046",
+    section: "electrical",
+    sub: "STRIPPERS",
+    name: "Klein Tools 11046 Wire Stripper/Cutter 16-26 AWG",
+    tagline: "Ren's pick: for the small stuff — 16-26 AWG stripped clean without a nick.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-stripper-11046.jpg",
+    url: "https://www.amazon.com/dp/B000I1L7GW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-kurve-11055",
+    section: "electrical",
+    sub: "STRIPPERS",
+    name: "Klein Tools 11055 Kurve Wire Stripper/Cutter",
+    tagline: "Ren's pick: double-dipped grips, curved for comfort. 10-18 AWG's worst enemy.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-kurve-11055.jpg",
+    url: "https://www.amazon.com/dp/B00080DPNQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-ncvt-2",
+    section: "electrical",
+    sub: "TESTERS",
+    name: "Klein Tools NCVT-2 Dual-Range Voltage Tester",
+    tagline: "Ren's pick: non-contact, dual range 12-1000V. Because guessing about live wires is a bad hobby.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-ncvt-2.jpg",
+    url: "https://www.amazon.com/dp/B004FXJOQO?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-crimper-1005",
+    section: "electrical",
+    sub: "PLIERS",
+    name: "Klein Tools 1005 Cutting/Crimping Tool",
+    tagline: "Ren's pick: Journeyman crimper for 10-22 AWG terminals. Crimps that hold like they mean it.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-crimper-1005.jpg",
+    url: "https://www.amazon.com/dp/B0006M6Y5M?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-mm400",
+    section: "electrical",
+    sub: "METERS",
+    name: "Klein Tools MM400 Auto-Ranging Multimeter 600V",
+    tagline: "Ren's pick: TRMS, auto-ranging, measures everything including temperature. The meter that does it all.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-mm400.jpg",
+    url: "https://www.amazon.com/dp/B018EXZO8M?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-rt210",
+    section: "electrical",
+    sub: "TESTERS",
+    name: "Klein Tools RT210 GFCI Receptacle Tester",
+    tagline: "Ren's pick: plug it in, know instantly if the outlet's wired right. GFCI test built in.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-rt210.jpg",
+    url: "https://www.amazon.com/dp/B01AKX8L0M?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-fishtape-50",
+    section: "electrical",
+    sub: "FISHING",
+    name: "Klein Tools 56001 50 ft. Steel Fish Tape",
+    tagline: "Ren's pick: 50 feet of spring steel with laser-etched markings. Pulls wire through anything.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-fishtape-50.jpg",
+    url: "https://www.amazon.com/dp/B0026TA6RK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-glowrod-30",
+    section: "electrical",
+    sub: "FISHING",
+    name: "Klein Tools 56430 30 ft. Glow Fish Rod Set",
+    tagline: "Ren's pick: six glow rods that light up dark walls. Fishing wire just got fun.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-glowrod-30.jpg",
+    url: "https://www.amazon.com/dp/B01N23C683?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-nutdriver-2pc",
+    section: "electrical",
+    sub: "DRIVERS",
+    name: "Klein Tools 646M 2-Piece Magnetic Nut Driver Set",
+    tagline: "Ren's pick: stubby magnetic nut drivers, 1/4 and 5/16 in. Fits where full-size can't.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-nutdriver-2pc.jpg",
+    url: "https://www.amazon.com/dp/B000936QV0?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-cablecutter",
+    section: "electrical",
+    sub: "CUTTERS",
+    name: "Klein Tools 63050 9.5 in. High-Leverage Cable Cutter",
+    tagline: "Ren's pick: shear-action cutter for cable up to 1/0 AWG. Cuts like scissors through paper.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-cablecutter.jpg",
+    url: "https://www.amazon.com/dp/B0000302X1?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-backpack",
+    section: "electrical",
+    sub: "BAGS",
+    name: "Klein Tools 55421BP-14 Tradesman Pro Backpack",
+    tagline: "Ren's pick: 39 pockets, molded base, fits laptop and meters. The electrician's office.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-backpack.jpg",
+    url: "https://www.amazon.com/dp/B006QG36NA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-headlamp",
+    section: "electrical",
+    sub: "LIGHTING",
+    name: "Klein Tools 56062 Rechargeable LED Headlamp",
+    tagline: "Ren's pick: 300 lumens on your hard hat, USB-C rechargeable. See what you're doing.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-headlamp.jpg",
+    url: "https://www.amazon.com/dp/B089CHFBL3?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-screwdriver-set-85148",
+    section: "electrical",
+    sub: "DRIVERS",
+    name: "Klein Tools 85148 8-Piece Screwdriver Set",
+    tagline: "Ren's pick: USA-made cushion-grip drivers with magnetizer. The set that never leaves the truck.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-screwdriver-set-85148.jpg",
+    url: "https://www.amazon.com/dp/B07W7VCQK3?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-bender-56206",
+    section: "electrical",
+    sub: "BENDERS",
+    name: "Klein Tools 56206 1/2 in. EMT Conduit Bender",
+    tagline: "Ren's pick: Benfield head with cast-in markings. Bends that actually hit the mark.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-bender-56206.jpg",
+    url: "https://www.amazon.com/dp/B0026TDBJA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-tape-9225",
+    section: "electrical",
+    sub: "METERS",
+    name: "Klein Tools 9225 25 ft. Tape Measure",
+    tagline: "Ren's pick: double-hook magnetic tape with 13 ft. standout. Sticks to conduit, measures true.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-tape-9225.jpg",
+    url: "https://www.amazon.com/dp/B07WF9TKNN?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-torpedo-level",
+    section: "electrical",
+    sub: "METERS",
+    name: "Klein Tools 935RBLT 9 in. Lighted Torpedo Level",
+    tagline: "Ren's pick: LED-lit vials you can actually read in a dark panel. Billet aluminum, rare-earth magnets.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-torpedo-level.jpg",
+    url: "https://www.amazon.com/dp/B01M3YMNY5?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-clampmeter-cl800",
+    section: "electrical",
+    sub: "METERS",
+    name: "Klein Tools CL800 Digital Clamp Meter",
+    tagline: "Ren's pick: TRMS clamp meter, 600A AC/DC, CAT IV rated. The serious sparky's meter.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-clampmeter-cl800.jpg",
+    url: "https://www.amazon.com/dp/B019CY4FB4?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-ncvt-1",
+    section: "electrical",
+    sub: "TESTERS",
+    name: "Klein Tools NCVT1P Voltage Tester Pen",
+    tagline: "Ren's pick: the pen tester that's #1 for a reason. 50-1000V, fits in a shirt pocket.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-ncvt-1.jpg",
+    url: "https://www.amazon.com/dp/B099SJ6469?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-multitool-32500",
+    section: "electrical",
+    sub: "DRIVERS",
+    name: "Klein Tools 32500 11-in-1 Screwdriver/Nut Driver",
+    tagline: "Ren's pick: 11 tools in one cushion grip. The 'I only brought one tool' tool.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-multitool-32500.jpg",
+    url: "https://www.amazon.com/dp/B0015SBILG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-fishtape-56331",
+    section: "electrical",
+    sub: "FISHING",
+    name: "Klein Tools 56331 50 ft. Steel Fish Tape",
+    tagline: "Ren's pick: low-friction housing, double-loop tip. The fish tape that doesn't fight back.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-fishtape-56331.jpg",
+    url: "https://www.amazon.com/dp/B081TVR4N7?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-worklight-56403",
+    section: "electrical",
+    sub: "LIGHTING",
+    name: "Klein Tools 56403 Rechargeable LED Work Light",
+    tagline: "Ren's pick: 460 lumens with kickstand, magnet, and carabiner. Also charges your phone.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-worklight-56403.jpg",
+    url: "https://www.amazon.com/dp/B07V4FTX6C?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
