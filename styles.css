@@ -339,6 +339,7 @@ section h2 {
 .cat-plumbing  { background-image: url('assets/cat-plumbing.jpg'); }
 .cat-electrical{ background-image: url('assets/cat-electrical.jpg'); }
 .cat-drywall    { background-image: url('assets/aff-level5-flatbox-4604.jpg'); }
+.cat-lawn       { background-image: url('assets/aff-lawn-husqvarna-z254.jpg'); }
 
 /* bottom scrim so labels stay legible */
 .cat-btn::before {
