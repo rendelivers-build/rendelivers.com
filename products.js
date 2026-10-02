@@ -1292,6 +1292,186 @@ const PRODUCTS = [
     img: "assets/aff-milw-ironworker-pliers.jpg",
     url: "https://www.amazon.com/dp/B0195LZGI0?tag=rendelivers-20"
   },
+  {
+    id: "aff-milw-multitool-m12",
+    section: "catalog",
+    sub: "Multi-Tools",
+    name: "Milwaukee 2526-20 M12 FUEL Oscillating Multi-Tool (Tool Only)",
+    tagline: "Ren's pick: 10,000 to 20,000 OPM of cut-sand-scrape everything. The tool that does what the others won't.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-multitool-m12.jpg",
+    url: "https://www.amazon.com/dp/B08JWL1PBV?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-drill-m18",
+    section: "catalog",
+    sub: "Drills",
+    name: "Milwaukee 2804-20 M18 FUEL 1/2 in. Hammer Drill (Tool Only)",
+    tagline: "Ren's pick: 1,200 in-lbs of peak torque. Drills through concrete like it's drywall.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-drill-m18.jpg",
+    url: "https://www.amazon.com/dp/B079NBC7JN?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-drill-m12",
+    section: "catalog",
+    sub: "Drills",
+    name: "Milwaukee 3404-20 M12 FUEL 1/2 in. Hammer Drill (Tool Only)",
+    tagline: "Ren's pick: the little drill that punches way above its weight class.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-drill-m12.jpg",
+    url: "https://www.amazon.com/dp/B0BPDKS8SH?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-impact-m18",
+    section: "catalog",
+    sub: "Drivers",
+    name: "Milwaukee 2853-20 M18 FUEL 1/4 in. Hex Impact Driver (Tool Only)",
+    tagline: "Ren's pick: 2,000 in-lbs in a 4.59 in. body. Screws fear this thing.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-impact-m18.jpg",
+    url: "https://www.amazon.com/dp/B0BB8H1NKX?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-impact-m12",
+    section: "catalog",
+    sub: "Drivers",
+    name: "Milwaukee 2553-20 M12 FUEL 1/4 in. Hex Impact Driver Kit",
+    tagline: "Ren's pick: 1,500 in-lbs with 4-mode drive control. Kit comes with battery and bag.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-impact-m12.jpg",
+    url: "https://www.amazon.com/dp/B0BLT6PSKS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-circsaw-7",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Milwaukee 2732-20 M18 FUEL 7-1/4 in. Circular Saw (Tool Only)",
+    tagline: "Ren's pick: 5,800 RPM, magnesium shoe, rafter hook. The full-size framing saw, no cord.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-circsaw-7.jpg",
+    url: "https://www.amazon.com/dp/B079NPMJQ1?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-circsaw-6",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Milwaukee 2730-21 M18 FUEL 6-1/2 in. Circular Saw Kit",
+    tagline: "Ren's pick: the handy-size circ saw with battery and charger. For everything the big saw is overkill for.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-circsaw-6.jpg",
+    url: "https://www.amazon.com/dp/B00FUQPDYW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-sawzall-fuel",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Milwaukee 2722-20 M18 FUEL SAWZALL Recip Saw (Tool Only)",
+    tagline: "Ren's pick: 3,000 SPM, 1-1/4 in. stroke. Demolition's favorite power tool.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-sawzall-fuel.jpg",
+    url: "https://www.amazon.com/dp/B08WG2HC81?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-sawzall-m18",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Milwaukee 2621-20 M18 SAWZALL Recip Saw (Tool Only)",
+    tagline: "Ren's pick: the classic SAWZALL. All-metal gear case, QUIK-LOK blade clamp, zero drama.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-sawzall-m18.jpg",
+    url: "https://www.amazon.com/dp/B07FB2GBTH?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-jigsaw",
+    section: "catalog",
+    sub: "SAWS",
+    name: "Milwaukee 2737-20 M18 FUEL D-Handle Jig Saw (Tool Only)",
+    tagline: "Ren's pick: 0 to 3,500 SPM with 4-position orbital. Curves so smooth they look laser-cut.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-jigsaw.jpg",
+    url: "https://www.amazon.com/dp/B07H7DQ3DK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-grinder-fuel",
+    section: "catalog",
+    sub: "GRINDERS",
+    name: "Milwaukee 2880-20 M18 FUEL 4-1/2 / 5 in. Grinder (Tool Only)",
+    tagline: "Ren's pick: 8,500 RPM of corded-equivalent fury. No cord, no excuses.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-grinder-fuel.jpg",
+    url: "https://www.amazon.com/dp/B09RX4R3TR?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-grinder-m18",
+    section: "catalog",
+    sub: "GRINDERS",
+    name: "Milwaukee 2680-20 M18 4-1/2 in. Grinder (Tool Only)",
+    tagline: "Ren's pick: 9,000 RPM paddle switch with tool-free guard. The workhorse grinder.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-grinder-m18.jpg",
+    url: "https://www.amazon.com/dp/B001VGOJLI?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-diegrinder-m12",
+    section: "catalog",
+    sub: "GRINDERS",
+    name: "Milwaukee 2485-20 M12 FUEL Right Angle Die Grinder (Tool Only)",
+    tagline: "Ren's pick: 24,500 RPM in the palm of your hand. For the detail work that matters.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-diegrinder-m12.jpg",
+    url: "https://www.amazon.com/dp/B07XZMMD1V?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-framing-nailer",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "Milwaukee 2744-20 M18 FUEL 21-Degree Framing Nailer (Tool Only)",
+    tagline: "Ren's pick: nitrogen gas power, no gas cartridges. Framing at the speed of thought.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-framing-nailer.jpg",
+    url: "https://www.amazon.com/dp/B08VMYS879?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-brad-nailer",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "Milwaukee 2746-20 M18 FUEL 18-Gauge Brad Nailer (Tool Only)",
+    tagline: "Ren's pick: zero ramp-up, no gas. Trim work without the compressor symphony.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-brad-nailer.jpg",
+    url: "https://www.amazon.com/dp/B07VYJQ1KP?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-finish-nailer",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "Milwaukee 2742-20 M18 FUEL 16-Gauge Angled Finish Nailer (Tool Only)",
+    tagline: "Ren's pick: sinks 2-1/2 in. nails in solid oak. Finish carpentry's new best friend.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-finish-nailer.jpg",
+    url: "https://www.amazon.com/dp/B01DE8ZHM0?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-tape-25",
+    section: "catalog",
+    sub: "MEASURING",
+    name: "Milwaukee 48-22-7125 25 ft. Magnetic Tape Measure (2-Pack)",
+    tagline: "Ren's pick: magnetic blade that sticks to steel. Two-pack, because tapes are escape artists.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-tape-25.jpg",
+    url: "https://www.amazon.com/dp/B082YKXKC4?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-fastback",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Milwaukee 48-22-1500 FASTBACK Compact Flip Utility Knife",
+    tagline: "Ren's pick: press-and-flip one-hand opening. The knife that's always in your pocket.",
+    price: "See price on Amazon",
+    img: "assets/aff-milw-fastback.jpg",
+    url: "https://www.amazon.com/dp/B082KL6HT3?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
