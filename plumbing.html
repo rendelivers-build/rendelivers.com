@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plumbing Tools — Ren Delivers</title>
+<meta name="description" content="Milwaukee plumbing tools Ren would buy with his own money — pipe wrenches, PEX tools, drain cleaning, press tools, and everything that keeps the water flowing the right direction.">
+<link rel="stylesheet" href="styles.css">
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7b0be40139c64f4ca41bb0212c06502a"}'></script><!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+
+<header class="page-header">
+  <a class="back-link" href="index.html">&larr; Ren Delivers</a>
+  <h1>Plumbing Tools</h1>
+  <p class="section-sub">Milwaukee lineup, top to bottom. If it can't survive a crawl space, it doesn't make the list.</p>
+</header>
+
+<nav class="top-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <a href="shirts.html">Shirts</a>
+    <a href="templates.html">Templates</a>
+    <a href="software.html">Software</a>
+    <a href="catalog.html">Tools Catalog</a>
+    <a href="safety.html">Safety Gear</a>
+    <a href="plumbing.html">Plumbing</a>
+    <a href="electrical.html">Electrical</a>
+    <a href="plumbing.html" class="active">Plumbing</a>
+  </nav>
+
+
+<main>
+  <div class="subnav" id="subnav"></div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="social-row">
+    <a href="https://www.youtube.com/@rendelivers" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.pinterest.com/rendelivers/" target="_blank" rel="noopener">Pinterest</a>
+    <a href="https://www.tiktok.com/@rendelivers.com" target="_blank" rel="noopener">TikTok</a>
+  </div>
+  <div class="legal-row">
+    <a href="legal.html">Legal</a>
+  </div>
+  <p class="copyright">&copy; 2026 Ren Delivers. All rights reserved.</p>
+</footer>
+
+<script src="products.js"></script>
+<script>
+(function () {
+  var items = PRODUCTS.filter(function (p) { return p.section === "plumbing"; });
+  var subs = [];
+  items.forEach(function (p) { if (p.sub && subs.indexOf(p.sub) < 0) subs.push(p.sub); });
+  var nav = document.getElementById("subnav");
+  var grid = document.getElementById("grid");
+  var current = "All";
+  function renderPills() {
+    var html = '<button class="subpill' + (current === "All" ? " active" : "") + '" data-sub="All">All</button>';
+    subs.forEach(function (s) {
+      html += '<button class="subpill' + (current === s ? " active" : "") + '" data-sub="' + rdEsc(s) + '">' + rdEsc(s) + "</button>";
+    });
+    nav.innerHTML = html;
+  }
+  function renderGrid() {
+    var html = "";
+    items.forEach(function (p) {
+      if (current !== "All" && p.sub !== current) return;
+      html += rdCardHTML(p, false);
+    });
+    grid.innerHTML = html || '<p class="section-sub">Nothing in this pile yet — check back soon.</p>';
+  }
+  nav.addEventListener("click", function (e) {
+    var t = e.target;
+    if (t && t.dataset && t.dataset.sub) { current = t.dataset.sub; renderPills(); renderGrid(); }
+  });
+  renderPills();
+  renderGrid();
+})();
+</script>
+</body>
+</html>
