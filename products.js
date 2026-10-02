@@ -878,9 +878,20 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Calculated Industries 4065 Construction Master Pro Calculator",
     tagline: "Ren's pick: the construction calculator every contractor knows. Feet-inch-fraction math, rafters, stairs — in your pocket, not $70 at the store.",
-    price: "See price on Amazon",
+    price: "$52.29",
+    checked: "2026-10-02",
     img: "assets/aff-calc-4065.jpg",
     url: "https://www.amazon.com/dp/B0007Q3RGQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-johnson-cs9",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Johnson Level CS9 Steel Framing Square, 16 in. x 24 in.",
+    tagline: "Ren's pick: the big 16x24 steel square — rafter tables, EZ Read graduations. Layout, stairs, and everything square.",
+    price: "See price on Amazon",
+    img: "assets/aff-johnson-cs9.jpg",
+    url: "https://www.amazon.com/dp/B00002N5O8?tag=rendelivers-20"
   },
   /* ---------------- SAFETY GEAR (PPE) ---------------- */
   {
@@ -1041,7 +1052,8 @@ const PRODUCTS = [
     sub: "FIRST AID",
     name: "First Aid Only 90575 First Aid Cabinet, 100-150 Person",
     tagline: "Ren's pick: 676 pieces, ANSI/OSHA compliant steel cabinet. The most important toolbox on the whole site.",
-    price: "See price on Amazon",
+    price: "$145.55",
+    checked: "2026-10-02",
     img: "assets/aff-firstaidonly-90575.jpg",
     url: "https://www.amazon.com/dp/B015VPZQ70?tag=rendelivers-20"
   },
@@ -1139,7 +1151,7 @@ function rdCardHTML(p, big) {
         '<button type="button" class="btn-sample" data-sample="assets/tpl-sample-' + rdEsc(p.id) + '.jpg" data-name="' + rdEsc(p.name) + '">View Sample</button>' +
       '</div>';
   }
-  if (p.section === "shirts") {
+  if (p.section !== "templates") {
     zoomAttr = ' data-zoom="1"';
   }
   return (
@@ -1229,6 +1241,12 @@ document.addEventListener('click', function (e) {
   rdLbOpen(btn.getAttribute('data-sample'), btn.getAttribute('data-name'), btn, true);
 });
 
+/* Hover intent: wait 350ms before opening, so quick mouse passes don't fire it. */
+var rdHoverTimer = null;
+function rdClearHoverTimer() {
+  if (rdHoverTimer) { clearTimeout(rdHoverTimer); rdHoverTimer = null; }
+}
+
 document.addEventListener('mouseover', function (e) {
   var tgt = (e.target && e.target.closest) ? e.target : null;
   if (tgt) {
@@ -1241,10 +1259,15 @@ document.addEventListener('mouseover', function (e) {
   if (e.relatedTarget && card.contains(e.relatedTarget)) return;
   if (card.dataset.rdLbArmed === '0') return;
   if (rdLbEl && !rdLbEl.hidden) return;
-  var b = card.querySelector('.btn-sample');
-  if (!b) return;
-  rdLbHoverCard = card;
-  rdLbOpen(b.getAttribute('data-sample'), b.getAttribute('data-name'), null, false);
+  if (rdHoverTimer) return;
+  rdHoverTimer = setTimeout(function () {
+    rdHoverTimer = null;
+    if (rdLbEl && !rdLbEl.hidden) return;
+    var b = card.querySelector('.btn-sample');
+    if (!b) return;
+    rdLbHoverCard = card;
+    rdLbOpen(b.getAttribute('data-sample'), b.getAttribute('data-name'), null, false);
+  }, 350);
 });
 
 document.addEventListener('mouseout', function (e) {
@@ -1252,10 +1275,11 @@ document.addEventListener('mouseout', function (e) {
   var card = tgt ? tgt.closest('article.card[data-tpl]') : null;
   if (!card) return;
   if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  rdClearHoverTimer();
   card.dataset.rdLbArmed = '';
 });
 
-/* Shirt cards: hover shows the design enlarged in the lightbox (no SAMPLE tag). */
+/* Product cards: hover shows the product enlarged in the lightbox. Same 350ms intent delay. */
 document.addEventListener('mouseover', function (e) {
   if (!rdCanHover()) return;
   var tgt = (e.target && e.target.closest) ? e.target : null;
@@ -1264,15 +1288,20 @@ document.addEventListener('mouseover', function (e) {
   if (e.relatedTarget && card.contains(e.relatedTarget)) return;
   if (card.dataset.rdLbArmed === '0') return;
   if (rdLbEl && !rdLbEl.hidden) return;
-  var img = card.querySelector('.card-img-link img');
-  var h3 = card.querySelector('.card-body h3');
-  var src = img ? (img.getAttribute('src') || '') : '';
-  var name = h3 ? h3.textContent : '';
-  if (!src) return;
-  rdLbHoverCard = card;
-  rdLbOpen(src, name, null, false);
-  var cap = rdLbEl.querySelector('.rd-lb-cap');
-  if (cap) cap.textContent = name;
+  if (rdHoverTimer) return;
+  rdHoverTimer = setTimeout(function () {
+    rdHoverTimer = null;
+    if (rdLbEl && !rdLbEl.hidden) return;
+    var img = card.querySelector('.card-img-link img');
+    var h3 = card.querySelector('.card-body h3');
+    var src = img ? (img.getAttribute('src') || '') : '';
+    var name = h3 ? h3.textContent : '';
+    if (!src) return;
+    rdLbHoverCard = card;
+    rdLbOpen(src, name, null, false);
+    var cap = rdLbEl.querySelector('.rd-lb-cap');
+    if (cap) cap.textContent = name;
+  }, 350);
 });
 
 document.addEventListener('mouseout', function (e) {
@@ -1280,6 +1309,7 @@ document.addEventListener('mouseout', function (e) {
   var card = tgt ? tgt.closest('article.card[data-zoom]') : null;
   if (!card) return;
   if (e.relatedTarget && card.contains(e.relatedTarget)) return;
+  rdClearHoverTimer();
   card.dataset.rdLbArmed = '';
 });
 
