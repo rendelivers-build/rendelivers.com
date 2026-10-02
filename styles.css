@@ -333,6 +333,7 @@ section h2 {
 .cat-templates { background-image: url('assets/cat-templates.jpg'); }
 .cat-software  { background-image: url('assets/cat-software.jpg'); }
 .cat-catalog   { background-image: url('assets/cat-catalog.jpg'); }
+.cat-safety    { background-image: url('assets/cat-safety.jpg'); }
 
 /* bottom scrim so labels stay legible */
 .cat-btn::before {
