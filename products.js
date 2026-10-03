@@ -2129,7 +2129,7 @@ const PRODUCTS = [
     sub: "TRIMMERS",
     name: "Husqvarna 128LD 28cc Gas String Trimmer",
     tagline: "28cc of detachable-shaft versatility. Pops apart for the truck bed, snaps together when it's time to make money.",
-    price: "See price on Amazon",
+    price: "$279.00",
     img: "assets/aff-lawn-husqvarna-128ld.jpg",
     url: "https://www.amazon.com/dp/B004Q0HUYO?tag=rendelivers-20"
   },
@@ -2139,7 +2139,7 @@ const PRODUCTS = [
     sub: "TRIMMERS",
     name: "Milwaukee 2825-20ST M18 FUEL String Trimmer with QUIK-LOK (Tool Only)",
     tagline: "No gas, no mixing, no pull-cord tantrums. Just Milwaukee red ripping through weeds on battery power.",
-    price: "See price on Amazon",
+    price: "$284.00",
     img: "assets/aff-lawn-milwaukee-m18-trimmer.jpg",
     url: "https://www.amazon.com/dp/B09TFZHKHN?tag=rendelivers-20"
   },
@@ -2149,7 +2149,7 @@ const PRODUCTS = [
     sub: "BLOWERS",
     name: "ECHO PB-580T 58.2cc Backpack Blower with Tube Throttle",
     tagline: "510 CFM of leaf-eviction notice. Strap it on, point the tube, and watch the whole yard relocate.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-lawn-echo-pb580t.jpg",
     url: "https://www.amazon.com/dp/B01LWEHD5J?tag=rendelivers-20"
   },
@@ -2159,7 +2159,7 @@ const PRODUCTS = [
     sub: "BLOWERS",
     name: "Husqvarna 150BT 51cc Backpack Blower",
     tagline: "765 CFM hurricane in a backpack. Wet leaves, pine needles, your kid's toys — everything's leaving today.",
-    price: "See price on Amazon",
+    price: "$399.00",
     img: "assets/aff-lawn-husqvarna-150bt.jpg",
     url: "https://www.amazon.com/dp/B09TT5ZMPR?tag=rendelivers-20"
   },
@@ -2169,7 +2169,7 @@ const PRODUCTS = [
     sub: "BLOWERS",
     name: "ECHO PB-2620 X Series Handheld Blower, 25.4cc",
     tagline: "Pro-grade lungs in a handheld. For when the job's too small for the backpack but too big for your patience.",
-    price: "See price on Amazon",
+    price: "$249.00",
     img: "assets/aff-lawn-echo-pb2620.jpg",
     url: "https://www.amazon.com/dp/B07KGG9QZW?tag=rendelivers-20"
   },
@@ -2179,7 +2179,7 @@ const PRODUCTS = [
     sub: "EDGERS & HEDGE",
     name: "ECHO PE-225 Gas Powered Edger",
     tagline: "Crisp sidewalk lines that make the whole street look broke by comparison. 21.2cc of curb appeal.",
-    price: "See price on Amazon",
+    price: "$319.00",
     img: "assets/aff-lawn-echo-pe225.jpg",
     url: "https://www.amazon.com/dp/B0DTV545V9?tag=rendelivers-20"
   },
@@ -2666,7 +2666,7 @@ document.addEventListener('click', function (e) {
   rdLbOpen(btn.getAttribute('data-sample'), btn.getAttribute('data-name'), btn, true);
 });
 
-/* Hover intent: wait 700ms and require the pointer to actually move onto the
+/* Hover intent: wait 1200ms and require the pointer to actually move onto the
    card, so quick mouse passes and carousel auto-scrolls don't fire it. */
 var rdHoverTimer = null;
 var rdPointerX = -1, rdPointerY = -1;
@@ -2704,7 +2704,7 @@ document.addEventListener('mouseover', function (e) {
     if (!b) return;
     rdLbHoverCard = card;
     rdLbOpen(b.getAttribute('data-sample'), b.getAttribute('data-name'), null, false);
-  }, 700);
+  }, 1200);
 });
 
 document.addEventListener('mouseout', function (e) {
@@ -2716,11 +2716,14 @@ document.addEventListener('mouseout', function (e) {
   card.dataset.rdLbArmed = '';
 });
 
-/* Product cards: hover shows the product enlarged in the lightbox. Same 700ms intent delay. */
+/* Product cards: hover over the PICTURE shows it enlarged in the lightbox.
+   Image-only trigger + 1200ms intent delay, so scrolling past cards never pops it. */
 document.addEventListener('mouseover', function (e) {
   if (!rdCanHover()) return;
   var tgt = (e.target && e.target.closest) ? e.target : null;
-  var card = tgt ? tgt.closest('article.card[data-zoom]') : null;
+  var link = tgt ? tgt.closest('a.card-img-link') : null;
+  if (!link) return;
+  var card = link.closest('article.card[data-zoom]');
   if (!card) return;
   if (e.relatedTarget && card.contains(e.relatedTarget)) return;
   if (card.dataset.rdLbArmed === '0') return;
@@ -2740,7 +2743,7 @@ document.addEventListener('mouseover', function (e) {
     rdLbOpen(src, name, null, false);
     var cap = rdLbEl.querySelector('.rd-lb-cap');
     if (cap) cap.textContent = name;
-  }, 700);
+  }, 1200);
 });
 
 document.addEventListener('mouseout', function (e) {
