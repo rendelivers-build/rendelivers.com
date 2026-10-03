@@ -1749,7 +1749,7 @@ const PRODUCTS = [
     sub: "TESTERS",
     name: "Klein Tools NCVT1P Voltage Tester Pen",
     tagline: "Ren's pick: the pen tester that's #1 for a reason. 50-1000V, fits in a shirt pocket.",
-    price: "See price on Amazon",
+    price: "$19.95",
     img: "assets/aff-klein-ncvt-1.jpg",
     url: "https://www.amazon.com/dp/B099SJ6469?tag=rendelivers-20"
   },
@@ -1759,7 +1759,7 @@ const PRODUCTS = [
     sub: "DRIVERS",
     name: "Klein Tools 32500 11-in-1 Screwdriver/Nut Driver",
     tagline: "Ren's pick: 11 tools in one cushion grip. The 'I only brought one tool' tool.",
-    price: "See price on Amazon",
+    price: "$15.97",
     img: "assets/aff-klein-multitool-32500.jpg",
     url: "https://www.amazon.com/dp/B0015SBILG?tag=rendelivers-20"
   },
@@ -1769,7 +1769,7 @@ const PRODUCTS = [
     sub: "FISHING",
     name: "Klein Tools 56331 50 ft. Steel Fish Tape",
     tagline: "Ren's pick: low-friction housing, double-loop tip. The fish tape that doesn't fight back.",
-    price: "See price on Amazon",
+    price: "$25.97",
     img: "assets/aff-klein-fishtape-56331.jpg",
     url: "https://www.amazon.com/dp/B081TVR4N7?tag=rendelivers-20"
   },
@@ -1779,7 +1779,7 @@ const PRODUCTS = [
     sub: "LIGHTING",
     name: "Klein Tools 56403 Rechargeable LED Work Light",
     tagline: "Ren's pick: 460 lumens with kickstand, magnet, and carabiner. Also charges your phone.",
-    price: "See price on Amazon",
+    price: "$49.97",
     img: "assets/aff-klein-worklight-56403.jpg",
     url: "https://www.amazon.com/dp/B07V4FTX6C?tag=rendelivers-20"
   },
