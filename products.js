@@ -66,6 +66,15 @@ const PRODUCTS = [
     url: "https://www.zazzle.com/when_youll_do_just_about_anything_for_fuel_t_shirt-256004213036257819"
   },
   {
+    id: "safety-3rd",
+    section: "shirts",
+    name: "Safety 3rd",
+    tagline: "Because safety first is for people who read the manual.",
+    price: "$21.17",
+    img: "assets/shirt-safety-3rd.jpg",
+    url: "https://www.zazzle.com/safety_3rd_t_shirt_construction_safety_shirt-256258795454909535"
+  },
+  {
     id: "u-should-b-here",
     section: "shirts",
     name: "U Should B Here — Three Wise Monkeys",
