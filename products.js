@@ -1479,7 +1479,7 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools D213-9NE 9 in. Lineman's Pliers",
     tagline: "Ren's pick: the lineman's pliers every electrician's grandpa swore by. Cuts ACSR like butter.",
-    price: "See price on Amazon",
+    price: "$39.97",
     img: "assets/aff-klein-linemans-9.jpg",
     url: "https://www.amazon.com/dp/B0000302W6?tag=rendelivers-20"
   },
@@ -1489,7 +1489,7 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools D228-8 8 in. Diagonal Cutting Pliers",
     tagline: "Ren's pick: angled-head cutters with induction-hardened knives. Snip first, ask questions never.",
-    price: "See price on Amazon",
+    price: "$29.97",
     img: "assets/aff-klein-diagonal-8.jpg",
     url: "https://www.amazon.com/dp/B0000302VW?tag=rendelivers-20"
   },
@@ -1499,7 +1499,7 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools J203-8N 8 in. Long-Nose Side Cutters",
     tagline: "Ren's pick: Journeyman long-nose that strips, bends, and reaches where fingers can't.",
-    price: "See price on Amazon",
+    price: "$38.98",
     img: "assets/aff-klein-longnose-8.jpg",
     url: "https://www.amazon.com/dp/B0006M6Y9I?tag=rendelivers-20"
   },
@@ -1509,7 +1509,7 @@ const PRODUCTS = [
     sub: "STRIPPERS",
     name: "Klein Tools 11045 Wire Stripper/Cutter 10-18 AWG",
     tagline: "Ren's pick: self-adjusting stripper — strips 10-18 AWG without nicking a single strand.",
-    price: "See price on Amazon",
+    price: "$16.24",
     img: "assets/aff-klein-stripper-11045.jpg",
     url: "https://www.amazon.com/dp/B0000302WS?tag=rendelivers-20"
   },
@@ -1519,7 +1519,7 @@ const PRODUCTS = [
     sub: "STRIPPERS",
     name: "Klein Tools 11063W Katapult Wire Stripper",
     tagline: "Ren's pick: compound action, cast alloy body. Strips 8-22 AWG like it's launching wire.",
-    price: "See price on Amazon",
+    price: "$30.97",
     img: "assets/aff-klein-katapult.jpg",
     url: "https://www.amazon.com/dp/B00BC39YFQ?tag=rendelivers-20"
   },
@@ -1529,7 +1529,7 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools 80020 3-Piece Plier Tool Set",
     tagline: "Ren's pick: lineman's, diagonal, and long-nose in one shot. The holy trinity of pliers.",
-    price: "See price on Amazon",
+    price: "$71.99",
     img: "assets/aff-klein-plier-set-3pc.jpg",
     url: "https://www.amazon.com/dp/B08VWHVZ1P?tag=rendelivers-20"
   },
@@ -1544,13 +1544,13 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B000CEMSLS?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-stripper-11046",
+    id: "aff-klein-stripper-11047",
     section: "electrical",
     sub: "STRIPPERS",
-    name: "Klein Tools 11046 Wire Stripper/Cutter 16-26 AWG",
-    tagline: "Ren's pick: for the small stuff — 16-26 AWG stripped clean without a nick.",
-    price: "See price on Amazon",
-    img: "assets/aff-klein-stripper-11046.jpg",
+    name: "Klein Tools 11047 Wire Stripper/Cutter 22-30 AWG Solid",
+    tagline: "Ren's pick: for the small stuff — 22-30 AWG solid stripped clean without a nick.",
+    price: "Add to cart to check price",
+    img: "assets/aff-klein-stripper-11047.jpg",
     url: "https://www.amazon.com/dp/B000I1L7GW?tag=rendelivers-20"
   },
   {
@@ -1559,7 +1559,7 @@ const PRODUCTS = [
     sub: "STRIPPERS",
     name: "Klein Tools 11055 Kurve Wire Stripper/Cutter",
     tagline: "Ren's pick: double-dipped grips, curved for comfort. 10-18 AWG's worst enemy.",
-    price: "See price on Amazon",
+    price: "$20.99",
     img: "assets/aff-klein-kurve-11055.jpg",
     url: "https://www.amazon.com/dp/B00080DPNQ?tag=rendelivers-20"
   },
@@ -1569,9 +1569,19 @@ const PRODUCTS = [
     sub: "TESTERS",
     name: "Klein Tools NCVT-2 Dual-Range Voltage Tester",
     tagline: "Ren's pick: non-contact, dual range 12-1000V. Because guessing about live wires is a bad hobby.",
-    price: "See price on Amazon",
+    price: "$27.97",
     img: "assets/aff-klein-ncvt-2.jpg",
     url: "https://www.amazon.com/dp/B004FXJOQO?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-ncvt-2p",
+    section: "electrical",
+    sub: "TESTERS",
+    name: "Klein Tools NCVT-2P Dual-Range Voltage Tester w/ Flashing LED",
+    tagline: "Ren's pick: the newer NCVT-2P — dual range with a flashing LED bar. The NCVT-2's sharper younger brother.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-ncvt-2p.jpg",
+    url: "https://www.amazon.com/dp/B07L5N8ZWS?tag=rendelivers-20"
   },
   {
     id: "aff-klein-crimper-1005",
