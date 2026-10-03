@@ -962,7 +962,7 @@ const PRODUCTS = [
   {
     id: "aff-lift-dax-fifty50-orange",
     section: "safety",
-    sub: "HEAD PROTECTION",
+    sub: "HEAD",
     name: "LIFT Safety DAX Fifty 50 Carbon Fiber Full Brim Hard Hat, Hi-Viz Orange/Black",
     tagline: "Half carbon fiber, half hi-vis — the hardest hat on the jobsite.",
     price: "See price on Amazon",
