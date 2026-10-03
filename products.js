@@ -1168,9 +1168,19 @@ const PRODUCTS = [
     sub: "PRESS",
     name: "Milwaukee 2473-22 M12 Force Logic Press Tool Kit",
     tagline: "Ren's pick: press 1/2 in. to 1 in. copper without a flame. The future of not burning the house down.",
-    price: "See price on Amazon",
+    price: "$2,945.00",
     img: "assets/aff-milw-m12-press-tool.jpg",
     url: "https://www.amazon.com/dp/B009G48D3M?tag=rendelivers-20"
+  },
+  {
+    id: "aff-bernzomatic-ts8000-torch",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "Bernzomatic TS8000 High Intensity Trigger Start Torch",
+    tagline: "Ren's pick: trigger-start, swirl flame, burns in any direction. A torch, not an iron — like Brandon said.",
+    price: "See price on Amazon",
+    img: "assets/aff-bernzomatic-ts8000-torch.jpg",
+    url: "https://www.amazon.com/dp/B0019CQL60?tag=rendelivers-20"
   },
   {
     id: "aff-milw-m18-press-tool",
@@ -1178,7 +1188,7 @@ const PRODUCTS = [
     sub: "PRESS",
     name: "Milwaukee M18 Force Logic Press Tool w/ ONE-KEY",
     tagline: "Ren's pick: 7,200 lbs of press force with ONE-KEY tracking. For when the pipe's bigger than your patience.",
-    price: "See price on Amazon",
+    price: "$2,155.00",
     img: "assets/aff-milw-m18-press-tool.jpg",
     url: "https://www.amazon.com/dp/B08Y8GQY1V?tag=rendelivers-20"
   },
@@ -1188,19 +1198,9 @@ const PRODUCTS = [
     sub: "PRESS",
     name: "Milwaukee 49-16-2690 M18 Press Ring Kit 2-1/2 in.-4 in.",
     tagline: "Ren's pick: rings for the big stuff — 2-1/2 in. to 4 in. copper doesn't press itself.",
-    price: "See price on Amazon",
+    price: "$3,499.99",
     img: "assets/aff-milw-m18-press-ring.jpg",
     url: "https://www.amazon.com/dp/B00A0Z5UIC?tag=rendelivers-20"
-  },
-  {
-    id: "aff-milw-m12-soldering-iron",
-    section: "plumbing",
-    sub: "SOLDERING",
-    name: "Milwaukee M12 Soldering Iron (Bare Tool)",
-    tagline: "Ren's pick: 90 watts, hot in 18 seconds, no cord dragging through the crawl space.",
-    price: "See price on Amazon",
-    img: "assets/aff-milw-m12-soldering-iron.jpg",
-    url: "https://www.amazon.com/dp/B077ZXH8ZJ?tag=rendelivers-20"
   },
   {
     id: "aff-milw-16ft-tape",
@@ -1208,7 +1208,7 @@ const PRODUCTS = [
     sub: "MEASURING",
     name: "Milwaukee 48-22-6616G 16' Compact Tape Measure (2-Pack)",
     tagline: "Ren's pick: measure twice, cut once — now in a two-pack because one always grows legs.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-16ft-tape.jpg",
     url: "https://www.amazon.com/dp/B07535CPMT?tag=rendelivers-20"
   },
@@ -1218,7 +1218,7 @@ const PRODUCTS = [
     sub: "MEASURING",
     name: "Milwaukee 48-22-0225 25' Compact Wide Blade Tape Measure",
     tagline: "Ren's pick: 12 feet of standout. For measuring across the room without the sag of shame.",
-    price: "See price on Amazon",
+    price: "$42.71",
     img: "assets/aff-milw-25ft-tape.jpg",
     url: "https://www.amazon.com/dp/B07YKV4Q6Y?tag=rendelivers-20"
   },
@@ -1228,7 +1228,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 48-22-0012 Compact Hack Saw w/ 10 in. Blade",
     tagline: "Ren's pick: small saw, big attitude. Copper tubing, bolts, PVC — all fair game.",
-    price: "See price on Amazon",
+    price: "$17.97",
     img: "assets/aff-milw-compact-hacksaw.jpg",
     url: "https://www.amazon.com/dp/B003VY8WA2?tag=rendelivers-20"
   },
@@ -1236,21 +1236,11 @@ const PRODUCTS = [
     id: "aff-milw-m12-copper-cutter",
     section: "plumbing",
     sub: "CUTTERS",
-    name: "Milwaukee M12 12V Copper Tubing Cutter Kit (2471-21)",
+    name: "Milwaukee 2471-20 M12 Copper Tubing Cutter (Bare Tool)",
     tagline: "Ren's pick: auto-adjusts to the pipe and cuts it clean. Your wrist will thank you.",
-    price: "See price on Amazon",
+    price: "$149.00",
     img: "assets/aff-milw-m12-copper-cutter.jpg",
     url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
-  },
-  {
-    id: "aff-milw-m12-copper-cutter-bare",
-    section: "plumbing",
-    sub: "CUTTERS",
-    name: "Milwaukee 2471-20 M12 Copper Tubing Cutter (Tool Only)",
-    tagline: "Ren's pick: same cutter, bare tool — for the guy who already owns seventeen M12 batteries.",
-    price: "See price on Amazon",
-    img: "assets/aff-milw-m12-copper-cutter-bare.jpg",
-    url: "https://www.amazon.com/dp/B001FB64MQ?tag=rendelivers-20"
   },
   {
     id: "aff-milw-pex-tubing-cutter",
@@ -1258,7 +1248,7 @@ const PRODUCTS = [
     sub: "PEX",
     name: "Milwaukee 48-22-4202 PEX Tubing Cutter",
     tagline: "Ren's pick: plier-style, stainless blade, cuts PEX like it's not even there.",
-    price: "See price on Amazon",
+    price: "$42.89",
     img: "assets/aff-milw-pex-tubing-cutter.jpg",
     url: "https://www.amazon.com/dp/B00PP3G51U?tag=rendelivers-20"
   },
@@ -1268,7 +1258,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "Milwaukee 48-22-7314 CHEATER Adaptable Pipe Wrench",
     tagline: "Ren's pick: one wrench, three lengths. The Swiss Army knife of pipe wrenches.",
-    price: "See price on Amazon",
+    price: "$95.00",
     img: "assets/aff-milw-cheater-pipe-wrench.jpg",
     url: "https://www.amazon.com/dp/B01CRHGIYA?tag=rendelivers-20"
   },
@@ -1478,7 +1468,7 @@ const PRODUCTS = [
     sub: "BOOTS",
     name: "WORX by Red Wing Shoes Men's 5432 8 in. Steel Toe Work Boot",
     tagline: "Ren's pick: Red Wing bloodline, GORE-TEX waterproofing, insulated. The boot that outlasts the job.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-redwing-steetoe.jpg",
     url: "https://www.amazon.com/dp/B0016PACT2?tag=rendelivers-20"
   },
@@ -1488,7 +1478,7 @@ const PRODUCTS = [
     sub: "BOOTS",
     name: "Thorogood American Heritage 6 in. Steel Toe Work Boot",
     tagline: "Ren's pick: full-grain leather moc toe, MAXWear wedge sole. The premium boot that breaks in like a dream.",
-    price: "See price on Amazon",
+    price: "$274.95",
     img: "assets/aff-thorogood-steetoe.jpg",
     url: "https://www.amazon.com/dp/B00623DYVQ?tag=rendelivers-20"
   },
@@ -2539,7 +2529,7 @@ const PRODUCTS = [
     sub: "EYE PROTECTION",
     name: "Milwaukee Anti-Fog Safety Glasses, Tinted Lens, Black/Red Frame",
     tagline: "Ren's pick: tinted, anti-fog, and red. Safety glasses that look like sunglasses and work like armor.",
-    price: "See price on Amazon",
+    price: "$14.45",
     img: "assets/aff-safety-milwaukee-tinted-glasses.jpg",
     url: "https://www.amazon.com/dp/B07VYN2NVX?tag=rendelivers-20"
   },
