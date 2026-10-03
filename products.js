@@ -2424,6 +2424,46 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07V9G94NK?tag=rendelivers-20"
   },
   {
+    id: "aff-weld-miller-digitalperf",
+    section: "welding",
+    sub: "GEAR",
+    name: "Miller Digital Performance ClearLight 4x Auto-Darkening Welding Helmet, Black",
+    tagline: "The buy-once-cry-once hood. ClearLight 4x lens, arc-time tracking.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-miller-digitalperf.jpg",
+    url: "https://www.amazon.com/dp/B0D98QBVRQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-hobart-770869",
+    section: "welding",
+    sub: "GEAR",
+    name: "Hobart 770869 Creator Series Auto-Darkening Welding Helmet, Camo",
+    tagline: "Realtree camo, PureColor lens — look good while the sparks fly.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-hobart-770869.jpg",
+    url: "https://www.amazon.com/dp/B07MWQH9VB?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-jackson-premium",
+    section: "welding",
+    sub: "GEAR",
+    name: "Jackson Safety Premium Graphic Auto-Darkening Welding Helmet",
+    tagline: "Featherweight with 1/1/1/1 clarity — a real step up without the big jump.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-jackson-premium.jpg",
+    url: "https://www.amazon.com/dp/B09DVDKMZZ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-jackson-w40",
+    section: "welding",
+    sub: "GEAR",
+    name: "Jackson Safety W40 Insight Variable Auto-Darkening Welding Helmet",
+    tagline: "Plain-black workhorse. Shade 9-13, grind and weld modes, zero drama.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-jackson-w40.jpg",
+    url: "https://www.amazon.com/dp/B00KW1GY4I?tag=rendelivers-20"
+  },
+  {
     id: "aff-weld-lincoln-jacket-k2986",
     section: "welding",
     sub: "GEAR",
