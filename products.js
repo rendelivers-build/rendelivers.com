@@ -2269,7 +2269,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "YESWELDER ARC-205DS Stick Welder, 205A, 110/220V Dual Voltage, Large LED Display",
     tagline: "205 amps of 'hold my beer' — burns 7018 like it owes it money.",
-    price: "See price on Amazon",
+    price: "$108.79",
     img: "assets/aff-weld-yeswelder-arc205ds.jpg",
     url: "https://www.amazon.com/dp/B086SNKTTK?tag=rendelivers-20"
   },
@@ -2279,7 +2279,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "Lincoln Electric Weld-Pak 225i Stick Welder, Dual Voltage 120/230V, 225 Amp DC",
     tagline: "Red box, real welder. The one your grandpa trusts and your wallet fears.",
-    price: "See price on Amazon",
+    price: "$545.11",
     img: "assets/aff-weld-lincoln-225i.jpg",
     url: "https://www.amazon.com/dp/B0FFCBQ837?tag=rendelivers-20"
   },
@@ -2289,7 +2289,7 @@ const PRODUCTS = [
     sub: "MIG",
     name: "Hobart Handler 140 MIG Welder 115V (500559) — Flux Core, Welds Up to 1/4 in. Mild Steel",
     tagline: "The garage legend. Plugs into a wall outlet, welds like it means it.",
-    price: "See price on Amazon",
+    price: "$719.99",
     img: "assets/aff-weld-hobart-140.jpg",
     url: "https://www.amazon.com/dp/B009X43F38?tag=rendelivers-20"
   },
@@ -2299,7 +2299,7 @@ const PRODUCTS = [
     sub: "MIG",
     name: "Forney Easy Weld 140 FC-i, 140 Amp 120-Volt Flux-Cored Wire Feed Welder (No Gas Needed)",
     tagline: "No gas, no drama, no excuses. Nineteen pounds of green 'get it done.'",
-    price: "See price on Amazon",
+    price: "$337.99",
     img: "assets/aff-weld-forney-140fci.jpg",
     url: "https://www.amazon.com/dp/B07CP9CDVQ?tag=rendelivers-20"
   },
@@ -2309,9 +2309,29 @@ const PRODUCTS = [
     sub: "TIG",
     name: "YESWELDER MIG-205DS PRO MIG Welder, 200Amp 110/220V Dual Voltage, 5 in 1 Multiprocess",
     tagline: "Five welders in one box. Swiss Army knife, but it shoots lightning.",
-    price: "See price on Amazon",
+    price: "$479.99",
     img: "assets/aff-weld-yeswelder-mig205ds.jpg",
     url: "https://www.amazon.com/dp/B07TVCWDGW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-powermig210",
+    section: "welding",
+    sub: "MIG",
+    name: "Lincoln Electric Power MIG 210 MP Multi-Process Welder (K3963-1)",
+    tagline: "MIG, flux, stick, DC TIG — one red box to rule the garage.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-lincoln-powermig210.png",
+    url: "https://www.amazon.com/dp/B00OGW47Q6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-powermig140mp",
+    section: "welding",
+    sub: "MIG",
+    name: "Lincoln Electric Power MIG 140MP Multi-Process Welder (K4499-1)",
+    tagline: "120V multi-process that plugs into any outlet and welds like it means it.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-lincoln-powermig140mp.jpg",
+    url: "https://www.amazon.com/dp/B081FGF5WC?tag=rendelivers-20"
   },
   {
     id: "aff-weld-primeweld-tig225x",
@@ -2319,9 +2339,19 @@ const PRODUCTS = [
     sub: "TIG",
     name: "PRIMEWELD TIG225X 225 Amp IGBT AC DC Tig/Stick Welder with Pulse, CK17 Flex Torch",
     tagline: "AC/DC TIG that welds aluminum like butter and comes with a real CK torch. Pros approve.",
-    price: "See price on Amazon",
+    price: "$889.00",
     img: "assets/aff-weld-primeweld-tig225x.jpg",
     url: "https://www.amazon.com/dp/B07BXHRBQ8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-tig200",
+    section: "welding",
+    sub: "TIG",
+    name: "Lincoln Electric Square Wave TIG 200 TIG Welder (K5126-1)",
+    tagline: "AC/DC TIG with pulse — aluminum doesn't stand a chance.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-lincoln-tig200.jpg",
+    url: "https://www.amazon.com/dp/B017DQ8DJ8?tag=rendelivers-20"
   },
   {
     id: "aff-weld-yeswelder-oxykit",
@@ -2329,7 +2359,7 @@ const PRODUCTS = [
     sub: "OXYFUEL",
     name: "YESWELDER Oxygen & Acetylene Torch Kit with Regulator, Nozzles, Hose, Goggles",
     tagline: "Fire, but make it precise. Cut, weld, braze — the original hot take.",
-    price: "See price on Amazon",
+    price: "$149.99",
     img: "assets/aff-weld-yeswelder-oxykit.jpg",
     url: "https://www.amazon.com/dp/B0D8SX5L6S?tag=rendelivers-20"
   },
@@ -2337,11 +2367,11 @@ const PRODUCTS = [
     id: "aff-weld-yeswelder-cut55ds",
     section: "welding",
     sub: "PLASMA",
-    name: "YESWELDER CUT-55DS Plasma Cutter, 55Amp Non-Touch Pilot Arc, 110/220V Dual Voltage",
+    name: "YESWELDER CUT-55DS PRO Plasma Cutter, 55Amp, Large LED Display, 110/220V Dual Voltage",
     tagline: "Slices steel like a hot knife through regret. Non-touch pilot arc, zero mercy.",
     price: "See price on Amazon",
     img: "assets/aff-weld-yeswelder-cut55ds.jpg",
-    url: "https://www.amazon.com/dp/B083GPXF8Y?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B0CWMY354P?tag=rendelivers-20"
   },
   {
     id: "aff-weld-yeswelder-cut60ds",
@@ -2349,7 +2379,7 @@ const PRODUCTS = [
     sub: "PLASMA",
     name: "YESWELDER CUT-60DS PRO Plasma Cutter, 60Amp, Digital Display, 110/220V Dual Voltage",
     tagline: "Sixty amps of 'watch this.' Cuts 7/8-inch steel while your grinder watches.",
-    price: "See price on Amazon",
+    price: "$279.99",
     img: "assets/aff-weld-yeswelder-cut60ds.jpg",
     url: "https://www.amazon.com/dp/B09L3Y3ZLF?tag=rendelivers-20"
   },
@@ -2359,7 +2389,7 @@ const PRODUCTS = [
     sub: "GEAR",
     name: "YESWELDER Auto Darkening Welding Helmet LYG-L500A, True Color, Solar Powered",
     tagline: "Blink and you'll miss the flash — literally. Auto-darkens before your retinas file a complaint.",
-    price: "See price on Amazon",
+    price: "$39.99",
     img: "assets/aff-weld-yeswelder-helmet.jpg",
     url: "https://www.amazon.com/dp/B07QJ1Y527?tag=rendelivers-20"
   },
@@ -2369,9 +2399,39 @@ const PRODUCTS = [
     sub: "GEAR",
     name: "YESWELDER 50LB Welding Magnet, 4-Pack Magnetic Welding Holders",
     tagline: "Four extra hands that never get tired, never complain, and hold 50 lbs at 45/90/135.",
-    price: "See price on Amazon",
+    price: "$21.99",
     img: "assets/aff-weld-yeswelder-magnets.jpg",
     url: "https://www.amazon.com/dp/B08FHS2VFP?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-k2979-gloves",
+    section: "welding",
+    sub: "GEAR",
+    name: "Lincoln Electric Traditional MIG/Stick Welding Gloves, 14in Lined Leather, Kevlar Stitching",
+    tagline: "The classic red-and-black gauntlets. Sparks bounce off, compliments don't.",
+    price: "$43.51",
+    img: "assets/aff-weld-lincoln-k2979-gloves.jpg",
+    url: "https://www.amazon.com/dp/B00547HD0O?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-viking3350",
+    section: "welding",
+    sub: "GEAR",
+    name: "Lincoln Electric VIKING 3350 Auto-Darkening Welding Helmet, 4C Lens, Matte Black",
+    tagline: "1/1/1/1 optical clarity — see the puddle, not the headache.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-lincoln-viking3350.jpg",
+    url: "https://www.amazon.com/dp/B07V9G94NK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-lincoln-jacket-k2986",
+    section: "welding",
+    sub: "GEAR",
+    name: "Lincoln Electric Split Leather Sleeved Welding Jacket, FR Cotton, Black & Red",
+    tagline: "Cowhide sleeves, FR cotton body — dress like you weld for a living.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-lincoln-jacket-k2986.jpg",
+    url: "https://www.amazon.com/dp/B0055E0WUY?tag=rendelivers-20"
   },
   {
     id: "aff-weld-lincoln-gloves",
