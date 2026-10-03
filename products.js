@@ -1909,7 +1909,7 @@ const PRODUCTS = [
     sub: "SCREWGUNS",
     name: "DEWALT 20V MAX XR Drywall Screwgun, Bare (DCF620B)",
     tagline: "Ren's pick: 4,400 RPM of screw-sinking fury. Your wrist will thank you; your apprentice won't.",
-    price: "See price on Amazon",
+    price: "$397.00",
     img: "assets/aff-drywall-dewalt-dcf620b.jpg",
     url: "https://www.amazon.com/dp/B00U0RXGM2?tag=rendelivers-20"
   },
@@ -1919,7 +1919,7 @@ const PRODUCTS = [
     sub: "SCREWGUNS",
     name: "DEWALT 20V MAX XR Screwgun w/ Threaded Clutch (DCF624B)",
     tagline: "Ren's pick: threaded clutch housing plays nice with collated strips. Screws on autopilot.",
-    price: "See price on Amazon",
+    price: "$138.20",
     img: "assets/aff-drywall-dewalt-dcf624b.jpg",
     url: "https://www.amazon.com/dp/B082G34GWX?tag=rendelivers-20"
   },
@@ -1929,7 +1929,7 @@ const PRODUCTS = [
     sub: "SCREWGUNS",
     name: "Milwaukee M18 FUEL Drywall Screw Gun, Bare (2866-20)",
     tagline: "Ren's pick: auto-start means the motor only runs when it's biting drywall. Quieter, longer, meaner.",
-    price: "See price on Amazon",
+    price: "$169.80",
     img: "assets/aff-drywall-milwaukee-2866-20.png",
     url: "https://www.amazon.com/dp/B01M1UQ7NJ?tag=rendelivers-20"
   },
@@ -2234,34 +2234,44 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B001H1EQO2?tag=rendelivers-20"
   },
   {
-    id: "aff-lawn-agrifab-40",
+    id: "aff-lawn-billygoat-pr550",
     section: "lawn",
     sub: "THATCHERS",
-    name: "Agri-Fab 45-0294 40\" Tow-Behind Lawn Dethatcher",
-    tagline: "Hook it to the tractor, rip out 40 inches of dead thatch per pass. Your lawn can finally breathe again.",
+    name: "Billy Goat PR550H Power Rake Dethatcher, 20in, Honda 162cc",
+    tagline: "The rental-fleet standard. Flail reel rips thatch like it owes you money.",
     price: "See price on Amazon",
-    img: "assets/aff-lawn-agrifab-40.jpg",
-    url: "https://www.amazon.com/dp/B0000CBJGC?tag=rendelivers-20"
+    img: "assets/aff-lawn-billygoat-pr550.jpg",
+    url: "https://www.amazon.com/dp/B0048NN4X0?tag=rendelivers-20"
   },
   {
-    id: "aff-lawn-sunjoe-dethatcher",
+    id: "aff-lawn-brinly-dt40bh",
     section: "lawn",
     sub: "THATCHERS",
-    name: "Sun Joe AJ801E 12-Amp Electric Dethatcher & Scarifier",
-    tagline: "Plug it in, dethatch AND scarify, bag the mess. The electric overachiever of lawn care.",
+    name: "Brinly DT-40BH Tow-Behind Dethatcher, 40in, All-Steel",
+    tagline: "All-steel, made in USA, 70-lb tray — the real tow-behind, not a toy.",
     price: "See price on Amazon",
-    img: "assets/aff-lawn-sunjoe-dethatcher.jpg",
-    url: "https://www.amazon.com/dp/B01FEATL2I?tag=rendelivers-20"
+    img: "assets/aff-lawn-brinly-dt40bh.jpg",
+    url: "https://www.amazon.com/dp/B007AE2WCI?tag=rendelivers-20"
   },
   {
-    id: "aff-lawn-agrifab-48",
+    id: "aff-lawn-billygoat-pl1800",
     section: "lawn",
-    sub: "THATCHERS",
-    name: "Agri-Fab 45-0295 48\" Tow-Behind Lawn Dethatcher",
-    tagline: "The big brother: 48 inches, 24 heat-treated tines. For acreage that laughs at smaller dethatchers.",
+    sub: "AERATORS",
+    name: "Billy Goat PL1800V PLUGR Reciprocating Aerator, 18in, 5.5HP Vanguard",
+    tagline: "Self-propelled core aerator — drives plugs twice as deep as a drum.",
     price: "See price on Amazon",
-    img: "assets/aff-lawn-agrifab-48.jpg",
-    url: "https://www.amazon.com/dp/B0000AX4SP?tag=rendelivers-20"
+    img: "assets/aff-lawn-billygoat-pl1800.jpg",
+    url: "https://www.amazon.com/dp/B01HOHGD9S?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lawn-brinly-pa403",
+    section: "lawn",
+    sub: "AERATORS",
+    name: "Brinly PA-403BH 40in Tow-Behind Plug Aerator, All-Steel",
+    tagline: "24 heat-treated spoons pull true 3-inch cores. Your lawn will thank you.",
+    price: "See price on Amazon",
+    img: "assets/aff-lawn-brinly-pa403.jpg",
+    url: "https://www.amazon.com/dp/B0FWS3QQCF?tag=rendelivers-20"
   },
   {
     id: "aff-weld-yeswelder-arc205ds",
