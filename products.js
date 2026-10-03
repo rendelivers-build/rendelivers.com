@@ -1734,6 +1734,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B08CP6GL49?tag=rendelivers-20"
   },
   {
+    id: "aff-klein-clampmeter-cl320",
+    section: "electrical",
+    sub: "METERS",
+    name: "Klein Tools CL320 400A Auto-Ranging Clamp Meter",
+    tagline: "Ren's pick: auto-ranging 400A with DC microamps — the step-up meter for serious troubleshooting.",
+    price: "$96.00",
+    img: "assets/aff-klein-clampmeter-cl320.jpg",
+    url: "https://www.amazon.com/dp/B08DDTV5KG?tag=rendelivers-20"
+  },
+  {
     id: "aff-klein-ncvt-1",
     section: "electrical",
     sub: "TESTERS",
