@@ -2519,7 +2519,7 @@ const PRODUCTS = [
     sub: "GEAR",
     name: "Lincoln Electric Split Leather Sleeved Welding Jacket, FR Cotton, Black & Red",
     tagline: "Cowhide sleeves, FR cotton body — dress like you weld for a living.",
-    price: "See price on Amazon",
+    price: "$195.00",
     img: "assets/aff-weld-lincoln-jacket-k2986.jpg",
     url: "https://www.amazon.com/dp/B0055E0WUY?tag=rendelivers-20"
   },
@@ -2529,7 +2529,7 @@ const PRODUCTS = [
     sub: "GEAR",
     name: "Lincoln Electric Jessi Combs Women's MIG/Stick Welding Gloves",
     tagline: "Kevlar-stitched leather that laughs at spatter. Sized for smaller hands, built for big sparks.",
-    price: "See price on Amazon",
+    price: "$43.51",
     img: "assets/aff-weld-lincoln-gloves.jpg",
     url: "https://www.amazon.com/dp/B00FKBJ4IS?tag=rendelivers-20"
   },
