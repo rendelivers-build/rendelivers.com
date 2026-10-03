@@ -1178,7 +1178,7 @@ const PRODUCTS = [
     sub: "SOLDERING",
     name: "Bernzomatic TS8000 High Intensity Trigger Start Torch",
     tagline: "Ren's pick: trigger-start, swirl flame, burns in any direction. A torch, not an iron — like Brandon said.",
-    price: "See price on Amazon",
+    price: "$57.98",
     img: "assets/aff-bernzomatic-ts8000-torch.jpg",
     url: "https://www.amazon.com/dp/B0019CQL60?tag=rendelivers-20"
   },
@@ -2289,7 +2289,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "Forney 30305 E6013 Welding Rod, 3/32-Inch, 5-Pound",
     tagline: "The beginner-friendly rod — smooth arc, easy slag, forgiving on thin stuff.",
-    price: "See price on Amazon",
+    price: "$25.49",
     img: "assets/aff-weld-electrode-forney-6013.jpg",
     url: "https://www.amazon.com/dp/B000CFNGQ8?tag=rendelivers-20"
   },
@@ -2299,7 +2299,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "Forney 31205 E6011 Welding Rod, 1/8-Inch, 5-Pound",
     tagline: "Deep penetration on AC or DC — burns through rust, paint, and excuses.",
-    price: "See price on Amazon",
+    price: "$28.99",
     img: "assets/aff-weld-electrode-forney-6011.jpg",
     url: "https://www.amazon.com/dp/B000CFPU94?tag=rendelivers-20"
   },
@@ -2309,7 +2309,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "YESWELDER E6010 1/8-Inch 5LB Carbon Steel Stick Electrodes",
     tagline: "The pipe welder's root-pass rod — fast-freeze, deep dig, DC+.",
-    price: "See price on Amazon",
+    price: "$26.99",
     img: "assets/aff-weld-electrode-yeswelder-6010.jpg",
     url: "https://www.amazon.com/dp/B0CTBYNG96?tag=rendelivers-20"
   },
@@ -2319,7 +2319,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "YESWELDER E6013 1/8-Inch 5LB Carbon Steel Stick Electrodes",
     tagline: "The everyday fab-shop rod — easy arc, clean beads, 1/8-inch workhorse.",
-    price: "See price on Amazon",
+    price: "$26.99",
     img: "assets/aff-weld-electrode-yeswelder-6013.jpg",
     url: "https://www.amazon.com/dp/B0C9LBH9VJ?tag=rendelivers-20"
   },
@@ -2329,7 +2329,7 @@ const PRODUCTS = [
     sub: "STICK",
     name: "YESWELDER E7018 1/8-Inch 5LB Low Hydrogen Carbon Steel Stick Electrodes",
     tagline: "Low-hydrogen structural rod — strong, crack-resistant, code-quality welds.",
-    price: "See price on Amazon",
+    price: "$26.99",
     img: "assets/aff-weld-electrode-yeswelder-7018.jpg",
     url: "https://www.amazon.com/dp/B0C9L8QW9J?tag=rendelivers-20"
   },
@@ -2379,7 +2379,7 @@ const PRODUCTS = [
     sub: "MIG",
     name: "Lincoln Electric Power MIG 140MP Multi-Process Welder (K4499-1)",
     tagline: "120V multi-process that plugs into any outlet and welds like it means it.",
-    price: "See price on Amazon",
+    price: "$1,748.99",
     img: "assets/aff-weld-lincoln-powermig140mp.jpg",
     url: "https://www.amazon.com/dp/B081FGF5WC?tag=rendelivers-20"
   },
@@ -2399,7 +2399,7 @@ const PRODUCTS = [
     sub: "TIG",
     name: "Lincoln Electric Square Wave TIG 200 TIG Welder (K5126-1)",
     tagline: "AC/DC TIG with pulse — aluminum doesn't stand a chance.",
-    price: "See price on Amazon",
+    price: "$1,827.52",
     img: "assets/aff-weld-lincoln-tig200.jpg",
     url: "https://www.amazon.com/dp/B017DQ8DJ8?tag=rendelivers-20"
   },
@@ -2469,7 +2469,7 @@ const PRODUCTS = [
     sub: "GEAR",
     name: "Lincoln Electric VIKING 3350 Auto-Darkening Welding Helmet, 4C Lens, Matte Black",
     tagline: "1/1/1/1 optical clarity — see the puddle, not the headache.",
-    price: "See price on Amazon",
+    price: "$448.43",
     img: "assets/aff-weld-lincoln-viking3350.jpg",
     url: "https://www.amazon.com/dp/B07V9G94NK?tag=rendelivers-20"
   },
