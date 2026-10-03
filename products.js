@@ -2564,7 +2564,7 @@ const PRODUCTS = [
   {
     id: "aff-safety-milwaukee-tinted-glasses",
     section: "safety",
-    sub: "EYE PROTECTION",
+    sub: "EYES",
     name: "Milwaukee Anti-Fog Safety Glasses, Tinted Lens, Black/Red Frame",
     tagline: "Ren's pick: tinted, anti-fog, and red. Safety glasses that look like sunglasses and work like armor.",
     price: "$14.45",
