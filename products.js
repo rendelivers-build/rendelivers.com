@@ -1719,19 +1719,19 @@ const PRODUCTS = [
     sub: "METERS",
     name: "Klein Tools 935RBLT 9 in. Lighted Torpedo Level",
     tagline: "Ren's pick: LED-lit vials you can actually read in a dark panel. Billet aluminum, rare-earth magnets.",
-    price: "See price on Amazon",
+    price: "$37.96",
     img: "assets/aff-klein-torpedo-level.jpg",
     url: "https://www.amazon.com/dp/B01M3YMNY5?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-clampmeter-cl800",
+    id: "aff-klein-clampmeter-cl120",
     section: "electrical",
     sub: "METERS",
-    name: "Klein Tools CL800 Digital Clamp Meter",
-    tagline: "Ren's pick: TRMS clamp meter, 600A AC/DC, CAT IV rated. The serious sparky's meter.",
-    price: "See price on Amazon",
-    img: "assets/aff-klein-clampmeter-cl800.jpg",
-    url: "https://www.amazon.com/dp/B019CY4FB4?tag=rendelivers-20"
+    name: "Klein Tools CL120 400A Auto-Ranging Clamp Meter",
+    tagline: "Ren's pick: auto-ranging 400A clamp meter, TRMS. The everyday sparky's meter.",
+    price: "$63.98",
+    img: "assets/aff-klein-clampmeter-cl120.jpg",
+    url: "https://www.amazon.com/dp/B08CP6GL49?tag=rendelivers-20"
   },
   {
     id: "aff-klein-ncvt-1",
