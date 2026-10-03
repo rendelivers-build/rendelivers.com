@@ -2608,7 +2608,7 @@ function rdCardHTML(p, big) {
         '<p class="card-tag">' + rdEsc(p.tagline) + '</p>' +
         sampleBtn +
         '<div class="card-row">' +
-          '<span class="price">' + rdEsc(p.price) + '</span>' +
+          '<span class="price' + (p.price.length > 14 ? ' price-note' : '') + '">' + rdEsc(p.price) + '</span>' +
           '<a class="btn" href="' + rdEsc(p.url) + '" target="_blank" rel="noopener">' +
             (big ? 'Buy Now' : 'Buy') +
           '</a>' +
