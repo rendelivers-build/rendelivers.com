@@ -1689,19 +1689,19 @@ const PRODUCTS = [
     sub: "DRIVERS",
     name: "Klein Tools 85148 8-Piece Screwdriver Set",
     tagline: "Ren's pick: USA-made cushion-grip drivers with magnetizer. The set that never leaves the truck.",
-    price: "See price on Amazon",
+    price: "$66.99",
     img: "assets/aff-klein-screwdriver-set-85148.jpg",
     url: "https://www.amazon.com/dp/B07W7VCQK3?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-bender-56206",
+    id: "aff-klein-bender-51611",
     section: "electrical",
     sub: "BENDERS",
-    name: "Klein Tools 56206 1/2 in. EMT Conduit Bender",
-    tagline: "Ren's pick: Benfield head with cast-in markings. Bends that actually hit the mark.",
-    price: "See price on Amazon",
-    img: "assets/aff-klein-bender-56206.jpg",
-    url: "https://www.amazon.com/dp/B0026TDBJA?tag=rendelivers-20"
+    name: "Klein Tools 51611 1/2 in. Aluminum Conduit Bender w/ Angle Setter",
+    tagline: "Ren's pick: aluminum head with angle-setter marks — 1/2 in. EMT bends clean every time.",
+    price: "$44.98",
+    img: "assets/aff-klein-bender-51611.jpg",
+    url: "https://www.amazon.com/dp/B08L41G5G5?tag=rendelivers-20"
   },
   {
     id: "aff-klein-tape-9225",
@@ -1709,7 +1709,7 @@ const PRODUCTS = [
     sub: "METERS",
     name: "Klein Tools 9225 25 ft. Tape Measure",
     tagline: "Ren's pick: double-hook magnetic tape with 13 ft. standout. Sticks to conduit, measures true.",
-    price: "See price on Amazon",
+    price: "$29.98",
     img: "assets/aff-klein-tape-9225.jpg",
     url: "https://www.amazon.com/dp/B07WF9TKNN?tag=rendelivers-20"
   },
