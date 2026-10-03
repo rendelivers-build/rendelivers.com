@@ -955,9 +955,19 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "PIP Wolfjaw Full Brim Hard Hat, Glossy Carbon Fiber Shell",
     tagline: "Ren's pick: real carbon fiber shell, 8-point suspension, wheel ratchet. The foreman's hard hat — looks fast, works hard.",
-    price: "See price on Amazon",
+    price: "$109.99",
     img: "assets/aff-pip-wolfjaw.jpg",
     url: "https://www.amazon.com/dp/B0C443J64K?tag=rendelivers-20"
+  },
+  {
+    id: "aff-lift-dax-fifty50-orange",
+    section: "safety",
+    sub: "HEAD PROTECTION",
+    name: "LIFT Safety DAX Fifty 50 Carbon Fiber Full Brim Hard Hat, Hi-Viz Orange/Black",
+    tagline: "Half carbon fiber, half hi-vis — the hardest hat on the jobsite.",
+    price: "See price on Amazon",
+    img: "assets/aff-lift-dax-fifty50-orange.jpg",
+    url: "https://www.amazon.com/dp/B07NZ89225?tag=rendelivers-20"
   },
   {
     id: "aff-3m-securefit",
@@ -1079,16 +1089,6 @@ const PRODUCTS = [
     checked: "2026-10-02",
     img: "assets/aff-ansell-midknight.jpg",
     url: "https://www.amazon.com/dp/B003FP2LJU?tag=rendelivers-20"
-  },
-  {
-    id: "aff-wells-lamont-1132",
-    section: "safety",
-    sub: "GLOVES",
-    name: "Wells Lamont Men's Cowhide Leather Work Gloves, Adjustable Wrist (1132L)",
-    tagline: "Ren's pick: full grain cowhide with reinforced palm. Old-school leather that outlasts the job.",
-    price: "See price on Amazon",
-    img: "assets/aff-wells-lamont-1132.jpg",
-    url: "https://www.amazon.com/dp/B00004R9RW?tag=rendelivers-20"
   },
   {
     id: "aff-firstaidonly-90575",
@@ -1999,19 +1999,9 @@ const PRODUCTS = [
     sub: "TAPING",
     name: "LEVEL5 Composite Skimming Blade Combo 16 in. (5-430C)",
     tagline: "Ren's pick: 16 inches of skim-coat justice on an extendable handle. Lap marks don't stand a chance.",
-    price: "See price on Amazon",
+    price: "$145.75",
     img: "assets/aff-drywall-level5-5430c.jpg",
     url: "https://www.amazon.com/dp/B0BW48YB4G?tag=rendelivers-20"
-  },
-  {
-    id: "aff-drywall-stanley-21115",
-    section: "drywall",
-    sub: "HAND TOOLS",
-    name: "Stanley Surform Shaver 4-Pack (21-115)",
-    tagline: "Ren's pick: the Surform shaver. Shaves drywall edges like a hot knife through regrets.",
-    price: "See price on Amazon",
-    img: "assets/aff-drywall-stanley-21115.jpg",
-    url: "https://www.amazon.com/dp/B07NCZ1BVY?tag=rendelivers-20"
   },
   {
     id: "aff-drywall-level5-4760",
@@ -2019,7 +2009,7 @@ const PRODUCTS = [
     sub: "TAPING",
     name: "LEVEL5 Automatic Drywall Taper (4-760)",
     tagline: "Ren's pick: automatic taper — mud and tape fly on in one pass. This is how the pros get fast.",
-    price: "See price on Amazon",
+    price: "$1,299.99",
     img: "assets/aff-drywall-level5-4760.jpg",
     url: "https://www.amazon.com/dp/B07DK3N3XD?tag=rendelivers-20"
   },
@@ -2049,7 +2039,7 @@ const PRODUCTS = [
     sub: "SANDERS",
     name: "Hyde 09170 Dust-Free Vacuum Sander Kit",
     tagline: "Ren's pick: hooks to your shop vac and eats 95% of the dust. Your lungs called — they approve.",
-    price: "See price on Amazon",
+    price: "$46.39",
     img: "assets/aff-drywall-hyde-09170.jpg",
     url: "https://www.amazon.com/dp/B000M2WSHY?tag=rendelivers-20"
   },
@@ -2069,7 +2059,7 @@ const PRODUCTS = [
     sub: "STILTS",
     name: "Dura-Stilts Deluxe III Drywall Stilts 24-40 in.",
     tagline: "Ren's pick: the original. Replaceable parts, lasts a lifetime, the stilt other stilts wish they were.",
-    price: "See price on Amazon",
+    price: "$420.00",
     img: "assets/aff-drywall-dura-stilts.jpg",
     url: "https://www.amazon.com/dp/B00169V8D2?tag=rendelivers-20"
   },
@@ -2079,7 +2069,7 @@ const PRODUCTS = [
     sub: "STILTS",
     name: "Pentagon Tool Professional Drywall Stilts 24-40 in.",
     tagline: "Ren's pick: dual-spring aluminum stilts at a working man's price. 228-lb capacity.",
-    price: "See price on Amazon",
+    price: "$139.71",
     img: "assets/aff-drywall-pentagon-stilts.jpg",
     url: "https://www.amazon.com/dp/B001R51V3C?tag=rendelivers-20"
   },
