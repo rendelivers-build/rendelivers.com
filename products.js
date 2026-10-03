@@ -2785,7 +2785,7 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-var TOP_PICKS = ["will-work-for-diesel", "flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "i-live-at-work", "aff-swanson-s0101", "tpl-estimate"];
+var TOP_PICKS = ["will-work-for-diesel", "flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "aff-lawn-husqvarna-z254", "aff-swanson-s0101", "tpl-estimate"];
 
 function rdRenderCarousel(elId) {
   var byId = rdById();
