@@ -2189,7 +2189,7 @@ const PRODUCTS = [
     sub: "EDGERS & HEDGE",
     name: "DEWALT 20V MAX Cordless Hedge Trimmer, 22\" (DCHT820B, Tool Only)",
     tagline: "Laser-cut blades, zero gas smell. Sculpt bushes like a topiary artist who drinks energy drinks.",
-    price: "See price on Amazon",
+    price: "$211.46",
     img: "assets/aff-lawn-dewalt-hedge.jpg",
     url: "https://www.amazon.com/dp/B01BSURQXO?tag=rendelivers-20"
   },
@@ -2199,7 +2199,7 @@ const PRODUCTS = [
     sub: "CHAINSAWS",
     name: "Husqvarna 455 Rancher Gas Chainsaw, 55cc, 20\"",
     tagline: "The Rancher. 55cc of tree-dropping authority. Firewood season just became your favorite season.",
-    price: "See price on Amazon",
+    price: "$589.99",
     img: "assets/aff-lawn-husqvarna-455.jpg",
     url: "https://www.amazon.com/dp/B0BRNRL6NQ?tag=rendelivers-20"
   },
@@ -2209,7 +2209,7 @@ const PRODUCTS = [
     sub: "CHAINSAWS",
     name: "Husqvarna 445 Gas Chainsaw, 50cc, 18\"",
     tagline: "The 455's little brother with the same attitude. 18 inches of 'that limb had it coming.'",
-    price: "See price on Amazon",
+    price: "$423.84",
     img: "assets/aff-lawn-husqvarna-445.jpg",
     url: "https://www.amazon.com/dp/B0BRNT5C77?tag=rendelivers-20"
   },
@@ -2219,7 +2219,7 @@ const PRODUCTS = [
     sub: "SPRAYERS & SPREADERS",
     name: "Chapin 61900 4-Gallon Tree & Turf Pro Commercial Backpack Sprayer",
     tagline: "Made in the USA, sprays like it means it. Weeds see this backpack and start writing their wills.",
-    price: "See price on Amazon",
+    price: "$134.99",
     img: "assets/aff-lawn-chapin-61900.jpg",
     url: "https://www.amazon.com/dp/B001FA09S2?tag=rendelivers-20"
   },
@@ -2229,7 +2229,7 @@ const PRODUCTS = [
     sub: "SPRAYERS & SPREADERS",
     name: "Scotts Turf Builder EdgeGuard DLX Broadcast Spreader",
     tagline: "15,000 sq ft of even coverage and EdgeGuard keeps it off the driveway. Your lawn's about to get a promotion.",
-    price: "See price on Amazon",
+    price: "$94.97",
     img: "assets/aff-lawn-scotts-spreader.jpg",
     url: "https://www.amazon.com/dp/B001H1EQO2?tag=rendelivers-20"
   },
