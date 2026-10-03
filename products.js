@@ -2119,7 +2119,7 @@ const PRODUCTS = [
     sub: "TRIMMERS",
     name: "ECHO SRM-225 21.2cc Straight Shaft String Trimmer",
     tagline: "The weed eater every pro crew has zip-tied to the trailer. Starts easy, runs forever, takes abuse like a champ.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-lawn-echo-srm225.jpg",
     url: "https://www.amazon.com/dp/B005UPNR5A?tag=rendelivers-20"
   },
@@ -2282,6 +2282,56 @@ const PRODUCTS = [
     price: "$545.11",
     img: "assets/aff-weld-lincoln-225i.jpg",
     url: "https://www.amazon.com/dp/B0FFCBQ837?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-electrode-forney-6013",
+    section: "welding",
+    sub: "STICK",
+    name: "Forney 30305 E6013 Welding Rod, 3/32-Inch, 5-Pound",
+    tagline: "The beginner-friendly rod — smooth arc, easy slag, forgiving on thin stuff.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-electrode-forney-6013.jpg",
+    url: "https://www.amazon.com/dp/B000CFNGQ8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-electrode-forney-6011",
+    section: "welding",
+    sub: "STICK",
+    name: "Forney 31205 E6011 Welding Rod, 1/8-Inch, 5-Pound",
+    tagline: "Deep penetration on AC or DC — burns through rust, paint, and excuses.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-electrode-forney-6011.jpg",
+    url: "https://www.amazon.com/dp/B000CFPU94?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-electrode-yeswelder-6010",
+    section: "welding",
+    sub: "STICK",
+    name: "YESWELDER E6010 1/8-Inch 5LB Carbon Steel Stick Electrodes",
+    tagline: "The pipe welder's root-pass rod — fast-freeze, deep dig, DC+.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-electrode-yeswelder-6010.jpg",
+    url: "https://www.amazon.com/dp/B0CTBYNG96?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-electrode-yeswelder-6013",
+    section: "welding",
+    sub: "STICK",
+    name: "YESWELDER E6013 1/8-Inch 5LB Carbon Steel Stick Electrodes",
+    tagline: "The everyday fab-shop rod — easy arc, clean beads, 1/8-inch workhorse.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-electrode-yeswelder-6013.jpg",
+    url: "https://www.amazon.com/dp/B0C9LBH9VJ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-weld-electrode-yeswelder-7018",
+    section: "welding",
+    sub: "STICK",
+    name: "YESWELDER E7018 1/8-Inch 5LB Low Hydrogen Carbon Steel Stick Electrodes",
+    tagline: "Low-hydrogen structural rod — strong, crack-resistant, code-quality welds.",
+    price: "See price on Amazon",
+    img: "assets/aff-weld-electrode-yeswelder-7018.jpg",
+    url: "https://www.amazon.com/dp/B0C9L8QW9J?tag=rendelivers-20"
   },
   {
     id: "aff-weld-hobart-140",
