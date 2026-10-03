@@ -1589,19 +1589,19 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools 1005 Cutting/Crimping Tool",
     tagline: "Ren's pick: Journeyman crimper for 10-22 AWG terminals. Crimps that hold like they mean it.",
-    price: "See price on Amazon",
+    price: "$29.97",
     img: "assets/aff-klein-crimper-1005.jpg",
     url: "https://www.amazon.com/dp/B0006M6Y5M?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-mm400",
+    id: "aff-klein-mm420",
     section: "electrical",
     sub: "METERS",
-    name: "Klein Tools MM400 Auto-Ranging Multimeter 600V",
+    name: "Klein Tools MM420 Auto-Ranging Multimeter 600V",
     tagline: "Ren's pick: TRMS, auto-ranging, measures everything including temperature. The meter that does it all.",
-    price: "See price on Amazon",
-    img: "assets/aff-klein-mm400.jpg",
-    url: "https://www.amazon.com/dp/B018EXZO8M?tag=rendelivers-20"
+    price: "$64.37",
+    img: "assets/aff-klein-mm420.jpg",
+    url: "https://www.amazon.com/dp/B0B57PFFYX?tag=rendelivers-20"
   },
   {
     id: "aff-klein-rt210",
