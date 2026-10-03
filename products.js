@@ -990,7 +990,7 @@ const PRODUCTS = [
   {
     id: "aff-3m-securefit",
     section: "safety",
-    sub: "EYES",
+    sub: "EYEWEAR",
     name: "3M SecureFit 400 Safety Glasses, Clear Anti-Fog Lens",
     tagline: "Ren's pick: self-adjusting temples, anti-fog coating, ANSI Z87.1+ impact rated. 'I didn't see it coming' is not a safety plan.",
     price: "$9.79",
@@ -2564,7 +2564,7 @@ const PRODUCTS = [
   {
     id: "aff-safety-milwaukee-tinted-glasses",
     section: "safety",
-    sub: "EYES",
+    sub: "EYEWEAR",
     name: "Milwaukee Anti-Fog Safety Glasses, Tinted Lens, Black/Red Frame",
     tagline: "Ren's pick: tinted, anti-fog, and red. Safety glasses that look like sunglasses and work like armor.",
     price: "$14.45",
