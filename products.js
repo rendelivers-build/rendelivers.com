@@ -13,7 +13,7 @@ const PRODUCTS = [
   /* ---------------- SHIRTS (Zazzle) ---------------- */
   {
     id: "flag-hammer",
-    section: "shirts",
+    section: "apparel",
     name: "American Flag Framing Hammer",
     tagline: "Distressed flag with a framing hammer cut out. For the ones who built this country.",
     price: "$21.17",
@@ -22,7 +22,7 @@ const PRODUCTS = [
   },
   {
     id: "boss-man",
-    section: "shirts",
+    section: "apparel",
     name: "Boss Man",
     tagline: "For the one running the show — or the one who thinks he is.",
     price: "$21.17",
@@ -31,7 +31,7 @@ const PRODUCTS = [
   },
   {
     id: "alien-probe",
-    section: "shirts",
+    section: "apparel",
     name: "I Identify As An Alien Probe",
     tagline: "For the crew member with zero filter.",
     price: "$21.17",
@@ -40,7 +40,7 @@ const PRODUCTS = [
   },
   {
     id: "rocket-surgery",
-    section: "shirts",
+    section: "apparel",
     name: "It's Not Rocket Surgery",
     tagline: "The official motto of every job site.",
     price: "$21.17",
@@ -49,7 +49,7 @@ const PRODUCTS = [
   },
   {
     id: "i-live-at-work",
-    section: "shirts",
+    section: "apparel",
     name: "I Live At Work",
     tagline: "For the coworker who basically lives at the office.",
     price: "$21.17",
@@ -58,7 +58,7 @@ const PRODUCTS = [
   },
   {
     id: "will-work-for-diesel",
-    section: "shirts",
+    section: "apparel",
     name: "Will Work For Diesel",
     tagline: "The truck doesn't run on compliments.",
     price: "$21.17",
@@ -67,7 +67,7 @@ const PRODUCTS = [
   },
   {
     id: "safety-3rd",
-    section: "shirts",
+    section: "apparel",
     name: "Safety 3rd",
     tagline: "Because safety first is for people who read the manual.",
     price: "$21.17",
@@ -76,7 +76,7 @@ const PRODUCTS = [
   },
   {
     id: "u-should-b-here",
-    section: "shirts",
+    section: "apparel",
     name: "U Should B Here — Three Wise Monkeys",
     tagline: "See no evil, hear no evil, speak no evil.",
     price: "$21.17",
@@ -85,7 +85,7 @@ const PRODUCTS = [
   },
   {
     id: "tax-deduction-onesie",
-    section: "shirts",
+    section: "apparel",
     name: "Tax Deduction Baby Bodysuit",
     tagline: "The newest member of the workforce.",
     price: "$18.11",
@@ -94,7 +94,7 @@ const PRODUCTS = [
   },
   {
     id: "tax-deduction-loading",
-    section: "shirts",
+    section: "apparel",
     name: "Tax Deduction Loading Maternity Sweater",
     tagline: "Expecting the ultimate write-off.",
     price: "$37.87",
@@ -103,7 +103,7 @@ const PRODUCTS = [
   },
   {
     id: "catch-phrase",
-    section: "shirts",
+    section: "apparel",
     name: "Catch Phrase T-Shirt",
     tagline: "Insert your catch phrase here. [CATCH PHRASE]",
     price: "$21.17",
@@ -112,7 +112,7 @@ const PRODUCTS = [
   },
   {
     id: "youre-did-it",
-    section: "shirts",
+    section: "apparel",
     name: "You're DID IT!",
     tagline: "Tri-blend. You DID it — own it.",
     price: "$41.74",
@@ -121,7 +121,7 @@ const PRODUCTS = [
   },
   {
     id: "failed",
-    section: "shirts",
+    section: "apparel",
     name: "Failed",
     tagline: "For when it just didn't work out.",
     price: "$21.17",
@@ -130,7 +130,7 @@ const PRODUCTS = [
   },
   {
     id: "osha-violator",
-    section: "shirts",
+    section: "apparel",
     name: "OSHA Violator",
     tagline: "Safety third.",
     price: "$21.17",
@@ -139,7 +139,7 @@ const PRODUCTS = [
   },
   {
     id: "cant-spell-success",
-    section: "shirts",
+    section: "apparel",
     name: "You Can't Spell Success",
     tagline: "U can't spell success without U.",
     price: "$21.17",
@@ -148,7 +148,7 @@ const PRODUCTS = [
   },
   {
     id: "government-controlled",
-    section: "shirts",
+    section: "apparel",
     name: "Government Controlled",
     tagline: "They're listening.",
     price: "$21.17",
@@ -157,7 +157,7 @@ const PRODUCTS = [
   },
   {
     id: "nailed-it",
-    section: "shirts",
+    section: "apparel",
     name: "Nailed It",
     tagline: "Nailed it. (Probably.)",
     price: "$21.17",
@@ -166,7 +166,7 @@ const PRODUCTS = [
   },
   {
     id: "tomato-potato",
-    section: "shirts",
+    section: "apparel",
     name: "Tomato Potato",
     tagline: "Tomato, potato — let's call the whole thing off.",
     price: "$21.17",
@@ -175,7 +175,7 @@ const PRODUCTS = [
   },
   {
     id: "level-1-beginner",
-    section: "shirts",
+    section: "apparel",
     name: "Level 1 Beginner",
     tagline: "Everyone starts at level 1.",
     price: "$21.17",
@@ -184,7 +184,7 @@ const PRODUCTS = [
   },
   {
     id: "born-to-send-it",
-    section: "shirts",
+    section: "apparel",
     name: "Born To F*cking Send It",
     tagline: "Full send, no regrets.",
     price: "$21.17",
