@@ -907,7 +907,7 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Johnson Level CS9 Steel Framing Square, 16 in. x 24 in.",
     tagline: "Ren's pick: the big 16x24 steel square — rafter tables, EZ Read graduations. Layout, stairs, and everything square.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-johnson-cs9.jpg",
     url: "https://www.amazon.com/dp/B00002N5O8?tag=rendelivers-20"
   },
@@ -983,7 +983,7 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "LIFT Safety DAX Fifty 50 Carbon Fiber Full Brim Hard Hat, Hi-Viz Orange/Black",
     tagline: "Half carbon fiber, half hi-vis — the hardest hat on the jobsite.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-lift-dax-fifty50-orange.jpg",
     url: "https://www.amazon.com/dp/B07NZ89225?tag=rendelivers-20"
   },
@@ -1126,7 +1126,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "Markup & Profit: A Contractor's Guide, Revisited",
     tagline: "Ren's pick: the bible on overhead, markup, and pricing jobs so you actually make money. By Michael Stone — required reading.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-markup-profit.jpg",
     url: "https://www.amazon.com/dp/1572182717?tag=rendelivers-20"
   },
@@ -1136,7 +1136,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "2026 National Construction Estimator, 74th Edition",
     tagline: "Ren's pick: current national costs — materials, labor, manhours, crew sizes, city modifiers. Price it right the first time.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-national-estimator.jpg",
     url: "https://www.amazon.com/dp/1572184086?tag=rendelivers-20"
   },
@@ -1146,7 +1146,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "Construction Project Management, 4th Edition",
     tagline: "Ren's pick: the full playbook — estimating, scheduling, contracts, safety. Run the job like a pro.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-construction-pm.jpg",
     url: "https://www.amazon.com/dp/0132877244?tag=rendelivers-20"
   },
@@ -1156,7 +1156,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "Construction Jobsite Management, 4th Edition",
     tagline: "Ren's pick: the day-to-day of running a jobsite — documentation, scheduling, coordination. For the one in charge.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-jobsite-mgmt.jpg",
     url: "https://www.amazon.com/dp/130508179X?tag=rendelivers-20"
   },
@@ -1166,7 +1166,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "Principles and Practices of Commercial Construction, 10th Edition",
     tagline: "Ren's pick: commercial building methods, materials, and systems. The textbook behind the license exam.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-commercial-construction.jpg",
     url: "https://www.amazon.com/dp/0134704665?tag=rendelivers-20"
   },
@@ -1176,7 +1176,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "The NRCA Roofing Manual: Steep-slope Roof Systems, 2021",
     tagline: "Ren's pick: the roofing industry's authoritative manual — installation, materials, best practices. From the NRCA itself.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-nrca-roofing.jpg",
     url: "https://www.amazon.com/dp/B00BBX15ZE?tag=rendelivers-20"
   },
@@ -1286,7 +1286,7 @@ const PRODUCTS = [
     sub: "Multi-Tools",
     name: "Milwaukee 2526-20 M12 FUEL Oscillating Multi-Tool (Tool Only)",
     tagline: "Ren's pick: 10,000 to 20,000 OPM of cut-sand-scrape everything. The tool that does what the others won't.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-multitool-m12.jpg",
     url: "https://www.amazon.com/dp/B08JWL1PBV?tag=rendelivers-20"
   },
@@ -1296,7 +1296,7 @@ const PRODUCTS = [
     sub: "Drills",
     name: "Milwaukee 2804-20 M18 FUEL 1/2 in. Hammer Drill (Tool Only)",
     tagline: "Ren's pick: 1,200 in-lbs of peak torque. Drills through concrete like it's drywall.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-drill-m18.jpg",
     url: "https://www.amazon.com/dp/B079NBC7JN?tag=rendelivers-20"
   },
@@ -1306,7 +1306,7 @@ const PRODUCTS = [
     sub: "Drills",
     name: "Milwaukee 3404-20 M12 FUEL 1/2 in. Hammer Drill (Tool Only)",
     tagline: "Ren's pick: the little drill that punches way above its weight class.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-drill-m12.jpg",
     url: "https://www.amazon.com/dp/B0BPDKS8SH?tag=rendelivers-20"
   },
@@ -1316,7 +1316,7 @@ const PRODUCTS = [
     sub: "Drivers",
     name: "Milwaukee 2853-20 M18 FUEL 1/4 in. Hex Impact Driver (Tool Only)",
     tagline: "Ren's pick: 2,000 in-lbs in a 4.59 in. body. Screws fear this thing.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-impact-m18.jpg",
     url: "https://www.amazon.com/dp/B0BB8H1NKX?tag=rendelivers-20"
   },
@@ -1326,7 +1326,7 @@ const PRODUCTS = [
     sub: "Drivers",
     name: "Milwaukee 2553-20 M12 FUEL 1/4 in. Hex Impact Driver Kit",
     tagline: "Ren's pick: 1,500 in-lbs with 4-mode drive control. Kit comes with battery and bag.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-impact-m12.jpg",
     url: "https://www.amazon.com/dp/B0BLT6PSKS?tag=rendelivers-20"
   },
@@ -1336,7 +1336,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 2732-20 M18 FUEL 7-1/4 in. Circular Saw (Tool Only)",
     tagline: "Ren's pick: 5,800 RPM, magnesium shoe, rafter hook. The full-size framing saw, no cord.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-circsaw-7.jpg",
     url: "https://www.amazon.com/dp/B079NPMJQ1?tag=rendelivers-20"
   },
@@ -1346,7 +1346,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 2730-21 M18 FUEL 6-1/2 in. Circular Saw Kit",
     tagline: "Ren's pick: the handy-size circ saw with battery and charger. For everything the big saw is overkill for.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-circsaw-6.jpg",
     url: "https://www.amazon.com/dp/B00FUQPDYW?tag=rendelivers-20"
   },
@@ -1356,7 +1356,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 2722-20 M18 FUEL SAWZALL Recip Saw (Tool Only)",
     tagline: "Ren's pick: 3,000 SPM, 1-1/4 in. stroke. Demolition's favorite power tool.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-sawzall-fuel.jpg",
     url: "https://www.amazon.com/dp/B08WG2HC81?tag=rendelivers-20"
   },
@@ -1366,7 +1366,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 2621-20 M18 SAWZALL Recip Saw (Tool Only)",
     tagline: "Ren's pick: the classic SAWZALL. All-metal gear case, QUIK-LOK blade clamp, zero drama.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-sawzall-m18.jpg",
     url: "https://www.amazon.com/dp/B07FB2GBTH?tag=rendelivers-20"
   },
@@ -1376,7 +1376,7 @@ const PRODUCTS = [
     sub: "SAWS",
     name: "Milwaukee 2737-20 M18 FUEL D-Handle Jig Saw (Tool Only)",
     tagline: "Ren's pick: 0 to 3,500 SPM with 4-position orbital. Curves so smooth they look laser-cut.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-jigsaw.jpg",
     url: "https://www.amazon.com/dp/B07H7DQ3DK?tag=rendelivers-20"
   },
@@ -1386,7 +1386,7 @@ const PRODUCTS = [
     sub: "GRINDERS",
     name: "Milwaukee 2880-20 M18 FUEL 4-1/2 / 5 in. Grinder (Tool Only)",
     tagline: "Ren's pick: 8,500 RPM of corded-equivalent fury. No cord, no excuses.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-grinder-fuel.jpg",
     url: "https://www.amazon.com/dp/B09RX4R3TR?tag=rendelivers-20"
   },
@@ -1396,7 +1396,7 @@ const PRODUCTS = [
     sub: "GRINDERS",
     name: "Milwaukee 2680-20 M18 4-1/2 in. Grinder (Tool Only)",
     tagline: "Ren's pick: 9,000 RPM paddle switch with tool-free guard. The workhorse grinder.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-grinder-m18.jpg",
     url: "https://www.amazon.com/dp/B001VGOJLI?tag=rendelivers-20"
   },
@@ -1406,7 +1406,7 @@ const PRODUCTS = [
     sub: "GRINDERS",
     name: "Milwaukee 2485-20 M12 FUEL Right Angle Die Grinder (Tool Only)",
     tagline: "Ren's pick: 24,500 RPM in the palm of your hand. For the detail work that matters.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-diegrinder-m12.jpg",
     url: "https://www.amazon.com/dp/B07XZMMD1V?tag=rendelivers-20"
   },
@@ -1416,7 +1416,7 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "Milwaukee 2744-20 M18 FUEL 21-Degree Framing Nailer (Tool Only)",
     tagline: "Ren's pick: nitrogen gas power, no gas cartridges. Framing at the speed of thought.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-framing-nailer.jpg",
     url: "https://www.amazon.com/dp/B08VMYS879?tag=rendelivers-20"
   },
@@ -1426,7 +1426,7 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "Milwaukee 2746-20 M18 FUEL 18-Gauge Brad Nailer (Tool Only)",
     tagline: "Ren's pick: zero ramp-up, no gas. Trim work without the compressor symphony.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-brad-nailer.jpg",
     url: "https://www.amazon.com/dp/B07VYJQ1KP?tag=rendelivers-20"
   },
@@ -1436,7 +1436,7 @@ const PRODUCTS = [
     sub: "NAILERS",
     name: "Milwaukee 2742-20 M18 FUEL 16-Gauge Angled Finish Nailer (Tool Only)",
     tagline: "Ren's pick: sinks 2-1/2 in. nails in solid oak. Finish carpentry's new best friend.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-finish-nailer.jpg",
     url: "https://www.amazon.com/dp/B01DE8ZHM0?tag=rendelivers-20"
   },
@@ -1446,7 +1446,7 @@ const PRODUCTS = [
     sub: "MEASURING",
     name: "Milwaukee 48-22-7125 25 ft. Magnetic Tape Measure (2-Pack)",
     tagline: "Ren's pick: magnetic blade that sticks to steel. Two-pack, because tapes are escape artists.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-tape-25.jpg",
     url: "https://www.amazon.com/dp/B082YKXKC4?tag=rendelivers-20"
   },
@@ -1456,7 +1456,7 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Milwaukee 48-22-1500 FASTBACK Compact Flip Utility Knife",
     tagline: "Ren's pick: press-and-flip one-hand opening. The knife that's always in your pocket.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-fastback.jpg",
     url: "https://www.amazon.com/dp/B082KL6HT3?tag=rendelivers-20"
   },
@@ -1557,7 +1557,7 @@ const PRODUCTS = [
     sub: "PLIERS",
     name: "Klein Tools D213-9NE-CR Lineman's Crimping Pliers",
     tagline: "Ren's pick: lineman's pliers with a built-in crimper. Two tools, one grip.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-klein-crimper-pliers.jpg",
     url: "https://www.amazon.com/dp/B000CEMSLS?tag=rendelivers-20"
   },
@@ -1597,7 +1597,7 @@ const PRODUCTS = [
     sub: "TESTERS",
     name: "Klein Tools NCVT-2P Dual-Range Voltage Tester w/ Flashing LED",
     tagline: "Ren's pick: the newer NCVT-2P — dual range with a flashing LED bar. The NCVT-2's sharper younger brother.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-klein-ncvt-2p.jpg",
     url: "https://www.amazon.com/dp/B07L5N8ZWS?tag=rendelivers-20"
   },
@@ -1687,7 +1687,7 @@ const PRODUCTS = [
     sub: "ACCESSORIES",
     name: "Klein Tools 80038 Tradesman Pro Magnetizer/Demagnetizer",
     tagline: "Ren's pick: magnetize any screwdriver tip in one swipe. For the screw that just won't stay put.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-klein-magnetizer-80038.jpg",
     url: "https://www.amazon.com/dp/B098MR874X?tag=rendelivers-20"
   },
@@ -1807,7 +1807,7 @@ const PRODUCTS = [
     sub: "TOOL BAGS",
     name: "Husky 18 in. Water-Resistant Tool Bag (82003N11)",
     tagline: "Ren's pick: the cheap workhorse. Water-resistant, 18 inches, hauls everything.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-husky-18bag.jpg",
     url: "https://www.amazon.com/dp/B008XMIEFA?tag=rendelivers-20"
   },
@@ -1817,7 +1817,7 @@ const PRODUCTS = [
     sub: "TOOL BAGS",
     name: "CLC Custom Leathercraft 1132 75-Pocket Tool Backpack",
     tagline: "Ren's pick: 75 pockets of heavy-duty organization. The backpack that carries the whole shop.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-clc-1132-backpack.jpg",
     url: "https://www.amazon.com/dp/B0000DYVCY?tag=rendelivers-20"
   },
@@ -1827,7 +1827,7 @@ const PRODUCTS = [
     sub: "TOOL BAGS",
     name: "Veto Pro Pac TECH-PAC Tool Backpack",
     tagline: "Ren's pick: the premium tech backpack. Waterproof molded base, 56 pockets, zero regrets.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-veto-techpac.jpg",
     url: "https://www.amazon.com/dp/B00DYQLXHG?tag=rendelivers-20"
   },
@@ -1837,7 +1837,7 @@ const PRODUCTS = [
     sub: "TOOL BAGS",
     name: "Veto Pro Pac SP-MC Compact Service Tech Pouch",
     tagline: "Ren's pick: compact closed-top service pouch. Premium quality for the grab-and-go jobs.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-veto-spmc.jpg",
     url: "https://www.amazon.com/dp/B0F15N1T1F?tag=rendelivers-20"
   },
@@ -1847,7 +1847,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "Milwaukee PACKOUT Rolling Tool Box 48-22-8426",
     tagline: "Ren's pick: the flagship mobile base. 250-lb capacity on all-terrain wheels.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-packout-roller.jpg",
     url: "https://www.amazon.com/dp/B07MTZNHD5?tag=rendelivers-20"
   },
@@ -1857,7 +1857,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "Milwaukee PACKOUT Large Tool Box 48-22-8425",
     tagline: "Ren's pick: large stackable box, IP65 weather seal. Your tools stay dry, period.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-packout-large.jpg",
     url: "https://www.amazon.com/dp/B0776MCYM8?tag=rendelivers-20"
   },
@@ -1867,7 +1867,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "Milwaukee PACKOUT Compact Tool Box 48-22-8424",
     tagline: "Ren's pick: the everyday-carry size. 75-lb capacity with organizer tray.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-packout-compact.jpg",
     url: "https://www.amazon.com/dp/B0776KX6LV?tag=rendelivers-20"
   },
@@ -1877,7 +1877,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "Milwaukee PACKOUT Crate 48-22-8440",
     tagline: "Ren's pick: open-top crate that stacks or hangs. For the stuff that doesn't fit in boxes.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-packout-crate.jpg",
     url: "https://www.amazon.com/dp/B083R62QVK?tag=rendelivers-20"
   },
@@ -1887,7 +1887,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "DEWALT ToughSystem 2.0 Two-Drawer Unit DWST08320",
     tagline: "Ren's pick: DeWalt's stackable drawer unit with ball-bearing slides. Small parts, big organization.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-dewalt-ts2-drawer.jpg",
     url: "https://www.amazon.com/dp/B09ZF42M1V?tag=rendelivers-20"
   },
@@ -1897,7 +1897,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "DEWALT ToughSystem 2.0 Organizer DWST08040",
     tagline: "Ren's pick: full-size organizer with clear lid and removable bins. See everything, find anything.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-dewalt-ts2-organizer.jpg",
     url: "https://www.amazon.com/dp/B09ZF3YB8B?tag=rendelivers-20"
   },
@@ -1907,7 +1907,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "DEWALT ToughSystem 2.0 Mobile Storage DWST08450",
     tagline: "Ren's pick: DeWalt's rolling base with 8 in. all-terrain wheels. 250 lbs of mobile storage.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-dewalt-ts2-rolling.jpg",
     url: "https://www.amazon.com/dp/B08D3FCDH5?tag=rendelivers-20"
   },
@@ -1917,7 +1917,7 @@ const PRODUCTS = [
     sub: "PACKOUT",
     name: "Milwaukee PACKOUT Mounting Plate 48-22-8485",
     tagline: "Ren's pick: bolt it in the truck or trailer and your PACKOUT stack isn't going anywhere.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-milw-packout-mountplate.jpg",
     url: "https://www.amazon.com/dp/B083ZLXW9R?tag=rendelivers-20"
   },
@@ -2037,7 +2037,7 @@ const PRODUCTS = [
     sub: "STILTS",
     name: "SurPro S1 Aluminum Drywall Stilts, 26-40 in.",
     tagline: "Ren's pick: 26 to 40 inches of adjustable stilts. Ceilings without the ladder dance.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-drywall-surpro-s1.jpg",
     url: "https://www.amazon.com/dp/B0D956KSKK?tag=rendelivers-20"
   },
@@ -2067,7 +2067,7 @@ const PRODUCTS = [
     sub: "TAPING",
     name: "LEVEL5 Semi-Auto Taping Set w/ Banjo & Flat Boxes (4-650)",
     tagline: "Ren's pick: banjo, flat boxes, corner roller, the works. The semi-auto starter kit for finishers.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-drywall-level5-4650.jpg",
     url: "https://www.amazon.com/dp/B0BZBJFKPY?tag=rendelivers-20"
   },
@@ -2257,7 +2257,7 @@ const PRODUCTS = [
     sub: "THATCHERS",
     name: "Billy Goat PR550H Power Rake Dethatcher, 20in, Honda 162cc",
     tagline: "The rental-fleet standard. Flail reel rips thatch like it owes you money.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-lawn-billygoat-pr550.jpg",
     url: "https://www.amazon.com/dp/B0048NN4X0?tag=rendelivers-20"
   },
@@ -2267,7 +2267,7 @@ const PRODUCTS = [
     sub: "THATCHERS",
     name: "Brinly DT-40BH Tow-Behind Dethatcher, 40in, All-Steel",
     tagline: "All-steel, made in USA, 70-lb tray — the real tow-behind, not a toy.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-lawn-brinly-dt40bh.jpg",
     url: "https://www.amazon.com/dp/B007AE2WCI?tag=rendelivers-20"
   },
@@ -2277,7 +2277,7 @@ const PRODUCTS = [
     sub: "AERATORS",
     name: "Billy Goat PL1800V PLUGR Reciprocating Aerator, 18in, 5.5HP Vanguard",
     tagline: "Self-propelled core aerator — drives plugs twice as deep as a drum.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-lawn-billygoat-pl1800.jpg",
     url: "https://www.amazon.com/dp/B01HOHGD9S?tag=rendelivers-20"
   },
@@ -2287,7 +2287,7 @@ const PRODUCTS = [
     sub: "AERATORS",
     name: "Brinly PA-403BH 40in Tow-Behind Plug Aerator, All-Steel",
     tagline: "24 heat-treated spoons pull true 3-inch cores. Your lawn will thank you.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-lawn-brinly-pa403.jpg",
     url: "https://www.amazon.com/dp/B0FWS3QQCF?tag=rendelivers-20"
   },
@@ -2397,7 +2397,7 @@ const PRODUCTS = [
     sub: "MIG",
     name: "Lincoln Electric Power MIG 210 MP Multi-Process Welder (K3963-1)",
     tagline: "MIG, flux, stick, DC TIG — one red box to rule the garage.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-weld-lincoln-powermig210.png",
     url: "https://www.amazon.com/dp/B00OGW47Q6?tag=rendelivers-20"
   },
@@ -2447,7 +2447,7 @@ const PRODUCTS = [
     sub: "PLASMA",
     name: "YESWELDER CUT-55DS PRO Plasma Cutter, 55Amp, Large LED Display, 110/220V Dual Voltage",
     tagline: "Slices steel like a hot knife through regret. Non-touch pilot arc, zero mercy.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-weld-yeswelder-cut55ds.jpg",
     url: "https://www.amazon.com/dp/B0CWMY354P?tag=rendelivers-20"
   },
@@ -2800,7 +2800,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "M12 Heated Jacket Kit, Black",
     tagline: "The battery coat you asked for — M12 powers heat zones in chest and back, up to 6 hours per charge.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-milwaukee-m12-jacket.jpg",
     url: "https://www.amazon.com/dp/B09HR2WL7J?tag=rendelivers-20"
   },
@@ -2820,7 +2820,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "M12 Heated AXIS Vest Kit, Black",
     tagline: "Heated vest that layers under anything — quick-heat elements, ripstop that won\'t tear on rebar.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-milwaukee-m12-vest.jpg",
     url: "https://www.amazon.com/dp/B0CMRMYZFK?tag=rendelivers-20"
   },
@@ -2830,7 +2830,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Duck Blanket-Lined Detroit Jacket, Black",
     tagline: "The iconic Detroit — 12oz cotton duck, blanket lining. The jacket every contractor already trusts.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-detroit.jpg",
     url: "https://www.amazon.com/dp/B07S18XZT5?tag=rendelivers-20"
   },
@@ -2840,7 +2840,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Loose Fit Firm Duck Insulated Bib Overall",
     tagline: "Quilted lining, ankle-to-thigh zips, Cordura kick panels. The standard cold-weather bib.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-bib.jpg",
     url: "https://www.amazon.com/dp/B0DH592G15?tag=rendelivers-20"
   },
@@ -2850,7 +2850,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Merino Wool Base Layer Set (Top + Bottom)",
     tagline: "Full merino top and bottom — stays fresh all week on site, far warmer than cotton thermals.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-merino-baselayer.jpg",
     url: "https://www.amazon.com/dp/B0FG298W6L?tag=rendelivers-20"
   },
@@ -2870,7 +2870,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Storm Defender Insulated Gauntlet Glove",
     tagline: "Gauntlet cuffs, removable touchscreen liners — liners solo on mild days, full glove below freezing.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-gauntlet.jpg",
     url: "https://www.amazon.com/dp/B078Y4CM3Z?tag=rendelivers-20"
   },
@@ -2880,7 +2880,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Knit Cuffed Beanie (A18), Black",
     tagline: "151,000+ reviews at 4.8 stars. The jobsite standard — every contractor already owns three.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-beanie.jpg",
     url: "https://www.amazon.com/dp/B002G9UDYG?tag=rendelivers-20"
   },
@@ -2890,7 +2890,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Winter Balaclava Face Mask, Fleece-Lined",
     tagline: "Full face and neck coverage for concrete pours at 6 AM in January.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-balaclava.jpg",
     url: "https://www.amazon.com/dp/B0FZ9TTBTC?tag=rendelivers-20"
   },
@@ -2900,7 +2900,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Rain Defender Paxton Heavyweight Hoodie",
     tagline: "13oz heavyweight with water-repellent finish. Survives the jobsite and the wash.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-paxton.jpg",
     url: "https://www.amazon.com/dp/B00FXPS2UC?tag=rendelivers-20"
   },
@@ -2910,7 +2910,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Rain Defender Heavyweight Full-Zip",
     tagline: "Full-zip for easy on/off over layers — same water-repellent finish.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-fullzip.jpg",
     url: "https://www.amazon.com/dp/B0DK27TR25?tag=rendelivers-20"
   },
@@ -2920,7 +2920,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Relaxed Straight Twill Dungaree",
     tagline: "Hammer loop, reinforced pockets, 19-inch openings fit over boots. The everyday contractor pant.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-dungaree.jpg",
     url: "https://www.amazon.com/dp/B004I5PYCW?tag=rendelivers-20"
   },
@@ -2940,7 +2940,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Darn Tough Backbone Boot Socks, Midweight",
     tagline: "Midweight cushioned boot sock, lifetime guarantee. Lighter than the Paul Bunyan for active days.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-darntough-backbone.jpg",
     url: "https://www.amazon.com/dp/B0DC4NXD9F?tag=rendelivers-20"
   },
@@ -2950,7 +2950,7 @@ function rdRenderFeatured(elId) {
     sub: "COLD WEATHER",
     name: "Carhartt Force HD 6" Waterproof Insulated Work Boot",
     tagline: "400g Thinsulate, waterproof, composite toe, EH rated. Meets every jobsite requirement.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-apparel-carhartt-boot.jpg",
     url: "https://www.amazon.com/dp/B0DRM6VJK7?tag=rendelivers-20"
   },
