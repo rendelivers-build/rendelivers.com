@@ -1263,26 +1263,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B01CRHGIYA?tag=rendelivers-20"
   },
   {
-    id: "aff-milw-cheater-pipe-wrench-2pack",
-    section: "plumbing",
-    sub: "WRENCHES",
-    name: "Milwaukee CHEATER Adaptable Pipe Wrench (2-Pack)",
-    tagline: "Ren's pick: two Cheaters. Because backing up a fitting takes two, and so does looking cool.",
-    price: "See price on Amazon",
-    img: "assets/aff-milw-cheater-pipe-wrench-2pack.jpg",
-    url: "https://www.amazon.com/dp/B07Z8FXL18?tag=rendelivers-20"
-  },
-  {
-    id: "aff-milw-ironworker-pliers",
-    section: "plumbing",
-    sub: "PLIERS",
-    name: "Milwaukee 48-22-6102 Ironworker's Pliers",
-    tagline: "Ren's pick: spring-loaded, red grips, ready to twist wire all day.",
-    price: "See price on Amazon",
-    img: "assets/aff-milw-ironworker-pliers.jpg",
-    url: "https://www.amazon.com/dp/B0195LZGI0?tag=rendelivers-20"
-  },
-  {
     id: "aff-milw-multitool-m12",
     section: "catalog",
     sub: "Multi-Tools",
