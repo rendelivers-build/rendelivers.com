@@ -337,7 +337,7 @@ section h2 {
 }
 
 /* anime art per category */
-.cat-shirts    { background-image: url('assets/cat-shirts.jpg'); }
+.cat-apparel    { background-image: url('assets/cat-shirts.jpg'); }
 .cat-templates { background-image: url('assets/cat-templates.jpg'); }
 .cat-software  { background-image: url('assets/cat-software.jpg'); }
 .cat-catalog   { background-image: url('assets/cat-catalog.jpg'); }
