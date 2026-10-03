@@ -2114,6 +2114,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B005UPNR5A?tag=rendelivers-20"
   },
   {
+    id: "aff-lawn-echo-xseries-trimmer",
+    section: "lawn",
+    sub: "TRIMMERS",
+    name: "ECHO X Series 30.5cc Pro-Grade Gas String Trimmer",
+    tagline: "Ren's pick: pro-grade 30.5cc power. The trimmer that eats brush for breakfast.",
+    price: "$549.99",
+    img: "assets/aff-lawn-echo-xseries-trimmer.jpg",
+    url: "https://www.amazon.com/dp/B07ST24Y7J?tag=rendelivers-20"
+  },
+  {
     id: "aff-lawn-husqvarna-128ld",
     section: "lawn",
     sub: "TRIMMERS",
