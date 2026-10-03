@@ -386,7 +386,7 @@ section h2 {
 
 .cat-btn:hover::after { transform: translateX(3px); }
 
-.cat-btn:active { transform: translateY(-1px); }
+.cat-btn:active { transform: none; }
 
 .cat-btn:focus-visible {
   outline: 3px solid var(--accent);
