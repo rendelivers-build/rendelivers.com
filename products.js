@@ -1939,7 +1939,7 @@ const PRODUCTS = [
     sub: "CUT-OUT",
     name: "DEWALT 20V MAX Drywall Cut-Out Tool, Bare (DCS551B)",
     tagline: "Ren's pick: 26,000 RPM of 'oops, there's the outlet box.' Cuts holes faster than you can mark them.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-drywall-dewalt-dcs551b.jpg",
     url: "https://www.amazon.com/dp/B00KYNW7MC?tag=rendelivers-20"
   },
@@ -1949,7 +1949,7 @@ const PRODUCTS = [
     sub: "CUT-OUT",
     name: "Milwaukee M18 Cut Out Tool, Bare (2627-20)",
     tagline: "Ren's pick: 28,000 RPM spiral saw that laughs at outlet boxes. The red one, obviously.",
-    price: "See price on Amazon",
+    price: "$109.00",
     img: "assets/aff-drywall-milwaukee-2627-20.jpg",
     url: "https://www.amazon.com/dp/B01LXYP94D?tag=rendelivers-20"
   },
@@ -1959,7 +1959,7 @@ const PRODUCTS = [
     sub: "SANDERS",
     name: "DEWALT 20V MAX Cordless Drywall Sander, Bare (DCE800B)",
     tagline: "Ren's pick: cordless sander with a telescoping neck. Ceilings just got a lot less miserable.",
-    price: "See price on Amazon",
+    price: "$460.00",
     img: "assets/aff-drywall-dewalt-dce800b.jpg",
     url: "https://www.amazon.com/dp/B08XN7R1B8?tag=rendelivers-20"
   },
@@ -1969,19 +1969,19 @@ const PRODUCTS = [
     sub: "SANDERS",
     name: "WEN Variable Speed Drywall Sander w/ 15 ft. Hose (6369)",
     tagline: "Ren's pick: the budget pole sander drywallers actually swear by. 15-foot dust hose included.",
-    price: "See price on Amazon",
+    price: "$143.19",
     img: "assets/aff-drywall-wen-6369.jpg",
     url: "https://www.amazon.com/dp/B01HRL9XYI?tag=rendelivers-20"
   },
   {
-    id: "aff-drywall-gyptool-lift",
+    id: "aff-drywall-rovibek-lift",
     section: "drywall",
     sub: "LIFTS",
-    name: "GypTool Drywall Lift Panel Jack Hoist, 11 ft. Reach",
-    tagline: "Ren's pick: 11 feet of 'I don't need a helper for this sheet.' Your back just sent a thank-you card.",
-    price: "See price on Amazon",
-    img: "assets/aff-drywall-gyptool-lift.jpg",
-    url: "https://www.amazon.com/dp/B00JMP1L8O?tag=rendelivers-20"
+    name: "Rovibek 11ft Drywall Lift, Sheetrock Hoist for Ceiling, 360° Adjustable, 150lbs Heavy Duty (Red)",
+    tagline: "Hang ceilings solo. 11 feet of 'I don't need a helper.'",
+    price: "$175.99",
+    img: "assets/aff-drywall-rovibek-lift.jpg",
+    url: "https://www.amazon.com/dp/B0HGM5LSMX?tag=rendelivers-20"
   },
   {
     id: "aff-drywall-zunder-banjo",
@@ -1989,7 +1989,7 @@ const PRODUCTS = [
     sub: "TAPING",
     name: "ZUNDER by Delko Tools Drywall Banjo (DT-AHZ)",
     tagline: "Ren's pick: mud and tape in one pass, flats AND inside corners. The world's best-selling banjo for a reason.",
-    price: "See price on Amazon",
+    price: "$119.00",
     img: "assets/aff-drywall-zunder-banjo.jpg",
     url: "https://www.amazon.com/dp/B076KNF874?tag=rendelivers-20"
   },
@@ -2039,7 +2039,7 @@ const PRODUCTS = [
     sub: "CUT-OUT",
     name: "DEWALT 20V MAX XR Brushless Drywall Cut-Out Tool (DCE555B)",
     tagline: "Ren's pick: brushless cut-out tool. The DCS551's bigger, angrier brother.",
-    price: "See price on Amazon",
+    price: "$105.99",
     img: "assets/aff-drywall-dewalt-dce555b.jpg",
     url: "https://www.amazon.com/dp/B0BFJJV95V?tag=rendelivers-20"
   },
