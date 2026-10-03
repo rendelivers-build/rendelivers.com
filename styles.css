@@ -544,3 +544,44 @@ section h2 {
   color: #111;
   border-color: var(--accent);
 }
+
+/* ---- Gift guide page ---- */
+.guide-intro,
+.guide-outro {
+  max-width: 800px;
+  margin: 0 auto 28px;
+  padding: 0 20px;
+}
+.guide-intro p,
+.guide-outro p {
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.guide-outro {
+  margin-top: 36px;
+}
+.guide-outro h2 {
+  margin-bottom: 12px;
+}
+.guide-outro a {
+  color: var(--accent);
+}
+.gift-num {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #111;
+  font-weight: 800;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+}
