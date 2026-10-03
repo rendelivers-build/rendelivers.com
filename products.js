@@ -1609,7 +1609,7 @@ const PRODUCTS = [
     sub: "TESTERS",
     name: "Klein Tools RT210 GFCI Receptacle Tester",
     tagline: "Ren's pick: plug it in, know instantly if the outlet's wired right. GFCI test built in.",
-    price: "See price on Amazon",
+    price: "$13.98",
     img: "assets/aff-klein-rt210.jpg",
     url: "https://www.amazon.com/dp/B01AKX8L0M?tag=rendelivers-20"
   },
@@ -1619,7 +1619,7 @@ const PRODUCTS = [
     sub: "FISHING",
     name: "Klein Tools 56001 50 ft. Steel Fish Tape",
     tagline: "Ren's pick: 50 feet of spring steel with laser-etched markings. Pulls wire through anything.",
-    price: "See price on Amazon",
+    price: "unavailable",
     img: "assets/aff-klein-fishtape-50.jpg",
     url: "https://www.amazon.com/dp/B0026TA6RK?tag=rendelivers-20"
   },
@@ -1629,7 +1629,7 @@ const PRODUCTS = [
     sub: "FISHING",
     name: "Klein Tools 56430 30 ft. Glow Fish Rod Set",
     tagline: "Ren's pick: six glow rods that light up dark walls. Fishing wire just got fun.",
-    price: "See price on Amazon",
+    price: "$94.99",
     img: "assets/aff-klein-glowrod-30.jpg",
     url: "https://www.amazon.com/dp/B01N23C683?tag=rendelivers-20"
   },
@@ -1639,7 +1639,7 @@ const PRODUCTS = [
     sub: "DRIVERS",
     name: "Klein Tools 646M 2-Piece Magnetic Nut Driver Set",
     tagline: "Ren's pick: stubby magnetic nut drivers, 1/4 and 5/16 in. Fits where full-size can't.",
-    price: "See price on Amazon",
+    price: "$26.99",
     img: "assets/aff-klein-nutdriver-2pc.jpg",
     url: "https://www.amazon.com/dp/B000936QV0?tag=rendelivers-20"
   },
@@ -1649,7 +1649,7 @@ const PRODUCTS = [
     sub: "CUTTERS",
     name: "Klein Tools 63050 9.5 in. High-Leverage Cable Cutter",
     tagline: "Ren's pick: shear-action cutter for cable up to 1/0 AWG. Cuts like scissors through paper.",
-    price: "See price on Amazon",
+    price: "$29.98",
     img: "assets/aff-klein-cablecutter.jpg",
     url: "https://www.amazon.com/dp/B0000302X1?tag=rendelivers-20"
   },
@@ -1659,9 +1659,19 @@ const PRODUCTS = [
     sub: "BAGS",
     name: "Klein Tools 55421BP-14 Tradesman Pro Backpack",
     tagline: "Ren's pick: 39 pockets, molded base, fits laptop and meters. The electrician's office.",
-    price: "See price on Amazon",
+    price: "$109.98",
     img: "assets/aff-klein-backpack.jpg",
     url: "https://www.amazon.com/dp/B006QG36NA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-magnetizer-80038",
+    section: "electrical",
+    sub: "ACCESSORIES",
+    name: "Klein Tools 80038 Tradesman Pro Magnetizer/Demagnetizer",
+    tagline: "Ren's pick: magnetize any screwdriver tip in one swipe. For the screw that just won't stay put.",
+    price: "See price on Amazon",
+    img: "assets/aff-klein-magnetizer-80038.jpg",
+    url: "https://www.amazon.com/dp/B098MR874X?tag=rendelivers-20"
   },
   {
     id: "aff-klein-headlamp",
@@ -1669,7 +1679,7 @@ const PRODUCTS = [
     sub: "LIGHTING",
     name: "Klein Tools 56062 Rechargeable LED Headlamp",
     tagline: "Ren's pick: 300 lumens on your hard hat, USB-C rechargeable. See what you're doing.",
-    price: "See price on Amazon",
+    price: "$29.97",
     img: "assets/aff-klein-headlamp.jpg",
     url: "https://www.amazon.com/dp/B089CHFBL3?tag=rendelivers-20"
   },
