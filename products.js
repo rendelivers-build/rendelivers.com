@@ -57,6 +57,15 @@ const PRODUCTS = [
     url: "https://www.zazzle.com/i_live_at_work_t_shirt-256097523361425118"
   },
   {
+    id: "will-work-for-diesel",
+    section: "shirts",
+    name: "Will Work For Diesel",
+    tagline: "The truck doesn't run on compliments.",
+    price: "$21.17",
+    img: "assets/shirt-will-work-for-diesel.jpg",
+    url: "https://www.zazzle.com/when_youll_do_just_about_anything_for_fuel_t_shirt-256004213036257819"
+  },
+  {
     id: "u-should-b-here",
     section: "shirts",
     name: "U Should B Here — Three Wise Monkeys",
@@ -2776,7 +2785,7 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-var TOP_PICKS = ["flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "i-live-at-work", "aff-swanson-s0101", "tpl-estimate"];
+var TOP_PICKS = ["will-work-for-diesel", "flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "i-live-at-work", "aff-swanson-s0101", "tpl-estimate"];
 
 function rdRenderCarousel(elId) {
   var byId = rdById();
