@@ -45,7 +45,7 @@
   <div class="legal-row">
     <a href="legal.html">Legal</a>
     <span class="legal-sep">|</span>
-    <a href="mailto:Renwillbeyourfriend@gmail.com?subject=Ren%20Delivers%20site%20feedback">Contact Us</a>
+    <a href="#" id="contact-link" data-email="Renwillbeyourfriend@gmail.com">Contact Us</a>
   </div>
   <p class="copyright">&copy; 2026 Ren Delivers. All rights reserved.</p>
 </footer>
@@ -55,5 +55,18 @@
   rdRenderGrid("templates", "grid");
 </script>
 <!-- build-bust-1791021942 -->
+
+<script>
+document.getElementById("contact-link").addEventListener("click", function(e) {
+  e.preventDefault();
+  var email = this.getAttribute("data-email");
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(email).then(function() {
+      alert("Email copied: " + email);
+    });
+  }
+  window.location.href = "mailto:" + email + "?subject=Ren%20Delivers%20site%20feedback";
+});
+</script>
 </body>
 </html>
