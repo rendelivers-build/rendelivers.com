@@ -2571,6 +2571,166 @@ const PRODUCTS = [
     img: "assets/aff-safety-milwaukee-tinted-glasses.jpg",
     url: "https://www.amazon.com/dp/B07VYN2NVX?tag=rendelivers-20"
   },
+  {
+    id: "aff-apparel-milwaukee-m12-jacket",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "M12 Heated Jacket Kit, Black",
+    tagline: "The battery coat you asked for — M12 powers heat zones in chest and back, up to 6 hours per charge.",
+    price: "coming soon",
+    img: "assets/aff-apparel-milwaukee-m12-jacket.jpg",
+    url: "https://www.amazon.com/dp/B09HR2WL7J?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-milwaukee-m12-hoodie",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "M12 Heated Hoodie Kit, Gray",
+    tagline: "Heated hoodie, same M12 system — waffle thermal lining, chest and back heat zones.",
+    price: "$197.99",
+    img: "assets/aff-apparel-milwaukee-m12-hoodie.jpg",
+    url: "https://www.amazon.com/dp/B07HVSTCQ8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-milwaukee-m12-vest",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "M12 Heated AXIS Vest Kit, Black",
+    tagline: "Heated vest that layers under anything — quick-heat elements, ripstop that won\'t tear on rebar.",
+    price: "coming soon",
+    img: "assets/aff-apparel-milwaukee-m12-vest.jpg",
+    url: "https://www.amazon.com/dp/B0CMRMYZFK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-detroit",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Duck Blanket-Lined Detroit Jacket, Black",
+    tagline: "The iconic Detroit — 12oz cotton duck, blanket lining. The jacket every contractor already trusts.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-detroit.jpg",
+    url: "https://www.amazon.com/dp/B07S18XZT5?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-bib",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Loose Fit Firm Duck Insulated Bib Overall",
+    tagline: "Quilted lining, ankle-to-thigh zips, Cordura kick panels. The standard cold-weather bib.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-bib.jpg",
+    url: "https://www.amazon.com/dp/B0DH592G15?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-merino-baselayer",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Merino Wool Base Layer Set (Top + Bottom)",
+    tagline: "Full merino top and bottom — stays fresh all week on site, far warmer than cotton thermals.",
+    price: "coming soon",
+    img: "assets/aff-apparel-merino-baselayer.jpg",
+    url: "https://www.amazon.com/dp/B0FG298W6L?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-wp-glove",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt WP Waterproof Insulated Glove",
+    tagline: "4.6 stars, 35,000+ reviews — waterproof, digital-grip palm. Handle tools in winter.",
+    price: "$32.99",
+    img: "assets/aff-apparel-carhartt-wp-glove.jpg",
+    url: "https://www.amazon.com/dp/B005I33OVG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-gauntlet",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Storm Defender Insulated Gauntlet Glove",
+    tagline: "Gauntlet cuffs, removable touchscreen liners — liners solo on mild days, full glove below freezing.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-gauntlet.jpg",
+    url: "https://www.amazon.com/dp/B078Y4CM3Z?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-beanie",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Knit Cuffed Beanie (A18), Black",
+    tagline: "151,000+ reviews at 4.8 stars. The jobsite standard — every contractor already owns three.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-beanie.jpg",
+    url: "https://www.amazon.com/dp/B002G9UDYG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-balaclava",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Winter Balaclava Face Mask, Fleece-Lined",
+    tagline: "Full face and neck coverage for concrete pours at 6 AM in January.",
+    price: "coming soon",
+    img: "assets/aff-apparel-balaclava.jpg",
+    url: "https://www.amazon.com/dp/B0FZ9TTBTC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-paxton",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Rain Defender Paxton Heavyweight Hoodie",
+    tagline: "13oz heavyweight with water-repellent finish. Survives the jobsite and the wash.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-paxton.jpg",
+    url: "https://www.amazon.com/dp/B00FXPS2UC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-fullzip",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Rain Defender Heavyweight Full-Zip",
+    tagline: "Full-zip for easy on/off over layers — same water-repellent finish.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-fullzip.jpg",
+    url: "https://www.amazon.com/dp/B0DK27TR25?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-dungaree",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Relaxed Straight Twill Dungaree",
+    tagline: "Hammer loop, reinforced pockets, 19-inch openings fit over boots. The everyday contractor pant.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-dungaree.jpg",
+    url: "https://www.amazon.com/dp/B004I5PYCW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-darntough-paulbunyan",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Darn Tough Merino Paul Bunyan Work Socks",
+    tagline: "Full cushion merino, guaranteed for life. The last work socks he\'ll ever buy.",
+    price: "$28.45",
+    img: "assets/aff-apparel-darntough-paulbunyan.jpg",
+    url: "https://www.amazon.com/dp/B00NONM4AY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-darntough-backbone",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Darn Tough Backbone Boot Socks, Midweight",
+    tagline: "Midweight cushioned boot sock, lifetime guarantee. Lighter than the Paul Bunyan for active days.",
+    price: "coming soon",
+    img: "assets/aff-apparel-darntough-backbone.jpg",
+    url: "https://www.amazon.com/dp/B0DC4NXD9F?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-carhartt-boot",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Carhartt Force HD 6-Inch Waterproof Insulated Work Boot",
+    tagline: "400g Thinsulate, waterproof, composite toe, EH rated. Meets every jobsite requirement.",
+    price: "coming soon",
+    img: "assets/aff-apparel-carhartt-boot.jpg",
+    url: "https://www.amazon.com/dp/B0DRM6VJK7?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
@@ -2794,166 +2954,6 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-  {
-    id: "aff-apparel-milwaukee-m12-jacket",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "M12 Heated Jacket Kit, Black",
-    tagline: "The battery coat you asked for — M12 powers heat zones in chest and back, up to 6 hours per charge.",
-    price: "coming soon",
-    img: "assets/aff-apparel-milwaukee-m12-jacket.jpg",
-    url: "https://www.amazon.com/dp/B09HR2WL7J?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-milwaukee-m12-hoodie",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "M12 Heated Hoodie Kit, Gray",
-    tagline: "Heated hoodie, same M12 system — waffle thermal lining, chest and back heat zones.",
-    price: "$197.99",
-    img: "assets/aff-apparel-milwaukee-m12-hoodie.jpg",
-    url: "https://www.amazon.com/dp/B07HVSTCQ8?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-milwaukee-m12-vest",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "M12 Heated AXIS Vest Kit, Black",
-    tagline: "Heated vest that layers under anything — quick-heat elements, ripstop that won\'t tear on rebar.",
-    price: "coming soon",
-    img: "assets/aff-apparel-milwaukee-m12-vest.jpg",
-    url: "https://www.amazon.com/dp/B0CMRMYZFK?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-detroit",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Duck Blanket-Lined Detroit Jacket, Black",
-    tagline: "The iconic Detroit — 12oz cotton duck, blanket lining. The jacket every contractor already trusts.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-detroit.jpg",
-    url: "https://www.amazon.com/dp/B07S18XZT5?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-bib",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Loose Fit Firm Duck Insulated Bib Overall",
-    tagline: "Quilted lining, ankle-to-thigh zips, Cordura kick panels. The standard cold-weather bib.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-bib.jpg",
-    url: "https://www.amazon.com/dp/B0DH592G15?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-merino-baselayer",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Merino Wool Base Layer Set (Top + Bottom)",
-    tagline: "Full merino top and bottom — stays fresh all week on site, far warmer than cotton thermals.",
-    price: "coming soon",
-    img: "assets/aff-apparel-merino-baselayer.jpg",
-    url: "https://www.amazon.com/dp/B0FG298W6L?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-wp-glove",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt WP Waterproof Insulated Glove",
-    tagline: "4.6 stars, 35,000+ reviews — waterproof, digital-grip palm. Handle tools in winter.",
-    price: "$32.99",
-    img: "assets/aff-apparel-carhartt-wp-glove.jpg",
-    url: "https://www.amazon.com/dp/B005I33OVG?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-gauntlet",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Storm Defender Insulated Gauntlet Glove",
-    tagline: "Gauntlet cuffs, removable touchscreen liners — liners solo on mild days, full glove below freezing.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-gauntlet.jpg",
-    url: "https://www.amazon.com/dp/B078Y4CM3Z?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-beanie",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Knit Cuffed Beanie (A18), Black",
-    tagline: "151,000+ reviews at 4.8 stars. The jobsite standard — every contractor already owns three.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-beanie.jpg",
-    url: "https://www.amazon.com/dp/B002G9UDYG?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-balaclava",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Winter Balaclava Face Mask, Fleece-Lined",
-    tagline: "Full face and neck coverage for concrete pours at 6 AM in January.",
-    price: "coming soon",
-    img: "assets/aff-apparel-balaclava.jpg",
-    url: "https://www.amazon.com/dp/B0FZ9TTBTC?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-paxton",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Rain Defender Paxton Heavyweight Hoodie",
-    tagline: "13oz heavyweight with water-repellent finish. Survives the jobsite and the wash.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-paxton.jpg",
-    url: "https://www.amazon.com/dp/B00FXPS2UC?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-fullzip",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Rain Defender Heavyweight Full-Zip",
-    tagline: "Full-zip for easy on/off over layers — same water-repellent finish.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-fullzip.jpg",
-    url: "https://www.amazon.com/dp/B0DK27TR25?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-dungaree",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Relaxed Straight Twill Dungaree",
-    tagline: "Hammer loop, reinforced pockets, 19-inch openings fit over boots. The everyday contractor pant.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-dungaree.jpg",
-    url: "https://www.amazon.com/dp/B004I5PYCW?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-darntough-paulbunyan",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Darn Tough Merino Paul Bunyan Work Socks",
-    tagline: "Full cushion merino, guaranteed for life. The last work socks he\'ll ever buy.",
-    price: "$28.45",
-    img: "assets/aff-apparel-darntough-paulbunyan.jpg",
-    url: "https://www.amazon.com/dp/B00NONM4AY?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-darntough-backbone",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Darn Tough Backbone Boot Socks, Midweight",
-    tagline: "Midweight cushioned boot sock, lifetime guarantee. Lighter than the Paul Bunyan for active days.",
-    price: "coming soon",
-    img: "assets/aff-apparel-darntough-backbone.jpg",
-    url: "https://www.amazon.com/dp/B0DC4NXD9F?tag=rendelivers-20"
-  },
-  {
-    id: "aff-apparel-carhartt-boot",
-    section: "apparel",
-    sub: "COLD WEATHER",
-    name: "Carhartt Force HD 6" Waterproof Insulated Work Boot",
-    tagline: "400g Thinsulate, waterproof, composite toe, EH rated. Meets every jobsite requirement.",
-    price: "coming soon",
-    img: "assets/aff-apparel-carhartt-boot.jpg",
-    url: "https://www.amazon.com/dp/B0DRM6VJK7?tag=rendelivers-20"
-  },
 var TOP_PICKS = ["will-work-for-diesel", "flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "aff-lawn-husqvarna-z254", "aff-swanson-s0101", "tpl-estimate"];
 
 function rdRenderCarousel(elId) {
