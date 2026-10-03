@@ -2089,7 +2089,7 @@ const PRODUCTS = [
     sub: "MOWERS",
     name: "Husqvarna Z254 (54\") 24HP Briggs Zero Turn Lawn Mower",
     tagline: "54 inches of 'your neighbor's jealousy.' Sit down, grab the sticks, and mow like you own the subdivision.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-lawn-husqvarna-z254.jpg",
     url: "https://www.amazon.com/dp/B0F5CM5NCP?tag=rendelivers-20"
   },
@@ -2099,7 +2099,7 @@ const PRODUCTS = [
     sub: "MOWERS",
     name: "Ariens IKON (52\") 23HP Kawasaki Zero Turn Mower",
     tagline: "Kawasaki heart, 52-inch appetite. This thing eats lawns the way you eat gas-station burritos.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-lawn-ariens-ikon.jpg",
     url: "https://www.amazon.com/dp/B0BVSQ13DL?tag=rendelivers-20"
   },
@@ -2109,7 +2109,7 @@ const PRODUCTS = [
     sub: "MOWERS",
     name: "Ariens IKON Onyx (52\") 23HP Kawasaki Zero Turn Mower",
     tagline: "The murder-black IKON. Looks mean, cuts meaner. Your grass just filed a restraining order.",
-    price: "See price on Amazon",
+    price: "Add to cart to check price",
     img: "assets/aff-lawn-ariens-ikon-onyx.jpg",
     url: "https://www.amazon.com/dp/B0C956GVSB?tag=rendelivers-20"
   },
