@@ -3385,3 +3385,20 @@ function rdRenderGrid(section, elId, skipId) {
     }
   });
 })();
+
+/* Close mobile nav dropdowns on scroll (fixed menus don't scroll with page). */
+(function () {
+  if (window.innerWidth > 768) return;
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(function () {
+        document.querySelectorAll('.top-nav .nav-drop.open').forEach(function (d) {
+          d.classList.remove('open');
+        });
+        ticking = false;
+      });
+    }
+  }, { passive: true });
+})();
