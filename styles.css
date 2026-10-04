@@ -535,24 +535,27 @@ section h2 {
 /* ---------- Top nav ---------- */
 .top-nav {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: nowrap;
   padding: 12px 14px 4px;
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0 auto;
+  overflow-x: auto;
 }
 .top-nav a {
   color: var(--text);
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.05rem;
-  padding: 8px 18px;
+  font-size: 0.92rem;
+  padding: 7px 14px;
   border: 1px solid #2e2e36;
   border-radius: 20px;
   background: linear-gradient(180deg, #232329, #1b1b20);
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   transition: border-color 0.15s ease, transform 0.15s ease;
+  white-space: nowrap;
 }
 .top-nav a:hover { border-color: var(--accent); transform: translateY(-1px); }
 .top-nav a.active {
@@ -565,7 +568,8 @@ section h2 {
 /* top-nav dropdown menus */
 .nav-drop {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 .nav-menu {
   display: none;
