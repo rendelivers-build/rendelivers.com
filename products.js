@@ -2526,7 +2526,7 @@ const PRODUCTS = [
     sub: "COLD WEATHER",
     name: "M12 Heated Jacket Kit, Black",
     tagline: "The battery coat you asked for — M12 powers heat zones in chest and back, up to 6 hours per charge.",
-    price: "coming soon",
+    price: "currently unavailable",
     img: "assets/aff-apparel-milwaukee-m12-jacket.jpg",
     url: "https://www.amazon.com/dp/B09HR2WL7J?tag=rendelivers-20"
   },
@@ -2546,7 +2546,7 @@ const PRODUCTS = [
     sub: "COLD WEATHER",
     name: "M12 Heated AXIS Vest Kit, Black",
     tagline: "Heated vest that layers under anything — quick-heat elements, ripstop that won\'t tear on rebar.",
-    price: "coming soon",
+    price: "currently unavailable",
     img: "assets/aff-apparel-milwaukee-m12-vest.jpg",
     url: "https://www.amazon.com/dp/B0CMRMYZFK?tag=rendelivers-20"
   },
