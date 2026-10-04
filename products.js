@@ -1530,6 +1530,36 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B082KL6HT3?tag=rendelivers-20"
   },
   {
+    id: "aff-milw-fastback-6in1",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Milwaukee Fastback 6-in-1 Folding Utility Knife",
+    tagline: "Ren's pick: the iconic Fastback, press-and-flip one-handed. Every contractor knows this one.",
+    price: "coming soon",
+    img: "assets/aff-milw-fastback-6in1.jpg",
+    url: "https://www.amazon.com/dp/B09BNMWJH9?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-fastback-1502",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Milwaukee 48-22-1502 Fastback Folding Utility Knife with Blade Storage and Gut Hook",
+    tagline: "Ren's pick: 5 spare blades onboard, gut hook, wire stripper. The does-everything knife.",
+    price: "coming soon",
+    img: "assets/aff-milw-fastback-1502.jpg",
+    url: "https://www.amazon.com/dp/B07Z6R9MNX?tag=rendelivers-20"
+  },
+  {
+    id: "aff-milw-fastback-1540",
+    section: "catalog",
+    sub: "HANDTOOLS",
+    name: "Milwaukee 48-22-1540 Fastback 5-in-1 Folding Knife, Tanto Blade",
+    tagline: "Ren's pick: partially serrated tanto, bit holder, bottle opener. The pocket-knife option.",
+    price: "coming soon",
+    img: "assets/aff-milw-fastback-1540.jpg",
+    url: "https://www.amazon.com/dp/B0BZYSTDVG?tag=rendelivers-20"
+  },
+  {
     id: "aff-redwing-steetoe",
     section: "safety",
     sub: "BOOTS",
