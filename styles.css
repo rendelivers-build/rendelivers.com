@@ -807,6 +807,7 @@ section h2 {
     min-width: 0;
     max-height: 320px;
     overflow-y: auto;
+    overscroll-behavior: contain;
     background: #1c1c21;
     border: 1px solid #2a2a31;
     border-radius: 12px;
