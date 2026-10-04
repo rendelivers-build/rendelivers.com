@@ -614,55 +614,6 @@ section h2 {
   border: none;
 }
 
-/* homepage category card dropdown menus */
-.cat-drop {
-  position: relative;
-}
-.cat-drop > .cat-btn {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-.cat-drop:hover,
-.cat-drop:focus-within,
-.cat-drop.open {
-  z-index: 60;
-}
-.cat-menu {
-  display: none;
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
-  right: 0;
-  background: #1c1c21;
-  border: 1px solid #2a2a31;
-  border-radius: 12px;
-  z-index: 60;
-  max-height: 320px;
-  overflow-y: auto;
-  box-shadow: 0 12px 32px rgba(0,0,0,.5);
-  padding: 6px;
-}
-.cat-drop:hover .cat-menu,
-.cat-drop:focus-within .cat-menu,
-.cat-drop.open .cat-menu {
-  display: block;
-}
-.cat-menu a {
-  display: block;
-  padding: 9px 14px;
-  border-radius: 8px;
-  color: var(--text);
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-.cat-menu a:hover {
-  background: #2a2a31;
-  color: var(--accent);
-}
-
 /* ---------- Catalog subcategory filter ---------- */
 .subnav {
   display: flex;
