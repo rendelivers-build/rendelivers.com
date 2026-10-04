@@ -3070,6 +3070,56 @@ const PRODUCTS = [
     img: "assets/aff-safe-toughbuilt-kp.jpg",
     url: "https://www.amazon.com/dp/B0140V9LWC?tag=rendelivers-20"
   },
+  {
+    id: "aff-plumb-milw-pex-expander",
+    section: "plumbing",
+    sub: "PEX",
+    name: "Milwaukee 2474-22 M12 Cordless PEX Expansion Tool Kit",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-milw-pex-expander.jpg",
+    url: "https://www.amazon.com/dp/B0994QYTQB?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-apollo-crimp-combo",
+    section: "plumbing",
+    sub: "PEX",
+    name: "Apollo PEX 69PTKH0014C 1/2 in. & 3/4 in. Combo Crimp Tool",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-apollo-crimp-combo.jpg",
+    url: "https://www.amazon.com/dp/B003IJ3DDQ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-icrimp-cinch-kit",
+    section: "plumbing",
+    sub: "PEX",
+    name: "iCrimp KIT-1096D PEX Clamp Tool Kit for 3/8 to 1 in., with Clamps, Cutter & Case",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-icrimp-cinch-kit.jpg",
+    url: "https://www.amazon.com/dp/B0CJ243VDD?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-reed-tc4qpvc",
+    section: "plumbing",
+    sub: "POLY",
+    name: "Reed Tool TC4QPVC Quick Release Tubing Cutter for Plastic Pipe, 12-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-reed-tc4qpvc.jpg",
+    url: "https://www.amazon.com/dp/B001H4PS28?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-breeze-clamps",
+    section: "plumbing",
+    sub: "POLY",
+    name: "Breeze 62008H Power-Seal Stainless Steel Hose Clamp, SAE 8, 10-Pack",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-breeze-clamps.jpg",
+    url: "https://www.amazon.com/dp/B008MG3EFM?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
