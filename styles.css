@@ -712,15 +712,14 @@ section h2 {
   margin: 10px auto 0 14px;
 }
 @media (max-width: 768px) {
-  .nav-toggle { display: block; }
+  .nav-toggle { display: none !important; }
   .top-nav {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: stretch;
     padding: 8px 14px;
     gap: 6px;
   }
-  .top-nav.open { display: flex; }
   .top-nav a {
     text-align: center;
     font-size: 1rem;
