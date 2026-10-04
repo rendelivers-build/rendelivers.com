@@ -46,12 +46,17 @@
   var nav = document.getElementById("subnav");
   var grid = document.getElementById("software-grid");
   var current = "All";
-  function renderPills() {
-    var html = '<button class="subpill' + (current === "All" ? " active" : "") + '" data-sub="All">All</button>';
+  function renderDropdown() {
+    var html = '<label class="subfilter-label">Show: <select id="subfilter" class="subfilter" aria-label="Filter by category">';
+    html += '<option value="All"' + (current === "All" ? " selected" : "") + '>Everything</option>';
     subs.forEach(function (s) {
-      html += '<button class="subpill' + (current === s ? " active" : "") + '" data-sub="' + rdEsc(s) + '">' + rdEsc(s) + "</button>";
+      html += '<option value="' + rdEsc(s) + '"' + (current === s ? " selected" : "") + '>' + rdEsc(s) + "</option>";
     });
+    html += '</select></label>';
     nav.innerHTML = html;
+    document.getElementById("subfilter").addEventListener("change", function (e) {
+      current = e.target.value; renderGrid();
+    });
   }
   function renderGrid() {
     var html = "";
@@ -61,11 +66,7 @@
     });
     grid.innerHTML = html || '<p class="section-sub">Ren&rsquo;s still arm-wrestling vendors for more deals — check back soon.</p>';
   }
-  nav.addEventListener("click", function (e) {
-    var t = e.target;
-    if (t && t.dataset && t.dataset.sub) { current = t.dataset.sub; renderPills(); renderGrid(); }
-  });
-  renderPills();
+  renderDropdown();
   renderGrid();
 })();
 </script>
