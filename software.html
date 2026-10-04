@@ -139,7 +139,6 @@
 
 <main>
   <p class="section-sub">The apps that run Ren's business while he's off the ladder — plus the books that make you sharper. He vetted 'em — grab the deals through his links.</p>
-  <div class="subnav" id="subnav"></div>
   <div id="software-grid" class="grid"></div>
 </main>
 
@@ -147,36 +146,17 @@
 <script>
 (function () {
   var items = PRODUCTS.filter(function (p) { return p.section === "software"; });
-  var subs = [];
-  items.forEach(function (p) { if (p.sub && subs.indexOf(p.sub) < 0) subs.push(p.sub); });
-  var nav = document.getElementById("subnav");
   var grid = document.getElementById("software-grid");
-  var current = "All";
-  try {
-    var qsub = new URLSearchParams(window.location.search).get("sub");
-    if (qsub && subs.indexOf(qsub) >= 0) current = qsub;
-  } catch (e) {}
-  function renderDropdown() {
-    var html = '<label class="subfilter-label">Show: <select id="subfilter" class="subfilter" aria-label="Filter by category">';
-    html += '<option value="All"' + (current === "All" ? " selected" : "") + '>Everything</option>';
-    subs.forEach(function (s) {
-      html += '<option value="' + rdEsc(s) + '"' + (current === s ? " selected" : "") + '>' + rdEsc(s) + "</option>";
-    });
-    html += '</select></label>';
-    nav.innerHTML = html;
-    document.getElementById("subfilter").addEventListener("change", function (e) {
-      current = e.target.value; renderGrid();
-    });
-  }
   function renderGrid() {
     var html = "";
+    var qsub = null;
+    try { qsub = new URLSearchParams(window.location.search).get("sub"); } catch (e) {}
     items.forEach(function (p) {
-      if (current !== "All" && p.sub !== current) return;
+      if (qsub && p.sub !== qsub) return;
       html += rdCardHTML(p, false);
     });
     grid.innerHTML = html || '<p class="section-sub">Ren&rsquo;s still arm-wrestling vendors for more deals — check back soon.</p>';
   }
-  renderDropdown();
   renderGrid();
 })();
 </script>
