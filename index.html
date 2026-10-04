@@ -46,66 +46,26 @@
   <section id="featured" aria-label="Top picks"></section>
 
   <nav class="cat-grid" aria-label="Shop categories">
-    <div class="cat-wrap">
     <a class="cat-btn cat-apparel" href="apparel.html">
       <span class="cat-name">Apparel</span>
       <span class="cat-sub">Shirts, jackets & cold weather gear.</span>
     </a>
-    <div class="cat-menu">
-      <a href="apparel.html?sub=COLD WEATHER">Cold Weather</a>
-    </div>
-  </div>
-    <div class="cat-wrap">
     <a class="cat-btn cat-catalog" href="catalog.html">
       <span class="cat-name">Tools Catalog</span>
       <span class="cat-sub">Tools Ren would buy with his own money.</span>
     </a>
-    <div class="cat-menu">
-      <a href="catalog.html?sub=Multi-Tools">Multi-Tools</a>
-      <a href="catalog.html?sub=NAILERS">Nailers</a>
-      <a href="catalog.html?sub=HANDTOOLS">Hand Tools</a>
-      <a href="catalog.html?sub=Pneumatic">Pneumatic</a>
-      <a href="catalog.html?sub=SAWS">Saws</a>
-      <a href="catalog.html?sub=LEVELS">Levels</a>
-      <a href="catalog.html?sub=Drills">Drills</a>
-      <a href="catalog.html?sub=PACKOUT">PACKOUT</a>
-      <a href="catalog.html?sub=GENERATORS">Generators</a>
-      <a href="catalog.html?sub=Drivers">Drivers</a>
-      <a href="catalog.html?sub=GRINDERS">Grinders</a>
-      <a href="catalog.html?sub=MEASURING">Measuring</a>
-      <a href="catalog.html?sub=TOOL BAGS">Tool Bags</a>
-    </div>
-  </div>
-    <div class="cat-wrap">
     <a class="cat-btn cat-safety" href="safety.html">
       <span class="cat-name">Safety Gear</span>
       <span class="cat-sub">PPE that gets you home in one piece.</span>
     </a>
-    <div class="cat-menu">
-      <a href="safety.html?sub=HEAD">Head Protection</a>
-      <a href="safety.html?sub=EYEWEAR">Eyewear</a>
-      <a href="safety.html?sub=HI-VIS">Hi-Vis</a>
-      <a href="safety.html?sub=FIRE">Fire Safety</a>
-      <a href="safety.html?sub=FIRST AID">First Aid</a>
-      <a href="safety.html?sub=FALL PROTECTION">Fall Protection</a>
-      <a href="safety.html?sub=GLOVES">Gloves</a>
-      <a href="safety.html?sub=BOOTS">Boots</a>
-    </div>
-  </div>
     <a class="cat-btn cat-templates" href="templates.html">
       <span class="cat-name">Contractor Templates</span>
       <span class="cat-sub">Estimates, logs, invoices — the paperwork that gets you paid.</span>
     </a>
-    <div class="cat-wrap">
     <a class="cat-btn cat-software" href="software.html">
       <span class="cat-name">Software, Apps &amp; Literature</span>
       <span class="cat-sub">Apps that do the boring parts — plus the books that make you sharper.</span>
     </a>
-    <div class="cat-menu">
-      <a href="software.html?sub=APPS">Apps</a>
-      <a href="software.html?sub=BOOKS">Books</a>
-    </div>
-  </div>
     <a class="cat-btn cat-gifts" href="gifts.html">
       <span class="cat-name">Gift Guide</span>
       <span class="cat-sub">Top 10 gifts for contractors — picked by a 30-year tradie.</span>
@@ -144,36 +104,7 @@
 <script>
   rdRenderCarousel("featured");
 </script>
-<script>
-/* Touch-friendly category dropdowns: first tap opens menu, second tap follows link */
-(function () {
-  var isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
-  if (!isTouch) return;
-  document.querySelectorAll('.cat-wrap').forEach(function (wrap) {
-    var btn = wrap.querySelector('.cat-btn');
-    var menu = wrap.querySelector('.cat-menu');
-    if (!btn || !menu) return;
-    btn.addEventListener('click', function (e) {
-      if (!wrap.classList.contains('open')) {
-        e.preventDefault();
-        document.querySelectorAll('.cat-wrap.open').forEach(function (w) {
-          w.classList.remove('open');
-        });
-        wrap.classList.add('open');
-      }
-      /* second tap follows the link normally */
-    });
-  });
-  /* tap elsewhere closes open menus */
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest('.cat-wrap')) {
-      document.querySelectorAll('.cat-wrap.open').forEach(function (w) {
-        w.classList.remove('open');
-      });
-    }
-  });
-})();
-</script>
+
 <!-- build-bust-1791021942 -->
 
 <script>
