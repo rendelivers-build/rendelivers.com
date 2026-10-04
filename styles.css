@@ -534,6 +534,8 @@ section h2 {
 
 /* ---------- Top nav ---------- */
 .top-nav {
+  position: relative;
+  z-index: 1000;
   display: flex;
   gap: 6px;
   justify-content: center;
@@ -811,5 +813,10 @@ section h2 {
     text-align: left;
     padding: 10px 18px;
     font-size: 0.9rem;
+  }
+  /* right-align dropdown for last nav items so they don't clip off-screen */
+  .nav-drop-right .nav-menu {
+    left: auto;
+    right: 0;
   }
 }
