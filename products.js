@@ -3350,3 +3350,38 @@ function rdRenderGrid(section, elId, skipId) {
   });
   document.getElementById(elId).innerHTML = html;
 }
+
+/* Mobile nav dropdowns: position fixed below the nav so overflow-x doesn't clip them. */
+(function () {
+  if (window.innerWidth > 768) return;
+  var drops = document.querySelectorAll('.top-nav .nav-drop');
+  drops.forEach(function (drop) {
+    var link = drop.querySelector(':scope > a');
+    var menu = drop.querySelector(':scope > .nav-menu');
+    if (!link || !menu) return;
+    link.addEventListener('click', function (e) {
+      // First tap opens the menu, second tap follows the link
+      if (!drop.classList.contains('open')) {
+        e.preventDefault();
+        // Close any other open dropdowns
+        document.querySelectorAll('.top-nav .nav-drop.open').forEach(function (d) {
+          if (d !== drop) d.classList.remove('open');
+        });
+        // Position the menu fixed just below the nav
+        var nav = drop.closest('.top-nav');
+        var navRect = nav.getBoundingClientRect();
+        menu.style.top = (navRect.bottom + 4) + 'px';
+        drop.classList.add('open');
+      }
+      // Second tap (when .open) follows the link naturally
+    });
+  });
+  // Tap outside closes open dropdowns
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.top-nav .nav-drop')) {
+      document.querySelectorAll('.top-nav .nav-drop.open').forEach(function (d) {
+        d.classList.remove('open');
+      });
+    }
+  });
+})();
