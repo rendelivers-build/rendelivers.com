@@ -347,6 +347,7 @@ section h2 {
 .cat-drywall    { background-image: url('assets/cat-drywall.jpg'); }
 .cat-lawn       { background-image: url('assets/cat-lawn.jpg'); }
 .cat-welding    { background-image: url('assets/cat-welding.jpg'); }
+.cat-gifts      { background: linear-gradient(135deg, #3a2408 0%, #1b1b20 65%); }
 
 /* bottom scrim so labels stay legible */
 .cat-btn::before {
@@ -389,6 +390,46 @@ section h2 {
 .cat-btn:active { transform: none; }
 
 .cat-btn:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* compact "Shop by Trade" strip under the main category grid */
+.trade-strip { margin-top: 30px; }
+.trade-strip h2 {
+  font-size: 1.15rem;
+  margin: 0 0 12px 2px;
+  letter-spacing: 0.02em;
+}
+.trade-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (min-width: 640px) {
+  .trade-grid { grid-template-columns: repeat(5, 1fr); }
+}
+.trade-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 8px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.trade-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  background: rgba(255,255,255,0.10);
+}
+.trade-btn:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 2px;
 }
