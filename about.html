@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Ren Delivers</title>
+<meta name="description" content="Who is Ren Delivers? 30+ years in construction, picking tools, gear, and shirts for people who actually build stuff.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .about-body { max-width: 720px; margin: 0 auto; padding: 8px 0 30px; }
+  .about-body h2 { font-size: 1.25rem; margin: 30px 0 8px; }
+  .about-body p, .about-body li { color: var(--text); font-size: 0.95rem; margin-bottom: 12px; line-height: 1.6; }
+  .about-body ul { padding-left: 22px; }
+</style>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7b0be40139c64f4ca41bb0212c06502a"}'></script><!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+
+<header class="page-header">
+  <a class="back-link" href="index.html">&larr; Ren Delivers</a>
+  <h1>About</h1>
+</header>
+
+<nav class="top-nav" aria-label="Site sections">
+    <a href="index.html">Home</a>
+    <a href="apparel.html">Apparel</a>
+    <a href="catalog.html">Tools Catalog</a>
+    <a href="safety.html">Safety Gear</a>
+    <a href="plumbing.html">Plumbing</a>
+    <a href="electrical.html">Electrical</a>
+    <a href="drywall.html">Drywall</a>
+    <a href="lawn.html">Lawn and Landscape</a>
+    <a href="welding.html">Welding</a>
+    <a href="templates.html">Templates</a>
+    <a href="software.html">Software & Literature</a>
+    <a href="gifts.html">Gift Guide</a>
+  </nav>
+
+<main>
+  <div class="about-body">
+    <h2>Who's Ren?</h2>
+    <p>Ren's the guy who's spent 30+ years on job sites — ground to finish, seven states, more busted knuckles than he can count. He's run crews, run companies, and learned the hard way which tools earn their keep and which ones end up in the bottom of the gang box.</p>
+    <p>This site is everything he wishes someone had handed him on day one: the tools that actually work, the safety gear that gets you home in one piece, the templates that keep the paperwork from eating your weekends, and shirts that say what every tradie's thinking.</p>
+
+    <h2>Why This Site Exists</h2>
+    <p>Because most tool recommendations come from people who've never swung a hammer. Every product here is hand-picked and individually priced by someone who's actually used this stuff — no algorithms, no auto-generated lists. If it can't survive a real job site, it doesn't make the list.</p>
+    <p>No fluff. No sponsored placements. Just the stuff that works.</p>
+
+    <h2>What You'll Find</h2>
+    <ul>
+      <li><strong>Tools Catalog</strong> — Hand tools, power tools, and everything in between. Organized by trade so you find what you need fast.</li>
+      <li><strong>Safety Gear</strong> — PPE that meets real standards. Because going home in one piece isn't optional.</li>
+      <li><strong>Apparel</strong> — Work shirts with something to say, plus cold-weather gear that actually keeps up.</li>
+      <li><strong>Templates</strong> — Estimates, logs, invoices. The paperwork that gets you paid.</li>
+      <li><strong>Software & Literature</strong> — Apps that do the boring parts, books that make you sharper.</li>
+      <li><strong>Gift Guide</strong> — For the people who buy gifts for contractors and have no idea where to start.</li>
+    </ul>
+
+    <h2>The Fine Print</h2>
+    <p>Ren Delivers is a participant in the Amazon Associates program. When you buy through our links, we earn a small commission at no extra cost to you. That's what keeps the lights on and the recommendations honest.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="social-row">
+    <a href="https://www.youtube.com/@rendelivers" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.pinterest.com/rendelivers/" target="_blank" rel="noopener">Pinterest</a>
+    <a href="https://www.tiktok.com/@rendelivers.com" target="_blank" rel="noopener">TikTok</a>
+  </div>
+  <div class="legal-row">
+    <a href="about.html">About</a>
+    <span class="legal-sep">|</span>
+    <a href="legal.html">Legal</a>
+    <span class="legal-sep">|</span>
+    <a href="#" id="contact-link" data-email="Renwillbeyourfriend@gmail.com">Contact Us</a>
+  </div>
+  <p class="copyright">&copy; 2026 Ren Delivers. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById("contact-link").addEventListener("click", function(e) {
+  e.preventDefault();
+  var email = this.getAttribute("data-email");
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(email).then(function() {
+      alert("Email copied: " + email);
+    });
+  }
+  window.location.href = "mailto:" + email + "?subject=Ren%20Delivers%20site%20feedback";
+});
+</script>
+</body>
+</html>
