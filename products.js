@@ -2670,6 +2670,406 @@ const PRODUCTS = [
     img: "assets/aff-apparel-carhartt-boot.jpg",
     url: "https://www.amazon.com/dp/B0DRM6VJK7?tag=rendelivers-20"
   },
+  {
+    id: "aff-plumb-ridgid-814-14",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 31095 Model 814 Aluminum Straight Pipe Wrench, 14-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-814-14.jpg",
+    url: "https://www.amazon.com/dp/B0000224JE?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-818-18",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-818-18.jpg",
+    url: "https://www.amazon.com/dp/B0000224JF?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-824-24",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-824-24.jpg",
+    url: "https://www.amazon.com/dp/B0000224JG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-e910-10",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 90107 E-910 Aluminum End Pipe Wrench, 10-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-e910-10.jpg",
+    url: "https://www.amazon.com/dp/B001HWQIRE?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-sharkbite-contractor-kit",
+    section: "plumbing",
+    sub: "PEX",
+    name: "SharkBite 22486LF Contractor Kit Tool Box (26 push-fit fittings, disconnect tongs)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-sharkbite-contractor-kit.jpg",
+    url: "https://www.amazon.com/dp/B003OSH6VG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-sharkbite-ball-valve",
+    section: "plumbing",
+    sub: "PEX",
+    name: "SharkBite Max 1/2\" x 1/2\" Push-to-Connect Ball Valve, UR22222",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-sharkbite-ball-valve.jpg",
+    url: "https://www.amazon.com/dp/B0C4VWXHDW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-sharkbite-coupling-4pk",
+    section: "plumbing",
+    sub: "PEX",
+    name: "SharkBite Max 1/2\" Push-to-Connect Coupling, 4-Pack, UR008A4",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-sharkbite-coupling-4pk.jpg",
+    url: "https://www.amazon.com/dp/B0C6BX7NB8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-ez-change",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 57003 EZ Change Plumbing Wrench Faucet Tool",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-ez-change.jpg",
+    url: "https://www.amazon.com/dp/B078YYD66B?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-342-internal",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "RIDGID 31405 Model 342 Internal Pipe Wrench",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-342-internal.jpg",
+    url: "https://www.amazon.com/dp/B0015B9SF6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-duratech-basin",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "DURATECH 10\"-17\" Telescoping Basin Wrench with Tub Drain Remover",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-duratech-basin.jpg",
+    url: "https://www.amazon.com/dp/B09CYKD18T?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-duratech-shower-socket",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "DURATECH Shower Valve Socket Wrench Set",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-duratech-shower-socket.jpg",
+    url: "https://www.amazon.com/dp/B09CYV2L3X?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-knipex-cobra-10",
+    section: "plumbing",
+    sub: "WRENCHES",
+    name: "KNIPEX Tools 87 01 250 Cobra Water Pump Pliers, 10-Inch",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-knipex-cobra-10.jpg",
+    url: "https://www.amazon.com/dp/B000X4J2H0?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-cobra-auger-25",
+    section: "plumbing",
+    sub: "DRAIN",
+    name: "Cobra Products 86250 1/4\" x 25' Pistol Grip Power Drum Auger",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-cobra-auger-25.jpg",
+    url: "https://www.amazon.com/dp/B006C68TA4?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-oatey-flux",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "Oatey 30142 H-20 No. 95 Water Soluble Tinning Flux, 8 oz",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-oatey-flux.jpg",
+    url: "https://www.amazon.com/dp/B000CNO72C?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-oatey-solder",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "Oatey Safe-Flo 29025 Lead-Free Wire Solder, 1 lb",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-oatey-solder.jpg",
+    url: "https://www.amazon.com/dp/B000BQKHJ2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-oxdfk-brush",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "OXDFK 4-in-1 Copper Tubing Pipe Cleaning Brush, 2-Pack",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-oxdfk-brush.jpg",
+    url: "https://www.amazon.com/dp/B0DHGMZ7ZZ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-powertec-emery",
+    section: "plumbing",
+    sub: "SOLDERING",
+    name: "POWERTEC 49000 Emery Cloth Sandpaper Roll, 120 Grit, 1-1/2\" x 10 Yards",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-powertec-emery.jpg",
+    url: "https://www.amazon.com/dp/B08BFN91W7?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-rectorseal-t2-small",
+    section: "plumbing",
+    sub: "SEALANTS",
+    name: "RectorSeal T Plus 2 Pipe Thread Sealant, 1-3/4 oz (23710)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-rectorseal-t2-small.jpg",
+    url: "https://www.amazon.com/dp/B000BKXGXM?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-rectorseal-t2-pint",
+    section: "plumbing",
+    sub: "SEALANTS",
+    name: "RectorSeal T Plus 2 Pipe Thread Sealant, 1/4 Pint (23631)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-rectorseal-t2-pint.jpg",
+    url: "https://www.amazon.com/dp/B0002YPAFY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-oatey-putty",
+    section: "plumbing",
+    sub: "SEALANTS",
+    name: "Oatey Plumber's Putty, 16 oz",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-oatey-putty.jpg",
+    url: "https://www.amazon.com/dp/B001AH8KOK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-101-cutter",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "RIDGID 40617 Model 101 Close Quarters Tubing Cutter",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-101-cutter.jpg",
+    url: "https://www.amazon.com/dp/B001P307PO?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-ridgid-223s-reamer",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "RIDGID 29983 Model 223S Inner/Outer Reamer",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-ridgid-223s-reamer.jpg",
+    url: "https://www.amazon.com/dp/B001P81OKG?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-senctrl-gauge",
+    section: "plumbing",
+    sub: "TESTING",
+    name: "SENCTRL 0-200 PSI Water Pressure Test Gauge with Lazy Hand",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-senctrl-gauge.jpg",
+    url: "https://www.amazon.com/dp/B0BFCN2XWZ?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-fluidmaster-400a",
+    section: "plumbing",
+    sub: "TOILET",
+    name: "Fluidmaster 400A Anti-Siphon Universal Toilet Tank Fill Valve",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-fluidmaster-400a.jpg",
+    url: "https://www.amazon.com/dp/B00002ND6R?tag=rendelivers-20"
+  },
+  {
+    id: "aff-plumb-fluidmaster-400ak",
+    section: "plumbing",
+    sub: "TOILET",
+    name: "Fluidmaster 400AKRP10 Universal All-in-One Toilet Tank Repair Kit",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-plumb-fluidmaster-400ak.jpg",
+    url: "https://www.amazon.com/dp/B0002YVK44?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-dewalt-dpg82",
+    section: "safety",
+    sub: "EYEWEAR",
+    name: "DEWALT DPG82-11 Concealer Clear Anti-Fog Dual Mold Safety Goggle",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-dewalt-dpg82.jpg",
+    url: "https://www.amazon.com/dp/B01A12J3GI?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-uvex-bionic",
+    section: "safety",
+    sub: "EYEWEAR",
+    name: "Honeywell UVEX Bionic Face Shield with Clear Polycarbonate Visor (S8500)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-uvex-bionic.jpg",
+    url: "https://www.amazon.com/dp/B001VXXUWK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-3m-1100-200",
+    section: "safety",
+    sub: "HEARING",
+    name: "3M 1100 Foam Ear Plugs, 200-Pair, Orange",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-3m-1100-200.jpg",
+    url: "https://www.amazon.com/dp/B008MVYL7C?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-3m-worktunes",
+    section: "safety",
+    sub: "HEARING",
+    name: "3M WorkTunes Connect + AM/FM Wireless Hearing Protector with Bluetooth, 26 dB NRR",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-3m-worktunes.jpg",
+    url: "https://www.amazon.com/dp/B0D2S8QZ13?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-3m-6200",
+    section: "safety",
+    sub: "RESPIRATORY",
+    name: "3M Half Facepiece Reusable Respirator 6200, NIOSH, Medium",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-3m-6200.jpg",
+    url: "https://www.amazon.com/dp/B007JZ1N00?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-3m-2097",
+    section: "safety",
+    sub: "RESPIRATORY",
+    name: "3M 2097 P100 Particulate + Odor Filters, 2 Pairs",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-3m-2097.jpg",
+    url: "https://www.amazon.com/dp/B007STCT00?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-ergodyne-8365",
+    section: "safety",
+    sub: "HI-VIS",
+    name: "Ergodyne GloWear 8365 Hi-Vis Reflective Lightweight Rain Jacket, Type R Class 3",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-ergodyne-8365.jpg",
+    url: "https://www.amazon.com/dp/B0851GWL5C?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-protecta-harness",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "3M Protecta PRO Full Body Harness 1161217, M/L",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-protecta-harness.jpg",
+    url: "https://www.amazon.com/dp/B07PWGKBVC?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-guardian-lanyard",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "Guardian 01221 6-Foot Shock Absorbing Lanyard with Rebar Hook",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-guardian-lanyard.jpg",
+    url: "https://www.amazon.com/dp/B004A7XVMS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-guardian-roofkit",
+    section: "safety",
+    sub: "FALL PROTECTION",
+    name: "Guardian 00815 Rooftop Safety Kit — 50 ft Lifeline, Harness, Anchor, Bucket",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-guardian-roofkit.jpg",
+    url: "https://www.amazon.com/dp/B0032U3JXA?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-ergodyne-6660",
+    section: "safety",
+    sub: "HEAD",
+    name: "Ergodyne Chill-Its 6660 Hard Hat Brim with Neck Shade, Orange",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-ergodyne-6660.jpg",
+    url: "https://www.amazon.com/dp/B00G58DYKY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-ergodyne-6813",
+    section: "safety",
+    sub: "HEAD",
+    name: "Ergodyne N-Ferno 6813 Winter Skull Cap Helmet Liner, Black",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-ergodyne-6813.jpg",
+    url: "https://www.amazon.com/dp/B00419QCYE?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-fao-91248",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "First Aid Only 91248 OSHA-Compliant 50-Person First Aid Kit, 260 Pieces",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-fao-91248.jpg",
+    url: "https://www.amazon.com/dp/B08P27LHJ4?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-amerex-b402",
+    section: "safety",
+    sub: "FIRE",
+    name: "Amerex B402 5 lb ABC Dry Chemical Fire Extinguisher with Wall Bracket",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-amerex-b402.jpg",
+    url: "https://www.amazon.com/dp/B00F5CK9X6?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-toughbuilt-kp",
+    section: "safety",
+    sub: "KNEE",
+    name: "ToughBuilt GelFit Thigh Support Stabilization Knee Pads (TB-KP-G3)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-safe-toughbuilt-kp.jpg",
+    url: "https://www.amazon.com/dp/B0140V9LWC?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
