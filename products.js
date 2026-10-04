@@ -3351,4 +3351,18 @@ function rdRenderGrid(section, elId, skipId) {
   document.getElementById(elId).innerHTML = html;
 }
 
-/* Mobile hamburger nav removed — nav shows directly on mobile. */
+/* Mobile hamburger nav: insert toggle button before the nav, toggle open class. */
+(function () {
+  var nav = document.querySelector('.top-nav');
+  if (!nav) return;
+  var btn = document.createElement('button');
+  btn.className = 'nav-toggle';
+  btn.setAttribute('aria-label', 'Open menu');
+  btn.innerHTML = '&#9776;';
+  nav.parentNode.insertBefore(btn, nav);
+  btn.addEventListener('click', function () {
+    var open = nav.classList.toggle('open');
+    btn.innerHTML = open ? '&times;' : '&#9776;';
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+})();
