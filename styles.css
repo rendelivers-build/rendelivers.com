@@ -799,24 +799,37 @@ section h2 {
     box-sizing: border-box;
   }
   .nav-menu {
-    position: absolute;
-    top: calc(100% + 4px);
-    left: 0;
+    display: none;
+    position: fixed;
+    left: 10px;
+    right: 10px;
     transform: none;
-    min-width: 180px;
+    min-width: 0;
     max-height: 320px;
     overflow-y: auto;
+    background: #1c1c21;
+    border: 1px solid #2a2a31;
+    border-radius: 12px;
     box-shadow: 0 12px 32px rgba(0,0,0,.5);
-    z-index: 50;
+    z-index: 1001;
+    padding: 6px;
+  }
+  .top-nav .nav-drop.open .nav-menu {
+    display: block;
+  }
+  /* disable hover-open on mobile; JS .open class controls it */
+  .top-nav .nav-drop:hover .nav-menu,
+  .top-nav .nav-drop:focus-within .nav-menu {
+    display: none;
+  }
+  .top-nav .nav-drop.open:hover .nav-menu,
+  .top-nav .nav-drop.open:focus-within .nav-menu {
+    display: block;
   }
   .nav-menu a {
     text-align: left;
     padding: 10px 18px;
     font-size: 0.9rem;
   }
-  /* right-align dropdown for last nav items so they don't clip off-screen */
-  .nav-drop-right .nav-menu {
-    left: auto;
-    right: 0;
-  }
+  /* right-align class no longer needed with fixed full-width dropdowns */
 }
