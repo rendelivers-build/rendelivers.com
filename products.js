@@ -3120,6 +3120,76 @@ const PRODUCTS = [
     img: "assets/aff-plumb-breeze-clamps.jpg",
     url: "https://www.amazon.com/dp/B008MG3EFM?tag=rendelivers-20"
   },
+  {
+    id: "aff-tools-dewalt-247pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "DEWALT 247-Piece Mechanics Tool Set, 1/4\", 3/8\", 1/2\" Drive, SAE/Metric",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-dewalt-247pc.jpg",
+    url: "https://www.amazon.com/dp/B0767PMCD8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-dewalt-205pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "DEWALT 205-Piece Mechanics Tool Set, 1/4\", 3/8\", 1/2\" Drive (DWMT81534)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-dewalt-205pc.jpg",
+    url: "https://www.amazon.com/dp/B0767NGBP8?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-dewalt-168pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "DEWALT 168-Piece Mechanics Tool Set (DWMT73803)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-dewalt-168pc.jpg",
+    url: "https://www.amazon.com/dp/B00PXN00BS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-dewalt-108pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "DEWALT 108-Piece Mechanics Tool Set, 1/4\" & 3/8\" Drive (DWMT73801)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-dewalt-108pc.jpg",
+    url: "https://www.amazon.com/dp/B00U0P0GHM?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-crescent-170pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "Crescent 170-Piece General Purpose Tool Set, Closed Case (CTK170CMP2)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-crescent-170pc.jpg",
+    url: "https://www.amazon.com/dp/B00F4AVRGW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-gearwrench-219pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "GEARWRENCH 219-Pc. Mechanics Tool Set in 3 Drawer Storage Box (80940)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-gearwrench-219pc.jpg",
+    url: "https://www.amazon.com/dp/B00OL2XEJ2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-tools-milw-packout-106pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "Milwaukee 106PC Ratchet and Socket Set in PACKOUT Organizer, SAE/Metric (48-22-9486)",
+    tagline: "Ren's pick.",
+    price: "coming soon",
+    img: "assets/aff-tools-milw-packout-106pc.jpg",
+    url: "https://www.amazon.com/dp/B0892TB6VQ?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
