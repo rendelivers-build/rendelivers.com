@@ -46,6 +46,10 @@
   var nav = document.getElementById("subnav");
   var grid = document.getElementById("software-grid");
   var current = "All";
+  try {
+    var qsub = new URLSearchParams(window.location.search).get("sub");
+    if (qsub && subs.indexOf(qsub) >= 0) current = qsub;
+  } catch (e) {}
   function renderDropdown() {
     var html = '<label class="subfilter-label">Show: <select id="subfilter" class="subfilter" aria-label="Filter by category">';
     html += '<option value="All"' + (current === "All" ? " selected" : "") + '>Everything</option>';
