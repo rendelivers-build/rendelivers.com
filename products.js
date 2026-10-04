@@ -2711,36 +2711,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B001HWQIRE?tag=rendelivers-20"
   },
   {
-    id: "aff-plumb-sharkbite-contractor-kit",
-    section: "plumbing",
-    sub: "PEX",
-    name: "SharkBite 22486LF Contractor Kit Tool Box (26 push-fit fittings, disconnect tongs)",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-sharkbite-contractor-kit.jpg",
-    url: "https://www.amazon.com/dp/B003OSH6VG?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-sharkbite-ball-valve",
-    section: "plumbing",
-    sub: "PEX",
-    name: "SharkBite Max 1/2\" x 1/2\" Push-to-Connect Ball Valve, UR22222",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-sharkbite-ball-valve.jpg",
-    url: "https://www.amazon.com/dp/B0C4VWXHDW?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-sharkbite-coupling-4pk",
-    section: "plumbing",
-    sub: "PEX",
-    name: "SharkBite Max 1/2\" Push-to-Connect Coupling, 4-Pack, UR008A4",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-sharkbite-coupling-4pk.jpg",
-    url: "https://www.amazon.com/dp/B0C6BX7NB8?tag=rendelivers-20"
-  },
-  {
     id: "aff-plumb-ridgid-ez-change",
     section: "plumbing",
     sub: "WRENCHES",
@@ -2801,26 +2771,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B006C68TA4?tag=rendelivers-20"
   },
   {
-    id: "aff-plumb-oatey-flux",
-    section: "plumbing",
-    sub: "SOLDERING",
-    name: "Oatey 30142 H-20 No. 95 Water Soluble Tinning Flux, 8 oz",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-oatey-flux.jpg",
-    url: "https://www.amazon.com/dp/B000CNO72C?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-oatey-solder",
-    section: "plumbing",
-    sub: "SOLDERING",
-    name: "Oatey Safe-Flo 29025 Lead-Free Wire Solder, 1 lb",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-oatey-solder.jpg",
-    url: "https://www.amazon.com/dp/B000BQKHJ2?tag=rendelivers-20"
-  },
-  {
     id: "aff-plumb-oxdfk-brush",
     section: "plumbing",
     sub: "SOLDERING",
@@ -2829,46 +2779,6 @@ const PRODUCTS = [
     price: "coming soon",
     img: "assets/aff-plumb-oxdfk-brush.jpg",
     url: "https://www.amazon.com/dp/B0DHGMZ7ZZ?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-powertec-emery",
-    section: "plumbing",
-    sub: "SOLDERING",
-    name: "POWERTEC 49000 Emery Cloth Sandpaper Roll, 120 Grit, 1-1/2\" x 10 Yards",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-powertec-emery.jpg",
-    url: "https://www.amazon.com/dp/B08BFN91W7?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-rectorseal-t2-small",
-    section: "plumbing",
-    sub: "SEALANTS",
-    name: "RectorSeal T Plus 2 Pipe Thread Sealant, 1-3/4 oz (23710)",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-rectorseal-t2-small.jpg",
-    url: "https://www.amazon.com/dp/B000BKXGXM?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-rectorseal-t2-pint",
-    section: "plumbing",
-    sub: "SEALANTS",
-    name: "RectorSeal T Plus 2 Pipe Thread Sealant, 1/4 Pint (23631)",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-rectorseal-t2-pint.jpg",
-    url: "https://www.amazon.com/dp/B0002YPAFY?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-oatey-putty",
-    section: "plumbing",
-    sub: "SEALANTS",
-    name: "Oatey Plumber's Putty, 16 oz",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-oatey-putty.jpg",
-    url: "https://www.amazon.com/dp/B001AH8KOK?tag=rendelivers-20"
   },
   {
     id: "aff-plumb-ridgid-101-cutter",
@@ -2899,26 +2809,6 @@ const PRODUCTS = [
     price: "coming soon",
     img: "assets/aff-plumb-senctrl-gauge.jpg",
     url: "https://www.amazon.com/dp/B0BFCN2XWZ?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-fluidmaster-400a",
-    section: "plumbing",
-    sub: "TOILET",
-    name: "Fluidmaster 400A Anti-Siphon Universal Toilet Tank Fill Valve",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-fluidmaster-400a.jpg",
-    url: "https://www.amazon.com/dp/B00002ND6R?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-fluidmaster-400ak",
-    section: "plumbing",
-    sub: "TOILET",
-    name: "Fluidmaster 400AKRP10 Universal All-in-One Toilet Tank Repair Kit",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-fluidmaster-400ak.jpg",
-    url: "https://www.amazon.com/dp/B0002YVK44?tag=rendelivers-20"
   },
   {
     id: "aff-safe-dewalt-dpg82",
@@ -3109,16 +2999,6 @@ const PRODUCTS = [
     price: "coming soon",
     img: "assets/aff-plumb-reed-tc4qpvc.jpg",
     url: "https://www.amazon.com/dp/B001H4PS28?tag=rendelivers-20"
-  },
-  {
-    id: "aff-plumb-breeze-clamps",
-    section: "plumbing",
-    sub: "POLY",
-    name: "Breeze 62008H Power-Seal Stainless Steel Hose Clamp, SAE 8, 10-Pack",
-    tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-plumb-breeze-clamps.jpg",
-    url: "https://www.amazon.com/dp/B008MG3EFM?tag=rendelivers-20"
   },
   {
     id: "aff-tools-dewalt-247pc",
