@@ -726,4 +726,27 @@ section h2 {
     font-size: 1rem;
     padding: 10px 18px;
   }
+  /* mobile: dropdown expands inline below its button, not floating */
+  .nav-drop {
+    display: block;
+    width: 100%;
+  }
+  .nav-drop > a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .nav-menu {
+    position: static;
+    transform: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    max-height: none;
+    box-shadow: none;
+  }
+  .nav-menu a {
+    text-align: left;
+    padding: 10px 18px;
+  }
 }
