@@ -982,7 +982,7 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "LIFT Safety DAX Fifty 50 Carbon Fiber Full Brim Hard Hat, Hi-Viz Orange/Black",
     tagline: "Half carbon fiber, half hi-vis — the hardest hat on the jobsite.",
-    price: "See price on Amazon",
+    price: "$180.00",
     img: "assets/aff-lift-dax-fifty50-orange.jpg",
     url: "https://www.amazon.com/dp/B07NZ89225?tag=rendelivers-20"
   },
@@ -1084,6 +1084,96 @@ const PRODUCTS = [
     checked: "2026-10-02",
     img: "assets/aff-mechanix-original.jpg",
     url: "https://www.amazon.com/dp/B0001VNZUK?tag=rendelivers-20"
+  },
+  {
+    id: "aff-mechanix-original-black",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Mechanix Wear The Original Work Gloves, Black",
+    tagline: "Ren's pick: the flagship Original in classic black. TrekDry, touchscreen capable, machine washable.",
+    price: "coming soon",
+    img: "assets/aff-mechanix-original-black.jpg",
+    url: "https://www.amazon.com/dp/B0001VNZQY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-mechanix-hiviz-fastfit",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Mechanix Wear Hi-Viz FastFit Work Gloves, Fluorescent Yellow",
+    tagline: "Ren's pick: ANSI-107 hi-vis with reflective print. The contractor glove everyone recognizes.",
+    price: "coming soon",
+    img: "assets/aff-mechanix-hiviz-fastfit.jpg",
+    url: "https://www.amazon.com/dp/B002XISTVY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-mechanix-hiviz",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Mechanix Wear Hi-Viz FastFit Work Gloves, Fluorescent Yellow",
+    tagline: "Ren's pick: ANSI-107 hi-vis with reflective print. The contractor glove everyone recognizes.",
+    price: "coming soon",
+    img: "assets/aff-mechanix-hiviz-fastfit.jpg",
+    url: "https://www.amazon.com/dp/B002XISTVY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-gf-rubber-palm-12pk",
+    section: "safety",
+    sub: "GLOVES",
+    name: "G & F Products Latex Double-Coated Work Gloves, 12-Pack",
+    tagline: "Ren's pick: the classic blue dipped glove contractors burn through. Buy the dozen.",
+    price: "coming soon",
+    img: "assets/aff-gf-rubber-palm-12pk.jpg",
+    url: "https://www.amazon.com/dp/B001YJHEDW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-gf-rubber-palm",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "G & F Products Latex Double-Coated Work Gloves, 12-Pack",
+    tagline: "Ren's pick: the classic blue dipped glove contractors burn through. Buy the dozen.",
+    price: "coming soon",
+    img: "assets/aff-gf-rubber-palm-12pk.jpg",
+    url: "https://www.amazon.com/dp/B001YJHEDW?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-60588-cut",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Klein Tools 60588 Cut-Resistant Touchscreen Work Gloves, 2-Pack",
+    tagline: "Ren's pick: cut-resistant with touchscreen fingertips. Klein tough.",
+    price: "$15.98",
+    img: "assets/aff-klein-60588-cut.jpg",
+    url: "https://www.amazon.com/dp/B0C9FZFVZH?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-klein-60588",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Klein Tools 60588 Cut-Resistant Touchscreen Work Gloves, 2-Pack",
+    tagline: "Ren's pick: cut-resistant with touchscreen fingertips. Klein tough.",
+    price: "$15.98",
+    img: "assets/aff-klein-60588-cut.jpg",
+    url: "https://www.amazon.com/dp/B0C9FZFVZH?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-60582-a1",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, Large, 2-Pack",
+    tagline: "Ren's pick: ANSI A1 knit dipped, nitrile coated, touchscreen capable. Amazon's Choice.",
+    price: "$8.18",
+    img: "assets/aff-klein-60582-a1.jpg",
+    url: "https://www.amazon.com/dp/B0C9FNLK7J?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-klein-60582",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, Large, 2-Pack",
+    tagline: "Ren's pick: ANSI A1 knit dipped, nitrile coated, touchscreen capable. Amazon's Choice.",
+    price: "$8.18",
+    img: "assets/aff-klein-60582-a1.jpg",
+    url: "https://www.amazon.com/dp/B0C9FNLK7J?tag=rendelivers-20"
   },
   {
     id: "aff-magid-trex",
@@ -2671,12 +2761,72 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0DRM6VJK7?tag=rendelivers-20"
   },
   {
+    id: "aff-apparel-weld-gloves-k2979",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Lincoln Electric Traditional MIG/Stick Welding Gloves, 14in Lined Leather, Kevlar Stitching",
+    tagline: "The classic red-and-black gauntlets. Sparks bounce off, compliments don't.",
+    price: "$43.51",
+    img: "assets/aff-weld-lincoln-k2979-gloves.jpg",
+    url: "https://www.amazon.com/dp/B00547HD0O?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-weld-jacket-k2986",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Lincoln Electric Split Leather Sleeved Welding Jacket, FR Cotton, Black & Red",
+    tagline: "Cowhide sleeves, FR cotton body — dress like you weld for a living.",
+    price: "$195.00",
+    img: "assets/aff-weld-lincoln-jacket-k2986.jpg",
+    url: "https://www.amazon.com/dp/B0055E0WUY?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-weld-gloves-jessi",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Lincoln Electric Jessi Combs Women's MIG/Stick Welding Gloves",
+    tagline: "Kevlar-stitched leather that laughs at spatter. Sized for smaller hands, built for big sparks.",
+    price: "$43.51",
+    img: "assets/aff-weld-lincoln-gloves.jpg",
+    url: "https://www.amazon.com/dp/B00FKBJ4IS?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-hivis-jacket-8365",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Ergodyne GloWear 8365 Hi-Vis Reflective Lightweight Rain Jacket, Type R Class 3",
+    tagline: "Ren's pick.",
+    price: "$39.99",
+    img: "assets/aff-safe-ergodyne-8365.jpg",
+    url: "https://www.amazon.com/dp/B0851GWL5C?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-boot-redwing",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "WORX by Red Wing Shoes Men's 5432 8 in. Steel Toe Work Boot",
+    tagline: "Ren's pick: Red Wing bloodline, GORE-TEX waterproofing, insulated. The boot that outlasts the job.",
+    price: "Add to cart to check price",
+    img: "assets/aff-redwing-steetoe.jpg",
+    url: "https://www.amazon.com/dp/B0016PACT2?tag=rendelivers-20"
+  },
+  {
+    id: "aff-apparel-boot-thorogood",
+    section: "apparel",
+    sub: "COLD WEATHER",
+    name: "Thorogood American Heritage 6 in. Steel Toe Work Boot",
+    tagline: "Ren's pick: full-grain leather moc toe, MAXWear wedge sole. The premium boot that breaks in like a dream.",
+    price: "$274.95",
+    img: "assets/aff-thorogood-steetoe.jpg",
+    url: "https://www.amazon.com/dp/B00623DYVQ?tag=rendelivers-20"
+  },
+  {
     id: "aff-plumb-ridgid-814-14",
     section: "plumbing",
     sub: "WRENCHES",
     name: "RIDGID 31095 Model 814 Aluminum Straight Pipe Wrench, 14-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$51.99",
     img: "assets/aff-plumb-ridgid-814-14.jpg",
     url: "https://www.amazon.com/dp/B0000224JE?tag=rendelivers-20"
   },
@@ -2686,7 +2836,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$78.63",
     img: "assets/aff-plumb-ridgid-818-18.jpg",
     url: "https://www.amazon.com/dp/B0000224JF?tag=rendelivers-20"
   },
@@ -2696,7 +2846,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$119.99",
     img: "assets/aff-plumb-ridgid-824-24.jpg",
     url: "https://www.amazon.com/dp/B0000224JG?tag=rendelivers-20"
   },
@@ -2706,7 +2856,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "RIDGID 90107 E-910 Aluminum End Pipe Wrench, 10-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$64.33",
     img: "assets/aff-plumb-ridgid-e910-10.jpg",
     url: "https://www.amazon.com/dp/B001HWQIRE?tag=rendelivers-20"
   },
@@ -2716,7 +2866,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "RIDGID 57003 EZ Change Plumbing Wrench Faucet Tool",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$22.99",
     img: "assets/aff-plumb-ridgid-ez-change.jpg",
     url: "https://www.amazon.com/dp/B078YYD66B?tag=rendelivers-20"
   },
@@ -2726,7 +2876,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "RIDGID 31405 Model 342 Internal Pipe Wrench",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$89.82",
     img: "assets/aff-plumb-ridgid-342-internal.jpg",
     url: "https://www.amazon.com/dp/B0015B9SF6?tag=rendelivers-20"
   },
@@ -2736,7 +2886,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "DURATECH 10\"-17\" Telescoping Basin Wrench with Tub Drain Remover",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$26.99",
     img: "assets/aff-plumb-duratech-basin.jpg",
     url: "https://www.amazon.com/dp/B09CYKD18T?tag=rendelivers-20"
   },
@@ -2746,7 +2896,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "DURATECH Shower Valve Socket Wrench Set",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$17.99",
     img: "assets/aff-plumb-duratech-shower-socket.jpg",
     url: "https://www.amazon.com/dp/B09CYV2L3X?tag=rendelivers-20"
   },
@@ -2756,7 +2906,7 @@ const PRODUCTS = [
     sub: "WRENCHES",
     name: "KNIPEX Tools 87 01 250 Cobra Water Pump Pliers, 10-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$36.86",
     img: "assets/aff-plumb-knipex-cobra-10.jpg",
     url: "https://www.amazon.com/dp/B000X4J2H0?tag=rendelivers-20"
   },
@@ -2766,7 +2916,7 @@ const PRODUCTS = [
     sub: "DRAIN",
     name: "Cobra Products 86250 1/4\" x 25' Pistol Grip Power Drum Auger",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$29.04",
     img: "assets/aff-plumb-cobra-auger-25.jpg",
     url: "https://www.amazon.com/dp/B006C68TA4?tag=rendelivers-20"
   },
@@ -2776,7 +2926,7 @@ const PRODUCTS = [
     sub: "SOLDERING",
     name: "OXDFK 4-in-1 Copper Tubing Pipe Cleaning Brush, 2-Pack",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$8.99",
     img: "assets/aff-plumb-oxdfk-brush.jpg",
     url: "https://www.amazon.com/dp/B0DHGMZ7ZZ?tag=rendelivers-20"
   },
@@ -2786,7 +2936,7 @@ const PRODUCTS = [
     sub: "CUTTERS",
     name: "RIDGID 40617 Model 101 Close Quarters Tubing Cutter",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$27.98",
     img: "assets/aff-plumb-ridgid-101-cutter.jpg",
     url: "https://www.amazon.com/dp/B001P307PO?tag=rendelivers-20"
   },
@@ -2796,7 +2946,7 @@ const PRODUCTS = [
     sub: "CUTTERS",
     name: "RIDGID 29983 Model 223S Inner/Outer Reamer",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$38.00",
     img: "assets/aff-plumb-ridgid-223s-reamer.jpg",
     url: "https://www.amazon.com/dp/B001P81OKG?tag=rendelivers-20"
   },
@@ -2806,7 +2956,7 @@ const PRODUCTS = [
     sub: "TESTING",
     name: "SENCTRL 0-200 PSI Water Pressure Test Gauge with Lazy Hand",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$13.99",
     img: "assets/aff-plumb-senctrl-gauge.jpg",
     url: "https://www.amazon.com/dp/B0BFCN2XWZ?tag=rendelivers-20"
   },
@@ -2816,7 +2966,7 @@ const PRODUCTS = [
     sub: "EYEWEAR",
     name: "DEWALT DPG82-11 Concealer Clear Anti-Fog Dual Mold Safety Goggle",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$12.59",
     img: "assets/aff-safe-dewalt-dpg82.jpg",
     url: "https://www.amazon.com/dp/B01A12J3GI?tag=rendelivers-20"
   },
@@ -2826,7 +2976,7 @@ const PRODUCTS = [
     sub: "EYEWEAR",
     name: "Honeywell UVEX Bionic Face Shield with Clear Polycarbonate Visor (S8500)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$38.99",
     img: "assets/aff-safe-uvex-bionic.jpg",
     url: "https://www.amazon.com/dp/B001VXXUWK?tag=rendelivers-20"
   },
@@ -2836,7 +2986,7 @@ const PRODUCTS = [
     sub: "HEARING",
     name: "3M 1100 Foam Ear Plugs, 200-Pair, Orange",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$29.50",
     img: "assets/aff-safe-3m-1100-200.jpg",
     url: "https://www.amazon.com/dp/B008MVYL7C?tag=rendelivers-20"
   },
@@ -2846,7 +2996,7 @@ const PRODUCTS = [
     sub: "HEARING",
     name: "3M WorkTunes Connect + AM/FM Wireless Hearing Protector with Bluetooth, 26 dB NRR",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$64.99",
     img: "assets/aff-safe-3m-worktunes.jpg",
     url: "https://www.amazon.com/dp/B0D2S8QZ13?tag=rendelivers-20"
   },
@@ -2856,7 +3006,7 @@ const PRODUCTS = [
     sub: "RESPIRATORY",
     name: "3M Half Facepiece Reusable Respirator 6200, NIOSH, Medium",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$17.29",
     img: "assets/aff-safe-3m-6200.jpg",
     url: "https://www.amazon.com/dp/B007JZ1N00?tag=rendelivers-20"
   },
@@ -2866,7 +3016,7 @@ const PRODUCTS = [
     sub: "RESPIRATORY",
     name: "3M 2097 P100 Particulate + Odor Filters, 2 Pairs",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$18.98",
     img: "assets/aff-safe-3m-2097.jpg",
     url: "https://www.amazon.com/dp/B007STCT00?tag=rendelivers-20"
   },
@@ -2876,7 +3026,7 @@ const PRODUCTS = [
     sub: "HI-VIS",
     name: "Ergodyne GloWear 8365 Hi-Vis Reflective Lightweight Rain Jacket, Type R Class 3",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$39.99",
     img: "assets/aff-safe-ergodyne-8365.jpg",
     url: "https://www.amazon.com/dp/B0851GWL5C?tag=rendelivers-20"
   },
@@ -2886,7 +3036,7 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "3M Protecta PRO Full Body Harness 1161217, M/L",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$354.05",
     img: "assets/aff-safe-protecta-harness.jpg",
     url: "https://www.amazon.com/dp/B07PWGKBVC?tag=rendelivers-20"
   },
@@ -2896,7 +3046,7 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "Guardian 01221 6-Foot Shock Absorbing Lanyard with Rebar Hook",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$74.98",
     img: "assets/aff-safe-guardian-lanyard.jpg",
     url: "https://www.amazon.com/dp/B004A7XVMS?tag=rendelivers-20"
   },
@@ -2906,7 +3056,7 @@ const PRODUCTS = [
     sub: "FALL PROTECTION",
     name: "Guardian 00815 Rooftop Safety Kit — 50 ft Lifeline, Harness, Anchor, Bucket",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$96.00",
     img: "assets/aff-safe-guardian-roofkit.jpg",
     url: "https://www.amazon.com/dp/B0032U3JXA?tag=rendelivers-20"
   },
@@ -2916,7 +3066,7 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "Ergodyne Chill-Its 6660 Hard Hat Brim with Neck Shade, Orange",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$22.98",
     img: "assets/aff-safe-ergodyne-6660.jpg",
     url: "https://www.amazon.com/dp/B00G58DYKY?tag=rendelivers-20"
   },
@@ -2926,9 +3076,19 @@ const PRODUCTS = [
     sub: "HEAD",
     name: "Ergodyne N-Ferno 6813 Winter Skull Cap Helmet Liner, Black",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$12.97",
     img: "assets/aff-safe-ergodyne-6813.jpg",
     url: "https://www.amazon.com/dp/B00419QCYE?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-3in1-helmet",
+    section: "safety",
+    sub: "HEAD",
+    name: "3-in-1 Safety Helmet with Flip-Up Visor and Removable Ear Muffs",
+    tagline: "Ren's pick: hard hat, face shield, and hearing protection in one. 25dB muffs, one-hand adjust.",
+    price: "$65.99",
+    img: "assets/aff-safe-3in1-helmet.jpg",
+    url: "https://www.amazon.com/dp/B0B5ZYTNH9?tag=rendelivers-20"
   },
   {
     id: "aff-safe-fao-91248",
@@ -2936,9 +3096,39 @@ const PRODUCTS = [
     sub: "FIRST AID",
     name: "First Aid Only 91248 OSHA-Compliant 50-Person First Aid Kit, 260 Pieces",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$17.47",
     img: "assets/aff-safe-fao-91248.jpg",
     url: "https://www.amazon.com/dp/B08P27LHJ4?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-luminary-backpack",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "Luminary Tactical Trauma First Aid Backpack, Fully Stocked 203-Piece, Red",
+    tagline: "Ren's pick: a real backpack kit — MOLLE, waist strap, ventilated back. Grab and go.",
+    price: "coming soon",
+    img: "assets/aff-safe-luminary-backpack.jpg",
+    url: "https://www.amazon.com/dp/B08DDL3HT1?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-rapidcare-master",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "Rapid Care 3-Shelf First Aid Cabinet, 700+ Pieces, ANSI/OSHA Class A+, Serves 150",
+    tagline: "Ren's pick: the master kit — wall-mount steel cabinet, color-coded boxes, jobsite-ready.",
+    price: "coming soon",
+    img: "assets/aff-safe-rapidcare-master.jpg",
+    url: "https://www.amazon.com/dp/B0F51WL72W?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-besmart-wallkit",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "Be Smart Get Prepared Hard Case First Aid Kit, 326 Pieces, Wall-Mountable, OSHA/ANSI",
+    tagline: "Ren's pick: hang it on the wall next to the extinguisher. Tilting shelves, 100-person rated.",
+    price: "coming soon",
+    img: "assets/aff-safe-besmart-wallkit.jpg",
+    url: "https://www.amazon.com/dp/B002DQY776?tag=rendelivers-20"
   },
   {
     id: "aff-safe-amerex-b402",
@@ -2946,7 +3136,7 @@ const PRODUCTS = [
     sub: "FIRE",
     name: "Amerex B402 5 lb ABC Dry Chemical Fire Extinguisher with Wall Bracket",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$80.00",
     img: "assets/aff-safe-amerex-b402.jpg",
     url: "https://www.amazon.com/dp/B00F5CK9X6?tag=rendelivers-20"
   },
@@ -2956,9 +3146,9 @@ const PRODUCTS = [
     sub: "KNEE",
     name: "ToughBuilt GelFit Thigh Support Stabilization Knee Pads (TB-KP-G3)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$59.99",
     img: "assets/aff-safe-toughbuilt-kp.jpg",
-    url: "https://www.amazon.com/dp/B0140V9LWC?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B01GQMCMPQ?tag=rendelivers-20"
   },
   {
     id: "aff-plumb-milw-pex-expander",
@@ -2966,7 +3156,7 @@ const PRODUCTS = [
     sub: "PEX",
     name: "Milwaukee 2474-22 M12 Cordless PEX Expansion Tool Kit",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$480.00",
     img: "assets/aff-plumb-milw-pex-expander.jpg",
     url: "https://www.amazon.com/dp/B0994QYTQB?tag=rendelivers-20"
   },
@@ -2976,7 +3166,7 @@ const PRODUCTS = [
     sub: "PEX",
     name: "Apollo PEX 69PTKH0014C 1/2 in. & 3/4 in. Combo Crimp Tool",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$56.00",
     img: "assets/aff-plumb-apollo-crimp-combo.jpg",
     url: "https://www.amazon.com/dp/B003IJ3DDQ?tag=rendelivers-20"
   },
@@ -2986,7 +3176,7 @@ const PRODUCTS = [
     sub: "PEX",
     name: "iCrimp KIT-1096D PEX Clamp Tool Kit for 3/8 to 1 in., with Clamps, Cutter & Case",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$33.59",
     img: "assets/aff-plumb-icrimp-cinch-kit.jpg",
     url: "https://www.amazon.com/dp/B0CJ243VDD?tag=rendelivers-20"
   },
@@ -2996,7 +3186,7 @@ const PRODUCTS = [
     sub: "POLY",
     name: "Reed Tool TC4QPVC Quick Release Tubing Cutter for Plastic Pipe, 12-Inch",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$153.99",
     img: "assets/aff-plumb-reed-tc4qpvc.jpg",
     url: "https://www.amazon.com/dp/B001H4PS28?tag=rendelivers-20"
   },
@@ -3006,7 +3196,7 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "DEWALT 247-Piece Mechanics Tool Set, 1/4\", 3/8\", 1/2\" Drive, SAE/Metric",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$177.85",
     img: "assets/aff-tools-dewalt-247pc.jpg",
     url: "https://www.amazon.com/dp/B0767PMCD8?tag=rendelivers-20"
   },
@@ -3016,7 +3206,7 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "DEWALT 205-Piece Mechanics Tool Set, 1/4\", 3/8\", 1/2\" Drive (DWMT81534)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$172.01",
     img: "assets/aff-tools-dewalt-205pc.jpg",
     url: "https://www.amazon.com/dp/B0767NGBP8?tag=rendelivers-20"
   },
@@ -3026,7 +3216,7 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "DEWALT 168-Piece Mechanics Tool Set (DWMT73803)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$177.12",
     img: "assets/aff-tools-dewalt-168pc.jpg",
     url: "https://www.amazon.com/dp/B00PXN00BS?tag=rendelivers-20"
   },
@@ -3036,19 +3226,19 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "DEWALT 108-Piece Mechanics Tool Set, 1/4\" & 3/8\" Drive (DWMT73801)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$79.97",
     img: "assets/aff-tools-dewalt-108pc.jpg",
     url: "https://www.amazon.com/dp/B00U0P0GHM?tag=rendelivers-20"
   },
   {
-    id: "aff-tools-crescent-170pc",
+    id: "aff-tools-cartman-143pc",
     section: "catalog",
     sub: "TOOL SETS",
-    name: "Crescent 170-Piece General Purpose Tool Set, Closed Case (CTK170CMP2)",
+    name: "CARTMAN 143-Piece Tool Set, Ratchet Sockets with Plastic Toolbox",
     tagline: "Ren's pick.",
-    price: "coming soon",
-    img: "assets/aff-tools-crescent-170pc.jpg",
-    url: "https://www.amazon.com/dp/B00F4AVRGW?tag=rendelivers-20"
+    price: "$99.99",
+    img: "assets/aff-tools-cartman-143pc.jpg",
+    url: "https://www.amazon.com/dp/B0871WY8DQ?tag=rendelivers-20"
   },
   {
     id: "aff-tools-gearwrench-219pc",
@@ -3056,7 +3246,7 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "GEARWRENCH 219-Pc. Mechanics Tool Set in 3 Drawer Storage Box (80940)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$257.03",
     img: "assets/aff-tools-gearwrench-219pc.jpg",
     url: "https://www.amazon.com/dp/B00OL2XEJ2?tag=rendelivers-20"
   },
@@ -3066,7 +3256,7 @@ const PRODUCTS = [
     sub: "TOOL SETS",
     name: "Milwaukee 106PC Ratchet and Socket Set in PACKOUT Organizer, SAE/Metric (48-22-9486)",
     tagline: "Ren's pick.",
-    price: "coming soon",
+    price: "$324.99",
     img: "assets/aff-tools-milw-packout-106pc.jpg",
     url: "https://www.amazon.com/dp/B0892TB6VQ?tag=rendelivers-20"
   },
@@ -3345,10 +3535,46 @@ function rdRenderCarousel(elId) {
 /* Section grid, optionally skipping one product id (e.g. the featured one). */
 function rdRenderGrid(section, elId, skipId) {
   var html = "";
+  /* 2026-10-04: honor ?sub= filter params from the nav pill dropdown links
+     (e.g. apparel.html?sub=SHIRTS). Case-insensitive match against p.sub. */
+  var m = /[?&]sub=([^&]*)/.exec(location.search);
+  var sub = m ? decodeURIComponent(m[1].replace(/\+/g, " ")).toUpperCase() : null;
   PRODUCTS.forEach(function (p) {
-    if (p.section === section && p.id !== skipId) html += rdCardHTML(p, false);
+    if (p.section === section && p.id !== skipId &&
+        (!sub || String(p.sub || "").toUpperCase() === sub)) html += rdCardHTML(p, false);
   });
   document.getElementById(elId).innerHTML = html;
+}
+
+/* 2026-10-04: on-page subcategory filter dropdown (Brandon's direction:
+   category pages get a single dropdown filter instead of pill rows).
+   Builds options from distinct p.sub values in PRODUCTS for the section,
+   preselects from ?sub= (case-insensitive), navigates on change. */
+function rdInitSubfilter(section) {
+  var sel = document.getElementById("subfilter");
+  if (!sel || typeof PRODUCTS === "undefined") return;
+  var seen = {}, subs = [];
+  PRODUCTS.forEach(function (p) {
+    if (p.section === section && p.sub) {
+      var k = String(p.sub).toUpperCase();
+      if (!seen[k]) { seen[k] = 1; subs.push(p.sub); }
+    }
+  });
+  var wrap = sel.closest(".subfilter-wrap");
+  if (!subs.length) { if (wrap) wrap.style.display = "none"; return; }
+  var m = /[?&]sub=([^&]*)/.exec(location.search);
+  var cur = m ? decodeURIComponent(m[1].replace(/\+/g, " ")).toUpperCase() : null;
+  var html = '<option value="">All</option>';
+  subs.forEach(function (s) {
+    var esc = String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+    html += '<option value="' + esc + '"' + (cur === String(s).toUpperCase() ? " selected" : "") + ">" + esc + "</option>";
+  });
+  sel.innerHTML = html;
+  sel.addEventListener("change", function () {
+    var v = sel.value;
+    var base = location.pathname.split("/").pop() || "index.html";
+    location.href = v ? base + "?sub=" + encodeURIComponent(v) : base;
+  });
 }
 
 /* Mobile nav dropdowns: position fixed below the nav so overflow-x doesn't clip them. */
