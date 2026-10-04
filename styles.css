@@ -540,11 +540,10 @@ section h2 {
   gap: 6px;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   padding: 12px 14px 4px;
   max-width: 1280px;
   margin: 0 auto;
-  overflow-x: auto;
 }
 .top-nav a {
   color: var(--text);
@@ -784,4 +783,14 @@ section h2 {
     font-size: 0.9rem;
   }
   /* right-align class no longer needed with fixed full-width dropdowns */
+}
+
+/* 2026-10-04 nav fix: on desktop the absolutely-positioned .nav-menu dropdowns
+   were clipped because .top-nav had overflow-x:auto (non-visible overflow-x
+   forces overflow-y to auto, creating a scroll container). Brandon's direction:
+   dropdowns live on the small nav pills. overflow:visible restores them.
+   Mobile (<=768px) keeps overflow-x:auto since its menus are position:fixed
+   and escape the clip. */
+@media (min-width: 769px) {
+  .top-nav { overflow: visible; }
 }
