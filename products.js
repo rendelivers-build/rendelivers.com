@@ -977,14 +977,14 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0C443J64K?tag=rendelivers-20"
   },
   {
-    id: "aff-carbon-hardhat-replacement",
+    id: "aff-lift-dax-fifty50-orange",
     section: "safety",
     sub: "HEAD",
-    name: "Carbon Fiber Hard Hat, Full Brim",
-    tagline: "Ren's pick: carbon fiber shell, full brim. Light on your neck, tough on the job.",
-    price: "$180.00",
-    img: "assets/aff-carbon-hardhat-replacement.jpg",
-    url: "https://www.amazon.com/dp/B0H2G2ZSST?tag=rendelivers-20"
+    name: "LIFT Safety DAX Fifty 50 Carbon Fiber Full Brim Hard Hat, Hi-Viz Orange/Black",
+    tagline: "Half carbon fiber, half hi-vis — the hardest hat on the jobsite.",
+    price: "See price on Amazon",
+    img: "assets/aff-lift-dax-fifty50-orange.jpg",
+    url: "https://www.amazon.com/dp/B07NZ89225?tag=rendelivers-20"
   },
   {
     id: "aff-3m-securefit",
