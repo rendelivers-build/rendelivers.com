@@ -2241,16 +2241,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0048NN4X0?tag=rendelivers-20"
   },
   {
-    id: "aff-lawn-brinly-dt40bh",
-    section: "lawn",
-    sub: "THATCHERS",
-    name: "Brinly DT-40BH Tow-Behind Dethatcher, 40in, All-Steel",
-    tagline: "All-steel, made in USA, 70-lb tray — the real tow-behind, not a toy.",
-    price: "coming soon",
-    img: "assets/aff-lawn-brinly-dt40bh.jpg",
-    url: "https://www.amazon.com/dp/B007AE2WCI?tag=rendelivers-20"
-  },
-  {
     id: "aff-lawn-billygoat-pl1800",
     section: "lawn",
     sub: "AERATORS",
@@ -2259,16 +2249,6 @@ const PRODUCTS = [
     price: "currently unavailable",
     img: "assets/aff-lawn-billygoat-pl1800.jpg",
     url: "https://www.amazon.com/dp/B01HOHGD9S?tag=rendelivers-20"
-  },
-  {
-    id: "aff-lawn-brinly-pa403",
-    section: "lawn",
-    sub: "AERATORS",
-    name: "Brinly PA-403BH 40in Tow-Behind Plug Aerator, All-Steel",
-    tagline: "24 heat-treated spoons pull true 3-inch cores. Your lawn will thank you.",
-    price: "coming soon",
-    img: "assets/aff-lawn-brinly-pa403.jpg",
-    url: "https://www.amazon.com/dp/B0FWS3QQCF?tag=rendelivers-20"
   },
   {
     id: "aff-weld-yeswelder-arc205ds",
