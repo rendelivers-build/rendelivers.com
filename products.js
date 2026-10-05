@@ -1373,16 +1373,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B003VY8WA2?tag=rendelivers-20"
   },
   {
-    id: "aff-milw-m12-copper-cutter",
-    section: "plumbing",
-    sub: "CUTTERS",
-    name: "Milwaukee 2471-20 M12 Copper Tubing Cutter (Bare Tool)",
-    tagline: "Ren's pick: auto-adjusts to the pipe and cuts it clean. Your wrist will thank you.",
-    price: "$149.00",
-    img: "assets/aff-milw-m12-copper-cutter.jpg",
-    url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
-  },
-  {
     id: "aff-milw-pex-tubing-cutter",
     section: "plumbing",
     sub: "PEX",
