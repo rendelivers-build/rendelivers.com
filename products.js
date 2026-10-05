@@ -3031,7 +3031,8 @@ const PRODUCTS = [
     sub: "CUTTERS",
     name: "Milwaukee M12 12V Copper Tubing Cutter Kit (2471-21)",
     tagline: "Ren's pick: cuts copper clean in seconds on M12 power — no forearm workout required.",
-    price: "Coming soon",
+    price: "$146.24",
+    checked: "2026-10-05",
     img: "assets/aff-milwaukee-2471-21.jpg",
     url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
   },
