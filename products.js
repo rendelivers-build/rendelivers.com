@@ -3131,16 +3131,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B08P27LHJ4?tag=rendelivers-20"
   },
   {
-    id: "aff-safe-luminary-backpack",
-    section: "safety",
-    sub: "FIRST AID",
-    name: "Luminary Tactical Trauma First Aid Backpack, Fully Stocked 203-Piece, Red",
-    tagline: "Ren's pick: a real backpack kit — MOLLE, waist strap, ventilated back. Grab and go.",
-    price: "coming soon",
-    img: "assets/aff-safe-luminary-backpack.jpg",
-    url: "https://www.amazon.com/dp/B08DDL3HT1?tag=rendelivers-20"
-  },
-  {
     id: "aff-safe-rapidcare-master",
     section: "safety",
     sub: "FIRST AID",
