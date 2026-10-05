@@ -3222,6 +3222,17 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B002DQY776?tag=rendelivers-20"
   },
   {
+    id: "aff-safe-philips-heartstart",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "Philips HeartStart OnSite AED Defibrillator, Business Package",
+    tagline: "Ren's pick: the jobsite AED — voice prompts walk anyone through it, business package with cabinet and carry case.",
+    price: "$2,327.00",
+    checked: "2026-10-05",
+    img: "assets/aff-safe-philips-heartstart.jpg",
+    url: "https://www.amazon.com/dp/B07ZL4SRTR?tag=rendelivers-20"
+  },
+  {
     id: "aff-safe-amerex-b402",
     section: "safety",
     sub: "FIRE",
