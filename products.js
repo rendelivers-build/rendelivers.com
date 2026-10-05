@@ -3212,16 +3212,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0F51WL72W?tag=rendelivers-20"
   },
   {
-    id: "aff-safe-zoll-aed-plus",
-    section: "safety",
-    sub: "FIRST AID",
-    name: "ZOLL AED Plus Defibrillator with Real CPR Help",
-    tagline: "Ren's pick: talks you through CPR with real-time feedback on your compressions. The one tool you buy hoping you never use.",
-    price: "Coming soon",
-    img: "assets/aff-safe-zoll-aed-plus.jpg",
-    url: "https://www.amazon.com/dp/B07GTFKDSC?tag=rendelivers-20"
-  },
-  {
     id: "aff-safe-besmart-wallkit",
     section: "safety",
     sub: "FIRST AID",
