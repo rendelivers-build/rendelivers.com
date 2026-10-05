@@ -1666,9 +1666,9 @@ const PRODUCTS = [
     sub: "STRIPPERS",
     name: "Klein Tools 11047 Wire Stripper/Cutter 22-30 AWG Solid",
     tagline: "Ren's pick: for the small stuff — 22-30 AWG solid stripped clean without a nick.",
-    price: "coming soon",
+    price: "$16.97",
     img: "assets/aff-klein-stripper-11047.jpg",
-    url: "https://www.amazon.com/dp/B000I1L7GW?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B0002RI4U4?tag=rendelivers-20"
   },
   {
     id: "aff-klein-kurve-11055",
