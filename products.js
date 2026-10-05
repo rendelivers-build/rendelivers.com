@@ -960,7 +960,8 @@ const PRODUCTS = [
     sub: "HAND TOOLS",
     name: "Stanley Surform Shaver 4-Pack (21-115)",
     tagline: "Ren's pick: shaves drywall edges and patches smooth in seconds. Four-pack because they walk off jobsites.",
-    price: "Coming soon",
+    price: "$29.88",
+    checked: "2026-10-05",
     img: "assets/aff-stanley-21-115.jpg",
     url: "https://www.amazon.com/dp/B07NCZ1BVY?tag=rendelivers-20"
   },
