@@ -1210,6 +1210,17 @@ const PRODUCTS = [
   },
   /* ---------------- LITERATURE (books live under Software) ---------------- */
   {
+    id: "book-first-aid-handbook",
+    section: "software",
+    sub: "BOOKS",
+    name: "Construction First Aid Handbook",
+    tagline: "Ren's own book: a jobsite guide to keeping people alive until help arrives. What to do in the minutes that matter — written for the trades, by a 30-year veteran.",
+    price: "$9.99",
+    checked: "2026-10-05",
+    img: "assets/book-first-aid-handbook.jpg",
+    url: "https://www.amazon.com/dp/B0HLYYD6KJ?tag=rendelivers-20"
+  },
+  {
     id: "aff-markup-profit",
     section: "software",
     sub: "BOOKS",
