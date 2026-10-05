@@ -1213,7 +1213,8 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "Wells Lamont Men's Cowhide Leather Work Gloves, Adjustable Wrist (1132L)",
     tagline: "Ren's pick: grain cowhide with an adjustable wrist strap. The classic work glove that outlasts the job.",
-    price: "Coming soon",
+    price: "$14.85",
+    checked: "2026-10-05",
     img: "assets/aff-wells-lamont-1132l.jpg",
     url: "https://www.amazon.com/dp/B00004R9RW?tag=rendelivers-20"
   },
@@ -3220,6 +3221,17 @@ const PRODUCTS = [
     price: "$39.99",
     img: "assets/aff-safe-besmart-wallkit.jpg",
     url: "https://www.amazon.com/dp/B002DQY776?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-philips-home",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "Philips HeartStart Home Defibrillator with Carry Case",
+    tagline: "Ren's pick: the home version — same voice-prompt rescue tech in a grab-and-go red case.",
+    price: "$1,600.00",
+    checked: "2026-10-05",
+    img: "assets/aff-safe-philips-home.jpg",
+    url: "https://www.amazon.com/dp/B00064CED6?tag=rendelivers-20"
   },
   {
     id: "aff-safe-philips-heartstart",
