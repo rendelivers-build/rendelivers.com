@@ -1854,24 +1854,15 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07W7VCQK3?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-bender-51611",
+    id: "aff-klein-bender-51607",
     section: "electrical",
     sub: "BENDERS",
-    name: "Klein Tools 51611 1/2 in. Aluminum Conduit Bender w/ Angle Setter",
-    tagline: "Ren's pick: aluminum head with angle-setter marks — 1/2 in. EMT bends clean every time.",
+    name: "Klein Tools 51607 Aluminum Conduit Bender, 3/4 in. EMT",
+    tagline: "Ren's pick: aluminum head with Angle Setter — 3/4 in. EMT bends clean every time.",
     price: "$44.98",
-    img: "assets/aff-klein-bender-51611.jpg",
+    checked: "2026-10-05",
+    img: "assets/aff-klein-bender-51607.jpg",
     url: "https://www.amazon.com/dp/B08L41G5G5?tag=rendelivers-20"
-  },
-  {
-    id: "aff-klein-56206",
-    section: "electrical",
-    sub: "BENDERS",
-    name: "Klein Tools 56206 1/2 in. EMT Conduit Bender",
-    tagline: "Ren's pick: Benfield head, wide foot pedal, benchmark symbols. Bends 1/2 in. EMT like it owes you money.",
-    price: "Coming soon",
-    img: "assets/aff-klein-56206.jpg",
-    url: "https://www.amazon.com/dp/B0026TDBJA?tag=rendelivers-20"
   },
   {
     id: "aff-klein-tape-9225",
