@@ -3146,7 +3146,7 @@ const PRODUCTS = [
     sub: "FIRST AID",
     name: "Rapid Care 3-Shelf First Aid Cabinet, 700+ Pieces, ANSI/OSHA Class A+, Serves 150",
     tagline: "Ren's pick: the master kit — wall-mount steel cabinet, color-coded boxes, jobsite-ready.",
-    price: "coming soon",
+    price: "$159.95",
     img: "assets/aff-safe-rapidcare-master.jpg",
     url: "https://www.amazon.com/dp/B0F51WL72W?tag=rendelivers-20"
   },
