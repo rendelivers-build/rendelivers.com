@@ -1091,7 +1091,7 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "Mechanix Wear The Original Work Gloves, Black",
     tagline: "Ren's pick: the flagship Original in classic black. TrekDry, touchscreen capable, machine washable.",
-    price: "coming soon",
+    price: "$22.99",
     img: "assets/aff-mechanix-original-black.jpg",
     url: "https://www.amazon.com/dp/B0001VNZQY?tag=rendelivers-20"
   },
@@ -1101,7 +1101,7 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "Mechanix Wear Hi-Viz FastFit Work Gloves, Fluorescent Yellow",
     tagline: "Ren's pick: ANSI-107 hi-vis with reflective print. The contractor glove everyone recognizes.",
-    price: "coming soon",
+    price: "$16.65",
     img: "assets/aff-mechanix-hiviz-fastfit.jpg",
     url: "https://www.amazon.com/dp/B002XISTVY?tag=rendelivers-20"
   },
@@ -1111,7 +1111,7 @@ const PRODUCTS = [
     sub: "COLD WEATHER",
     name: "Mechanix Wear Hi-Viz FastFit Work Gloves, Fluorescent Yellow",
     tagline: "Ren's pick: ANSI-107 hi-vis with reflective print. The contractor glove everyone recognizes.",
-    price: "coming soon",
+    price: "$16.65",
     img: "assets/aff-mechanix-hiviz-fastfit.jpg",
     url: "https://www.amazon.com/dp/B002XISTVY?tag=rendelivers-20"
   },
@@ -1121,7 +1121,7 @@ const PRODUCTS = [
     sub: "GLOVES",
     name: "G & F Products Latex Double-Coated Work Gloves, 12-Pack",
     tagline: "Ren's pick: the classic blue dipped glove contractors burn through. Buy the dozen.",
-    price: "coming soon",
+    price: "$14.11",
     img: "assets/aff-gf-rubber-palm-12pk.jpg",
     url: "https://www.amazon.com/dp/B001YJHEDW?tag=rendelivers-20"
   },
@@ -1131,7 +1131,7 @@ const PRODUCTS = [
     sub: "COLD WEATHER",
     name: "G & F Products Latex Double-Coated Work Gloves, 12-Pack",
     tagline: "Ren's pick: the classic blue dipped glove contractors burn through. Buy the dozen.",
-    price: "coming soon",
+    price: "$14.11",
     img: "assets/aff-gf-rubber-palm-12pk.jpg",
     url: "https://www.amazon.com/dp/B001YJHEDW?tag=rendelivers-20"
   },
@@ -1159,7 +1159,7 @@ const PRODUCTS = [
     id: "aff-klein-60582-a1",
     section: "safety",
     sub: "GLOVES",
-    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, Large, 2-Pack",
+    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, X-Large, 2-Pack",
     tagline: "Ren's pick: ANSI A1 knit dipped, nitrile coated, touchscreen capable. Amazon's Choice.",
     price: "$8.18",
     img: "assets/aff-klein-60582-a1.jpg",
@@ -1169,7 +1169,7 @@ const PRODUCTS = [
     id: "aff-apparel-klein-60582",
     section: "apparel",
     sub: "COLD WEATHER",
-    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, Large, 2-Pack",
+    name: "Klein Tools 60582 A1 Cut-Resistant Work Gloves, X-Large, 2-Pack",
     tagline: "Ren's pick: ANSI A1 knit dipped, nitrile coated, touchscreen capable. Amazon's Choice.",
     price: "$8.18",
     img: "assets/aff-klein-60582-a1.jpg",
@@ -1235,7 +1235,7 @@ const PRODUCTS = [
     sub: "BOOKS",
     name: "NFPA 70 National Electrical Code (NEC) 2026 Edition",
     tagline: "The 2026 NEC — the code book every electrician lives by. Know it or fail inspection.",
-    price: "coming soon",
+    price: "$169.00",
     img: "assets/aff-nec-2026.jpg",
     url: "https://www.amazon.com/dp/1455932205?tag=rendelivers-20"
   },
@@ -1535,7 +1535,7 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Milwaukee Fastback 6-in-1 Folding Utility Knife",
     tagline: "Ren's pick: the iconic Fastback, press-and-flip one-handed. Every contractor knows this one.",
-    price: "coming soon",
+    price: "$20.97",
     img: "assets/aff-milw-fastback-6in1.jpg",
     url: "https://www.amazon.com/dp/B09BNMWJH9?tag=rendelivers-20"
   },
@@ -1545,9 +1545,9 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Milwaukee 48-22-1502 Fastback Folding Utility Knife with Blade Storage and Gut Hook",
     tagline: "Ren's pick: 5 spare blades onboard, gut hook, wire stripper. The does-everything knife.",
-    price: "coming soon",
+    price: "$20.23",
     img: "assets/aff-milw-fastback-1502.jpg",
-    url: "https://www.amazon.com/dp/B07Z6R9MNX?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B00D0YR9A2?tag=rendelivers-20"
   },
   {
     id: "aff-milw-fastback-1540",
@@ -1555,7 +1555,7 @@ const PRODUCTS = [
     sub: "HANDTOOLS",
     name: "Milwaukee 48-22-1540 Fastback 5-in-1 Folding Knife, Tanto Blade",
     tagline: "Ren's pick: partially serrated tanto, bit holder, bottle opener. The pocket-knife option.",
-    price: "coming soon",
+    price: "$29.75",
     img: "assets/aff-milw-fastback-1540.jpg",
     url: "https://www.amazon.com/dp/B0BZYSTDVG?tag=rendelivers-20"
   },
@@ -3538,8 +3538,10 @@ function rdRenderCarousel(elId) {
     if (!slide) return;
     var w = slide.offsetWidth + 16;
     var max = track.scrollWidth - track.clientWidth;
-    if (track.scrollLeft + w >= max - 8) {
+    if (track.scrollLeft >= max - 8) {
       track.scrollTo({ left: 0, behavior: "smooth" });
+    } else if (track.scrollLeft + w >= max - 8) {
+      track.scrollTo({ left: max, behavior: "smooth" });
     } else {
       track.scrollBy({ left: w, behavior: "smooth" });
     }
