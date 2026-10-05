@@ -3026,15 +3026,15 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B001P81OKG?tag=rendelivers-20"
   },
   {
-    id: "aff-milwaukee-2471-21",
+    id: "aff-milwaukee-2471-20",
     section: "plumbing",
     sub: "CUTTERS",
-    name: "Milwaukee M12 12V Copper Tubing Cutter Kit (2471-21)",
+    name: "Milwaukee M12 12V Copper Tubing Cutter (2471-20)",
     tagline: "Ren's pick: cuts copper clean in seconds on M12 power — no forearm workout required.",
     price: "$146.24",
     checked: "2026-10-05",
     img: "assets/aff-milwaukee-2471-21.jpg",
-    url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
+    url: "https://www.amazon.com/dp/B001FB64MQ?tag=rendelivers-20"
   },
   {
     id: "aff-plumb-senctrl-gauge",
