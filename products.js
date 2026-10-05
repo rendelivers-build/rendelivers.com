@@ -954,6 +954,16 @@ const PRODUCTS = [
     img: "assets/aff-level5-hand-tool-set.jpg",
     url: "https://www.amazon.com/dp/B0CBL7HWHG?tag=rendelivers-20"
   },
+  {
+    id: "aff-stanley-21-115",
+    section: "drywall",
+    sub: "HAND TOOLS",
+    name: "Stanley Surform Shaver 4-Pack (21-115)",
+    tagline: "Ren's pick: shaves drywall edges and patches smooth in seconds. Four-pack because they walk off jobsites.",
+    price: "Coming soon",
+    img: "assets/aff-stanley-21-115.jpg",
+    url: "https://www.amazon.com/dp/B07NCZ1BVY?tag=rendelivers-20"
+  },
   /* ---------------- SAFETY GEAR (PPE) ---------------- */
   {
     id: "aff-pyramex-ridgeline",
@@ -1196,6 +1206,16 @@ const PRODUCTS = [
     checked: "2026-10-02",
     img: "assets/aff-ansell-midknight.jpg",
     url: "https://www.amazon.com/dp/B003FP2LJU?tag=rendelivers-20"
+  },
+  {
+    id: "aff-wells-lamont-1132l",
+    section: "safety",
+    sub: "GLOVES",
+    name: "Wells Lamont Men's Cowhide Leather Work Gloves, Adjustable Wrist (1132L)",
+    tagline: "Ren's pick: grain cowhide with an adjustable wrist strap. The classic work glove that outlasts the job.",
+    price: "Coming soon",
+    img: "assets/aff-wells-lamont-1132l.jpg",
+    url: "https://www.amazon.com/dp/B00004R9RW?tag=rendelivers-20"
   },
   {
     id: "aff-firstaidonly-90575",
@@ -1521,6 +1541,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07VYJQ1KP?tag=rendelivers-20"
   },
   {
+    id: "aff-milwaukee-2742-20",
+    section: "catalog",
+    sub: "NAILERS",
+    name: "Milwaukee M18 FUEL 16-Gauge Angled Finish Nailer, Tool Only (2742-20)",
+    tagline: "Ren's pick: cordless 16-gauge finish nailer, angled for tight corners. Trim work without the compressor.",
+    price: "Coming soon",
+    img: "assets/aff-milwaukee-2742-20.jpg",
+    url: "https://www.amazon.com/dp/B01DE8ZHM0?tag=rendelivers-20"
+  },
+  {
     id: "aff-milw-tape-25",
     section: "catalog",
     sub: "MEASURING",
@@ -1692,6 +1722,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00080DPNQ?tag=rendelivers-20"
   },
   {
+    id: "aff-klein-11046",
+    section: "electrical",
+    sub: "STRIPPERS",
+    name: "Klein Tools 11046 Wire Stripper/Cutter, 16-26 AWG Stranded",
+    tagline: "Ren's pick: for the fine stuff — 16-26 AWG stranded stripped clean without a nick.",
+    price: "Coming soon",
+    img: "assets/aff-klein-11046.jpg",
+    url: "https://www.amazon.com/dp/B0000302WS?tag=rendelivers-20"
+  },
+  {
     id: "aff-klein-ncvt-2",
     section: "electrical",
     sub: "TESTERS",
@@ -1830,6 +1870,16 @@ const PRODUCTS = [
     price: "$44.98",
     img: "assets/aff-klein-bender-51611.jpg",
     url: "https://www.amazon.com/dp/B08L41G5G5?tag=rendelivers-20"
+  },
+  {
+    id: "aff-klein-56206",
+    section: "electrical",
+    sub: "BENDERS",
+    name: "Klein Tools 56206 1/2 in. EMT Conduit Bender",
+    tagline: "Ren's pick: Benfield head, wide foot pedal, benchmark symbols. Bends 1/2 in. EMT like it owes you money.",
+    price: "Coming soon",
+    img: "assets/aff-klein-56206.jpg",
+    url: "https://www.amazon.com/dp/B0026TDBJA?tag=rendelivers-20"
   },
   {
     id: "aff-klein-tape-9225",
@@ -2992,6 +3042,16 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B001P81OKG?tag=rendelivers-20"
   },
   {
+    id: "aff-milwaukee-2471-21",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "Milwaukee M12 12V Copper Tubing Cutter Kit (2471-21)",
+    tagline: "Ren's pick: cuts copper clean in seconds on M12 power — no forearm workout required.",
+    price: "Coming soon",
+    img: "assets/aff-milwaukee-2471-21.jpg",
+    url: "https://www.amazon.com/dp/B001FB64N0?tag=rendelivers-20"
+  },
+  {
     id: "aff-plumb-senctrl-gauge",
     section: "plumbing",
     sub: "TESTING",
@@ -3150,6 +3210,16 @@ const PRODUCTS = [
     price: "$159.95",
     img: "assets/aff-safe-rapidcare-master.jpg",
     url: "https://www.amazon.com/dp/B0F51WL72W?tag=rendelivers-20"
+  },
+  {
+    id: "aff-safe-zoll-aed-plus",
+    section: "safety",
+    sub: "FIRST AID",
+    name: "ZOLL AED Plus Defibrillator with Real CPR Help",
+    tagline: "Ren's pick: talks you through CPR with real-time feedback on your compressions. The one tool you buy hoping you never use.",
+    price: "Coming soon",
+    img: "assets/aff-safe-zoll-aed-plus.jpg",
+    url: "https://www.amazon.com/dp/B07GTFKDSC?tag=rendelivers-20"
   },
   {
     id: "aff-safe-besmart-wallkit",
