@@ -3156,7 +3156,7 @@ const PRODUCTS = [
     sub: "FIRST AID",
     name: "Be Smart Get Prepared Hard Case First Aid Kit, 326 Pieces, Wall-Mountable, OSHA/ANSI",
     tagline: "Ren's pick: hang it on the wall next to the extinguisher. Tilting shelves, 100-person rated.",
-    price: "coming soon",
+    price: "$39.99",
     img: "assets/aff-safe-besmart-wallkit.jpg",
     url: "https://www.amazon.com/dp/B002DQY776?tag=rendelivers-20"
   },
