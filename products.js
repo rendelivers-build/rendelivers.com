@@ -1542,16 +1542,6 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B07VYJQ1KP?tag=rendelivers-20"
   },
   {
-    id: "aff-milwaukee-2742-20",
-    section: "catalog",
-    sub: "NAILERS",
-    name: "Milwaukee M18 FUEL 16-Gauge Angled Finish Nailer, Tool Only (2742-20)",
-    tagline: "Ren's pick: cordless 16-gauge finish nailer, angled for tight corners. Trim work without the compressor.",
-    price: "Coming soon",
-    img: "assets/aff-milwaukee-2742-20.jpg",
-    url: "https://www.amazon.com/dp/B01DE8ZHM0?tag=rendelivers-20"
-  },
-  {
     id: "aff-milw-tape-25",
     section: "catalog",
     sub: "MEASURING",
