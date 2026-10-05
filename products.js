@@ -1718,7 +1718,8 @@ const PRODUCTS = [
     sub: "STRIPPERS",
     name: "Klein Tools 11046 Wire Stripper/Cutter, 16-26 AWG Stranded",
     tagline: "Ren's pick: for the fine stuff — 16-26 AWG stranded stripped clean without a nick.",
-    price: "Coming soon",
+    price: "$16.24",
+    checked: "2026-10-05",
     img: "assets/aff-klein-11046.jpg",
     url: "https://www.amazon.com/dp/B0000302WS?tag=rendelivers-20"
   },
