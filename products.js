@@ -3331,6 +3331,17 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0871WY8DQ?tag=rendelivers-20"
   },
   {
+    id: "aff-tools-craftsman-262pc",
+    section: "catalog",
+    sub: "TOOL SETS",
+    name: "CRAFTSMAN 262-Piece Mechanic Tool Set with 3-Drawer VERSASTACK Box (CMMT45309)",
+    tagline: "Ren's pick: the whole shop in a box — SAE and metric sockets, ratchets, wrenches, hex keys.",
+    price: "$249.19",
+    checked: "2026-10-05",
+    img: "assets/aff-tools-craftsman-262pc.jpg",
+    url: "https://www.amazon.com/dp/B0CNKXHGZT?tag=rendelivers-20"
+  },
+  {
     id: "aff-tools-gearwrench-219pc",
     section: "catalog",
     sub: "TOOL SETS",
