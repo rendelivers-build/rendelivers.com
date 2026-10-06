@@ -1684,13 +1684,14 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B000CEMSLS?tag=rendelivers-20"
   },
   {
-    id: "aff-klein-stripper-11047",
+    id: "aff-klein-stripper-11049",
     section: "electrical",
     sub: "STRIPPERS",
-    name: "Klein Tools 11047 Wire Stripper/Cutter 22-30 AWG Solid",
-    tagline: "Ren's pick: for the small stuff — 22-30 AWG solid stripped clean without a nick.",
+    name: "Klein Tools 11049 Wire Stripper/Cutter, 8-16 AWG Stranded",
+    tagline: "Ren's pick: for the big stuff — 8-16 AWG stranded, spring-loaded with red handles. (11047 unavailable.)",
     price: "$16.97",
-    img: "assets/aff-klein-stripper-11047.jpg",
+    checked: "2026-10-05",
+    img: "assets/aff-klein-stripper-11049.jpg",
     url: "https://www.amazon.com/dp/B0002RI4U4?tag=rendelivers-20"
   },
   {
