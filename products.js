@@ -3320,12 +3320,13 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B00U0P0GHM?tag=rendelivers-20"
   },
   {
-    id: "aff-tools-cartman-143pc",
+    id: "aff-tools-cartman-205pc",
     section: "catalog",
     sub: "TOOL SETS",
-    name: "CARTMAN 143-Piece Tool Set, Ratchet Sockets with Plastic Toolbox",
+    name: "CARTMAN 205-Piece Tool Set, Ratchet Sockets with Plastic Toolbox",
     tagline: "Ren's pick.",
-    price: "$99.99",
+    price: "$109.99",
+    checked: "2026-10-05",
     img: "assets/aff-tools-cartman-143pc.jpg",
     url: "https://www.amazon.com/dp/B0871WY8DQ?tag=rendelivers-20"
   },
