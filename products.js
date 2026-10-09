@@ -3371,6 +3371,16 @@ const PRODUCTS = [
     img: "assets/tile-hole-saw-kit-brschnitt.jpg",
     url: "https://www.amazon.com/dp/B0D9VT52ZS?tag=rendelivers-20"
   },
+  {
+    id: "tile-dewalt-wet-saw-dwc860w",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "DEWALT Wet Tile Saw, 4-3/8-Inch (DWC860W)",
+    tagline: "Handheld wet saw for tile and masonry — plunge cuts without the dust cloud.",
+    price: "$169.99",
+    img: "assets/tile-dewalt-wet-saw-dwc860w.jpg",
+    url: "https://www.amazon.com/dp/B003BVW5NU?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
