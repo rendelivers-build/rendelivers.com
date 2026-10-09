@@ -3381,6 +3381,16 @@ const PRODUCTS = [
     img: "assets/tile-dewalt-wet-saw-dwc860w.jpg",
     url: "https://www.amazon.com/dp/B003BVW5NU?tag=rendelivers-20"
   },
+  {
+    id: "tile-dewalt-wet-saw-d36000s",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "DEWALT Wet Tile Saw with Stand, 10-Inch (D36000S)",
+    tagline: "15-amp, 1,220 MWO — the full-size tile saw for big jobs. Amazon's Choice.",
+    price: "$1,379.00",
+    img: "assets/tile-dewalt-wet-saw-d36000s.jpg",
+    url: "https://www.amazon.com/dp/B08526D2PK?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
