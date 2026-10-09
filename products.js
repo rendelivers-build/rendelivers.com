@@ -3431,6 +3431,16 @@ const PRODUCTS = [
     img: "assets/tile-makita-xcc01z.jpg",
     url: "https://www.amazon.com/dp/B09FCW88FH?tag=rendelivers-20"
   },
+  {
+    id: "tile-delta-cruzer-10in",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "Delta 10 in. Cruzer Wet Tile/Stone Saw",
+    tagline: "10-inch wet saw for tile and stone — 4.3 stars.",
+    price: "$759.99",
+    img: "assets/tile-delta-cruzer-10in.jpg",
+    url: "https://www.amazon.com/dp/B07Y5TL11L?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
