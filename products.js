@@ -3491,6 +3491,46 @@ const PRODUCTS = [
     img: "assets/tile-woanger-saw-shack.jpg",
     url: "https://www.amazon.com/dp/B0F538H5FS?tag=rendelivers-20"
   },
+  {
+    id: "tile-stecutts-lifter",
+    section: "tile",
+    sub: "HANDLING",
+    name: "Stecutts Large Format Tile Lifter with 8\" Vacuum Cups",
+    tagline: "Aluminum rail, 6.2-11ft adjust — for large tile, porcelain slabs, glass panels. 5.0 stars.",
+    price: "$997.97",
+    img: "assets/tile-stecutts-lifter.jpg",
+    url: "https://www.amazon.com/dp/B0GL5Q17TV?tag=rendelivers-20"
+  },
+  {
+    id: "tile-hightop-seam-setter",
+    section: "tile",
+    sub: "SEAM SETTERS",
+    name: "HIGHTOP 90 Degree Stone Seam Setter with 6\" Suction Cups",
+    tagline: "For quartz, granite, stone, marble, tile — holds seams aligned up to 2 days. 4.7 stars.",
+    price: "$155.00",
+    img: "assets/tile-hightop-seam-setter.jpg",
+    url: "https://www.amazon.com/dp/B0C3M1D9VS?tag=rendelivers-20"
+  },
+  {
+    id: "tile-torqtac-suction",
+    section: "tile",
+    sub: "HANDLING",
+    name: "TorqTac 10\" Electric Vacuum Suction Cups, 662 LBS",
+    tagline: "Heavy duty, auto start pump, digital display — for glass, tile, granite. 100+ bought last month.",
+    price: "$79.99",
+    img: "assets/tile-torqtac-suction.jpg",
+    url: "https://www.amazon.com/dp/B0GSFHB362?tag=rendelivers-20"
+  },
+  {
+    id: "tile-fusion-leveling-kit",
+    section: "tile",
+    sub: "LEVELING",
+    name: "Tile Leveling System Kit, 602 Pack (Fusion Bliss)",
+    tagline: "100 reusable levelers + 500 spacers + 2 wrenches — Amazon's Choice, 50+ bought last month.",
+    price: "$19.99",
+    img: "assets/tile-fusion-leveling-kit.jpg",
+    url: "https://www.amazon.com/dp/B0G811M5W7?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
