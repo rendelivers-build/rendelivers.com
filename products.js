@@ -3461,6 +3461,16 @@ const PRODUCTS = [
     img: "assets/tile-lozlin-hole-saw.jpg",
     url: "https://www.amazon.com/dp/B0DX9LJNDB?tag=rendelivers-20"
   },
+  {
+    id: "tile-lekomesh-hole-saw-13pc",
+    section: "tile",
+    sub: "HOLE SAWS",
+    name: "LEKOMESH Diamond Tile Hole Saw Kit, 13PCS 6-65mm",
+    tagline: "13-piece vacuum brazed set for porcelain/ceramic/marble/granite — 4.9 stars.",
+    price: "$105.99",
+    img: "assets/tile-lekomesh-hole-saw-13pc.jpg",
+    url: "https://www.amazon.com/dp/B0DY77S7HV?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
