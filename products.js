@@ -3441,6 +3441,26 @@ const PRODUCTS = [
     img: "assets/tile-delta-cruzer-10in.jpg",
     url: "https://www.amazon.com/dp/B07Y5TL11L?tag=rendelivers-20"
   },
+  {
+    id: "tile-ridgid-r4031s",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "RIDGID 7 Inch Wet Tile Saw with Stand (R4031S) - Renewed",
+    tagline: "9 amp, laser guide, heavy duty — renewed, 5.0 stars.",
+    price: "$715.00",
+    img: "assets/tile-ridgid-r4031s.jpg",
+    url: "https://www.amazon.com/dp/B0BRYLH126?tag=rendelivers-20"
+  },
+  {
+    id: "tile-lozlin-hole-saw",
+    section: "tile",
+    sub: "HOLE SAWS",
+    name: "LOZLIN 20/35/55mm Diamond Hole Saw Step Drill Bit",
+    tagline: "Three hole sizes in one — vacuum brazed, anti-chip, for tile/porcelain/granite. Amazon's Choice.",
+    price: "$22.99",
+    img: "assets/tile-lozlin-hole-saw.jpg",
+    url: "https://www.amazon.com/dp/B0DX9LJNDB?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
