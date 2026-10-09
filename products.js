@@ -3541,6 +3541,16 @@ const PRODUCTS = [
     img: "assets/tile-plowic-suction-2pk.jpg",
     url: "https://www.amazon.com/dp/B0FRGFF3F8?tag=rendelivers-20"
   },
+  {
+    id: "tile-alloyman-laser",
+    section: "tile",
+    sub: "LAYOUT",
+    name: "Alloyman Laser Level with Tripod, 4x360° Self Leveling",
+    tagline: "Green line, 2 batteries — for tile, renovation. Amazon's Choice, 2K+ bought last month.",
+    price: "$69.99",
+    img: "assets/tile-alloyman-laser.jpg",
+    url: "https://www.amazon.com/dp/B0F626NYWM?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
