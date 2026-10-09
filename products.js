@@ -3551,6 +3551,66 @@ const PRODUCTS = [
     img: "assets/tile-alloyman-laser.jpg",
     url: "https://www.amazon.com/dp/B0F626NYWM?tag=rendelivers-20"
   },
+  {
+    id: "tile-dewalt-grabo-dce592b",
+    section: "tile",
+    sub: "HANDLING",
+    name: "DEWALT 20V MAX Cordless GRABO Suction Lifter (DCE592B)",
+    tagline: "Lifts up to 265 lbs — bare tool, 26% off. 4.4 stars.",
+    price: "$184.99",
+    img: "assets/tile-dewalt-grabo-dce592b.jpg",
+    url: "https://www.amazon.com/dp/B0DSCM3XFR?tag=rendelivers-20"
+  },
+  {
+    id: "tile-jvekool-vibrator",
+    section: "tile",
+    sub: "INSTALLATION",
+    name: "Jvekool Tile Vibration Tool Compatible with DEWALT 20V (Tool Only)",
+    tagline: "280mm suction cup, 9 speeds — for floor & wall tile 12\"-118\". 5.0 stars.",
+    price: "$89.99",
+    img: "assets/tile-jvekool-vibrator.jpg",
+    url: "https://www.amazon.com/dp/B0H5R64QCJ?tag=rendelivers-20"
+  },
+  {
+    id: "tile-seesii-vibrator",
+    section: "tile",
+    sub: "INSTALLATION",
+    name: "SEESII Tile Vibration Tool with Suction Cup Kit",
+    tagline: "145mm vibrator + 8\" lifter, 10 speeds, 2 batteries — Amazon's Choice, 50+ bought last month.",
+    price: "$99.99",
+    img: "assets/tile-seesii-vibrator.jpg",
+    url: "https://www.amazon.com/dp/B0GZ25DLFH?tag=rendelivers-20"
+  },
+  {
+    id: "tile-shijing-48in",
+    section: "tile",
+    sub: "CUTTERS",
+    name: "SHIJING 48-inch Manual Tile Cutter with Laser Guide",
+    tagline: "Split platen, double aluminum base, tungsten carbide wheel — 100+ bought last month.",
+    price: "$219.99",
+    img: "assets/tile-shijing-48in.jpg",
+    url: "https://www.amazon.com/dp/B0C1MNCMXV?tag=rendelivers-20"
+  },
+  {
+    id: "tile-fishark-trowel",
+    section: "tile",
+    sub: "TROWELS",
+    name: "Fishark Switchable Notch Trowel Set, Stainless Steel",
+    tagline: "6 interchangeable blades, reversible handle — for tile, concrete, masonry. 50+ bought last month.",
+    price: "$66.49",
+    img: "assets/tile-fishark-trowel.jpg",
+    url: "https://www.amazon.com/dp/B0DSRYBMKK?tag=rendelivers-20"
+  },
+  {
+    id: "tile-goldblatt-grout",
+    section: "tile",
+    sub: "GROUTING",
+    name: "Goldblatt Grout Float with 3 Replaceable Pads",
+    tagline: "Epoxy grout float, soft/medium/hard pads — for glass & rectified tile. Amazon's Choice, 100+ bought.",
+    price: "$21.99",
+    img: "assets/tile-goldblatt-grout.jpg",
+    url: "https://www.amazon.com/dp/B0DTPDPNJT?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
