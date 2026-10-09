@@ -3361,6 +3361,16 @@ const PRODUCTS = [
     img: "assets/aff-tools-milw-packout-106pc.jpg",
     url: "https://www.amazon.com/dp/B0892TB6VQ?tag=rendelivers-20"
   },
+  {
+    id: "tile-hole-saw-kit-brschnitt",
+    section: "tile",
+    sub: "HOLE SAWS",
+    name: "BRSCHNITT Tile Hole Saw Kit - Diamond Core Drill Bits",
+    tagline: "1/4\" to 2-1/2\" bits plus finger bit and chamfer bit — for porcelain, ceramic, marble, and granite.",
+    price: "$84.14",
+    img: "assets/tile-hole-saw-kit-brschnitt.jpg",
+    url: "https://www.amazon.com/dp/B0D9VT52ZS?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
