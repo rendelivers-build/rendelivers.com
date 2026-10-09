@@ -3471,6 +3471,26 @@ const PRODUCTS = [
     img: "assets/tile-lekomesh-hole-saw-13pc.jpg",
     url: "https://www.amazon.com/dp/B0DY77S7HV?tag=rendelivers-20"
   },
+  {
+    id: "tile-dewalt-stand-d24001",
+    section: "tile",
+    sub: "STANDS",
+    name: "DEWALT Wet Tile Saw Stand for D24000 & D36000 (D24001)",
+    tagline: "Folds compact, four height positions, all-metal — holds 40+ lbs. Amazon's Choice.",
+    price: "$67.55",
+    img: "assets/tile-dewalt-stand-d24001.jpg",
+    url: "https://www.amazon.com/dp/B0006FIOBG?tag=rendelivers-20"
+  },
+  {
+    id: "tile-woanger-saw-shack",
+    section: "tile",
+    sub: "ACCESSORIES",
+    name: "Woanger Extra Large Tile Saw Shack, 70.8\" x 51.2\" x 63\"",
+    tagline: "Collapsible tent keeps your saw dry — easy assemble, stores flat.",
+    price: "$152.99",
+    img: "assets/tile-woanger-saw-shack.jpg",
+    url: "https://www.amazon.com/dp/B0F538H5FS?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
