@@ -3631,6 +3631,26 @@ const PRODUCTS = [
     img: "assets/tile-mxmoonfree-24in.jpg",
     url: "https://www.amazon.com/dp/B0B126WYRW?tag=rendelivers-20"
   },
+  {
+    id: "tile-tordale-comb",
+    section: "tile",
+    sub: "TROWELS",
+    name: "Tordale Adjustable Square Notched Trowel Mortar Comb",
+    tagline: "Adjusts 16 to 32 inches, wheels + handle — no kneeling. 12mm notches for large tiles.",
+    price: "$75.99",
+    img: "assets/tile-tordale-comb.jpg",
+    url: "https://www.amazon.com/dp/B0G6SCQSST?tag=rendelivers-20"
+  },
+  {
+    id: "tile-yunding-comb",
+    section: "tile",
+    sub: "TROWELS",
+    name: "YUNDING 31.5in Adjustable Notched Trowel with Wheels",
+    tagline: "Mortar comb leveler for large tiles, flooring, paving — 4.4 stars.",
+    price: "$79.50",
+    img: "assets/tile-yunding-comb.jpg",
+    url: "https://www.amazon.com/dp/B0F1YX6GTB?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
