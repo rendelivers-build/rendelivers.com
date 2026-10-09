@@ -69,6 +69,7 @@
         <a href="drywall.html">Drywall</a>
         <a href="lawn.html">Lawn and Landscape</a>
         <a href="welding.html">Welding</a>
+        <a href="tile.html">Tile</a>
       </div>
     </div>
 
@@ -86,10 +87,16 @@
 
 <main>
   <p class="section-sub">The apps that run Ren's business while he's off the ladder — plus the books that make you sharper. He vetted 'em — grab the deals through his links.</p>
-  <div id="software-grid" class="grid"></div>
+    <div class="subfilter-wrap">
+    <label class="subfilter-label" for="subfilter">Filter:
+      <select class="subfilter" id="subfilter" aria-label="Filter by subcategory"></select>
+    </label>
+  </div>
+<div id="software-grid" class="grid"></div>
 </main>
 
 <script src="products.js"></script>
+<script>rdInitSubfilter("software");</script>
 <script>
 (function () {
   var items = PRODUCTS.filter(function (p) { return p.section === "software"; });
@@ -99,7 +106,7 @@
     var qsub = null;
     try { qsub = new URLSearchParams(window.location.search).get("sub"); } catch (e) {}
     items.forEach(function (p) {
-      if (qsub && p.sub !== qsub) return;
+      if (qsub && String(p.sub || "").toUpperCase() !== String(qsub).toUpperCase()) return;
       html += rdCardHTML(p, false);
     });
     grid.innerHTML = html || '<p class="section-sub">Ren&rsquo;s still arm-wrestling vendors for more deals — check back soon.</p>';
