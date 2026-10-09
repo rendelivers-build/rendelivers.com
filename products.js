@@ -3651,6 +3651,16 @@ const PRODUCTS = [
     img: "assets/tile-yunding-comb.jpg",
     url: "https://www.amazon.com/dp/B0F1YX6GTB?tag=rendelivers-20"
   },
+  {
+    id: "tile-marshalltown-spreader",
+    section: "tile",
+    sub: "SPREADERS",
+    name: "Marshalltown QLT 6286 1/4\" Plastic V Notched Spreader",
+    tagline: "Four notch sizes, won't rust — made in USA. 4.9 stars.",
+    price: "$6.99",
+    img: "assets/tile-marshalltown-spreader.jpg",
+    url: "https://www.amazon.com/dp/B01EMO0Y6O?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
