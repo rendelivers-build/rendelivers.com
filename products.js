@@ -3611,6 +3611,16 @@ const PRODUCTS = [
     img: "assets/tile-goldblatt-grout.jpg",
     url: "https://www.amazon.com/dp/B0DTPDPNJT?tag=rendelivers-20"
   },
+  {
+    id: "tile-goldblatt-trowel-set",
+    section: "tile",
+    sub: "TROWELS",
+    name: "Goldblatt Switchable Notched Trowel Set, Stainless Steel",
+    tagline: "6 interchangeable blades 11\" x 4-1/2\", soft grip — switch blades in seconds, no tools.",
+    price: "$69.99",
+    img: "assets/tile-goldblatt-trowel-set.jpg",
+    url: "https://www.amazon.com/dp/B0GTL6RYWH?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
