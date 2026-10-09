@@ -3621,6 +3621,16 @@ const PRODUCTS = [
     img: "assets/tile-goldblatt-trowel-set.jpg",
     url: "https://www.amazon.com/dp/B0GTL6RYWH?tag=rendelivers-20"
   },
+  {
+    id: "tile-mxmoonfree-24in",
+    section: "tile",
+    sub: "TROWELS",
+    name: "Mxmoonfree 24\" Large Tile Trowel, 2/5\" x 2/5\" Square Notch",
+    tagline: "24-inch blade covers large areas fast — baffle design prevents mortar overflow. 4.3 stars.",
+    price: "$34.99",
+    img: "assets/tile-mxmoonfree-24in.jpg",
+    url: "https://www.amazon.com/dp/B0B126WYRW?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
