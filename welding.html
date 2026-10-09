@@ -70,6 +70,7 @@
         <a href="drywall.html">Drywall</a>
         <a href="lawn.html">Lawn and Landscape</a>
         <a href="welding.html">Welding</a>
+        <a href="tile.html">Tile</a>
       </div>
     </div>
 
@@ -86,7 +87,12 @@
 
 
 <main>
-  <div class="grid" id="grid"></div>
+    <div class="subfilter-wrap">
+    <label class="subfilter-label" for="subfilter">Filter:
+      <select class="subfilter" id="subfilter" aria-label="Filter by subcategory"></select>
+    </label>
+  </div>
+<div class="grid" id="grid"></div>
 </main>
 
 <footer class="site-footer">
@@ -106,6 +112,7 @@
 </footer>
 
 <script src="products.js"></script>
+<script>rdInitSubfilter("welding");</script>
 <script>
 (function () {
   var items = PRODUCTS.filter(function (p) { return p.section === "welding"; });
@@ -116,7 +123,7 @@
     var qsub = null;
     try { qsub = new URLSearchParams(window.location.search).get("sub"); } catch (e) {}
     items.forEach(function (p) {
-      if (qsub && p.sub !== qsub) return;
+      if (qsub && String(p.sub || "").toUpperCase() !== String(qsub).toUpperCase()) return;
       html += rdCardHTML(p, false);
     });
     grid.innerHTML = html || '<p class="section-sub">Nothing in this pile yet — check back soon.</p>';
