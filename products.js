@@ -3391,6 +3391,26 @@ const PRODUCTS = [
     img: "assets/tile-dewalt-wet-saw-d36000s.jpg",
     url: "https://www.amazon.com/dp/B08526D2PK?tag=rendelivers-20"
   },
+  {
+    id: "tile-vevor-wet-saw-10in",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "VEVOR Wet Tile Saw with Stand, 10-Inch",
+    tagline: "65Mn steel blade, 4500 RPM, 0-45° miter — for cutting tile and stone.",
+    price: "$799.90",
+    img: "assets/tile-vevor-wet-saw-10in.jpg",
+    url: "https://www.amazon.com/dp/B0CGX5YXWC?tag=rendelivers-20"
+  },
+  {
+    id: "tile-rubi-dc250-python",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "RUBI Electric Cutter DC-250 Python 1200, 48\" Cut",
+    tagline: "48-inch cutting length for porcelain stoneware — the pro's bridge saw.",
+    price: "$2,064.76",
+    img: "assets/tile-rubi-dc250-python.jpg",
+    url: "https://www.amazon.com/dp/B00Y02GAH6?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
