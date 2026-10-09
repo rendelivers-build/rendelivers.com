@@ -3531,6 +3531,16 @@ const PRODUCTS = [
     img: "assets/tile-fusion-leveling-kit.jpg",
     url: "https://www.amazon.com/dp/B0G811M5W7?tag=rendelivers-20"
   },
+  {
+    id: "tile-plowic-suction-2pk",
+    section: "tile",
+    sub: "HANDLING",
+    name: "PLOWIC 2 Pack 8-Inch Heavy Duty Suction Cups",
+    tagline: "For glass, tile, marble, granite — 200+ bought last month. 4.4 stars.",
+    price: "$39.99",
+    img: "assets/tile-plowic-suction-2pk.jpg",
+    url: "https://www.amazon.com/dp/B0FRGFF3F8?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
