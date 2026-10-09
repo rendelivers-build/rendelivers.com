@@ -3411,6 +3411,26 @@ const PRODUCTS = [
     img: "assets/tile-rubi-dc250-python.jpg",
     url: "https://www.amazon.com/dp/B00Y02GAH6?tag=rendelivers-20"
   },
+  {
+    id: "tile-dewalt-d24000s",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "DEWALT Wet Tile Saw with Stand, 10-Inch (D24000S)",
+    tagline: "Heavy-duty 10-inch with stand — 4.7 stars, 100+ bought last month. Overall Pick.",
+    price: "$799.00",
+    img: "assets/tile-dewalt-d24000s.jpg",
+    url: "https://www.amazon.com/dp/B000J0BG7W?tag=rendelivers-20"
+  },
+  {
+    id: "tile-makita-xcc01z",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "Makita XCC01Z 18V LXT Cordless 5\" Wet/Dry Masonry Saw",
+    tagline: "Brushless cordless, AWS capable — wet or dry cutting, tool only.",
+    price: "$263.00",
+    img: "assets/tile-makita-xcc01z.jpg",
+    url: "https://www.amazon.com/dp/B09FCW88FH?tag=rendelivers-20"
+  },
 ];
 
 /* ============================================================
