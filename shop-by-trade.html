@@ -87,32 +87,12 @@
 
 
 <main>
-<div class="grid" id="trade-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;padding:1rem;">
-  <a href="plumbing.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Plumbing</h2>
-    <p class="section-sub">Pipe wrenches, PEX tools, drain cleaning, press tools.</p>
-  </a>
-  <a href="electrical.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Electrical</h2>
-    <p class="section-sub">Wire strippers, multimeters, fish tape, and everything that keeps the current flowing.</p>
-  </a>
-  <a href="drywall.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Drywall</h2>
-    <p class="section-sub">Taping knives, mud pans, sanders, and stilts.</p>
-  </a>
-  <a href="lawn.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Lawn and Landscape</h2>
-    <p class="section-sub">Mowers, trimmers, blowers, and pro-grade yard tools.</p>
-  </a>
-  <a href="welding.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Welding</h2>
-    <p class="section-sub">Welders, helmets, electrodes, and fab tools.</p>
-  </a>
-  <a href="tile.html" class="trade-card" style="text-decoration:none;color:inherit;border:1px solid #ddd;border-radius:8px;padding:1.5rem;text-align:center;">
-    <h2>Tile</h2>
-    <p class="section-sub">Wet saws to diamond blades. If it can't cut tile clean the first time, it doesn't make the list.</p>
-  </a>
-</div>
+    <div class="subfilter-wrap">
+    <label class="subfilter-label" for="subfilter">Filter:
+      <select class="subfilter" id="subfilter" aria-label="Filter by trade"></select>
+    </label>
+  </div>
+<div class="grid" id="grid"></div>
 </main>
 
 <footer class="site-footer">
@@ -131,6 +111,33 @@
   <p class="copyright">&copy; 2026 Ren Delivers. All rights reserved.</p>
 </footer>
 
+<script src="products.js"></script>
+<script>
+(function () {
+  var TRADE_SECTIONS = ["plumbing", "electrical", "drywall", "lawn", "welding", "tile"];
+  var items = PRODUCTS.filter(function (p) { return TRADE_SECTIONS.indexOf(p.section) !== -1; });
+  var grid = document.getElementById("grid");
+  var subfilter = document.getElementById("subfilter");
+  // Build trade filter dropdown
+  var tradeNames = {plumbing: "Plumbing", electrical: "Electrical", drywall: "Drywall", lawn: "Lawn and Landscape", welding: "Welding", tile: "Tile"};
+  var opts = '<option value="">All Trades</option>';
+  TRADE_SECTIONS.forEach(function (s) {
+    opts += '<option value="' + s + '">' + tradeNames[s] + '</option>';
+  });
+  subfilter.innerHTML = opts;
+  function renderGrid() {
+    var sel = subfilter.value;
+    var html = "";
+    items.forEach(function (p) {
+      if (sel && p.section !== sel) return;
+      html += rdCardHTML(p, false);
+    });
+    grid.innerHTML = html || '<p class="section-sub">Nothing in this pile yet — check back soon.</p>';
+  }
+  subfilter.addEventListener("change", renderGrid);
+  renderGrid();
+})();
+</script>
 <script>
 document.getElementById("contact-link").addEventListener("click", function(e) {
   e.preventDefault();
