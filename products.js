@@ -3661,6 +3661,16 @@ const PRODUCTS = [
     img: "assets/tile-marshalltown-spreader.jpg",
     url: "https://www.amazon.com/dp/B01EMO0Y6O?tag=rendelivers-20"
   },
+  {
+    id: "tile-vevor-wet-saw-7in",
+    section: "tile",
+    sub: "WET SAWS",
+    name: "VEVOR Wet Tile Saw, 7-Inch",
+    tagline: "65Mn steel blade, 3,500 RPM induction motor — cuts tile and stone, 0-45° miter.",
+    price: "$75.90",
+    img: "assets/tile-vevor-wet-saw-7in.jpg",
+    url: "https://www.vevor.com/power-tile-masonry-saws-c_12386/vevor-wet-tile-saw-7-inch-65mn-steel-blade-3500-rpm-induction-motor-tile-cutter-wet-saw-with-water-reservoir-0-45-degrees-miter-angle-for-cutting-tiles-and-stones-for-diy-enthusiasts-p_010524121464?lang=en&currency=usd&utm_source=inhouse&utm_medium=affiliate&utm_campaign=82014982&shortkey=20261010yaG0"
+  },
 ];
 
 /* ============================================================
