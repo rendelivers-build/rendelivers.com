@@ -1243,6 +1243,17 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0HLYYD6KJ?tag=rendelivers-20"
   },
   {
+    id: "book-first-aid-handbook-paperback",
+    section: "software",
+    sub: "BOOKS",
+    name: "Construction First Aid Handbook — Paperback",
+    tagline: "Ren's own book in print — the jobsite first aid guide built for the minutes between an accident and the ambulance. Written for the trades by a 30-year veteran: what to do, in what order, with what's actually in the truck. No signal, no battery, no searching a phone with bloody gloves — just open it. Keep one in the cab, one in the trailer, one in the gang box: the copy you can hand to any crew member when it matters. Same book as the Kindle edition, in a paperback built to take jobsite abuse.",
+    price: "$29.95",
+    checked: "2026-10-12",
+    img: "assets/book-first-aid-handbook.jpg",
+    url: "https://www.amazon.com/dp/B0HMPXH3KT?tag=rendelivers-20"
+  },
+  {
     id: "aff-markup-profit",
     section: "software",
     sub: "BOOKS",
