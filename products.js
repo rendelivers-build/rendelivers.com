@@ -1404,6 +1404,17 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B01CRHGIYA?tag=rendelivers-20"
   },
   {
+    id: "aff-dewalt-dce154b",
+    section: "plumbing",
+    sub: "CUTTERS",
+    name: "DEWALT 20V MAX XR 1-1/4 in. Copper Tubing Cutter (DCE154B)",
+    tagline: "Ren's pick: cordless cutter runs 1/4 in. to 1-1/4 in. copper with no swapping parts — cuts 2X faster than the Milwaukee.",
+    price: "$147.00",
+    checked: "2026-10-15",
+    img: "assets/aff-dewalt-dce154b.jpg",
+    url: "https://www.amazon.com/dp/B0F5XZ27F5?tag=rendelivers-20"
+  },
+  {
     id: "aff-milw-multitool-m12",
     section: "catalog",
     sub: "Multi-Tools",
