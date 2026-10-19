@@ -395,6 +395,34 @@ section h2 {
   outline-offset: 2px;
 }
 
+/* book spotlight — front page, under Top Picks */
+.book-spotlight {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-top: 26px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.14);
+}
+.book-spotlight img { width: 110px; border-radius: 6px; flex: none; }
+.book-spotlight h2 { font-size: 1.2rem; margin: 0 0 8px; }
+.book-spotlight p { margin: 0 0 10px; color: rgba(255,255,255,0.88); }
+.book-spotlight-links a { font-weight: 700; }
+.book-buy {
+  display: inline-block;
+  padding: 9px 14px;
+  margin-right: 12px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #111;
+  text-decoration: none;
+}
+@media (max-width: 560px) {
+  .book-spotlight { flex-direction: column; text-align: center; }
+}
+
 /* compact "Shop by Trade" strip under the main category grid */
 .trade-strip { margin-top: 30px; }
 .trade-strip h2 {
