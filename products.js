@@ -1254,6 +1254,28 @@ const PRODUCTS = [
     url: "https://www.amazon.com/dp/B0HMPXH3KT?tag=rendelivers-20"
   },
   {
+    id: "book-osha-handbook",
+    section: "software",
+    sub: "BOOKS",
+    name: "OSHA Construction Rules in Plain English",
+    tagline: "Ren's own book: every rule in 29 CFR 1926 in plain jobsite English — the rule, what it means on your site, and what gets you fined.",
+    price: "$9.99",
+    checked: "2026-10-18",
+    img: "assets/book-osha-handbook.jpg",
+    url: "https://www.amazon.com/dp/B0HNGCCX2Q?tag=rendelivers-20"
+  },
+  {
+    id: "book-osha-handbook-paperback",
+    section: "software",
+    sub: "BOOKS",
+    name: "OSHA Construction Rules in Plain English — Paperback",
+    tagline: "Ren's own book in print: all of 29 CFR 1926 in plain English. 565 pages with jump-to playbooks for when OSHA is standing at the gate.",
+    price: "$34.95",
+    checked: "2026-10-18",
+    img: "assets/book-osha-handbook.jpg",
+    url: "https://www.amazon.com/dp/B0HNGM8JMQ?tag=rendelivers-20"
+  },
+  {
     id: "aff-markup-profit",
     section: "software",
     sub: "BOOKS",
