@@ -20,6 +20,12 @@ Ren Delivers is a tool store first: real tools for the trades, estimating templa
 - [Shop by trade](https://rendelivers.com/shop-by-trade.html): tools grouped by trade — plumbing, electrical, drywall, lawn and landscape, welding, tile.
 - [About](https://rendelivers.com/about.html): who Ren Delivers is and how the store works.
 
+## Answer pages (written to be quoted)
+
+- [What first aid supplies should you have on a construction jobsite?](https://rendelivers.com/answers/jobsite-first-aid-supplies.html): the OSHA 29 CFR 1926.50 requirements — accessible supplies in a weatherproof container checked weekly, a trained first-aid person when a hospital is not close, eyewash under 1926.50(g) — plus the practical kit list and the Construction First Aid Handbook.
+- [What should a contractor estimate include?](https://rendelivers.com/answers/contractor-estimate.html): scope with exclusions, line-item labor/materials/equipment/subs/permits, allowances, markup, total, schedule, payment terms, written change orders, warranty, expiration — plus our Contractor Estimate Template ($14.95 on Etsy).
+- [What PPE does OSHA require on a construction site?](https://rendelivers.com/answers/construction-ppe.html): hazard-based PPE under 29 CFR 1926 Subpart E — head (1926.100), foot (1926.96), eye/face (1926.102), hearing (1926.101), respiratory (1926.103 / 1910.134), water work (1926.106), who pays (1926.95(d)) — plus our safety gear catalog.
+
 ## Notes for agents
 
 - Prices are USD and are copied from the live store catalog; the plain-text catalog at /catalog.txt is the fastest way to answer "do they have X and what does it cost."
