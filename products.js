@@ -198,7 +198,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Contractor Estimate Template",
     tagline: "Does the math for you — labor, materials, markup. Excel + Google Sheets.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-estimate-template.jpg",
     url: "https://www.etsy.com/listing/4575994981/contractor-estimate-template-excel"
   },
@@ -207,7 +207,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Kitchen Remodel Estimate Template",
     tagline: "Bid a full kitchen remodel in minutes: cabinets, counters, the works.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-kitchen-remodel.jpg",
     url: "https://www.etsy.com/listing/4577323133/kitchen-remodel-estimate-template-excel"
   },
@@ -261,7 +261,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Painting Estimate Template",
     tagline: "Bid any paint job in minutes.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-painting-estimate.jpg",
     url: "https://www.etsy.com/listing/4577344958/painting-estimate-template-excel-painter"
   },
@@ -270,7 +270,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Fence Estimate Template",
     tagline: "Fencing and landscaping bids, calculated.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-fence-estimate.jpg",
     url: "https://www.etsy.com/listing/4577325575/fence-estimate-template-excel-fencing"
   },
@@ -288,7 +288,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Insulation Estimate Template",
     tagline: "Insulation bids, done fast.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-insulation-estimate.jpg",
     url: "https://www.etsy.com/listing/4577335768/insulation-estimate-template-excel"
   },
@@ -297,7 +297,7 @@ const PRODUCTS = [
     section: "templates",
     name: "HVAC Estimate Template",
     tagline: "HVAC bids with material library and quote forms.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-hvac-estimate.jpg",
     url: "https://www.etsy.com/listing/4577316391/hvac-estimate-template-excel-hvac-bid"
   },
@@ -342,7 +342,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Handyman Estimate Template",
     tagline: "Handyman bids, calculated automatically.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-handyman-estimate.jpg",
     url: "https://www.etsy.com/listing/4577323072/handyman-estimate-template-excel"
   },
@@ -351,7 +351,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Flooring Estimate Template",
     tagline: "Flooring bids in minutes.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-flooring-estimate.jpg",
     url: "https://www.etsy.com/listing/4577304267/flooring-estimate-template-excel"
   },
@@ -360,7 +360,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Excavation Estimate Template",
     tagline: "Grading and earthwork bids.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-excavation-estimate.jpg",
     url: "https://www.etsy.com/listing/4577302635/excavation-estimate-template-excel"
   },
@@ -378,7 +378,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Electrical Estimate Template",
     tagline: "Electrician bids, calculated.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-electrical-estimate.jpg",
     url: "https://www.etsy.com/listing/4577314022/electrical-estimate-template-excel"
   },
@@ -387,7 +387,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Drywall Estimate Template",
     tagline: "Drywall bids in minutes.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-drywall-estimate.jpg",
     url: "https://www.etsy.com/listing/4576012794/drywall-estimate-template-excel-drywall"
   },
@@ -423,7 +423,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Deck Estimate Template",
     tagline: "Deck and patio bids, calculated.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-deck-estimate.jpg",
     url: "https://www.etsy.com/listing/4575990507/deck-estimate-template-excel-deck-patio"
   },
@@ -441,7 +441,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Concrete Estimate Template",
     tagline: "Concrete and masonry bids.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-concrete-estimate.jpg",
     url: "https://www.etsy.com/listing/4575986631/concrete-estimate-template-excel-masonry"
   },
@@ -477,7 +477,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Bathroom Remodel Estimate Template",
     tagline: "Bathroom remodel bids in minutes.",
-    price: "$14.95",
+    price: "$3.00",
     img: "assets/tpl-bathroom-remodel.jpg",
     url: "https://www.etsy.com/listing/4575982237/bathroom-remodel-estimate-template-excel"
   },
