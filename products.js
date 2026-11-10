@@ -216,7 +216,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Construction Daily Log Template",
     tagline: "Crew hours, work performed, delays, deliveries, safety notes.",
-    price: "$14.95",
+    price: "$4.99",
     img: "assets/tpl-daily-log.jpg",
     url: "https://www.etsy.com/listing/4576009440/construction-daily-log-template-excel"
   },
@@ -225,7 +225,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Contractor Invoice Template",
     tagline: "Line items, tax, balance due — calculated automatically. Look legit, get paid faster.",
-    price: "$14.95",
+    price: "$4.99",
     img: "assets/tpl-contractor-invoice.jpg",
     url: "https://www.etsy.com/listing/4575987443/contractor-invoice-template-excel"
   },
@@ -234,7 +234,7 @@ const PRODUCTS = [
     section: "templates",
     name: "Change Order Template",
     tagline: "Stop eating the cost of \u201cwhile you\u2019re here\u201d extras.",
-    price: "$14.95",
+    price: "$4.99",
     img: "assets/tpl-change-order.jpg",
     url: "https://www.etsy.com/listing/4576005544/change-order-template-excel-contractor"
   },
