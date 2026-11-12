@@ -2,11 +2,11 @@
 
 Every product on rendelivers.com, in one file an agent can pull in a single pass.
 Source of truth: https://rendelivers.com/catalog.html — prices in USD, checked against the live store catalog.
-Last updated: 2026-10-31
+Last updated: 2026-11-11
 
 Ren Delivers sells tools, contractor templates, construction safety books, and work shirts for people who actually build stuff. Tools only — no parts, fittings, or consumables. If we don't carry it, we'll source it.
 
-Total products: 369
+Total products: 386
 
 ## Tools Catalog (76 products)
 Browse on the site: https://rendelivers.com/catalog.html
@@ -868,117 +868,168 @@ Browse on the site: https://rendelivers.com/lawn.html
   Ren's pick: reciprocating tines punch cores without the drum-aerator wrestling match.
   Buy: https://www.amazon.com/dp/B01HOHGD9S?tag=rendelivers-20
 
-## Contractor Templates (36 products)
+## Contractor Templates (53 products)
 Browse on the site: https://rendelivers.com/templates.html
 
-- Contractor Estimate Template — $3.00 — Category: Contractor Templates
+- Contractor Estimate Template — $12.00 — Category: Contractor Templates
   Does the math for you — labor, materials, markup. Excel + Google Sheets.
-  Buy: https://www.etsy.com/listing/4575994981/contractor-estimate-template-excel
-- Kitchen Remodel Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/contractor-estimate-template-excel-google-sheets-professional-bids-that-win-jobs
+- Kitchen Remodel Estimate Template — $12.00 — Category: Contractor Templates
   Bid a full kitchen remodel in minutes: cabinets, counters, the works.
-  Buy: https://www.etsy.com/listing/4577323133/kitchen-remodel-estimate-template-excel
-- Construction Daily Log Template — $4.99 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/kitchen-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget
+- Construction Daily Log Template — $12.00 — Category: Contractor Templates
   Crew hours, work performed, delays, deliveries, safety notes.
-  Buy: https://www.etsy.com/listing/4576009440/construction-daily-log-template-excel
-- Contractor Invoice Template — $4.99 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/construction-daily-field-report-template-excel-google-sheets-daily-job-log-for-crew-weather-and-work-done
+- Contractor Invoice Template — $12.00 — Category: Contractor Templates
   Line items, tax, balance due — calculated automatically. Look legit, get paid faster.
-  Buy: https://www.etsy.com/listing/4575987443/contractor-invoice-template-excel
-- Change Order Template — $4.99 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/contractor-invoice-template-excel-google-sheets-bill-jobs-fast-with-deposit-and-balance-tracking
+- Change Order Template — $12.00 — Category: Contractor Templates
   Stop eating the cost of “while you’re here” extras.
-  Buy: https://www.etsy.com/listing/4576005544/change-order-template-excel-contractor
-- Construction Schedule Template (Gantt) — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/change-order-template-excel-google-sheets-document-scope-changes-get-paid-for-extras
+- Construction Schedule Template (Gantt) — $12.00 — Category: Contractor Templates
   Keep every job on track with a real project schedule.
-  Buy: https://www.etsy.com/listing/4581964387/construction-project-schedule-template
-- Punch List Template — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/construction-schedule-template-gantt-chart-excel-google-sheets
+- Punch List Template — $12.00 — Category: Contractor Templates
   Walk the job, log every deficiency by trade, track it to done.
-  Buy: https://www.etsy.com/listing/4581984002/punch-list-template-excel-construction
-- Painting Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/punch-list-template-excel-google-sheets-track-deficiencies-through-final-walkthrough
+- Painting Estimate Template — $12.00 — Category: Contractor Templates
   Bid any paint job in minutes.
-  Buy: https://www.etsy.com/listing/4577344958/painting-estimate-template-excel-painter
-- Fence Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/painting-cost-estimate-template-excel-google-sheets-price-interior-and-exterior-jobs
+- Fence Estimate Template — $12.00 — Category: Contractor Templates
   Fencing and landscaping bids, calculated.
-  Buy: https://www.etsy.com/listing/4577325575/fence-estimate-template-excel-fencing
-- Job Cost Tracker — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/fence-installation-cost-estimate-template-excel-google-sheets-price-materials-and-labor-per-foot
+- Job Cost Tracker — $12.00 — Category: Contractor Templates
   Budget vs. actual with a profit dashboard.
-  Buy: https://www.etsy.com/listing/4577320901/job-cost-tracker-excel-construction
-- Insulation Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/construction-job-cost-tracker-template-excel-google-sheets-track-profit-on-every-job
+- Insulation Estimate Template — $12.00 — Category: Contractor Templates
   Insulation bids, done fast.
-  Buy: https://www.etsy.com/listing/4577335768/insulation-estimate-template-excel
-- HVAC Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/insulation-cost-estimate-template-excel-google-sheets-price-batts-blown-in-and-spray-foam
+- HVAC Estimate Template — $12.00 — Category: Contractor Templates
   HVAC bids with material library and quote forms.
-  Buy: https://www.etsy.com/listing/4577316391/hvac-estimate-template-excel-hvac-bid
+  Buy: https://sapf3k-ki.myshopify.com/products/hvac-cost-estimate-template-excel-google-sheets-price-installs-change-outs-and-service-work
 - Cleaning Client Schedule Template — $14.95 — Category: Contractor Templates
   Recurring cleaning routes, organized.
-  Buy: https://www.etsy.com/listing/4577314287/cleaning-client-schedule-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets
 - House Cleaning Checklist Template — $14.95 — Category: Contractor Templates
   Room-by-room checklist with auto completion %.
-  Buy: https://www.etsy.com/listing/4577312157/house-cleaning-checklist-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets
 - House Cleaning Invoice Template — $14.95 — Category: Contractor Templates
   Cleaning invoices with auto totals and tax.
-  Buy: https://www.etsy.com/listing/4577327210/house-cleaning-invoice-template-excel
-- Home Inspection Checklist — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets
+- Home Inspection Checklist — $12.00 — Category: Contractor Templates
   Property inspection reports, standardized.
-  Buy: https://www.etsy.com/listing/4577325418/home-inspection-checklist-excel-property
-- Handyman Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/home-inspection-checklist-template-excel-google-sheets-screen-any-property-in-one-walkthrough
+- Handyman Estimate Template — $12.00 — Category: Contractor Templates
   Handyman bids, calculated automatically.
-  Buy: https://www.etsy.com/listing/4577323072/handyman-estimate-template-excel
-- Flooring Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/handyman-estimate-template-excel-google-sheets-price-small-jobs-fast-and-accurately
+- Flooring Estimate Template — $12.00 — Category: Contractor Templates
   Flooring bids in minutes.
-  Buy: https://www.etsy.com/listing/4577304267/flooring-estimate-template-excel
-- Excavation Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/flooring-cost-estimate-template-excel-google-sheets-price-hardwood-laminate-tile-and-more
+- Excavation Estimate Template — $12.00 — Category: Contractor Templates
   Grading and earthwork bids.
-  Buy: https://www.etsy.com/listing/4577302635/excavation-estimate-template-excel
-- Equipment Maintenance Log — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/excavation-cost-estimate-template-excel-google-sheets-price-digging-grading-and-hauling
+- Equipment Maintenance Log — $12.00 — Category: Contractor Templates
   Fleet and tool service tracking.
-  Buy: https://www.etsy.com/listing/4577317588/equipment-maintenance-log-excel-fleet
-- Electrical Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/equipment-maintenance-log-template-excel-google-sheets-service-schedules-and-overdue-alerts
+- Electrical Estimate Template — $12.00 — Category: Contractor Templates
   Electrician bids, calculated.
-  Buy: https://www.etsy.com/listing/4577314022/electrical-estimate-template-excel
-- Drywall Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/electrical-cost-estimate-template-excel-google-sheets-price-rough-in-to-trim-out
+- Drywall Estimate Template — $12.00 — Category: Contractor Templates
   Drywall bids in minutes.
-  Buy: https://www.etsy.com/listing/4576012794/drywall-estimate-template-excel-drywall
+  Buy: https://sapf3k-ki.myshopify.com/products/drywall-cost-estimate-template-excel-google-sheets-price-hanging-taping-and-finishing
 - Dog Grooming Appointment Scheduler — $14.95 — Category: Contractor Templates
   Weekly groomer schedule with waitlist and revenue tracker.
-  Buy: https://www.etsy.com/listing/4575992493/dog-grooming-appointment-scheduler-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets
 - Dog Grooming Invoice Template — $14.95 — Category: Contractor Templates
   Grooming invoices with auto totals.
-  Buy: https://www.etsy.com/listing/4575991795/dog-grooming-invoice-template-excel-pet
+  Buy: https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets
 - Dog Grooming Intake Form Template — $14.95 — Category: Contractor Templates
   Pet intake with vaccination checklist and history log.
-  Buy: https://www.etsy.com/listing/4575991163/dog-grooming-intake-form-template-excel
-- Deck Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets
+- Deck Estimate Template — $12.00 — Category: Contractor Templates
   Deck and patio bids, calculated.
-  Buy: https://www.etsy.com/listing/4575990507/deck-estimate-template-excel-deck-patio
-- Crew Time Tracking Template — $14.95 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/deck-building-cost-estimate-template-excel-google-sheets-price-your-deck-project-right
+- Crew Time Tracking Template — $12.00 — Category: Contractor Templates
   Timesheets with automatic overtime calc.
-  Buy: https://www.etsy.com/listing/4576008716/crew-time-tracking-template-excel
-- Concrete Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/crew-time-tracking-template-excel-google-sheets-crew-timesheets-with-automatic-overtime
+- Concrete Estimate Template — $12.00 — Category: Contractor Templates
   Concrete and masonry bids.
-  Buy: https://www.etsy.com/listing/4575986631/concrete-estimate-template-excel-masonry
+  Buy: https://sapf3k-ki.myshopify.com/products/concrete-cost-estimate-template-excel-google-sheets-price-slabs-driveways-and-flatwork
 - Car Detailing Price Sheet — $14.95 — Category: Contractor Templates
   Detailing packages with instant quote calculator.
-  Buy: https://www.etsy.com/listing/4576004690/car-detailing-price-sheet-excel-package
+  Buy: https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets
 - Car Detailing Invoice Template — $14.95 — Category: Contractor Templates
   Auto detailing invoices with vehicle info.
-  Buy: https://www.etsy.com/listing/4575984213/car-detailing-invoice-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets
 - Vehicle Condition Checklist — $14.95 — Category: Contractor Templates
   Vehicle condition reports with damage notes.
-  Buy: https://www.etsy.com/listing/4575983353/vehicle-condition-checklist-excel-car
-- Bathroom Remodel Estimate Template — $3.00 — Category: Contractor Templates
+  Buy: https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets
+- Bathroom Remodel Estimate Template — $12.00 — Category: Contractor Templates
   Bathroom remodel bids in minutes.
-  Buy: https://www.etsy.com/listing/4575982237/bathroom-remodel-estimate-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/bathroom-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget
 - Photography Shot List Template — $14.95 — Category: Contractor Templates
   Wedding shot lists with timeline and auto count.
-  Buy: https://www.etsy.com/listing/4581950439/photography-shot-list-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets
+- Roofing Estimate Template — $12.00 — Category: Contractor Templates
+  Price roofs, repairs and replacements. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/roofing-cost-estimate-template-excel-google-sheets-price-roofs-repairs-and-replacements
+- Plumbing Estimate Template — $12.00 — Category: Contractor Templates
+  Price rough-in to finish work. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/plumbing-cost-estimate-template-excel-google-sheets-price-rough-in-to-finish-work
+- Tile Estimate Template — $12.00 — Category: Contractor Templates
+  Price floors, showers and backsplashes. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/tile-cost-estimate-template-excel-google-sheets-price-floors-showers-and-backsplashes
+- Siding Estimate Template — $12.00 — Category: Contractor Templates
+  Price vinyl, fiber cement and wood siding. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/siding-cost-estimate-template-excel-google-sheets-price-vinyl-fiber-cement-and-wood
+- Windows & Doors Estimate Template — $12.00 — Category: Contractor Templates
+  Price replacements per opening. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/windows-doors-estimate-template-excel-google-sheets-price-replacements-per-opening
+- Subcontractor Bid Comparison Template — $12.00 — Category: Contractor Templates
+  Compare 5 sub bids side by side. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/subcontractor-bid-comparison-template-excel-google-sheets-compare-5-sub-bids-side-by-side
+- Trench & Excavation Inspection Checklist — $12.00 — Category: Contractor Templates
+  Daily competent-person inspections. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/trench-excavation-inspection-checklist-excel-google-sheets-daily-competent-person-inspections
+- SWPPP Stormwater Inspection Template — $12.00 — Category: Contractor Templates
+  BMP checklist & inspection log. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/swppp-stormwater-inspection-template-excel-google-sheets-bmp-checklist-inspection-log
+- Lien Waiver Template Pack — $14.95 — Category: Contractor Templates
+  Conditional & unconditional, partial & final — plus the log. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/lien-waiver-template-pack-excel-google-sheets-conditional-unconditional-partial-final-log
+- Subcontractor Agreement Template Pack — $14.95 — Category: Contractor Templates
+  Agreement, scope, payment schedule & roster. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/subcontractor-agreement-template-pack-excel-google-sheets-agreement-scope-payment-schedule-roster
+- House Cleaning Business Pack — $14.95 — Category: Contractor Templates
+  The whole pack: invoice, recurring schedule & room checklist. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets
+- Dog Grooming Business Pack — $14.95 — Category: Contractor Templates
+  The whole pack: intake form, appointment scheduler & invoice. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets
+- Car Detailing Business Pack — $14.95 — Category: Contractor Templates
+  The whole pack: condition checklist, package price sheet & invoice. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets
+- Photography Business Pack — $14.95 — Category: Contractor Templates
+  The whole pack: booking contract, invoice & shot list planner. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets
+- Small Business Bookkeeping Spreadsheet — $14.95 — Category: Contractor Templates
+  Income, expenses, mileage log and profit & loss — no accounting degree needed. Google Sheets & Excel.
+  Buy: https://sapf3k-ki.myshopify.com/products/small-business-bookkeeping-spreadsheet-google-sheets-excel
+- Whole-Home Renovation Estimate Pack — $39.00 — Category: Contractor Templates
+  All 16 contractor estimate templates in one pack. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/whole-home-renovation-estimate-pack-all-16-contractor-templates
+- Contractor Starter Pack — $24.95 — Category: Contractor Templates
+  Estimate, schedule, invoice and change order templates — the starter kit. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/contractor-starter-pack-estimate-schedule-invoice-and-change-order-templates-excel-google-sheets
+- Contractor Business Operations Bundle — $34.95 — Category: Contractor Templates
+  8 office templates for the business side of every job. Excel + Google Sheets.
+  Buy: https://sapf3k-ki.myshopify.com/products/contractor-business-operations-bundle-8-office-templates-excel-google-sheets
 - Photography Invoice Template — $14.95 — Category: Contractor Templates
   Photographer invoices with auto totals.
-  Buy: https://www.etsy.com/listing/4581947797/photography-invoice-template-excel
+  Buy: https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets
 - Photography Booking Contract Template — $14.95 — Category: Contractor Templates
   Booking contracts with auto deposit schedule.
-  Buy: https://www.etsy.com/listing/4581957446/photography-booking-contract-template
-- Toolbox Talk & Safety Meeting Log — $14.95 — Category: Contractor Templates
-  30 pre-written safety talks, meeting log, sign-in sheet. If OSHA ever asks, this file is your answer.
-  Buy: https://www.etsy.com/shop/rendelivers
+  Buy: https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets
 
 ## Software, Apps & Books (12 products)
 Browse on the site: https://rendelivers.com/software.html
