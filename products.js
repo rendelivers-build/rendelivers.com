@@ -304,7 +304,7 @@ const PRODUCTS = [
   {
     id: "tpl-cleaning-schedule",
     section: "templates",
-    name: "Cleaning Client Schedule Template",
+    name: "Cleaning Client Schedule (in House Cleaning Business Pack)",
     tagline: "Recurring cleaning routes, organized.",
     price: "$14.95",
     img: "assets/tpl-cleaning-schedule.jpg",
