@@ -198,108 +198,108 @@ const PRODUCTS = [
     section: "templates",
     name: "Contractor Estimate Template",
     tagline: "Does the math for you — labor, materials, markup. Excel + Google Sheets.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-estimate-template.jpg",
-    url: "https://www.etsy.com/listing/4575994981/contractor-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/contractor-estimate-template-excel-google-sheets-professional-bids-that-win-jobs"
   },
   {
     id: "tpl-kitchen-remodel",
     section: "templates",
     name: "Kitchen Remodel Estimate Template",
     tagline: "Bid a full kitchen remodel in minutes: cabinets, counters, the works.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-kitchen-remodel.jpg",
-    url: "https://www.etsy.com/listing/4577323133/kitchen-remodel-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/kitchen-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget"
   },
   {
     id: "tpl-daily-log",
     section: "templates",
     name: "Construction Daily Log Template",
     tagline: "Crew hours, work performed, delays, deliveries, safety notes.",
-    price: "$4.99",
+    price: "$12.00",
     img: "assets/tpl-daily-log.jpg",
-    url: "https://www.etsy.com/listing/4576009440/construction-daily-log-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/construction-daily-field-report-template-excel-google-sheets-daily-job-log-for-crew-weather-and-work-done"
   },
   {
     id: "tpl-invoice",
     section: "templates",
     name: "Contractor Invoice Template",
     tagline: "Line items, tax, balance due — calculated automatically. Look legit, get paid faster.",
-    price: "$4.99",
+    price: "$12.00",
     img: "assets/tpl-contractor-invoice.jpg",
-    url: "https://www.etsy.com/listing/4575987443/contractor-invoice-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/contractor-invoice-template-excel-google-sheets-bill-jobs-fast-with-deposit-and-balance-tracking"
   },
   {
     id: "tpl-change-order",
     section: "templates",
     name: "Change Order Template",
     tagline: "Stop eating the cost of \u201cwhile you\u2019re here\u201d extras.",
-    price: "$4.99",
+    price: "$12.00",
     img: "assets/tpl-change-order.jpg",
-    url: "https://www.etsy.com/listing/4576005544/change-order-template-excel-contractor"
+    url: "https://sapf3k-ki.myshopify.com/products/change-order-template-excel-google-sheets-document-scope-changes-get-paid-for-extras"
   },
   {
     id: "tpl-schedule",
     section: "templates",
     name: "Construction Schedule Template (Gantt)",
     tagline: "Keep every job on track with a real project schedule.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-schedule-gantt.jpg",
-    url: "https://www.etsy.com/listing/4581964387/construction-project-schedule-template"
+    url: "https://sapf3k-ki.myshopify.com/products/construction-schedule-template-gantt-chart-excel-google-sheets"
   },
   {
     id: "tpl-punch-list",
     section: "templates",
     name: "Punch List Template",
     tagline: "Walk the job, log every deficiency by trade, track it to done.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-punch-list.jpg",
-    url: "https://www.etsy.com/listing/4581984002/punch-list-template-excel-construction"
+    url: "https://sapf3k-ki.myshopify.com/products/punch-list-template-excel-google-sheets-track-deficiencies-through-final-walkthrough"
   },
   {
     id: "tpl-painting-estimate",
     section: "templates",
     name: "Painting Estimate Template",
     tagline: "Bid any paint job in minutes.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-painting-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577344958/painting-estimate-template-excel-painter"
+    url: "https://sapf3k-ki.myshopify.com/products/painting-cost-estimate-template-excel-google-sheets-price-interior-and-exterior-jobs"
   },
   {
     id: "tpl-fence-estimate",
     section: "templates",
     name: "Fence Estimate Template",
     tagline: "Fencing and landscaping bids, calculated.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-fence-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577325575/fence-estimate-template-excel-fencing"
+    url: "https://sapf3k-ki.myshopify.com/products/fence-installation-cost-estimate-template-excel-google-sheets-price-materials-and-labor-per-foot"
   },
   {
     id: "tpl-job-cost-tracker",
     section: "templates",
     name: "Job Cost Tracker",
     tagline: "Budget vs. actual with a profit dashboard.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-job-cost-tracker.jpg",
-    url: "https://www.etsy.com/listing/4577320901/job-cost-tracker-excel-construction"
+    url: "https://sapf3k-ki.myshopify.com/products/construction-job-cost-tracker-template-excel-google-sheets-track-profit-on-every-job"
   },
   {
     id: "tpl-insulation-estimate",
     section: "templates",
     name: "Insulation Estimate Template",
     tagline: "Insulation bids, done fast.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-insulation-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577335768/insulation-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/insulation-cost-estimate-template-excel-google-sheets-price-batts-blown-in-and-spray-foam"
   },
   {
     id: "tpl-hvac-estimate",
     section: "templates",
     name: "HVAC Estimate Template",
     tagline: "HVAC bids with material library and quote forms.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-hvac-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577316391/hvac-estimate-template-excel-hvac-bid"
+    url: "https://sapf3k-ki.myshopify.com/products/hvac-cost-estimate-template-excel-google-sheets-price-installs-change-outs-and-service-work"
   },
   {
     id: "tpl-cleaning-schedule",
@@ -308,7 +308,7 @@ const PRODUCTS = [
     tagline: "Recurring cleaning routes, organized.",
     price: "$14.95",
     img: "assets/tpl-cleaning-schedule.jpg",
-    url: "https://www.etsy.com/listing/4577314287/cleaning-client-schedule-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
   },
   {
     id: "tpl-cleaning-checklist",
@@ -317,7 +317,7 @@ const PRODUCTS = [
     tagline: "Room-by-room checklist with auto completion %.",
     price: "$14.95",
     img: "assets/tpl-cleaning-checklist.jpg",
-    url: "https://www.etsy.com/listing/4577312157/house-cleaning-checklist-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
   },
   {
     id: "tpl-cleaning-invoice",
@@ -326,70 +326,70 @@ const PRODUCTS = [
     tagline: "Cleaning invoices with auto totals and tax.",
     price: "$14.95",
     img: "assets/tpl-cleaning-invoice.jpg",
-    url: "https://www.etsy.com/listing/4577327210/house-cleaning-invoice-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
   },
   {
     id: "tpl-home-inspection",
     section: "templates",
     name: "Home Inspection Checklist",
     tagline: "Property inspection reports, standardized.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-home-inspection.jpg",
-    url: "https://www.etsy.com/listing/4577325418/home-inspection-checklist-excel-property"
+    url: "https://sapf3k-ki.myshopify.com/products/home-inspection-checklist-template-excel-google-sheets-screen-any-property-in-one-walkthrough"
   },
   {
     id: "tpl-handyman-estimate",
     section: "templates",
     name: "Handyman Estimate Template",
     tagline: "Handyman bids, calculated automatically.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-handyman-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577323072/handyman-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/handyman-estimate-template-excel-google-sheets-price-small-jobs-fast-and-accurately"
   },
   {
     id: "tpl-flooring-estimate",
     section: "templates",
     name: "Flooring Estimate Template",
     tagline: "Flooring bids in minutes.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-flooring-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577304267/flooring-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/flooring-cost-estimate-template-excel-google-sheets-price-hardwood-laminate-tile-and-more"
   },
   {
     id: "tpl-excavation-estimate",
     section: "templates",
     name: "Excavation Estimate Template",
     tagline: "Grading and earthwork bids.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-excavation-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577302635/excavation-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/excavation-cost-estimate-template-excel-google-sheets-price-digging-grading-and-hauling"
   },
   {
     id: "tpl-equipment-log",
     section: "templates",
     name: "Equipment Maintenance Log",
     tagline: "Fleet and tool service tracking.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-equipment-log.jpg",
-    url: "https://www.etsy.com/listing/4577317588/equipment-maintenance-log-excel-fleet"
+    url: "https://sapf3k-ki.myshopify.com/products/equipment-maintenance-log-template-excel-google-sheets-service-schedules-and-overdue-alerts"
   },
   {
     id: "tpl-electrical-estimate",
     section: "templates",
     name: "Electrical Estimate Template",
     tagline: "Electrician bids, calculated.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-electrical-estimate.jpg",
-    url: "https://www.etsy.com/listing/4577314022/electrical-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/electrical-cost-estimate-template-excel-google-sheets-price-rough-in-to-trim-out"
   },
   {
     id: "tpl-drywall-estimate",
     section: "templates",
     name: "Drywall Estimate Template",
     tagline: "Drywall bids in minutes.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-drywall-estimate.jpg",
-    url: "https://www.etsy.com/listing/4576012794/drywall-estimate-template-excel-drywall"
+    url: "https://sapf3k-ki.myshopify.com/products/drywall-cost-estimate-template-excel-google-sheets-price-hanging-taping-and-finishing"
   },
   {
     id: "tpl-dog-scheduler",
@@ -398,7 +398,7 @@ const PRODUCTS = [
     tagline: "Weekly groomer schedule with waitlist and revenue tracker.",
     price: "$14.95",
     img: "assets/tpl-dog-scheduler.jpg",
-    url: "https://www.etsy.com/listing/4575992493/dog-grooming-appointment-scheduler-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
   },
   {
     id: "tpl-dog-invoice",
@@ -407,7 +407,7 @@ const PRODUCTS = [
     tagline: "Grooming invoices with auto totals.",
     price: "$14.95",
     img: "assets/tpl-dog-invoice.jpg",
-    url: "https://www.etsy.com/listing/4575991795/dog-grooming-invoice-template-excel-pet"
+    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
   },
   {
     id: "tpl-dog-intake",
@@ -416,34 +416,34 @@ const PRODUCTS = [
     tagline: "Pet intake with vaccination checklist and history log.",
     price: "$14.95",
     img: "assets/tpl-dog-intake.jpg",
-    url: "https://www.etsy.com/listing/4575991163/dog-grooming-intake-form-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
   },
   {
     id: "tpl-deck-estimate",
     section: "templates",
     name: "Deck Estimate Template",
     tagline: "Deck and patio bids, calculated.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-deck-estimate.jpg",
-    url: "https://www.etsy.com/listing/4575990507/deck-estimate-template-excel-deck-patio"
+    url: "https://sapf3k-ki.myshopify.com/products/deck-building-cost-estimate-template-excel-google-sheets-price-your-deck-project-right"
   },
   {
     id: "tpl-crew-time",
     section: "templates",
     name: "Crew Time Tracking Template",
     tagline: "Timesheets with automatic overtime calc.",
-    price: "$14.95",
+    price: "$12.00",
     img: "assets/tpl-crew-time.jpg",
-    url: "https://www.etsy.com/listing/4576008716/crew-time-tracking-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/crew-time-tracking-template-excel-google-sheets-crew-timesheets-with-automatic-overtime"
   },
   {
     id: "tpl-concrete-estimate",
     section: "templates",
     name: "Concrete Estimate Template",
     tagline: "Concrete and masonry bids.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-concrete-estimate.jpg",
-    url: "https://www.etsy.com/listing/4575986631/concrete-estimate-template-excel-masonry"
+    url: "https://sapf3k-ki.myshopify.com/products/concrete-cost-estimate-template-excel-google-sheets-price-slabs-driveways-and-flatwork"
   },
   {
     id: "tpl-detailing-price",
@@ -452,7 +452,7 @@ const PRODUCTS = [
     tagline: "Detailing packages with instant quote calculator.",
     price: "$14.95",
     img: "assets/tpl-detailing-price.jpg",
-    url: "https://www.etsy.com/listing/4576004690/car-detailing-price-sheet-excel-package"
+    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
   },
   {
     id: "tpl-detailing-invoice",
@@ -461,7 +461,7 @@ const PRODUCTS = [
     tagline: "Auto detailing invoices with vehicle info.",
     price: "$14.95",
     img: "assets/tpl-detailing-invoice.jpg",
-    url: "https://www.etsy.com/listing/4575984213/car-detailing-invoice-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
   },
   {
     id: "tpl-vehicle-checklist",
@@ -470,16 +470,16 @@ const PRODUCTS = [
     tagline: "Vehicle condition reports with damage notes.",
     price: "$14.95",
     img: "assets/tpl-vehicle-checklist.jpg",
-    url: "https://www.etsy.com/listing/4575983353/vehicle-condition-checklist-excel-car"
+    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
   },
   {
     id: "tpl-bathroom-remodel",
     section: "templates",
     name: "Bathroom Remodel Estimate Template",
     tagline: "Bathroom remodel bids in minutes.",
-    price: "$3.00",
+    price: "$12.00",
     img: "assets/tpl-bathroom-remodel.jpg",
-    url: "https://www.etsy.com/listing/4575982237/bathroom-remodel-estimate-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/bathroom-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget"
   },
   {
     id: "tpl-photo-shot-list",
@@ -488,7 +488,7 @@ const PRODUCTS = [
     tagline: "Wedding shot lists with timeline and auto count.",
     price: "$14.95",
     img: "assets/tpl-photo-shot-list.jpg",
-    url: "https://www.etsy.com/listing/4581950439/photography-shot-list-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
   },
   {
     id: "tpl-photo-invoice",
@@ -497,7 +497,7 @@ const PRODUCTS = [
     tagline: "Photographer invoices with auto totals.",
     price: "$14.95",
     img: "assets/tpl-photo-invoice.jpg",
-    url: "https://www.etsy.com/listing/4581947797/photography-invoice-template-excel"
+    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
   },
   {
     id: "tpl-photo-booking",
@@ -506,7 +506,7 @@ const PRODUCTS = [
     tagline: "Booking contracts with auto deposit schedule.",
     price: "$14.95",
     img: "assets/tpl-photo-booking.jpg",
-    url: "https://www.etsy.com/listing/4581957446/photography-booking-contract-template"
+    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
   },
   {
     id: "aff-dewalt-dcs356b",
@@ -879,15 +879,6 @@ const PRODUCTS = [
     checked: "2026-10-01",
     img: "assets/aff-dewalt-dcd1007b.jpg",
     url: "https://www.amazon.com/dp/B0D8TM5MW4?tag=rendelivers-20"
-  },
-  {
-    id: "tpl-toolbox-talk",
-    section: "templates",
-    name: "Toolbox Talk & Safety Meeting Log",
-    tagline: "30 pre-written safety talks, meeting log, sign-in sheet. If OSHA ever asks, this file is your answer.",
-    price: "$14.95",
-    img: "assets/tpl-toolbox-talk.jpg",
-    url: "https://www.etsy.com/shop/rendelivers"
   },
   {
     id: "aff-calc-4065",
@@ -3714,7 +3705,169 @@ const PRODUCTS = [
     price: "$75.90",
     img: "assets/tile-vevor-wet-saw-7in.jpg",
     url: "https://www.vevor.com/power-tile-masonry-saws-c_12386/vevor-wet-tile-saw-7-inch-65mn-steel-blade-3500-rpm-induction-motor-tile-cutter-wet-saw-with-water-reservoir-0-45-degrees-miter-angle-for-cutting-tiles-and-stones-for-diy-enthusiasts-p_010524121464?lang=en&currency=usd&utm_source=inhouse&utm_medium=affiliate&utm_campaign=82014982&shortkey=20261010yaG0"
+  },,
+  {
+    id: "tpl-roofing-estimate",
+    section: "templates",
+    name: "Roofing Estimate Template",
+    tagline: "Price roofs, repairs and replacements. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_2a8ac6c3-6a85-462b-9045-1ce22be72eee.jpg?v=1794228426",
+    url: "https://sapf3k-ki.myshopify.com/products/roofing-cost-estimate-template-excel-google-sheets-price-roofs-repairs-and-replacements"
   },
+  {
+    id: "tpl-plumbing-estimate",
+    section: "templates",
+    name: "Plumbing Estimate Template",
+    tagline: "Price rough-in to finish work. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_2e2b4bd7-7e2d-4b3a-b974-c3ede3fe2a87.jpg?v=1794228431",
+    url: "https://sapf3k-ki.myshopify.com/products/plumbing-cost-estimate-template-excel-google-sheets-price-rough-in-to-finish-work"
+  },
+  {
+    id: "tpl-tile-estimate",
+    section: "templates",
+    name: "Tile Estimate Template",
+    tagline: "Price floors, showers and backsplashes. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_64096c03-6ac5-445e-8473-bb3c0141ed8b.jpg?v=1794229718",
+    url: "https://sapf3k-ki.myshopify.com/products/tile-cost-estimate-template-excel-google-sheets-price-floors-showers-and-backsplashes"
+  },
+  {
+    id: "tpl-siding-estimate",
+    section: "templates",
+    name: "Siding Estimate Template",
+    tagline: "Price vinyl, fiber cement and wood siding. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_f59dc55c-4c44-457e-aba1-78958e1d1b6a.jpg?v=1794229754",
+    url: "https://sapf3k-ki.myshopify.com/products/siding-cost-estimate-template-excel-google-sheets-price-vinyl-fiber-cement-and-wood"
+  },
+  {
+    id: "tpl-windows-doors",
+    section: "templates",
+    name: "Windows & Doors Estimate Template",
+    tagline: "Price replacements per opening. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_086910d7-1600-4f65-9c8a-de5aec18bdfb.jpg?v=1794229776",
+    url: "https://sapf3k-ki.myshopify.com/products/windows-doors-estimate-template-excel-google-sheets-price-replacements-per-opening"
+  },
+  {
+    id: "tpl-sub-bid-comparison",
+    section: "templates",
+    name: "Subcontractor Bid Comparison Template",
+    tagline: "Compare 5 sub bids side by side. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_8e94b69d-cf2c-414c-ad03-fec4b53bc29e.jpg?v=1794229798",
+    url: "https://sapf3k-ki.myshopify.com/products/subcontractor-bid-comparison-template-excel-google-sheets-compare-5-sub-bids-side-by-side"
+  },
+  {
+    id: "tpl-trench-checklist",
+    section: "templates",
+    name: "Trench & Excavation Inspection Checklist",
+    tagline: "Daily competent-person inspections. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_11514086-f448-46f7-be9b-6bfbfeb1d806.jpg?v=1794229851",
+    url: "https://sapf3k-ki.myshopify.com/products/trench-excavation-inspection-checklist-excel-google-sheets-daily-competent-person-inspections"
+  },
+  {
+    id: "tpl-swppp-inspection",
+    section: "templates",
+    name: "SWPPP Stormwater Inspection Template",
+    tagline: "BMP checklist & inspection log. Excel + Google Sheets.",
+    price: "$12.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_521d103f-7189-42db-934a-e882f0943aac.jpg?v=1794229869",
+    url: "https://sapf3k-ki.myshopify.com/products/swppp-stormwater-inspection-template-excel-google-sheets-bmp-checklist-inspection-log"
+  },
+  {
+    id: "tpl-lien-waiver-pack",
+    section: "templates",
+    name: "Lien Waiver Template Pack",
+    tagline: "Conditional & unconditional, partial & final — plus the log. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_9e691619-f00d-4723-801f-060e97233202.jpg?v=1794229887",
+    url: "https://sapf3k-ki.myshopify.com/products/lien-waiver-template-pack-excel-google-sheets-conditional-unconditional-partial-final-log"
+  },
+  {
+    id: "tpl-sub-agreement-pack",
+    section: "templates",
+    name: "Subcontractor Agreement Template Pack",
+    tagline: "Agreement, scope, payment schedule & roster. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_4e1ee8dc-04c6-4db0-96f6-30eb6a9f2a15.jpg?v=1794229909",
+    url: "https://sapf3k-ki.myshopify.com/products/subcontractor-agreement-template-pack-excel-google-sheets-agreement-scope-payment-schedule-roster"
+  },
+  {
+    id: "tpl-cleaning-pack",
+    section: "templates",
+    name: "House Cleaning Business Pack",
+    tagline: "The whole pack: invoice, recurring schedule & room checklist. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_3e016b37-7a16-42bd-a258-5c1ffa2e6767.jpg?v=1794229938",
+    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
+  },
+  {
+    id: "tpl-dog-grooming-pack",
+    section: "templates",
+    name: "Dog Grooming Business Pack",
+    tagline: "The whole pack: intake form, appointment scheduler & invoice. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_48dc0e8c-a521-485f-b06f-5968a4dc63f2.jpg?v=1794229970",
+    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
+  },
+  {
+    id: "tpl-detailing-pack",
+    section: "templates",
+    name: "Car Detailing Business Pack",
+    tagline: "The whole pack: condition checklist, package price sheet & invoice. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_1da62282-27db-4b2d-9ac0-5e90c6dd409f.jpg?v=1794230000",
+    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
+  },
+  {
+    id: "tpl-photography-pack",
+    section: "templates",
+    name: "Photography Business Pack",
+    tagline: "The whole pack: booking contract, invoice & shot list planner. Excel + Google Sheets.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_415bb2ce-5696-4d2c-8762-be644f0266c7.jpg?v=1794230029",
+    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
+  },
+  {
+    id: "tpl-bookkeeping",
+    section: "templates",
+    name: "Small Business Bookkeeping Spreadsheet",
+    tagline: "Income, expenses, mileage log and profit & loss — no accounting degree needed. Google Sheets & Excel.",
+    price: "$14.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/bookkeeping-listing-img1_2f5ce66c-212b-4a64-aa9f-85955d031fdf.jpg?v=1794391432",
+    url: "https://sapf3k-ki.myshopify.com/products/small-business-bookkeeping-spreadsheet-google-sheets-excel"
+  },
+  {
+    id: "tpl-whole-home-pack",
+    section: "templates",
+    name: "Whole-Home Renovation Estimate Pack",
+    tagline: "All 16 contractor estimate templates in one pack. Excel + Google Sheets.",
+    price: "$39.00",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-flash_09662e92-2583-45f9-bf35-c40eb625bf9b.png?v=1794223089",
+    url: "https://sapf3k-ki.myshopify.com/products/whole-home-renovation-estimate-pack-all-16-contractor-templates"
+  },
+  {
+    id: "tpl-starter-pack",
+    section: "templates",
+    name: "Contractor Starter Pack",
+    tagline: "Estimate, schedule, invoice and change order templates — the starter kit. Excel + Google Sheets.",
+    price: "$24.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_369870c3-e48a-4e4c-9625-cfb4581c7368.jpg?v=1794228471",
+    url: "https://sapf3k-ki.myshopify.com/products/contractor-starter-pack-estimate-schedule-invoice-and-change-order-templates-excel-google-sheets"
+  },
+  {
+    id: "tpl-ops-bundle",
+    section: "templates",
+    name: "Contractor Business Operations Bundle",
+    tagline: "8 office templates for the business side of every job. Excel + Google Sheets.",
+    price: "$34.95",
+    img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_264750db-d33b-41cf-ba1a-0e587d3c0d07.jpg?v=1794228477",
+    url: "https://sapf3k-ki.myshopify.com/products/contractor-business-operations-bundle-8-office-templates-excel-google-sheets"
+  }
 ];
 
 /* ============================================================
@@ -3938,7 +4091,7 @@ function rdRenderFeatured(elId) {
 }
 
 /* Top Picks carousel: auto-scrolling showcase of the products we're pushing. */
-var TOP_PICKS = ["book-first-aid-handbook-paperback", "will-work-for-diesel", "flag-hammer", "aff-calc-4065", "tpl-toolbox-talk", "aff-lawn-husqvarna-z254", "aff-swanson-s0101", "tpl-estimate"];
+var TOP_PICKS = ["book-first-aid-handbook-paperback", "will-work-for-diesel", "flag-hammer", "aff-calc-4065", "aff-lawn-husqvarna-z254", "aff-swanson-s0101", "tpl-estimate"];
 
 function rdRenderCarousel(elId) {
   var byId = rdById();
