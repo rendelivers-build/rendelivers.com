@@ -200,7 +200,7 @@ const PRODUCTS = [
     tagline: "Does the math for you — labor, materials, markup. Excel + Google Sheets.",
     price: "$12.00",
     img: "assets/tpl-estimate-template.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/contractor-estimate-template-excel-google-sheets-professional-bids-that-win-jobs"
+    url: "https://buy.stripe.com/dRmaER1zjgc07EofIc1wY02"
   },
   {
     id: "tpl-kitchen-remodel",
@@ -209,7 +209,7 @@ const PRODUCTS = [
     tagline: "Bid a full kitchen remodel in minutes: cabinets, counters, the works.",
     price: "$12.00",
     img: "assets/tpl-kitchen-remodel.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/kitchen-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget"
+    url: "https://buy.stripe.com/dRmdR36TD9NCaQAbrW1wY00"
   },
   {
     id: "tpl-daily-log",
@@ -218,7 +218,7 @@ const PRODUCTS = [
     tagline: "Crew hours, work performed, delays, deliveries, safety notes.",
     price: "$12.00",
     img: "assets/tpl-daily-log.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/construction-daily-field-report-template-excel-google-sheets-daily-job-log-for-crew-weather-and-work-done"
+    url: "https://buy.stripe.com/28E6oBcdX0d27EogMg1wY0n"
   },
   {
     id: "tpl-invoice",
@@ -227,7 +227,7 @@ const PRODUCTS = [
     tagline: "Line items, tax, balance due — calculated automatically. Look legit, get paid faster.",
     price: "$12.00",
     img: "assets/tpl-contractor-invoice.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/contractor-invoice-template-excel-google-sheets-bill-jobs-fast-with-deposit-and-balance-tracking"
+    url: "https://buy.stripe.com/8x2aERdi1gc05wg7bG1wY0m"
   },
   {
     id: "tpl-change-order",
@@ -236,7 +236,7 @@ const PRODUCTS = [
     tagline: "Stop eating the cost of \u201cwhile you\u2019re here\u201d extras.",
     price: "$12.00",
     img: "assets/tpl-change-order.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/change-order-template-excel-google-sheets-document-scope-changes-get-paid-for-extras"
+    url: "https://buy.stripe.com/9B6dR3em5e3SbUE1Rm1wY0l"
   },
   {
     id: "tpl-schedule",
@@ -245,7 +245,7 @@ const PRODUCTS = [
     tagline: "Keep every job on track with a real project schedule.",
     price: "$12.00",
     img: "assets/tpl-schedule-gantt.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/construction-schedule-template-gantt-chart-excel-google-sheets"
+    url: "https://buy.stripe.com/4gM3cpcdX8Jy8IsdA41wY0f"
   },
   {
     id: "tpl-punch-list",
@@ -254,7 +254,7 @@ const PRODUCTS = [
     tagline: "Walk the job, log every deficiency by trade, track it to done.",
     price: "$12.00",
     img: "assets/tpl-punch-list.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/punch-list-template-excel-google-sheets-track-deficiencies-through-final-walkthrough"
+    url: "https://buy.stripe.com/8x200dgud7Fu6Akcw01wY0o"
   },
   {
     id: "tpl-painting-estimate",
@@ -263,7 +263,7 @@ const PRODUCTS = [
     tagline: "Bid any paint job in minutes.",
     price: "$12.00",
     img: "assets/tpl-painting-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/painting-cost-estimate-template-excel-google-sheets-price-interior-and-exterior-jobs"
+    url: "https://buy.stripe.com/cNieV76TDe3S5wg8fK1wY0d"
   },
   {
     id: "tpl-fence-estimate",
@@ -272,7 +272,7 @@ const PRODUCTS = [
     tagline: "Fencing and landscaping bids, calculated.",
     price: "$12.00",
     img: "assets/tpl-fence-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/fence-installation-cost-estimate-template-excel-google-sheets-price-materials-and-labor-per-foot"
+    url: "https://buy.stripe.com/bJe28la5P2la8Is2Vq1wY08"
   },
   {
     id: "tpl-job-cost-tracker",
@@ -281,7 +281,7 @@ const PRODUCTS = [
     tagline: "Budget vs. actual with a profit dashboard.",
     price: "$12.00",
     img: "assets/tpl-job-cost-tracker.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/construction-job-cost-tracker-template-excel-google-sheets-track-profit-on-every-job"
+    url: "https://buy.stripe.com/bJe9ANdi13pe6AkgMg1wY0e"
   },
   {
     id: "tpl-insulation-estimate",
@@ -290,7 +290,7 @@ const PRODUCTS = [
     tagline: "Insulation bids, done fast.",
     price: "$12.00",
     img: "assets/tpl-insulation-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/insulation-cost-estimate-template-excel-google-sheets-price-batts-blown-in-and-spray-foam"
+    url: "https://buy.stripe.com/aFa14h6TD3pe6AkbrW1wY0c"
   },
   {
     id: "tpl-hvac-estimate",
@@ -299,7 +299,7 @@ const PRODUCTS = [
     tagline: "HVAC bids with material library and quote forms.",
     price: "$12.00",
     img: "assets/tpl-hvac-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/hvac-cost-estimate-template-excel-google-sheets-price-installs-change-outs-and-service-work"
+    url: "https://buy.stripe.com/00wfZbdi1e3S1g0gMg1wY0b"
   },
   {
     id: "tpl-cleaning-schedule",
@@ -308,7 +308,7 @@ const PRODUCTS = [
     tagline: "Recurring cleaning routes, organized.",
     price: "$14.95",
     img: "assets/tpl-cleaning-schedule.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq9AN1zj1h6cYI9jO1wY0C"
   },
   {
     id: "tpl-cleaning-checklist",
@@ -317,7 +317,7 @@ const PRODUCTS = [
     tagline: "Room-by-room checklist with auto completion %.",
     price: "$14.95",
     img: "assets/tpl-cleaning-checklist.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq9AN1zj1h6cYI9jO1wY0C"
   },
   {
     id: "tpl-cleaning-invoice",
@@ -326,7 +326,7 @@ const PRODUCTS = [
     tagline: "Cleaning invoices with auto totals and tax.",
     price: "$14.95",
     img: "assets/tpl-cleaning-invoice.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq9AN1zj1h6cYI9jO1wY0C"
   },
   {
     id: "tpl-home-inspection",
@@ -335,7 +335,7 @@ const PRODUCTS = [
     tagline: "Property inspection reports, standardized.",
     price: "$12.00",
     img: "assets/tpl-home-inspection.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/home-inspection-checklist-template-excel-google-sheets-screen-any-property-in-one-walkthrough"
+    url: "https://buy.stripe.com/fZu7sF0vf9NCcYI2Vq1wY0x"
   },
   {
     id: "tpl-handyman-estimate",
@@ -344,7 +344,7 @@ const PRODUCTS = [
     tagline: "Handyman bids, calculated automatically.",
     price: "$12.00",
     img: "assets/tpl-handyman-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/handyman-estimate-template-excel-google-sheets-price-small-jobs-fast-and-accurately"
+    url: "https://buy.stripe.com/28E00d91Lf7W7EodA41wY0a"
   },
   {
     id: "tpl-flooring-estimate",
@@ -353,7 +353,7 @@ const PRODUCTS = [
     tagline: "Flooring bids in minutes.",
     price: "$12.00",
     img: "assets/tpl-flooring-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/flooring-cost-estimate-template-excel-google-sheets-price-hardwood-laminate-tile-and-more"
+    url: "https://buy.stripe.com/6oUdR3fq90d20bW67C1wY09"
   },
   {
     id: "tpl-excavation-estimate",
@@ -362,7 +362,7 @@ const PRODUCTS = [
     tagline: "Grading and earthwork bids.",
     price: "$12.00",
     img: "assets/tpl-excavation-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/excavation-cost-estimate-template-excel-google-sheets-price-digging-grading-and-hauling"
+    url: "https://buy.stripe.com/28E4gt91L7Fu8Is8fK1wY07"
   },
   {
     id: "tpl-equipment-log",
@@ -371,7 +371,7 @@ const PRODUCTS = [
     tagline: "Fleet and tool service tracking.",
     price: "$12.00",
     img: "assets/tpl-equipment-log.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/equipment-maintenance-log-template-excel-google-sheets-service-schedules-and-overdue-alerts"
+    url: "https://buy.stripe.com/cNieV7di1gc00bW7bG1wY0q"
   },
   {
     id: "tpl-electrical-estimate",
@@ -380,7 +380,7 @@ const PRODUCTS = [
     tagline: "Electrician bids, calculated.",
     price: "$12.00",
     img: "assets/tpl-electrical-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/electrical-cost-estimate-template-excel-google-sheets-price-rough-in-to-trim-out"
+    url: "https://buy.stripe.com/6oUfZbem57Fu5wg1Rm1wY06"
   },
   {
     id: "tpl-drywall-estimate",
@@ -389,7 +389,7 @@ const PRODUCTS = [
     tagline: "Drywall bids in minutes.",
     price: "$12.00",
     img: "assets/tpl-drywall-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/drywall-cost-estimate-template-excel-google-sheets-price-hanging-taping-and-finishing"
+    url: "https://buy.stripe.com/aFa00d7XH1h69Mwcw01wY05"
   },
   {
     id: "tpl-dog-scheduler",
@@ -398,7 +398,7 @@ const PRODUCTS = [
     tagline: "Weekly groomer schedule with waitlist and revenue tracker.",
     price: "$14.95",
     img: "assets/tpl-dog-scheduler.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/3cIfZba5Pe3SbUE9jO1wY0D"
   },
   {
     id: "tpl-dog-invoice",
@@ -407,7 +407,7 @@ const PRODUCTS = [
     tagline: "Grooming invoices with auto totals.",
     price: "$14.95",
     img: "assets/tpl-dog-invoice.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/3cIfZba5Pe3SbUE9jO1wY0D"
   },
   {
     id: "tpl-dog-intake",
@@ -416,7 +416,7 @@ const PRODUCTS = [
     tagline: "Pet intake with vaccination checklist and history log.",
     price: "$14.95",
     img: "assets/tpl-dog-intake.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/3cIfZba5Pe3SbUE9jO1wY0D"
   },
   {
     id: "tpl-deck-estimate",
@@ -425,7 +425,7 @@ const PRODUCTS = [
     tagline: "Deck and patio bids, calculated.",
     price: "$12.00",
     img: "assets/tpl-deck-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/deck-building-cost-estimate-template-excel-google-sheets-price-your-deck-project-right"
+    url: "https://buy.stripe.com/bJe6oBfq93pe8Is67C1wY04"
   },
   {
     id: "tpl-crew-time",
@@ -434,7 +434,7 @@ const PRODUCTS = [
     tagline: "Timesheets with automatic overtime calc.",
     price: "$12.00",
     img: "assets/tpl-crew-time.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/crew-time-tracking-template-excel-google-sheets-crew-timesheets-with-automatic-overtime"
+    url: "https://buy.stripe.com/4gM9ANgudaRG2k4dA41wY0p"
   },
   {
     id: "tpl-concrete-estimate",
@@ -443,7 +443,7 @@ const PRODUCTS = [
     tagline: "Concrete and masonry bids.",
     price: "$12.00",
     img: "assets/tpl-concrete-estimate.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/concrete-cost-estimate-template-excel-google-sheets-price-slabs-driveways-and-flatwork"
+    url: "https://buy.stripe.com/cNi7sFem5gc04sc1Rm1wY03"
   },
   {
     id: "tpl-detailing-price",
@@ -452,7 +452,7 @@ const PRODUCTS = [
     tagline: "Detailing packages with instant quote calculator.",
     price: "$14.95",
     img: "assets/tpl-detailing-price.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/00wfZb5Pz8Jy8Is1Rm1wY0E"
   },
   {
     id: "tpl-detailing-invoice",
@@ -461,7 +461,7 @@ const PRODUCTS = [
     tagline: "Auto detailing invoices with vehicle info.",
     price: "$14.95",
     img: "assets/tpl-detailing-invoice.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/00wfZb5Pz8Jy8Is1Rm1wY0E"
   },
   {
     id: "tpl-vehicle-checklist",
@@ -470,7 +470,7 @@ const PRODUCTS = [
     tagline: "Vehicle condition reports with damage notes.",
     price: "$14.95",
     img: "assets/tpl-vehicle-checklist.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/00wfZb5Pz8Jy8Is1Rm1wY0E"
   },
   {
     id: "tpl-bathroom-remodel",
@@ -479,7 +479,7 @@ const PRODUCTS = [
     tagline: "Bathroom remodel bids in minutes.",
     price: "$12.00",
     img: "assets/tpl-bathroom-remodel.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/bathroom-remodel-cost-estimate-template-excel-google-sheets-plan-your-renovation-budget"
+    url: "https://buy.stripe.com/4gMaER3Hr7Fu3o8dA41wY01"
   },
   {
     id: "tpl-photo-shot-list",
@@ -488,7 +488,7 @@ const PRODUCTS = [
     tagline: "Wedding shot lists with timeline and auto count.",
     price: "$14.95",
     img: "assets/tpl-photo-shot-list.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq00d6TDf7WcYI67C1wY0F"
   },
   {
     id: "tpl-photo-invoice",
@@ -497,7 +497,7 @@ const PRODUCTS = [
     tagline: "Photographer invoices with auto totals.",
     price: "$14.95",
     img: "assets/tpl-photo-invoice.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq00d6TDf7WcYI67C1wY0F"
   },
   {
     id: "tpl-photo-booking",
@@ -506,7 +506,7 @@ const PRODUCTS = [
     tagline: "Booking contracts with auto deposit schedule.",
     price: "$14.95",
     img: "assets/tpl-photo-booking.jpg",
-    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq00d6TDf7WcYI67C1wY0F"
   },
   {
     id: "aff-dewalt-dcs356b",
@@ -3713,7 +3713,7 @@ const PRODUCTS = [
     tagline: "Price roofs, repairs and replacements. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_2a8ac6c3-6a85-462b-9045-1ce22be72eee.jpg?v=1794228426",
-    url: "https://sapf3k-ki.myshopify.com/products/roofing-cost-estimate-template-excel-google-sheets-price-roofs-repairs-and-replacements"
+    url: "https://buy.stripe.com/6oUeV7gudgc0e2M3Zu1wY0j"
   },
   {
     id: "tpl-plumbing-estimate",
@@ -3722,7 +3722,7 @@ const PRODUCTS = [
     tagline: "Price rough-in to finish work. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_2e2b4bd7-7e2d-4b3a-b974-c3ede3fe2a87.jpg?v=1794228431",
-    url: "https://sapf3k-ki.myshopify.com/products/plumbing-cost-estimate-template-excel-google-sheets-price-rough-in-to-finish-work"
+    url: "https://buy.stripe.com/7sY14hb9Tf7W2k4brW1wY0k"
   },
   {
     id: "tpl-tile-estimate",
@@ -3731,7 +3731,7 @@ const PRODUCTS = [
     tagline: "Price floors, showers and backsplashes. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_64096c03-6ac5-445e-8473-bb3c0141ed8b.jpg?v=1794229718",
-    url: "https://sapf3k-ki.myshopify.com/products/tile-cost-estimate-template-excel-google-sheets-price-floors-showers-and-backsplashes"
+    url: "https://buy.stripe.com/8x24gt3Hr7Fu2k4gMg1wY0t"
   },
   {
     id: "tpl-siding-estimate",
@@ -3740,7 +3740,7 @@ const PRODUCTS = [
     tagline: "Price vinyl, fiber cement and wood siding. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_f59dc55c-4c44-457e-aba1-78958e1d1b6a.jpg?v=1794229754",
-    url: "https://sapf3k-ki.myshopify.com/products/siding-cost-estimate-template-excel-google-sheets-price-vinyl-fiber-cement-and-wood"
+    url: "https://buy.stripe.com/4gM00d91L3pe1g0fIc1wY0u"
   },
   {
     id: "tpl-windows-doors",
@@ -3749,7 +3749,7 @@ const PRODUCTS = [
     tagline: "Price replacements per opening. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_086910d7-1600-4f65-9c8a-de5aec18bdfb.jpg?v=1794229776",
-    url: "https://sapf3k-ki.myshopify.com/products/windows-doors-estimate-template-excel-google-sheets-price-replacements-per-opening"
+    url: "https://buy.stripe.com/aFa14h1zj0d2cYI7bG1wY0v"
   },
   {
     id: "tpl-sub-bid-comparison",
@@ -3758,7 +3758,7 @@ const PRODUCTS = [
     tagline: "Compare 5 sub bids side by side. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_8e94b69d-cf2c-414c-ad03-fec4b53bc29e.jpg?v=1794229798",
-    url: "https://sapf3k-ki.myshopify.com/products/subcontractor-bid-comparison-template-excel-google-sheets-compare-5-sub-bids-side-by-side"
+    url: "https://buy.stripe.com/00w14h6TDcZO9MwdA41wY0w"
   },
   {
     id: "tpl-trench-checklist",
@@ -3767,7 +3767,7 @@ const PRODUCTS = [
     tagline: "Daily competent-person inspections. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_11514086-f448-46f7-be9b-6bfbfeb1d806.jpg?v=1794229851",
-    url: "https://sapf3k-ki.myshopify.com/products/trench-excavation-inspection-checklist-excel-google-sheets-daily-competent-person-inspections"
+    url: "https://buy.stripe.com/28E9AN5Pz8Jy7Eo1Rm1wY0y"
   },
   {
     id: "tpl-swppp-inspection",
@@ -3776,7 +3776,7 @@ const PRODUCTS = [
     tagline: "BMP checklist & inspection log. Excel + Google Sheets.",
     price: "$12.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_521d103f-7189-42db-934a-e882f0943aac.jpg?v=1794229869",
-    url: "https://sapf3k-ki.myshopify.com/products/swppp-stormwater-inspection-template-excel-google-sheets-bmp-checklist-inspection-log"
+    url: "https://buy.stripe.com/6oUaERcdX4tie2Mcw01wY0z"
   },
   {
     id: "tpl-lien-waiver-pack",
@@ -3785,7 +3785,7 @@ const PRODUCTS = [
     tagline: "Conditional & unconditional, partial & final — plus the log. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_9e691619-f00d-4723-801f-060e97233202.jpg?v=1794229887",
-    url: "https://sapf3k-ki.myshopify.com/products/lien-waiver-template-pack-excel-google-sheets-conditional-unconditional-partial-final-log"
+    url: "https://buy.stripe.com/dRm9ANgudbVK4sc7bG1wY0A"
   },
   {
     id: "tpl-sub-agreement-pack",
@@ -3794,7 +3794,7 @@ const PRODUCTS = [
     tagline: "Agreement, scope, payment schedule & roster. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_4e1ee8dc-04c6-4db0-96f6-30eb6a9f2a15.jpg?v=1794229909",
-    url: "https://sapf3k-ki.myshopify.com/products/subcontractor-agreement-template-pack-excel-google-sheets-agreement-scope-payment-schedule-roster"
+    url: "https://buy.stripe.com/bJecMZ4Lv4tif6QdA41wY0B"
   },
   {
     id: "tpl-cleaning-pack",
@@ -3803,7 +3803,7 @@ const PRODUCTS = [
     tagline: "The whole pack: invoice, recurring schedule & room checklist. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_3e016b37-7a16-42bd-a258-5c1ffa2e6767.jpg?v=1794229938",
-    url: "https://sapf3k-ki.myshopify.com/products/house-cleaning-business-pack-invoice-recurring-schedule-room-checklist-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq9AN1zj1h6cYI9jO1wY0C"
   },
   {
     id: "tpl-dog-grooming-pack",
@@ -3812,7 +3812,7 @@ const PRODUCTS = [
     tagline: "The whole pack: intake form, appointment scheduler & invoice. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_48dc0e8c-a521-485f-b06f-5968a4dc63f2.jpg?v=1794229970",
-    url: "https://sapf3k-ki.myshopify.com/products/dog-grooming-business-pack-intake-form-appointment-scheduler-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/3cIfZba5Pe3SbUE9jO1wY0D"
   },
   {
     id: "tpl-detailing-pack",
@@ -3821,7 +3821,7 @@ const PRODUCTS = [
     tagline: "The whole pack: condition checklist, package price sheet & invoice. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_1da62282-27db-4b2d-9ac0-5e90c6dd409f.jpg?v=1794230000",
-    url: "https://sapf3k-ki.myshopify.com/products/car-detailing-business-pack-condition-checklist-package-price-sheet-invoice-excel-google-sheets"
+    url: "https://buy.stripe.com/00wfZb5Pz8Jy8Is1Rm1wY0E"
   },
   {
     id: "tpl-photography-pack",
@@ -3830,7 +3830,7 @@ const PRODUCTS = [
     tagline: "The whole pack: booking contract, invoice & shot list planner. Excel + Google Sheets.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_415bb2ce-5696-4d2c-8762-be644f0266c7.jpg?v=1794230029",
-    url: "https://sapf3k-ki.myshopify.com/products/photography-business-pack-booking-contract-invoice-shot-list-planner-excel-google-sheets"
+    url: "https://buy.stripe.com/eVq00d6TDf7WcYI67C1wY0F"
   },
   {
     id: "tpl-bookkeeping",
@@ -3839,7 +3839,7 @@ const PRODUCTS = [
     tagline: "Income, expenses, mileage log and profit & loss — no accounting degree needed. Google Sheets & Excel.",
     price: "$14.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/bookkeeping-listing-img1_2f5ce66c-212b-4a64-aa9f-85955d031fdf.jpg?v=1794391432",
-    url: "https://sapf3k-ki.myshopify.com/products/small-business-bookkeeping-spreadsheet-google-sheets-excel"
+    url: "https://buy.stripe.com/5kQ8wJem53pe0bW53y1wY0G"
   },
   {
     id: "tpl-whole-home-pack",
@@ -3848,7 +3848,7 @@ const PRODUCTS = [
     tagline: "All 16 contractor estimate templates in one pack. Excel + Google Sheets.",
     price: "$39.00",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-flash_09662e92-2583-45f9-bf35-c40eb625bf9b.png?v=1794223089",
-    url: "https://sapf3k-ki.myshopify.com/products/whole-home-renovation-estimate-pack-all-16-contractor-templates"
+    url: "https://buy.stripe.com/14AdR34Lv9NCgaUgMg1wY0g"
   },
   {
     id: "tpl-starter-pack",
@@ -3857,7 +3857,7 @@ const PRODUCTS = [
     tagline: "Estimate, schedule, invoice and change order templates — the starter kit. Excel + Google Sheets.",
     price: "$24.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_369870c3-e48a-4e4c-9625-cfb4581c7368.jpg?v=1794228471",
-    url: "https://sapf3k-ki.myshopify.com/products/contractor-starter-pack-estimate-schedule-invoice-and-change-order-templates-excel-google-sheets"
+    url: "https://buy.stripe.com/4gM4gt5Pzf7W3o87bG1wY0r"
   },
   {
     id: "tpl-ops-bundle",
@@ -3866,7 +3866,7 @@ const PRODUCTS = [
     tagline: "8 office templates for the business side of every job. Excel + Google Sheets.",
     price: "$34.95",
     img: "https://cdn.shopify.com/s/files/1/0841/4632/3669/files/img-01_264750db-d33b-41cf-ba1a-0e587d3c0d07.jpg?v=1794228477",
-    url: "https://sapf3k-ki.myshopify.com/products/contractor-business-operations-bundle-8-office-templates-excel-google-sheets"
+    url: "https://buy.stripe.com/14AeV7a5Pe3S9Mw7bG1wY0s"
   }
 ];
 
